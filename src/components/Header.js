@@ -1,76 +1,106 @@
 import React from 'react';
+
 function Header() {
     return (
-            <header id="masthead" className="site-header">
-                    <nav className="navbar navbar-inverse">
-                        <div className="container-fluid">
-                            <div className="navbar-header">
-                            <a className="navbar-brand site-logo" href="/">
-                                <img src="/assets/img/kidsville logo.png" alt="scriptics logo"/>
-                            </a>
+            <header className="header" role="banner">
+                <div className="container-fuild" id="head-stuff">
+                    <div className="logo">
+                        <a href="https://kidsville.com">
+                            <img src="/assets/img/kidsville logo.png" alt="kidsville Dental" className="img-responsive" width="250" height="120" />
+                        </a>
+                    </div>
+                    <div className="header-widgets  header-widgets-desktop">
+                        <div className=" teal-offer widget  widget_black_studio_tinymce">
+                            <h2 className="widgettitle">Covid Notice</h2>
+                            <div className="textwidget"><strong>Covid-19 Update</strong> - Important Information.<a href="/"><strong>Read More</strong></a>
                             </div>
-                            <ul className="nav navbar-nav">
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/">Home <span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Meet Our Team!</a></li>
-                                        <li><a href="#">About Us</a></li>
-                                        <li><a href="#">Why US?</a></li>
-                                        <li><a href="#">Location</a></li>
-                                    </ul>
-                                </li>
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/children-dentistry">Children's Dentistry <span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Your First Visit</a></li>
-                                        <li><a href="#">Filling</a></li>
-                                        <li><a href="#">Root Canal Treatment in children</a></li>
-                                        <li><a href="#">Children's Crowns</a></li>
-                                        <li><a href="#">Tooth Removal</a></li>
-                                        <li><a href="#">Space Maintainer</a></li>
-                                        <li><a href="#">Digital X-ray</a></li>
-                                        <li><a href="#">Emergency Dental Treatment</a></li>
-                                    </ul>
-                                </li>
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/preventive-dentistry">Preventive Dentistry <span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Dental Hygiene For Children</a></li>
-                                        <li><a href="#">Dental Hypomineralization</a></li>
-                                        <li><a href="#">Dental Sealants</a></li>
-                                        <li><a href="#">Fluoride Varnish</a></li>
-                                    </ul>
-                                </li>
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/sedation-services">Sedation Services <span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Treatment under IV Sedation</a></li>
-                                        <li><a href="#">Treatment Under General Anesthesia</a></li>
-                                    </ul>
-                                </li>
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/orthodontics">Orthodontics <span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Braces Consult</a></li>
-                                        <li><a href="#">Orthodontic Corrections</a></li>
-                                        <li><a href="#">Braces</a></li>
-                                        <li><a href="#">Invisalign</a></li>
-                                        <li><a href="#">Clear Aligners or Braces?</a></li>
-                                        <li><a href="#">Early Orthodontics</a></li>
-                                        <li><a href="#">Management of Oral Habits</a></li>
-                                        <li><a href="#">Orthodontics for Teens</a></li>
-                                        <li><a href="#">Myofunctional Treatment</a></li>
-                                        <li><a href="#">Retainers</a></li>
-                                    </ul>
-                                </li>
-                                <li className=""><a href="/contact-us">Contact US</a></li>
-                                <li className="dropdown"><a className="dropdown-toggle" data-toggle="dropdown" href="/kidsville-max">Kidsville  Max<span className=""></span></a>
-                                    <ul className="dropdown-menu">
-                                        <li><a href="#">Blogs</a></li>
-                                        <li><a href="#">Covid 19 Updates</a></li>
-                                        <li><a href="#">Newsletter Sign-Up</a></li>
-                                        <li><a href='#'>FAQs</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </div>
-                    </nav>
-                
+                        <div className=" pink-offer widget  widget_black_studio_tinymce">
+                            <h2 className="widgettitle">Special Offer 1</h2>
+                            <div className="textwidget"><strong>Braces/Invisalign Consultations</strong> - Schedule a consultation.<a href="/"><strong>Click Here</strong></a>
+                            </div>
+                        </div>		
+                    </div>
+                </div>
+                <div className="container-fuild">
+                    <div className="row">
+                        <div className="col-12 col-lg-2">
+                            <div className="kidsville-logo">
+                                <a href="https://kidsville.com">
+                                    <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="180" height="100" />
+                                </a>
+                            </div>
+                        </div>
+                        <div className="col-12 col-lg-10">
+                            <div className="navbar">
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/">Home</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Meet Our Team!</a>
+                                        <a href="#">About Us</a>
+                                        <a href="#">Why US?</a>
+                                        <a href="#">Location</a>
+                                    </div>
+                                </div>
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/children-dentistry">Children's Dentistry</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Your First Visit</a>
+                                        <a href="#">Filling</a>
+                                        <a href="#">Root Canal Treatment in children</a>
+                                        <a href="#">Children's Crowns</a>
+                                        <a href="#">Tooth Removal</a>
+                                        <a href="#">Space Maintainer</a>
+                                        <a href="#">Digital X-ray</a>
+                                        <a href="#">Emergency Dental Treatment</a>
+                                    </div>
+                                </div>
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/preventive-dentistry">Preventive Dentistry</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Dental Hygiene For Children</a>
+                                        <a href="#">Dental Hypomineralization</a>
+                                        <a href="#">Dental Sealants</a>
+                                        <a href="#">Fluoride Varnish</a>
+                                    </div>
+                                </div>
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/sedation-services">Sedation Services</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Treatment under IV Sedation</a>
+                                        <a href="#">Treatment Under General Anesthesia</a>
+                                    </div>
+                                </div>
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/othodontics">Othodontics</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Braces Consdivt</a>
+                                        <a href="#">Orthodontic Corrections</a>
+                                        <a href="#">Braces</a>
+                                        <a href="#">Invisalign</a>
+                                        <a href="#">Clear Aligners or Braces?</a>
+                                        <a href="#">Early Orthodontics</a>
+                                        <a href="#">Management of Oral Habits</a>
+                                        <a href="#">Orthodontics for Teens</a>
+                                        <a href="#">Myofunctional Treatment</a>
+                                        <a href="#">Retainers</a>
+                                    </div>
+                                </div>
+                                <div className="contact-menu"><a href="/contact-us">Contact US</a></div>
+                                <div className="dropdown">
+                                    <button className="dropbtn"><a href="/kidsville-max">Kidsville Max</a></button>
+                                    <div className="dropdown-content">
+                                        <a href="#">Blogs</a>
+                                        <a href="#">Covid 19 Updates</a>
+                                        <a href="#">Newsletter Sign-Up</a>
+                                        <a href='#'>FAQs</a>
+                                    </div>
+                                </div>
+                                <div className="appointment-btn"><a href="/">appointment</a></div>  
+                            </div>
+                        </div>
+                    </div>
+                </div>   
             </header>
     )
 }

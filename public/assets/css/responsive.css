@@ -1,3 +1,23 @@
-@media (min-width:  768px) { 
-    .navbar-nav{ display: inline-block; }
+@media (min-width: 480px){
+    .navbar-toggle { margin: 34px 0; }
+    .logo { max-width: 100%; }
+}
+@media (max-width: 767px) {
+    .navbar{ display: none; }
+}
+@media (max-width: 991px){
+    .logo { max-width: 100%; width: 100%; }
+}
+@media (min-width: 992px){
+    /*** Header ***/    
+    div#head-stuff .logo { display: none; }
+    .header { border-bottom: 1px solid #ddd; }
+    div#head-stuff { width: 100%; padding: 0; }
+    .logo { float: none; text-align: center; }
+    .header-widgets { display: -webkit-flex; justify-content: flex-end; float: none; padding: 0; }
+    .navbar-toggle { display: none; }
+    .contact-menu{ padding-bottom: 21px;}
+}
+@media (min-width: 1200px){
+    .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
 }
