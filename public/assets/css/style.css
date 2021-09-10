@@ -18,13 +18,14 @@
 body { font-size: 16px; }
 body, h1, h2, h3, h4, h5, h6, .navigation--main, .navbar-toggle__text, .navigation--main .sub-menu{ font-family: 'HNC' !important; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
 body, .textwidget { color: #888888; }
+strong{ font-weight: bold !important; }
+a { text-decoration: none !important; }
 *{ box-sizing: border-box; }
 *:before, *:after { box-sizing: border-box; }
-/*** footer **/
-footer{ padding-top: 100px; background-color:#222; }
 /*** header ***/
 .header{ background-color: #ffffff; }
 .container:before, .container:after { content: " "; display: table; }
+.kidsville-logo{ padding-left: 30px; }
 .logo { float: left; padding: .5em 0; transition: all 0.2s ease;  text-align: center; max-width: 50%;}
 .logo .img-responsive { margin: 0 auto; }
 .logo a img { transition: all 0.2s ease; }
@@ -32,7 +33,8 @@ footer{ padding-top: 100px; background-color:#222; }
 img { border-radius: 2px;  vertical-align: middle;  border: 0; }
 div#head-stuff .header-widgets .widgettitle { display: none; }
 div#head-stuff .header-widgets .textwidget { color: rgb(255, 255, 255)!important; font-size: 1.1em; }
-div#head-stuff .header-widgets .widget{ padding: 5px 0 7px; margin: 0; width: 100%; justify-content: center; text-align: center; }
+div#head-stuff .header-widgets .textwidget a:hover { background: #fff; color: #5263D8; }
+div#head-stuff .header-widgets .widget { padding: 5px 0 7px; margin: 0; width: 100%; justify-content: center; text-align: center; }
 div#head-stuff .header-widgets .textwidget a { text-transform: uppercase; color: #fff; padding: 1px 10px 0; border: 1px solid; display: inline-block; margin: 0 5px; transition: all 0.2s ease; }
 .teal-offer { background: #28b8ce }
 .pink-offer { background: var(--pink); }
@@ -46,11 +48,29 @@ div.navbar{ margin: 0 !important; }
 .navbar a { float: left; font-size: 16px; color: #555555; text-align: center; text-decoration: none; }
 .dropbtn{display: inline-grid; }
 .dropdown .dropbtn { font-size: 16px;  border: none; outline: none; color: #555555; padding: 14px 16px; background-color: inherit; font-family: inherit; margin: 0; }
-.navbar a:hover, .dropdown:hover .dropbtn {background-color: lightgray; }
+.navbar a:hover, .dropdown:hover .dropbtn , .contact-menu a:hover{ background-color: lightgray; color: #23527C; text-decoration: none; }
 .dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
-.dropdown-content a {float: none; color: #555555; padding: 5px 10px; text-decoration: none; display: block; text-align: left; }
-.dropdown-content a:hover {background-color: #ddd; }
+.dropdown-content a {float: none; color: #555555; padding: 5px 10px; text-decoration: none; display: block; text-align: left; border-bottom: 1px solid #ddd; }
+.dropdown-content a:hover { color: #23527C; text-decoration: none; }
 .dropdown:hover .dropdown-content {display: block; }
 .dropdown .dropbtn::after { bottom: 10px; content: '\f107'; font-family: 'FontAwesome'; }
 .appointment-btn { background: #5263d8; padding: 11px; border-radius: 3px; transition: all 0.2s ease; }
 .appointment-btn a{ color: #ffffff; text-transform: uppercase; font-size: 12px; font-weight: bold; }
+.navbar .appointment-btn a:hover { background-color: transparent; color: #fff; }
+.dropdown:hover .dropbtn { border: 0; box-shadow: inset 0 -5px 0 #5263D8; }
+/*** footer **/
+footer{ padding-top: 100px; background-color: #87b3c1; }
+.footer { color: #888888; background-image: url(kidsville.in/);  background-color: #eeeeee; border-top: 1px solid #e6e6e6; }
+.push-down-30 { margin-bottom: 30px; }
+.footer h6.footer__headings { font-size: 1.7em; color: #888; border-bottom: 0; font-weight: 500; }
+.footer .widget p, .footer .widget h2, .footer .widget h3, .footer .widget h4 { color: #888; }
+.rpwwt-widget ul { list-style: outside none none; margin-left: 0; margin-right: 0; padding-left: 0; padding-right: 0; }
+.rpwwt-widget ul li { overflow: hidden; margin: 0 0 1.5em; }
+.rpwwt-post-date { font-size: .8em; }
+.foot-cta { position: fixed;bottom: 0; left: 0; width: 100%; font-size: 0; padding: 8px 0 0 0; background: var(--green); z-index: 99; animation: mover1 2s }
+.foot-cta a.more { background: #fff; margin-left: 0; width: 31%; font-size: calc(1vw + 14px); animation: mover3 2.5s; }
+.foot-cta a { width: 60%; font-size: calc(1vw + 20px); padding: 5px; margin: 0 3%; line-height: 1; border-radius: 3px 3px 0 0; border: 0; position: relative; display: flex; flex-direction: row; float: left; height: 60px; align-items: center; justify-content: center; }
+.footer a { color:#5263d8; }
+.footer-bottom { color: #eeeeee; }
+.rpwwt-post-title { padding-left: 10px; }
+.inform-menu { list-style-type: disclosure-closed !important; }
