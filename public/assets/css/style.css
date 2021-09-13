@@ -15,7 +15,7 @@
     src: url(../fonts/Poppins/Poppins-Thin.ttf);
 }
 body { font-size: 16px; }
-body, h1, h2, h3, h4, h5, h6, .navigation--main, .navbar-toggle__text, .navigation--main .sub-menu{ font-family: 'HNC' !important; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
+body, h1, h2, h3, h4, h5, h6, .navigation--main, .navbar-toggle__text, .navigation--main .sub-menu{ font-family: 'HNC' ; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
 body, .textwidget { color: #888888; }
 strong{ font-weight: bold !important; }
 a { text-decoration: none !important; }
