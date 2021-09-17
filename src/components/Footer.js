@@ -4,18 +4,29 @@ function Footer() {
     return (
         <div>
             <footer>
-                <section  className="footer">
-				    <div  className="container">
-					    <div  className="row">
-						    <div  className="  col-xs-12  col-md-3">
-                                <div  className="widget  widget_black_studio_tinymce  push-down-30"><h6  className="footer__headings">Contact Us</h6>
-                                    <div  className="textwidget">
-                                        <h3><a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>+91 6358834088</a></h3>
+                <section className="socialmedia">
+                    <div className="socials">
+                        <h6 className="footer__headings">Connect with Us</h6>
+                        <ul>
+                            <li><a target="_blank" href="https://twitter.com/kidsville"><i className="fa fa-twitter"></i> </a></li>
+                            <li><a target="_blank" href="https://www.facebook.com/kidsville/"><i className="fa fa-facebook"></i> </a></li>
+                            <li><a target="_blank" href="https://www.whatsapp.com/"><i className="fa fa-whatsapp"></i> </a></li>
+                            <li><a target="_blank" href="https://www.instagram.com/kidsville/"><i className="fa fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </section>    
+                <section className="footer">
+				    <div className="container">
+					    <div className="row">
+						    <div className="  col-xs-12  col-md-3">
+                                <div className="widget  widget_black_studio_tinymce  push-down-30"><h6  className="footer__headings">Contact Us</h6>
+                                    <div className="textwidget">
+                                        <h3><a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a></h3>
                                         <p><a href="mailto:info@kidsville.in">Send an Email</a></p>
-                                        <p  className="clinics"><strong>Kidsville Dental,</strong>
+                                        <p className="clinics"><strong>Kidsville Dental,</strong>
                                             <br/>Adhyashakti Society, Beside Maharaja Complex, Near Balaji garden restaurant, Prernatirth Derasar Road, Prahladnagar,
                                             <br/> Satellite, Ahmedabad – 380015<br/>
-                                            <a href="https://goo.gl/maps/4tN2SwXfwUNnU4DF7" rel="noopener" target="_blank"><i  className="fa fa-map-pin"></i> Get directions</a>
+                                            <a href="https://goo.gl/maps/4tN2SwXfwUNnU4DF7" rel="noopener" target="_blank"><i className="fa fa-map-pin"></i> Get directions</a>
                                         </p>
                                     </div>
                                 </div>
@@ -30,27 +41,27 @@ function Footer() {
                                     </div>
                                 </div>
                             </div>
-                            <div  className="  col-xs-12  col-md-3">
-                                <div  className="widget  push-down-30">
-                                    <div id="rpwwt-recent-posts-widget-with-thumbnails-2"  className="rpwwt-widget">
-                                        <h6  className="footer__headings">Latest Blog Posts</h6>
+                            <div className="  col-xs-12  col-md-3">
+                                <div className="widget  push-down-30">
+                                    <div id="rpwwt-recent-posts-widget-with-thumbnails-2" className="rpwwt-widget">
+                                        <h6 className="footer__headings">Latest Blog Posts</h6>
                                         <ul>
                                             <li><a href="/">
                                                 <img width="65" height="65" src="https://happykidsdental.co.uk/wp-content/uploads/2021/04/5-Best-Paediatric-Dentists-in-London-75x75.jpg"  className="attachment-65x65 size-65x65 wp-post-image" alt="" loading="lazy"  sizes="(max-width: 65px) 100vw, 65px" /><span  className="rpwwt-post-title">Dr. Zoi Tzelepi – Top 5 Paediatric Dentists in London</span></a>
-                                            <div  className="rpwwt-post-date">8th April 2021</div></li>
+                                            <div className="rpwwt-post-date">8th April 2021</div></li>
                                             <li><a href="/"><img width="65" height="65" src="https://happykidsdental.co.uk/wp-content/uploads/2021/02/3-75x75.jpg"  className="post-image" alt="Brushing Education" loading="lazy" sizes="(max-width: 65px) 100vw, 65px" /><span  className="rpwwt-post-title">All you need to know about… Brushing!</span></a>
                                             <div  className="rpwwt-post-date">22nd February 2021</div></li>
                                             <li><a href="/"><img width="65" height="65" src="https://happykidsdental.co.uk/wp-content/uploads/2021/02/2-75x75.png"  className="post-image" alt="Dr Zoi advising a patient about teething" loading="lazy"  sizes="(max-width: 65px) 100vw, 65px" /><span  className="rpwwt-post-title">All you need to know about… Teething!</span></a>
-                                            <div  className="rpwwt-post-date">15th February 2021</div></li>
+                                            <div className="rpwwt-post-date">15th February 2021</div></li>
                                         </ul>
                                     </div>
                                         
                                 </div>
                            </div>
-                            <div  className="  col-xs-12  col-md-3">
-                                <div  className="widget  push-down-30">
-                                    <h6  className="footer__headings">Information</h6>
-                                    <div  className="menu-footer-menu-container">
+                            <div className=" col-xs-12  col-md-3">
+                                <div className="widget  push-down-30">
+                                    <h6 className="footer__headings">Information</h6>
+                                    <div className="menu-footer-menu-container">
                                         <ul id="menu-footer-menu"  className="menu">
                                             <li className="inform-menu"><a href="/">Home</a></li>
                                             <li className="inform-menu"><a href="/children-dentistry">Children's Dentistry</a></li>

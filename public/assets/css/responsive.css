@@ -1,14 +1,24 @@
 @media (min-width: 480px){
     .navbar-toggle { margin: 34px 0; }
     .logo { max-width: 100%; }
-}
-@media (max-width: 767px) {
+    }
+    @media (max-width: 767px) {
     .navbar{ display: none; }
-}
-@media (max-width: 991px){
+    .logo{ float: none; }
+    .kidsville-logo { display: none; }
+    /*** footer ***/
+    footer{ padding-top: 15px; }
+    /*** home ***/
+    
+    /*** 404 ***/
+    .para-404 img {  width: inherit; }
+    /*** contact ***/
+    .contact-left p { padding-right: 5px; }
+    }
+    @media (max-width: 991px){
     .logo { max-width: 100%; width: 100%; }
-}
-@media (min-width: 992px){
+    }
+    @media (min-width: 992px){
     /*** Header ***/    
     div#head-stuff .logo { display: none; }
     .header { border-bottom: 1px solid #ddd; }
@@ -21,8 +31,21 @@
     .footer { padding: 30px 0 0; }
     .footer .footer__headings { margin-top: 0; }
     .foot-cta { display: none; }
-    .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 100 !important; } 
-}
-@media (min-width: 1200px){
+    .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 400 !important; } 
+    /*** Home ***/
+    .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
+    .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
+    .img-hover-zoom--colorize img { width: 200px; }
+    .my-2 h2{ font-size: 2.6rem; }
+    /*** Contact page ***/
+    .main-title { padding: 100px 0 100px; }
+    }
+    @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
-}
+    /*** Home ***/
+    
+    }
+    @media (min-width: 1450px) {
+    /*** Home ***/
+    }
+    
