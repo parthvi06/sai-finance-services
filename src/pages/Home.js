@@ -1,38 +1,70 @@
 import React, { Component } from 'react';
-import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css'; 
-import 'slick-carousel/slick/slick-theme.css';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+const clinic_slider = {
+    margin: 10,
+    responsiveClass: true,
+    nav:true,
+    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
+    dots:false,
+    loop:true,
+    autoplay: true,
+    smartSpeed: 1000,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 1,
+        },
+        600: {
+            items: 2,
+        },
+        700: {
+            items: 2,
+        },
+        1000: {
+            items: 4,
+        }
+    },
+};
+const home_slider = {
+    margin: 10,
+    responsiveClass: true,
+    dots:true,
+    loop:true,
+    autoplay: true,
+    smartSpeed: 2000,
+    responsive: {
+        0: {
+            items: 1,
+        },
+        400: {
+            items: 1,
+        },
+        600: {
+            items: 1,
+        },
+        700: {
+            items: 1,
+        },
+        1000: {
+            items: 1,
+
+        }
+    },
+};
 
 export class Home extends Component {
     render() {
-        const settings = {
-            infinite: true,
-            fade: true,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 3000,
-            arrows: true,
-            className: "slider"
-        };
-        const multiples = {
-          infinite: true,
-          speed: 500,
-          slidesToShow: 4,
-          autoplay: true,
-          slidesToScroll: 2,
-          autoplaySpeed: 2500,
-          arrows: true,
-          className: "slider1"
-        };    
-
         return (
             <div>
                 <section className="banner-slider" id={1}>
                     <div className="container-fluid">
                         <div className="row" >
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <Slider {...settings}>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 px-0">
+                                <OwlCarousel className="owl-theme tech-slider" {...home_slider}>
                                     <div className="slide-1">
                                         <img src="/assets/img/Kids-Dentist-04.jpg" alt="slider media-1"/>
                                         <div className="container-fluid">
@@ -41,7 +73,7 @@ export class Home extends Component {
                                                     <h2>Experts in Children’s Dentistry </h2>
                                                 </div>
                                                 <div className="slider__content">
-                                                    <p>What’s more, parents love us too! Book an appointment and see for yourself.</p>
+                                                    <p>Book an appointment.</p>
                                                     <p><a className="jumbo1" href="/book-now/">Book Online</a><a className="jumbo2" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
                                                 </div>
                                             </div>
@@ -49,25 +81,29 @@ export class Home extends Component {
                                     </div>    
                                     <div className="slide-2">
                                         <img src="/assets/img/Kids-Dentist-03.jpg" alt="slider media-2"/>
-                                        <h4 className="slide_text">Dentists that your child loves to be with </h4>
-                                        <h2 className="slide_heading">Experts in children's Dentistry</h2>
-                                        <div className="button-appointment">
-                                            <a href="#" className="button-link " role="button">
-                                                <span className="button-text">Book An Appointment</span>
-                                            </a>
-                                        </div>
+                                        <div className="slider-content">
+                                            <h4 className="slide_text">Dentists that your child loves to be with </h4>
+                                            <h2 className="slide_heading">Experts in children's Dentistry</h2>
+                                            <div className="button-appointment">
+                                                <a href="#" className="button-link " role="button">
+                                                    <span className="button-text">Book An Appointment</span>
+                                                </a>
+                                            </div>
+                                        </div>    
                                     </div>  
                                     <div className="slide-3">
                                         <img src="/assets/img/Kids-Dentist-05.jpg" alt="slider media-3"/>
-                                        <h4 className="slide_text">Dentists that your child loves to be with </h4>
-                                        <h2 className="slide_heading">Experts in children's Dentistry</h2>
-                                        <div className="button-appointment">
-                                            <a href="#" className="button-link " role="button">
-                                                <span className="button-text">Book An Appointment</span>
-                                            </a>
-                                        </div>
+                                        <div className="slider-content">
+                                            <h4 className="slide_text">Dentists that your child loves to be with </h4>
+                                            <h2 className="slide_heading">Experts in children's Dentistry</h2>
+                                            <div className="button-appointment">
+                                                <a href="#" className="button-link " role="button">
+                                                    <span className="button-text">Book An Appointment</span>
+                                                </a>
+                                            </div>
+                                        </div>    
                                     </div>
-                                </Slider> 
+                                </OwlCarousel> 
                             </div>
                         </div>
                     </div> 
@@ -94,8 +130,7 @@ export class Home extends Component {
                 </section>
                 <section className="clinic" id={3}>
                     <div className="container-fluid">
-                        <h2> Multiple items </h2>
-                        <Slider {...multiples}>
+                        <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
                                 <img src="/assets/img/car-0.png" alt="" />
                             </div>
@@ -120,10 +155,83 @@ export class Home extends Component {
                             <div>
                                 <img src="/assets/img/car-7.png" alt="" />
                             </div>
-                        </Slider>
+                        </OwlCarousel>
                     </div>
                 </section>
-                <section className="team" id={4}>
+                <section className="Hservice" id={4}>
+                    <div className="container">
+                    <h2 className="service_heading">Dental Services</h2>
+                        <div className="row justify-content-center">
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Children's Dentitsry</h3>
+                                        <p className="srv-para">Kidsville has been crafted to provide advanced and scientific dental care to infants, toddlers, and children. We have an explicit and precise method of solving all the oral needs which a child could possibly have. Be it a small cavity to extensive procedures, we are committed to providing the highest standard of care.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Preventive treatments</h3>
+                                        <p className="srv-para">At Kidsville Dental, our pediatric team will recommend a custom-made preventive plan for your child as the needs of each child may vary. Most preventive procedures are quick and easy and go a long way in maintaining a cavity-free mouth. Prevention the best treatment as it allows you to nib the disease at the bud and saves your children all the suffering in the long haul.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Early Orthodontics</h3>
+                                        <p className="srv-para">Treatment with early orthodontics can minimize the need for braces and is increasingly considered the modern approach. At Kidsville Dental, we can assess your child’s bite and teeth positioning as early as age seven. Taking advantage of a child’s still-growing jaw means we can use gentle treatments that may prevent the need for surgery or long-term braces in the future.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Sedation services</h3>
+                                        <p className="srv-para">Children often feel worried or frightened when visiting the dentist and receiving treatment. We find that one of the alternate ways to lessen their fear is to carry out dental treatment under sedation or General anesthesia. At Kidsville Dental, sedation is provided by a highly skilled team that includes sedation-trained children’s dentists, therapists, and nurses. So, parents can rest assured that their children will receive the highest level of care with us.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Dental Emergency</h3>
+                                        <p className="srv-para">Dental infection can be notorious in causing pain to your child’s teeth. Depending on the intensity and stage of the disease the nature of the pain can be mild to excruciating, leaving the child unable to eat and sleep. Long standing infections which may have been silent or ignored may suddenly develop into a swelling that may be intraoral or extra oral.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-6 col-md-10 col-sm-12">
+                                <div className="service">
+                                    <div className="service-icon">
+                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                    </div>
+                                    <div className="service-text">
+                                        <h3 className="srv-title">Dentistry For Teens</h3>
+                                        <p className="srv-para">Every Stage of human development has its own demands of care and we get that. Dentistry for adolescents and teens requires a special emphasis on esthetics and orofacial development. At Kidsville, Pediatric dentists along with orthodontists, provide your teenager with the best smile possible.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </section>
+                <section className="team" id={5}>
                     <div className="container p-5">
                         <div className="row team-row">
                             <h2 className="team_heading">Team kidsville</h2>
@@ -215,8 +323,8 @@ export class Home extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="review" id={5}>
-                    <div className="container">
+                <section className="review" id={6}>
+                    <div className="container review_heading">
                         <div className="row">
                             <h2>Parent Reviews</h2>
                         </div>
@@ -242,7 +350,7 @@ export class Home extends Component {
                                                 <div className="block-text rel zmin">
                                                     <a title="" href="#">Preeti Patel</a>
                                                     <div className="mark">My rating: <span className="rating-input"><span data-value="0" className="glyphicon glyphicon-star"></span><span data-value="1" className="glyphicon glyphicon-star"></span><span data-value="2" className="glyphicon glyphicon-star"></span><span data-value="3" className="glyphicon glyphicon-star"></span><span data-value="4" className="glyphicon glyphicon-star-empty"></span></span></div>
-                                                    <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my sony."  </p>
+                                                    <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."  </p>
                                                     <ins className="ab zmin sprite sprite-i-triangle block"></ins>
                                                 </div>
                                                 <div className="person-text rel">

@@ -9,7 +9,8 @@
     /*** footer ***/
     footer{ padding-top: 15px; }
     /*** home ***/
-    
+    .slide-1 img, .slide-2 img, .slide-3 img { height: 200px; }
+    .Hdifferent{ margin-top: 30px; }
     /*** 404 ***/
     .para-404 img {  width: inherit; }
     /*** contact ***/
