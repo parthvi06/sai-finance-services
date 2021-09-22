@@ -141,7 +141,7 @@ a.more { border: 2px solid #ffffff; padding: 10px 20px; display: inline-block; b
 /*** contact page ***/
 form textarea { height:170px; }
 .contact_section{ padding: 50px 30px; }
-.main-title { background-image: linear-gradient(hsl(331deg 93% 48% / 69%), hsl(25deg 100% 50% / 50%)), url("/assets/img/pediatric-smiles-home.jpg"); background-position: center center; background-size: cover;}
+.main-title { background-image: linear-gradient(hsl(331deg 93% 48% / 69%), hsl(25deg 100% 50% / 50%)), url("/assets/img/pediatric-smiles-home.jpg"); background-position: center center; background-size: cover; text-align: center; color: #ffffff;}
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 input[type=submit] { background-color: #235f7a; color: white; padding: 12px 20px; border: none; cursor: pointer; border-radius: 50px; }
 input[type=submit]:hover { background-color: #458ea0; }
