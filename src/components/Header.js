@@ -90,7 +90,7 @@ function Header() {
                                 <div className="dropdown">
                                     <button className="dropbtn"><a href="/kidsville-max">Kidsville Max</a></button>
                                     <div className="dropdown-content">
-                                        <a href="#">Blogs</a>
+                                        <a href="/blogs">Blogs</a>
                                         <a href="#">Covid 19 Updates</a>
                                         <a href="#">Newsletter Sign-Up</a>
                                         <a href='#'>FAQs</a>
