@@ -36,8 +36,8 @@ export class BlogPage extends Component {
         state ={ blog: {}, blog_title: {}, isLoaded: false }
 
         componentDidMount(){
-            const blog = axios.get( `http://3.223.174.213/wp-json/wp/v2/blogs/${this.props.match.params.id}`);
-            const blog_title = axios.get('http://3.223.174.213/wp-json/wp/v2/blogs');
+            const blog = axios.get( `https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/${this.props.match.params.id}`);
+            const blog_title = axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs');
             Promise.all([blog, blog_title]).then(res =>{
                 this.setState({ blog: res[0].data, blog_title: res[1].data, isLoaded: true });
             });

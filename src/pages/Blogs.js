@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 export class Blogs extends Component {
     state = { blogs: [], isLoaded: false }
     componentDidMount() {
-        axios.get('http://3.223.174.213//wp-json/wp/v2/blogs/?_embed&order=asc')
+        axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/?_embed&order=asc')
             .then(res => this.setState({ blogs: res.data, isLoaded: true }))
             .catch(err => console.log(err));     
     }
