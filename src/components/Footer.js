@@ -88,7 +88,7 @@ function Footer() {
                 <section className="footer-bottom">
 			        <div className="container">
 				        <div className="footer-bottom__center">
-					       © 2021 Copyright | pediatrician Dentist in Ahmedabad<strong> Kidsville Dental</strong> | All Rights Reserved.
+					       © 2021 Copyright | pediatrician Dentist in Ahmedabad<strong> Kidsville Dental</strong> | All Rights Reserved by<a href="https://scriptics.ai">Scriptics.</a>
 				        </div>
 			        </div>
 		        </section>					
