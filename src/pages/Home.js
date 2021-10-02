@@ -132,28 +132,31 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src="/assets/img/car-0.png" alt="" />
+                                <img src="/assets/img/Kidsville Castle.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-1.png" alt="" />
+                                <img src="/assets/img/Kidsville Operatory.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-2.png" alt="" />
+                                <img src="/assets/img/Exterior.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-3.png" alt="" />
+                                <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-4.png" alt="" />
+                                <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-5.png" alt="" />
+                                <img src="/assets/img/Sterilization Room.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-6.png" alt="" />
+                                <img src="/assets/img/Reception.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/car-7.png" alt="" />
+                                <img src="/assets/img/Consultation area.png" alt="" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/Operatory.png" alt="" />
                             </div>
                         </OwlCarousel>
                     </div>
@@ -269,7 +272,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/dr.anu.jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="Another Image zoom-on-hover effect" />
                                         </div>
                                     </div>
                                     <div className="card-body">
@@ -297,13 +300,13 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="Another Image zoom-on-hover effect" />
                                         </div>
                                     </div>
                                     <div className="card-body">
                                         <div className="clearfix mb-3"></div>
                                         <div className="my-2 text-center">
-                                            <h2>Dr. Ankit Modi</h2>
+                                            <h2>Dr. Manish Panchal</h2>
                                         </div>
                                         <div className="mb-3">
                                             <h2 className="text-uppercase text-center role">MBBS MD Pediatrics</h2>
