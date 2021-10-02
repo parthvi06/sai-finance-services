@@ -132,7 +132,7 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src="/assets/img/Kidsville Castle.png" alt="" />
+                                <img src="/assets/img/Kidsville-Castle.png" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Kidsville Operatory.png" alt="" />
@@ -141,22 +141,22 @@ export class Home extends Component {
                                 <img src="/assets/img/Exterior.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).png" alt="" />
+                                <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Sterilization Room.png" alt="" />
+                                <img src="/assets/img/Sterilization Room.jpg" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Reception.png" alt="" />
+                                <img src="/assets/img/Reception.jpg" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Consultation area.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Operatory.png" alt="" />
+                                <img src="/assets/img/Operatory.jpg" alt="" />
                             </div>
                         </OwlCarousel>
                     </div>
