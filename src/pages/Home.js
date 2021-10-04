@@ -239,7 +239,7 @@ export class Home extends Component {
                         <div className="row team-row">
                             <h2 className="team_heading">Team kidsville</h2>
                         </div>    
-                        <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-lg-4 g-3">
+                        <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-3">
                             <div className="col">
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
