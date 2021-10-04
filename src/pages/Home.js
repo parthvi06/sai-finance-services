@@ -117,7 +117,7 @@ export class Home extends Component {
                         </div>
                         <div className="row align-items-center">   
                             <div className="col-12 col-lg-3 col-md-3 col-sm-12 Hdifferent-left">
-                                <img src="/assets/img/dr.anu.jpg" />
+                                <img src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" />
                             </div>
                             <div className="col-12 col-lg-9 col-md-9 col-sm-12 Hdifferent-right">
                                 <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients.</p>
