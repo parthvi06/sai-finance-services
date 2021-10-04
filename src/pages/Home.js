@@ -132,7 +132,7 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src="/assets/img/Kidsville-Castle.png" alt="" />
+                                <img src="/assets/img/Kidsville Castle.png" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
