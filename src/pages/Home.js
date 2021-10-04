@@ -135,10 +135,10 @@ export class Home extends Component {
                                 <img src="/assets/img/Kidsville-Castle.png" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Kidsville Operatory.png" alt="" />
+                                <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Exterior.png" alt="" />
+                                <img src="/assets/img/Exterior.jpg" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
@@ -153,7 +153,7 @@ export class Home extends Component {
                                 <img src="/assets/img/Reception.jpg" alt="" />
                             </div>
                             <div>
-                                <img src="/assets/img/Consultation area.png" alt="" />
+                                <img src="/assets/img/Consultation area.jpg" alt="" />
                             </div>
                             <div>
                                 <img src="/assets/img/Operatory.jpg" alt="" />
