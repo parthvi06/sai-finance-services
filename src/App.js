@@ -10,6 +10,10 @@ import SedationServices from './pages/SedationServices';
 import Page404 from './pages/404';
 import Blogs from './pages/Blogs';
 import BlogPage from './pages/BlogPage';
+import About from './pages/About';
+import OurTeam from './pages/OurTeam';
+import WhyUs from './pages/WhyUs';
+import Location from './pages/Location';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 function App() {
@@ -27,6 +31,10 @@ function App() {
           <Route exact path='/sedation-services' component={SedationServices}/>
           <Route exact path='/blogs' component={Blogs}/>
           <Route exact path='/blogs/:id' component={BlogPage} />
+          <Route exact path='/about' component={About}/>
+          <Route exact path='/our-team' component={OurTeam}/>
+          <Route exact path='/why-us' component={WhyUs}/>
+          <Route exact path='/location' component={Location}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
