@@ -14,6 +14,7 @@ import About from './pages/About';
 import OurTeam from './pages/OurTeam';
 import WhyUs from './pages/WhyUs';
 import Location from './pages/Location';
+import YourFirst from './pages/YourFirst';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route exact path='/our-team' component={OurTeam}/>
           <Route exact path='/why-us' component={WhyUs}/>
           <Route exact path='/location' component={Location}/>
+          <Route exact path='/your-first' component={YourFirst}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
