@@ -16,7 +16,7 @@ export class ContactUs extends Component {
                             <p>Please write or call us with your questions or comments.</p>
                             <h4>Address:</h4>
                             <p>Kidsville Dental,  New Adhyashakti Society,  Beside Maharaja Complex, Near Balaji Restaurant,  Prernatirth Derasar Road,  Prahladnagar,<br/>Satellite, Ahmedabad -380015</p>
-                            <h4>Contact:</h4>
+                            <h4>Contacts:</h4>
                             <p><i className="fa fa-phone"></i><span>&emsp;+91 6358834088</span></p>
                             <p><i className="fa fa-envelope"></i><span>&emsp;kidsvilledental@gmail.com</span></p>
                         </div>
