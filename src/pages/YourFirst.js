@@ -14,9 +14,11 @@ export default class YourFirst extends Component {
                 <section className="visit_title">
                     <div className="container">
                         <div className="row">
-                            <h2>What To Expect At Your First Visit?</h2>
-                            <p>The most important part of your child’s dental journey is his first visit with Us. We use this crucial visit to build rapport with the child for life long foundation towards dentistry. We keep it more introductory with minimal procedures. This goes a long way in building a positive attitude towards dental treatment!</p>
-                            <button>book your appointment</button>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                                <h2>What To Expect At Your First Visit?</h2>
+                                <p>The most important part of your child’s dental journey is his first visit with Us. We use this crucial visit to build rapport with the child for life long foundation towards dentistry. We keep it more introductory with minimal procedures. This goes a long way in building a positive attitude towards dental treatment!</p>
+                                <a className="more inner-btn" href="/#">Book Your Appointment</a>
+                            </div>
                         </div>
                     </div>
                 </section>
@@ -27,32 +29,32 @@ export default class YourFirst extends Component {
                                 <h2>Have a clinic Tour !</h2>
                                 <h5>We are excited to have you.</h5>   
                             </div>
-                            <div className="col-12">
-                                <div>
+                            <div className="row">
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Kidsville Castle.png" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Exterior.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Sterilization Room.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Reception.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Consultation area.jpg" alt="" />
                                 </div>
-                                <div>
+                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Operatory.jpg" alt="" />
                                 </div>
                             </div>
@@ -64,7 +66,7 @@ export default class YourFirst extends Component {
                         <div className="row">
                             <h2>What Do We Assess At The First Consultation?</h2>
                             <p>We encourage to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -75,7 +77,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -86,7 +88,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -97,7 +99,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -108,7 +110,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -119,7 +121,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -130,7 +132,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -141,7 +143,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -152,7 +154,7 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
                                         <span className="con-iconfont fa fa-cogs"></span>
@@ -169,8 +171,10 @@ export default class YourFirst extends Component {
                 <section className="bring_child_title">
                     <div className="container">
                         <div className="row">
-                            <h2>When Should You Bring Your Child For Dental Check Up?</h2>
-                            <p>We recommend you to have your child’s first visit as soon as the first tooth erupts. For some kids we may ask you to follow up every 3 months to keep a watch on oral status. Its important to encompass dental visits into your lifestyle for healthy and long lasting care.</p>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                                <h2>When Should You Bring Your Child For Dental Check Up?</h2>
+                                <p>We recommend you to have your child’s first visit as soon as the first tooth erupts. For some kids we may ask you to follow up every 3 months to keep a watch on oral status. Its important to encompass dental visits into your lifestyle for healthy and long lasting care.</p>
+                            </div>     
                         </div>
                     </div>
                 </section>
