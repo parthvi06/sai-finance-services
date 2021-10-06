@@ -18,7 +18,7 @@ body { font-size: 16px; font-family: 'HNR'!important; }
 h1, h2, h3, h4, h5, h6, .navigation--main, .navbar-toggle__text, .navigation--main .sub-menu{ font-family: 'HNR'!important; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
 body, .textwidget { color: #888888; }
 strong{ font-weight: bold !important; }
-a { text-decoration: none !important; }
+a { color: #333!important; text-decoration: none !important; }
 *{ box-sizing: border-box; }
 *:before, *:after { box-sizing: border-box; }
 .container-fluid{ overflow: hidden !important; max-width: 100% !important; }
@@ -145,10 +145,11 @@ form textarea { height:170px; }
 .contact_section{ padding: 50px 30px; }
 .main-title { background-image: linear-gradient(hsl(331deg 93% 48% / 69%), hsl(25deg 100% 50% / 50%)), url("/assets/img/pediatric-smiles-home.jpg"); background-position: center center; background-size: cover; text-align: center; color: #ffffff;}
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
-input[type=submit] { background-color: #235f7a; color: white; padding: 12px 20px; border: none; cursor: pointer; border-radius: 50px; }
+input[type=submit] { background-color: #235f7a; color: white; margin: 10px; padding: 12px 20px; border: none; cursor: pointer; border-radius: 50px; }
 input[type=submit]:hover { background-color: #458ea0; }
 .contact-left p { padding-right: 55px; }
 .contact-left_heading, .contact-left p, .contact-left h4 { padding-bottom: 20px; }
+.cnt-link:hover, .cnt-link a:hover{color: #23527C!important;}
 /*** Blogs Page ***/
 .blogs_heading{ font-size: 42px;}
 .blogs_col{ margin-bottom: 80px;}

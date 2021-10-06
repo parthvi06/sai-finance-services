@@ -17,11 +17,11 @@ export class ContactUs extends Component {
                             <h4>Address:</h4>
                             <p>Kidsville Dental,  New Adhyashakti Society,  Beside Maharaja Complex, Near Balaji Restaurant,  Prernatirth Derasar Road,  Prahladnagar,<br/>Satellite, Ahmedabad -380015</p>
                             <h4>Contacts:</h4>
-                            <p><i className="fa fa-phone"></i><span>&emsp;+91 6358834088</span></p>
-                            <p><i className="fa fa-envelope"></i><span>&emsp;kidsvilledental@gmail.com</span></p>
+                            <p className="cnt-link"><i className="fa fa-phone"></i><span>&emsp;<a href="tel:+91 6358834088">+91 6358834088</a></span></p>
+                            <p className="cnt-link"><i className="fa fa-envelope"></i><span>&emsp;<a href="mailto:kidsvilledental@gmail.com">kidsvilledental@gmail.com</a></span></p>
                         </div>
                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                            <form action="/action_page.php">
+                            <form id="contact-form" action="/action_page.php">
                                 <label htmlFor="fname">First Name</label>
                                 <input type="text" id="fname" name="firstname" placeholder="Your name" />
                                 <label htmlFor="lname">Last Name</label>
