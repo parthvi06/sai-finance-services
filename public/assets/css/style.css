@@ -91,7 +91,7 @@ div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s eas
 .Hdifferent{ margin-top: 100px; }
 .Hdifferent{ background-image: linear-gradient(hsl(72deg 60% 54% / 34%), hsl(222deg 51% 55% / 73%)), url("/assets/img/intro.jpg"); background-size: cover; background-position: center center;}
 .Hdifferent-right span{ color:#ffffff; }
-a.more { border: 2px solid #ffffff; padding: 10px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
+a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
 .clinic { padding-bottom: 80px;}
 .clinic img { height: 270px; }
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; }
@@ -185,9 +185,9 @@ input[type=submit]:hover { background-color: #458ea0; }
 .clinic_tour{ color: #ffffff; background: #2f52a0; margin-top: 50px;}
 .clinic_tour img{ width: 350px; height: 350px;}
 .clinic_tour .cl-grid{ padding-bottom: 30px;}
-.consultation{ display: flex;}
-.consultation-icon{ float: left;}
-.consultation-text{ float: right; padding: 0 20px 20px 20px;}
+.consultation,.emrg_icon_text{ display: flex;}
+.consultation-icon,.emrg_icon{ float: left;}
+.consultation-text,.emrg_text{ float: right; padding: 0 20px 20px 20px;}
 .consultation_title .consultation .consultation-text h3{ margin-top: 0px; color: var(--pink);}
 .consultation .consultation-icon .fa{ font-size: 30px;}
 .consultation_title .consultation-col{-webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 2rem 2rem; border: 1px solid #2f52a0; border-radius: 25px;}
@@ -195,3 +195,29 @@ input[type=submit]:hover { background-color: #458ea0; }
 .consultation_title{ padding: 50px 0;}
 .bring_child_title{ padding-bottom: 50px;}
 .visit_title{ padding-top: 40px;}
+/*** Emergency Dentist ***/
+.emergency-num{ padding: 50px 0 20px 0;}
+.emergency-num .emrg-text{ background: #E50040; padding-top: 10px; padding-bottom: 10px;border-radius: 5px;}
+.emergency-num .emrg-text:hover{ background: #c70038;}
+.emergency-num .emrg-text a, .emergency-num .emrg-text a strong{ font-size: 28px; color: #ffffff;}
+.emergency-sec { background: #73ba64; color: #ffffff; padding-top: 50px; padding-bottom: 50px;}
+.emrg_icon_text .emrg_text h4,.emrg_text h4{ font-size: 20px; margin-top: 0;}
+.emrg_text { float: right; padding: 0 20px 40px 20px;}
+.emrg_icon_text .emrg_icon .fa{ font-size: 30px;}
+.emrg-ser{display: flex;}
+.ser-text{ display: flex; align-items: center;}
+.service-sec{ padding-top: 50px; padding-bottom: 30px;}
+.bring_child_title .bring-clid-col { padding-bottom: 20px;}
+.bring_child_title .child-title{ height: 78px;}
+.bring_child_title .child-img img{ width: auto;height: 250px;}
+.emergency-accordion{ background: #2f52a0;}
+.emergency-accordion h2{ color: #ffffff;}
+.emergency-accordion .panel{ border: none; border-radius: 0px!important;}
+.emergency-accordion .panel-title{ background-color: #629e55;}
+.emergency-accordion .panel-default>.panel-heading { color: #ffffff; background-color: #fff; border-color: #e4e5e7; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.emergency-accordion .panel-default>.panel-heading a { display: block; padding: 15px 30px;}
+.emergency-accordion .panel-default>.panel-heading a:after { content: ""; position: relative; top: 1px; display: block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; float: right; transition: transform .25s linear; -webkit-transition: -webkit-transform .25s linear; color: #333;}
+.emergency-accordion .panel-default>.panel-heading a[aria-expanded="true"] { background-color: #629e55;}
+.emergency-accordion .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #ffffff;}
+.emergency-accordion .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #ffffff;}
+.emergency-contact{ padding: 50px 0;}

@@ -5,7 +5,7 @@ function Header() {
             <header className="header" role="banner">
                 <div className="container-fuild" id="head-stuff">
                     <div className="logo">
-                        <a href="https://kidsville.in">
+                        <a href="/">
                             <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="250" height="120" />
                         </a>
                     </div>
@@ -26,7 +26,7 @@ function Header() {
                     <div className="row">
                         <div className="col-12 col-lg-2">
                             <div className="kidsville-logo">
-                                <a href="https://kidsville.in">
+                                <a href="/">
                                     <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="180" height="100" />
                                 </a>
                             </div>
