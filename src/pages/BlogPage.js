@@ -10,7 +10,7 @@ const options = {
     responsiveClass: true,
     nav: true,
     autoplay: false,
-    navText: ['<div class="blog-nav-group">Previous Post<i><img class="nav-img" src="/assets/img/white-left-arrow.png" alt="white-left-arrow-icon"/></i></div>', '<div class="blog-nav-group">Next Post<i><img class= "nav-img" src="/assets/img/white-right-arrow.png" alt="white-right-arrow-icon"/></i></div>'],
+    navText: ['<div class="blog-nav-group">Previous Post<i class="fa fa-arrow-left" id="pre-post" aria-hidden="true"></i></div>', '<div class="blog-nav-group">Next Post<i class="fa fa-arrow-right" id="next-post" aria-hidden="true"></i></div>'],
     smartSpeed: 1000,
     responsive: {
         0: {

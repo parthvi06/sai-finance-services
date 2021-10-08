@@ -165,18 +165,19 @@ input[type=submit]:hover { background-color: #458ea0; }
 .txt-blog p, ul, li, strong{ font-size: 16px; }
 .txt-blog h4{ font-size: 21px; padding-top: 5px; padding-bottom: 8px; color: #e83e8c;}
     /*** blog pre-next ***/
-.blog-slider{ background: linear-gradient( hsl(86deg 100% 50% / 32%),hsl(184deg 93% 48% / 43%)); padding: 60px 0 50px 0; }
 .slider-featured_image { width: 70%; height: 250px; background-position: center !important; background-size: cover !important; }
 .blog-slider .owl-prev{ float: left; }
 .owl-theme .owl-nav [class*="owl-"]:hover { background: none !important; }
 .blog-slider .owl-dots{ display: none; }
 .nav-blog-title{ width: 70%; padding: 20px; color: #151616; font-weight: 700; }
-.blog-nav-group{ position: relative; font-size: 16px !important; font-family:'HNR'; letter-spacing: 0; width: auto !important; padding: 10px 20px !important; box-shadow: none !important; background: transparent !important; border: 1px solid #0a193b; border-radius: 100px; display: inline-block; text-align: center; height: auto !important; }
+.blog-nav-group{ position: relative; font-size: 16px !important; font-family:'HNR'; left:15px; letter-spacing: 0; width: auto !important; padding: 10px 20px !important; box-shadow: none !important; background: transparent !important; border: 1px solid #0a193b; border-radius: 100px; display: inline-block; text-align: center; height: auto !important; }
 .nav-img{ width: auto; height: auto; margin-left: 3em; }
+.nav-blog-title {background: rgba(0,0,0,.5); color:#ffffff; }
 .blog-nav-group:hover{ background-color: #356792 !important;}
 .slider-content{ padding-left: 30px; }
 .WK-contact{ background: hotpink; padding: 2em; border-radius: 5px; margin: 2em 0; }
 .WK-txt{ color: white; font-size: 32px; }
+#pre-post, #next-post { padding-left: 20px; }
 .cont-today{  border: 2px solid white; padding: 10px 20px; display: inline-block; border-radius: 3px; color: white; margin-top: 10px; text-align: center; transition: all 0.2s ease; }
 /*** Your First Visit page ***/
 .inner-btn{ border: 2px solid #23527c!important; color: #333!important;}
