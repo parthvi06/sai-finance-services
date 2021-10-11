@@ -43,6 +43,7 @@ div#head-stuff .header-widgets .textwidget a { text-transform: uppercase; color:
 .navbar-toggle__text { font-weight: bold; color: #454545; display: inline-block; padding: 0 10px 0 0; }
 .navbar-toggle__icon-bar { vertical-align: middle; display: inline-block; height: 18px; }
 .navbar-toggle .icon-bar { background: #454545; width: 18px; height: 3px; display: block; border-radius: 1px; }
+.dropdown-toggle::after { display:none} 
 /*** menu **/
 div.navbar{ margin: 0 !important; }
 .navbar { background-color: #ffffff; }

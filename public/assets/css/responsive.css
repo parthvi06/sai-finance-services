@@ -3,7 +3,6 @@
     .logo { max-width: 100%; }
     }
     @media (max-width: 767px) {
-    .navbar{ display: none; }
     .logo{ float: none; }
     .kidsville-logo { display: none; }
     /*** footer ***/
