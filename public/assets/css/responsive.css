@@ -18,6 +18,55 @@
     .contact-left p { padding-right: 5px; }
     .clinic_tour .cl-grid { text-align: center;}
     .consultation_title .consultation-col{ -webkit-box-flex:  0; -ms-flex:  0 0 33.333333%; flex:  0 0 100%; max-width: 100%; margin: 2% 0; }
+    /*** About ***/
+    .belief_panel img { height: auto; width: 100%; }
+    .belief_panel h2{ padding: 0; }
+    .belief_panel p { padding: 10px 0; }
+    .belief_panel { padding: 10px 0; }
+    .about_motto { margin: 25px 0; }
+    .team_intro_title { font-size: 28px; padding-bottom: 10px; padding-left: 0; padding-top: 20px; }
+    .sep_line{ margin: 20px 0;}
+    .about_motto img {padding-top: 20px; }
+    .about_motto p { padding-top: 10px; }
+    .Cbetter-contact { padding: 1em 0; }
+    /*** Location ***/
+    .loc_gallery img{ width: 100%; height: auto; }
+    .loc_doc img { height: 240px; }
+    .kdifferent img{ width: 100%; height: auto; }
+    .kdifferent { margin: 20px 0; }
+    .kdiff_det { padding-top: 30px; }
+    .kdiff_2{ margin: 20px 0; }
+    .trt_txt_2{ padding-left: 0; }
+    .trt_txt p::before{ margin: 0 !important; }
+    .loc_time, .loc_addrs{ padding-top: 10px; }
+    /*** Why Us ***/
+    .motto{ margin: 25px; }
+    .motto h2 { font-size: 34px; }
+    .motto p{ padding: 0; text-align: justify;}
+    .why_anu { width: 180px; padding: 10px; }
+    .qoute_icon{ font-size: 20px; color: #7a7474 !important;}
+    .anu_qoute{ font-style: italic; font-size: 21px; }
+    .reas_card img { height: auto; width: 100%; }
+    .happy_pat_items { padding: 20px 0; }
+    .reason_title{ color:hotpink; }
+    .Hpat_text { padding: 20px;}
+    .ratings { padding: 10px 20px 10px 0;}
+    /*** Dental Hygiene ***/
+    .oral_hygiene { margin: 30px 0; }
+    /*** DentalHypomineralization ***/
+    .detect_trt_heading{ padding-top: 10px; padding-bottom: 5px;}
+    .detect_trt_post{ padding: 20px 0; }
+    /*** Dental Sealant ***/
+    .fiss_sealant{ margin: 20px 0 0 0!important; }
+    .sealant{ padding-bottom: 0; }
+    .P_F_sealants{ margin-top: 10px; }
+    .sealant_work{ margin: 20px 0; }
+    .sealant_work img{ width: 100%; }
+    .reverse_col{ flex-direction: column-reverse; }
+    .mark_qoute{ padding-top: 15px; padding-bottom: 10px;}
+    .when_pit-fiss{ padding: 20px 0; }
+    .when_pit-fiss h2{ padding-bottom: 15px; }
+    /*** FluorideVarnish ***/
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}
@@ -29,6 +78,7 @@
     .kidsville-logo { padding-left: 0;}
     }
     @media (min-width: 992px){
+    h2{ font-size: 44px !important; } 
     /*** Header ***/    
     div#head-stuff .logo { display: none; }
     .header { border-bottom: 1px solid #ddd; }
@@ -43,6 +93,7 @@
     .foot-cta { display: none; }
     .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 400 !important; } 
     /*** Home ***/
+    .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
     .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
     .img-hover-zoom--colorize img { width: 200px; }
     .my-2 h2{ font-size: 2.6rem; }

@@ -188,7 +188,7 @@ export class Home extends Component {
                     <div className="container">
                     <h2 className="service_heading">Dental Services</h2>
                         <div className="row justify-content-center">
-                            <div className="col-lg-6 col-md-10 col-sm-12">
+                            <div className="col-lg-6 col-md-10 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <span className="srv-iconfont fa fa-cogs"></span>
@@ -199,7 +199,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-10 col-sm-12">
+                            <div className="col-lg-6 col-md-10 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <span className="srv-iconfont fa fa-cogs"></span>
@@ -210,7 +210,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-10 col-sm-12">
+                            <div className="col-lg-6 col-md-10 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <span className="srv-iconfont fa fa-cogs"></span>
@@ -232,7 +232,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-10 col-sm-12">
+                            <div className="col-lg-6 col-md-10 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <span className="srv-iconfont fa fa-cogs"></span>
@@ -243,7 +243,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-10 col-sm-12">
+                            <div className="col-lg-6 col-md-10 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <span className="srv-iconfont fa fa-cogs"></span>

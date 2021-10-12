@@ -2,10 +2,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
-import ChildrenDentistry from './pages/ChildrenDentistry';
 import KidsvilleMax from './pages/KidsvilleMax';
-import Orthodontics from './pages/Orthodontics';
-import PreventiveDentistry from './pages/PreventiveDentistry';
 import Page404 from './pages/404';
 import Blogs from './pages/Blogs';
 import BlogPage from './pages/BlogPage';
@@ -15,6 +12,10 @@ import WhyUs from './pages/WhyUs';
 import Location from './pages/Location';
 import YourFirst from './pages/YourFirst';
 import EmergencyDentist from './pages/EmergencyDentist';
+import DentalHygiene from './pages/DentalHygiene';
+import DentalHypomineralization from './pages/DentalHypomineralization';
+import DentalSealant from './pages/DentalSealant';
+import FluorideVarnish from './pages/FluorideVarnish';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 function App() {
@@ -25,10 +26,7 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/contact-us' component={ContactUs}/>
-          <Route exact path='/children-dentistry' component={ChildrenDentistry}/>
           <Route exact path='/kidsville-max' component={KidsvilleMax}/>
-          <Route exact path='/orthodontics' component={Orthodontics}/>
-          <Route exact path='/preventive-dentistry' component={PreventiveDentistry}/>
           <Route exact path='/blogs' component={Blogs}/>
           <Route exact path='/blogs/:id' component={BlogPage} />
           <Route exact path='/about' component={About}/>
@@ -37,6 +35,10 @@ function App() {
           <Route exact path='/location' component={Location}/>
           <Route exact path='/your-first' component={YourFirst}/>
           <Route exact path='/emergency-dentist' component={EmergencyDentist}/>
+          <Route exact path='/dental-hygiene' component={DentalHygiene}/>
+          <Route exact path='/dental-hypomineralization' component={DentalHypomineralization}/>
+          <Route exact path='/dental-sealant' component={DentalSealant}/>
+          <Route exact path='/fluoride-varnish' component={FluorideVarnish}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
