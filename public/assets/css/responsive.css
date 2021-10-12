@@ -8,7 +8,9 @@
     /*** footer ***/
     footer{ padding-top: 15px; }
     /*** home ***/
-    .slide-1 img, .slide-2 img, .slide-3 img { height: 200px; }
+    .slide-1 img, .slide-2 img, .slide-3 img { height: 250px; }
+    .slider-content{ padding: 5px;}
+    .slider-content a{ padding: 5px 10px; font-size: 16px;}    
     .Hdifferent{ margin-top: 30px; }
     /*** 404 ***/
     .para-404 img {  width: inherit; }
@@ -41,7 +43,6 @@
     .foot-cta { display: none; }
     .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 400 !important; } 
     /*** Home ***/
-    .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
     .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
     .img-hover-zoom--colorize img { width: 200px; }
     .my-2 h2{ font-size: 2.6rem; }

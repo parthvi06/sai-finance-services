@@ -4,7 +4,7 @@ function Header() {
             <header className="header navbar-light" role="banner">
                 <div className="container-fuild" id="head-stuff">
                     <div className="logo">
-                        <a href="https://kidsville.in">
+                        <a href="https://kidsvilledental.in">
                             <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="250" height="120" />
                         </a>
                     </div>

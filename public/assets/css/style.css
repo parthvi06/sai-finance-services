@@ -86,37 +86,34 @@ div.socials ul li { display: inline-block; margin: 0 10px; }
 div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s ease; }
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
-.slider-content{ position: absolute; bottom: 0; background: linear-gradient(rgba(134 180 243 / 57%), rgba(151, 48, 106, 0.46));color: #ffffff; width: 100%;height: 100%;transition: 1s ease;font-size: 20px;padding: 20px;text-align: center;opacity:0.8; }
+.slider-content{ position: absolute; bottom: 0; background: linear-gradient(rgba(134 180 243 / 57%), rgba(151, 48, 106, 0.46)); color: #ffffff; width: 100%; height: 100%;transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center;opacity:0.8; }
 .slide-1, .slide-2, .slide-3{  position: relative; }  
+.slider-content h2, .slider-content h4{ color: #0d0000; }
+.slider-content a{ color: white !important; background-color: #2f52a0; }
 .Hdifferent img { width: 100%; height: auto; }
 .Hdifferent-right p{ font-size: 16px; line-height: 1.5;}
-.Hdifferent{ margin-top: 100px; }
-.Hdifferent{ background-image: linear-gradient(hsl(72deg 60% 54% / 34%), hsl(222deg 51% 55% / 73%)), url("/assets/img/intro.jpg"); background-size: cover; background-position: center center;}
-.Hdifferent-right span{ color:#ffffff; }
+.Hdifferent{ margin-top: 100px; margin-bottom: 40px; }
+.Hdifferent-right span{ color:#594ada; }
+.Hdifferent a.more{ border: 1px solid #2f52a0; color: #2f52a0; }
+.Hdifferent a:hover{ color: white !important; background-color: #2f52a0; }
 a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
 .clinic { padding-bottom: 80px;}
+.Hdifferent_heading h2{ color: hotpink !important; text-align: center; }
 .clinic img { height: 270px; }
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; }
 .team-row { justify-content: center; }
     /*** review ***/
+.review_heading { margin: 40px 0; }
 .review{ margin-left: 15px; margin-right: 15px; }    
-.carousel-control.left,.carousel-control.right { background:none !important; width:25px; }
-.carousel-control { color: #721717 !important}
-.broun-block { background: url("http://myinstantcms.ru/images/bg-broun1.jpg") repeat scroll center top rgba(0, 0, 0, 0); padding-bottom: 34px; }
-.block-text { background: linear-gradient(rgb(230 57 57 / 43%), rgb(204 140 213 / 46%)); border-radius: 5px; box-shadow: 0 3px 0 #2c2222; color: #000000f2; font-size: 14px;margin-top: 27px; padding: 15px 18px; }
-.block-text a { color: #ffff; font-size: 25px; font-weight: bold; line-height: 21px; text-decoration: none; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3); }
-.mark { padding: 12px 0; background: none !important; }
-.block-text p { color: #585858; line-height: 20px; }
-.sprite-i-triangle { background-position: 0 -1298px; height: 44px; width: 50px; }
-.block-text ins { bottom: -44px; left: 50%; margin-left: -60px; }
-.block { display: block; }
-.zmin { z-index: 1; }
-.ab { position: absolute; }
+.mark { padding: 12px; background: none !important; color: whitesmoke; }
+.parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
+.pa_review_block a{ color: whitesmoke; margin: 20px; }
+.pa_review_block p{ color: whitesmoke; margin: 10px; }
+.pa_review_block{ background: linear-gradient(rgb(230 57 57 / 58%), rgb(70 17 78 / 66%)); }
 .rel { position: relative; }
-.rel img{ width: 100px; height: auto; border: 2px solid darkgray; border-radius: 100px; }
+.rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
-.container-fluid { max-width: 1400px; }
 .list-inline .list-inline-item i{ color: #2b9dee; font-size: 16px; }
 .card { background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; }
 .img-hover-zoom--colorize img { border-radius: 50%; width: 150px; height: auto; margin-top: 20px; padding: 1px; transition: transform .5s; }
@@ -176,7 +173,6 @@ input[type=submit]:hover { background-color: #458ea0; }
 .nav-img{ width: auto; height: auto; margin-left: 3em; }
 .nav-blog-title {background: rgba(0,0,0,.5); color:#ffffff; }
 .blog-nav-group:hover{ background-color: #356792 !important;}
-.slider-content{ padding-left: 30px; }
 .WK-contact{ background: hotpink; padding: 2em; border-radius: 5px; margin: 2em 0; }
 .WK-txt{ color: white; font-size: 32px; }
 #pre-post, #next-post { padding-left: 20px; }
