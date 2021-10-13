@@ -73,6 +73,8 @@
     @media (max-width: 991px){
     .desktop-header{ display: none;}
     .logo { max-width: 100%; width: 100%; display: none; }
+    .top-header-left { padding-right: 0px;}
+    .top-header-left { padding-bottom: 5px;}
     .contact_section {padding-top: 0px};
     .clinic_tour .cl-grid { text-align: center;}
     .emergency-num .row{ padding: 0 15px;}

@@ -33,10 +33,16 @@ a { text-decoration: none !important; }
 .logo a img { transition: all 0.2s ease; }
 .img-responsive {display: block; max-width: 100%; height: auto; }
 img { border-radius: 2px;  vertical-align: middle;  border: 0; }
+.top-header-left{ padding-right: 20px;}
+.white-text{ color: #ffffff;}
+.white-text:hover{ color: #ffffff;}
+.styled-icons.icon-sm a { font-size: 16px; height: 30px; line-height: 30px; margin: 2px 7px 2px 0; width: 30px; display: inline flow-root list-item;}
+.styled-icons.icon-circled a { border-radius: 50%; }
+.styled-icons.icon-bordered a { border: 1px solid #ffffff; }
 div#head-stuff .header-widgets .widgettitle { display: none; }
 div#head-stuff .header-widgets .textwidget { color: rgb(255, 255, 255)!important; font-size: 1.1em; }
 div#head-stuff .header-widgets .textwidget a:hover { background: #fff; color: #5263D8; }
-div#head-stuff .header-widgets .widget { padding: 5px 0 7px; margin: 0; width: 100%; justify-content: center; text-align: center; }
+div#head-stuff .header-widgets .widget { display:flex; padding: 5px 0 7px; margin: 0; width: 100%; justify-content: center; text-align: center; color: #ffffff; }
 div#head-stuff .header-widgets .textwidget a { text-transform: uppercase; color: #fff; padding: 1px 10px 0; border: 1px solid; display: inline-block; margin: 0 5px; transition: all 0.2s ease; }
 .teal-offer { background: #28b8ce }
 .pink-offer { background: var(--pink); }
@@ -57,7 +63,7 @@ div.navbar{ margin: 0 !important; }
 .dropdown-content a:hover { color: #23527C; text-decoration: none; }
 .dropdown:hover .dropdown-content {display: block; }
 .dropdown .dropbtn::after { bottom: 10px; content: '\f107'; font-family: 'FontAwesome'; }
-.appointment-btn { top: -12px; background: #5263d8; padding: 11px; border-radius: 3px; transition: all 0.2s ease; }
+.appointment-btn { top: -12px; background: #5263d8; border-radius: 3px; transition: all 0.2s ease; }
 .appointment-btn a{ color: #ffffff; text-transform: uppercase; font-size: 12px; font-weight: bold; }
 .navbar .appointment-btn a:hover { background-color: transparent; color: #fff; }
 .dropdown:hover .dropbtn { border: 0; box-shadow: inset 0 -5px 0 #5263D8; }
