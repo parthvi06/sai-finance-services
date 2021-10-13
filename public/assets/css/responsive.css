@@ -67,6 +67,8 @@
     .when_pit-fiss{ padding: 20px 0; }
     .when_pit-fiss h2{ padding-bottom: 15px; }
     /*** FluorideVarnish ***/
+    /*** General Athesthesia ***/
+    .general-anthe{ padding-top: 20px; }
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}

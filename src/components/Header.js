@@ -16,7 +16,7 @@ function Header() {
                         </div>
                         <div className="pink-offer widget  widget_black_studio_tinymce">
                             <h2 className="widgettitle">Special Offer 1</h2>
-                            <div className="textwidget"><strong>Braces/Invisalign Consultations</strong> - Schedule a consultation.<a href="/"><strong>Click Here</strong></a>
+                            <div className="textwidget"><strong>Braces/Invisalign Consultations</strong> - Schedule a consultation.<a href="https://blog.kidsvilledental.in/appointment/"><strong>Click Here</strong></a>
                             </div>
                         </div>        
                     </div>
@@ -35,18 +35,18 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/" data-toggle="dropdown" aria-expanded="false">Home</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a href="#">Meet Our Team!</a>
-                                        <a href="#">About Us</a>
-                                        <a href="#">Why US?</a>
-                                        <a href="#">Location</a>
+                                        <a href="/our-team">Meet Our Team!</a>
+                                        <a href="/about">About Us</a>
+                                        <a href="/why-us">Why US?</a>
+                                        <a href="/location">Location</a>
                                     </div>
                                 </button>
                             </div>
                             <div className="dropdown navbar-nav end">
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/children-dentistry" data-toggle="dropdown" aria-expanded="false">Children's Dentistry</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a href="#">Your First Visit</a>
-                                        <a href="#">Filling</a>
+                                        <a href="/your-first">Your First Visit</a>
+                                        <a href="/filling">Filling</a>
                                         <a href="#">Root Canal Treatment in children</a>
                                         <a href="#">Children's Crowns</a>
                                         <a href="#">Tooth Removal</a>
@@ -59,18 +59,18 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                     <button className="dropbtn drop-down"><a className=" dropdown-toggle" href="/preventive-dentistry" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="#">Dental Hygiene For Children</a>
-                                            <a href="#">Dental Hypomineralization</a>
-                                            <a href="#">Dental Sealants</a>
-                                            <a href="#">Fluoride Varnish</a>
+                                            <a href="/dental-hygiene">Dental Hygiene For Children</a>
+                                            <a href="/dental-hypomineralization">Dental Hypomineralization</a>
+                                            <a href="/dental-sealant">Dental Sealants</a>
+                                            <a href="/fluoride-varnish">Fluoride Varnish</a>
                                         </div>
                                     </button>
                                 </div>    
                             <div className="dropdown navbar-nav end">
                                     <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/sedation-services" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="#">Treatment under IV Sedation</a>
-                                            <a href="#">Treatment Under General Anesthesia</a>
+                                            <a href="/iv-sedation">Treatment under IV Sedation</a>
+                                            <a href="/gerenal-anesthesia">Treatment Under General Anesthesia</a>
                                         </div>
                                     </button>
                                 </div>    
@@ -97,9 +97,9 @@ function Header() {
                                     <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/kidsville-max" data-toggle="dropdown" aria-expanded="false">Kidsville Max</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="/blogs">Blogs</a>
-                                            <a href="#">Covid 19 Updates</a>
-                                            <a href="#">Newsletter Sign-Up</a>
-                                                <a href='#'>FAQs</a>
+                                            <a href="/covid-update">Covid 19 Updates</a>
+                                            <a href="/sign-up">Newsletter Sign-Up</a>
+                                                <a href='/faq'>FAQs</a>
                                         </div>
                                     </button>
                                 </div>

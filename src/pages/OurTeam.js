@@ -100,14 +100,14 @@ export default class OurTeam extends Component {
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12">   
                                         <div className="card align-items-center">
                                             <img src="/assets/img/nurse.jpg" alt="kajal thakor" style={{width:"50%"}} />
-                                            <h2>Kajal Thakor</h2>
+                                            <h3>Kajal Thakor</h3>
                                             <p className="title">Dental Assistant</p>
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12">   
                                         <div className="card align-items-center">
                                             <img src="/assets/img/nurse.jpg" alt="geeta masi" style={{width:"50%"}} />
-                                            <h2>Geeta Masi</h2>
+                                            <h3>Geeta Masi</h3>
                                             <p className="title">In-House nurse</p>
                                         </div>
                                     </div>            

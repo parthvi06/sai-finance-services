@@ -16,7 +16,10 @@ import DentalHygiene from './pages/DentalHygiene';
 import DentalHypomineralization from './pages/DentalHypomineralization';
 import DentalSealant from './pages/DentalSealant';
 import FluorideVarnish from './pages/FluorideVarnish';
+import IVsedation from './pages/IVsedation';
+import GeneralAnesthesia from './pages/GeneralAnesthesia';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+
 
 function App() {
   return (
@@ -39,6 +42,8 @@ function App() {
           <Route exact path='/dental-hypomineralization' component={DentalHypomineralization}/>
           <Route exact path='/dental-sealant' component={DentalSealant}/>
           <Route exact path='/fluoride-varnish' component={FluorideVarnish}/>
+          <Route exact path='/iv-sedation' component={IVsedation}/>
+          <Route exact path='/gerenal-anesthesia' component={GeneralAnesthesia}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
