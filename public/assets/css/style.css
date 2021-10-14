@@ -24,6 +24,7 @@ a { text-decoration: none !important; }
 *{ box-sizing: border-box; }
 *:before, *:after { box-sizing: border-box; }
 .container-fluid{  padding-left: 0rem; padding-right: 0rem; overflow: hidden; }
+h2{ color: #2f52a0;}
 /*** header ***/
 .header{ background-color: #ffffff; }
 .container:before, .container:after { content: " "; display: table; }
@@ -105,7 +106,7 @@ div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s eas
 .Hdifferent a:hover{ color: white !important; background-color: #2f52a0; }
 a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
 .clinic { padding-bottom: 80px;}
-.Hdifferent_heading h2{ color: hotpink !important; text-align: center; }
+.Hdifferent_heading h2{ text-align: center; }
 .clinic img { height: 270px; }
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; color: #2f52a0; }
 .team-row { justify-content: center; }
@@ -134,7 +135,7 @@ div.pa_review.pa_review_block{ height: 100% !important; }
 .fab:hover { color: black; transform: scale(1.1); }
 .card h2 { font-size: 1.5rem; }
     /*** service ***/
-.service_heading { text-align: center; text-transform: uppercase; font-size: 36px; font-weight: bold; padding-bottom: 30px; color: hotpink; } 
+.service_heading { text-align: center; text-transform: uppercase; font-size: 36px; font-weight: bold; padding-bottom: 30px; } 
 .Kservice {padding-top: 4rem;padding-bottom: 5rem;background-color: #9a9c9e;}
 .service {display: flex;background: rgb(235, 233, 233);padding: 1rem 1rem 1rem 1rem;border-radius: 0.5rem;box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1);margin-bottom: 2rem;}
 .service:hover {background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%);color: white;}
@@ -153,7 +154,7 @@ div .service_item .service{ height: 100%; }
 /*** contact page ***/
 form textarea { height:170px; }
 .contact_section{ padding: 50px 30px; }
-.main-title { background-image: linear-gradient(hsl(331deg 93% 48% / 69%), hsl(25deg 100% 50% / 50%)), url("/assets/img/pediatric-smiles-home.jpg"); background-position: center center; background-size: cover; text-align: center; color: #ffffff !important; }
+.main-title { background-image: linear-gradient( hsl(44deg 70% 80% / 38%), hsl(244deg 86% 38% / 42%)); text-align: center; color: #ffffff !important; }
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 input[type=submit] { background-color: #235f7a; color: white; margin: 10px; padding: 12px 20px; border: none; cursor: pointer; border-radius: 50px; }
 input[type=submit]:hover { background-color: #458ea0; }
@@ -245,7 +246,6 @@ div .blog-posts .card{ height: 100%; }
 .belief_panel{ padding: 40px 0; }
 .belief_panel img { width: 385px; height: 260px; }
 .belief_panel p{ padding-right: 150px; padding-left: 10px; text-align: center; font-size: 24px; padding-top: 20px; }
-.team_intro_title { color: hotpink; }
 .about_motto{ margin: 60px 0; }
 .about_motto img{ width: 100%; height: auto; padding-top: 60px; }
 .about_motto p { font-size: 16px; padding-top: 30px; }
@@ -260,7 +260,7 @@ div .blog-posts .card{ height: 100%; }
 .loc_doc{ text-align: center; }
 .kdifferent{ margin-top: 80px; background: linear-gradient(hsl(72deg 60% 54% / 34%), hsl(222deg 51% 55% / 73%));}
 .kdifferent_title{ text-align: center; }
-.kdifferent_title h2{ color: hotpink; text-align:initial; }
+.kdifferent_title h2{ text-align:initial; }
 .kdifferent img{ width: 90%; height: auto; }
 .kdiff_det{ padding-top: 100px; }
 .kdiff_det h3{ color: #2a7db8; }
@@ -272,14 +272,14 @@ div .blog-posts .card{ height: 100%; }
 .loc_time, .loc_addrs{ padding-top: 40px; }
 /*** OurTeam ***/
 .team_intro{ margin: 30px 0; }
-.team_intro_title{ font-size: 42px; padding-bottom: 30px; padding-left: 16px; color:hotpink; }
+.team_intro_title{ font-size: 42px; padding-bottom: 30px; padding-left: 16px; }
 .team_box img{ height: 410px;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
-.team_title{ font-size: 42px; padding-bottom: 30px; color:hotpink; }
-.meet_nur{ font-size: 42px; padding-left: 16px; color:hotpink; padding-bottom: 10px; }
+.team_title{ font-size: 42px; padding-bottom: 30px; }
+.meet_nur{ font-size: 42px; padding-left: 16px; padding-bottom: 10px; }
 .nurse_social_icon{ padding-top: 30px;}
-.founder_title{ font-size: 42px; color:hotpink; padding-left: 16px; }
+.founder_title{ font-size: 42px; padding-left: 16px; }
 .founder_box img{ width: 100%; height: 700px;}
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
@@ -312,8 +312,8 @@ div .happy_pat_items .card { height: 100%; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
 /*** DentalHypomineralization ***/
-.hypomineralise h2{ padding-top: 30px; padding-bottom: 20px; color: hotpink; }
-.detect_trt_heading{ padding-top: 30px; padding-bottom: 20px; color: hotpink; }
+.hypomineralise h2{ padding-top: 30px; padding-bottom: 20px; }
+.detect_trt_heading{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_post{ padding: 50px 0; }
 .detect_trt_post img{ height: 300px; }
 .remember{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
@@ -328,11 +328,11 @@ div .happy_pat_items .card { height: 100%; }
 .fiss_sealant a:hover{ color: white !important; background-color: #2f52a0 ; }
 .fiss_sealant h3{ color: #686464; }
 .sealant_work{ margin: 40px 0; }
-.sealant_work h2{ color: hotpink; padding-bottom: 30px; }
+.sealant_work h2{ padding-bottom: 30px; }
 .sealant_work h3{ color: #686464; }
 .mark_qoute{ padding-top: 50px; padding-bottom: 20px;}
 .when_pit-fiss{ padding: 40px 0; }
-.when_pit-fiss h2{ color: hotpink; padding-bottom: 30px; }
+.when_pit-fiss h2{ padding-bottom: 30px; }
 .how_sealant{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
 .how_sealant hr{ width: 60%; }
 /*** FluorideVarnish ***/
