@@ -109,9 +109,10 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .mark { padding: 12px; background: none !important; color: whitesmoke; }
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
-.pa_review_block a{ color: whitesmoke; margin: 20px; }
+.pa_review_block a{ color: whitesmoke !important; font-size: 18px; }
 .pa_review_block p{ color: whitesmoke; margin: 10px; }
 .pa_review_block{ background: linear-gradient(rgb(230 57 57 / 58%), rgb(70 17 78 / 66%)); }
+div.pa_review.pa_review_block{ height: 100% !important; }
 .rel { position: relative; }
 .rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
@@ -157,9 +158,11 @@ input[type=submit]:hover { background-color: #458ea0; }
 /*** Blogs Page ***/
 .blogs_heading{ font-size: 42px;}
 .blogs_col{ margin-bottom: 80px;}
-.blogs{ background: linear-gradient(hsl(72deg 60% 54% / 34%), hsl(222deg 51% 55% / 73%)) }
+.blogs{ text-align: center; }
 .blog-posts { margin: 30px 0; }
-.blog-column h3{ margin-top: 0; }
+.blog-column h3{ margin-top: 0; padding: 20px 0; }
+.blog-column{ padding-bottom: 40px; }
+div .blog-posts .card{ height: 100%; }
 /*** Single BlogPage ***/
 .post-cover{ background-position: center center !important; background-size: cover !important; height: 310px; }
 .blog-content{ font-family:'HNR';}
@@ -216,7 +219,7 @@ input[type=submit]:hover { background-color: #458ea0; }
 .emergency-accordion .panel{ border: none; border-radius: 0px!important;}
 .emergency-accordion .panel-title{ background-color: #629e55;}
 .emergency-accordion .panel-default>.panel-heading { color: #ffffff; background-color: #fff; border-color: #e4e5e7; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
-.emergency-accordion .panel-default>.panel-heading a { display: block; padding: 15px 30px; color: white; }
+.emergency-accordion .panel-default>.panel-heading a { display: block; padding: 15px 30px; }
 .emergency-accordion .panel-default>.panel-heading a:after { content: ""; position: relative; top: 1px; display: block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; float: right; transition: transform .25s linear; -webkit-transition: -webkit-transform .25s linear; color: #333;}
 .emergency-accordion .panel-default>.panel-heading a[aria-expanded="true"] { background-color: #629e55;}
 .emergency-accordion .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #ffffff;}
@@ -333,3 +336,14 @@ div .happy_pat_items .card { height: 100%; }
 .Wfluoride-varnish_post img{ width: 100%; height: 210px; }
 /*** General Athesthesia ***/
 .general-anthe{ padding-top: 240px; }
+/*** FAQ ***/
+.faq h2{ color: #2f52a0;}
+.faq .panel{ border: none; border-radius: 0px!important;}
+.faq .panel-title{ background-color: #629e55;}
+.faq .panel-default>.panel-heading { color: #241f1f; background-color: #2f52a0; border-color: #556a94; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.faq .panel-default>.panel-heading a { display: block; padding: 15px 30px; color: #fff; }
+.faq .panel-default>.panel-heading a:after { content: ""; position: relative; top: 1px; display: block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; float: right; transition: transform .25s linear; -webkit-transition: -webkit-transform .25s linear; color: #333;}
+.faq .panel-default>.panel-heading a[aria-expanded="true"] { background-color: #759c6c;}
+.faq .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #221e1e;}
+.faq .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #302929;}
+.emergency-contact{ padding: 50px 0;}
