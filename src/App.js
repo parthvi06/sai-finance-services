@@ -18,6 +18,7 @@ import DentalSealant from './pages/DentalSealant';
 import FluorideVarnish from './pages/FluorideVarnish';
 import IVsedation from './pages/IVsedation';
 import GeneralAnesthesia from './pages/GeneralAnesthesia';
+import Covid19 from './pages/Covid19';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route exact path='/fluoride-varnish' component={FluorideVarnish}/>
           <Route exact path='/iv-sedation' component={IVsedation}/>
           <Route exact path='/gerenal-anesthesia' component={GeneralAnesthesia}/>
+          <Route exact path='/covid-update' component={Covid19}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
