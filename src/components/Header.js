@@ -16,7 +16,7 @@ function Header() {
                                 </ul>
                             </div>
                             <div className="top-header-right">
-                                <a href="/" class="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a class="white-text" href="/"> Mon - Sat 10:30am to 8:00pm </a> | <a class="white-text" href="/"> Sunday By Appointment</a> | <a class="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
+                                <a href="/" class="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a class="white-text" href="/"> Mon - Sat 10:30am to 8:30pm </a> | <a class="white-text" href="/"> Sunday By Appointment</a> | <a class="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
                             </div>        
                         </div>        
                     </div>

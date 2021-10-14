@@ -21,7 +21,7 @@ import GeneralAnesthesia from './pages/GeneralAnesthesia';
 import Covid19 from './pages/Covid19';
 import FAQ from './pages/FAQ';
 import SignUp from './pages/SignUp';
-import BracesConsult from '/pages/BracesConsult';
+import BracesConsult from './pages/BracesConsult';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
 
@@ -52,7 +52,7 @@ function App() {
           <Route exact path='/covid-update' component={Covid19}/>
           <Route exact path='/faq' component={FAQ}/>
           <Route exact path='/sign-up' component={SignUp}/>
-          <Rouute excat path='/braces-consult' component={BracesConsult}/>
+          <Route exact path='/braces-consult' component={BracesConsult}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
