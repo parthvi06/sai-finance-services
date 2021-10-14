@@ -40,16 +40,16 @@ export default class BracesConsult extends Component {
                     <div className="row">
                         <h2>Things to consider before orthodontic treatment</h2>
                         <p>some orthodontic issues are better treated early, and others later. For instance, thumb-sucking habits and crossbites are better managed as early as 8 to avoid less desirable permanent effects on the teeth and bite.</p>
-                        <img src="/assets/img/mother" />
+                        <img src="/assets/img/mother.jpg" />
                         <p>The nature of the problem</p>
                         <p>for example, if a problem like protruding teeth is having a negative impact on a child’s self-esteem (e.g. not smiling, bullying at school, feeling self-conscious) - then this can be treated as early as 8 years old.</p>
-                        <img src="/assets/img/father" />
+                        <img src="/assets/img/father.jpg" />
                         <p>The impact of the problem on your child’s overall wellbeing</p>
                         <p>before starting any orthodontic treatment, it is essential the teeth and gums are healthy. If the orthodontist identifies an issue at your child’s examination, they refer to the dentist/ therapist to stabilise his/her oral health before starting any orthodontic treatment.</p>
-                        <img src="/assets/img/mother" />
+                        <img src="/assets/img/mother.jpg" />
                         <p>Your child’s dental health</p>
                         <p>do you think your child will be able to complete the whole orthodontic timescale without undue stress to them, or damage to the equipment? Some children will find it harder than others to adapt to orthodontic treatment.</p>
-                        <img src="/assets/img/mother" />
+                        <img src="/assets/img/mother.jpg" />
                         <p>The cooperation of your child</p>
                     </div>
                 </div>
