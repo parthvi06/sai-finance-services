@@ -115,7 +115,7 @@
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
     /*** Home ***/
-    
+    .banner-slider img{ height: 600px; }
     }
     @media (min-width: 1450px) {
     /*** Home ***/

@@ -76,7 +76,7 @@ function Header() {
                                     </button>
                                 </div>    
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/othodontics" data-toggle="dropdown" aria-expanded="false">Othodontics</a>
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/othodontics" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="#">Braces Consdivt</a>
                                             <a href="#">Orthodontic Corrections</a>
