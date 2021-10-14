@@ -9,15 +9,15 @@ function Header() {
                         </a>
                     </div>
                     <div className="header-widgets  header-widgets-desktop">
-                        <div className=" teal-offer widget  widget_black_studio_tinymce">
-                            <h2 className="widgettitle">Covid Notice</h2>
-                            <div className="textwidget"><strong>Covid-19 Update</strong> - Important Information.<a href="/"><strong>Read More</strong></a>
-                            </div>
-                        </div>
                         <div className="pink-offer widget  widget_black_studio_tinymce">
-                            <h2 className="widgettitle">Special Offer 1</h2>
-                            <div className="textwidget"><strong>Braces/Invisalign Consultations</strong> - Schedule a consultation.<a href="https://blog.kidsvilledental.in/appointment/"><strong>Click Here</strong></a>
+                            <div className="top-header-left">
+                                <ul class="list-inline xs-text-center m-0">
+                                    <li class="styled-icons icon-sm icon-bordered icon-circled clearfix topicon"> <a className="white-text" href="https://www.facebook.com/kidsville/" target="_blank"><i class="fa fa-facebook"></i></a> <a className="white-text" href="https://www.instagram.com/kidsville/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
                             </div>
+                            <div className="top-header-right">
+                                <a href="/" class="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a class="white-text" href="/"> Mon - Sat 11:00am to 8:00pm </a> | <a class="white-text" href="/"> Sunday By Appointment</a> | <a class="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
+                            </div>        
                         </div>        
                     </div>
                 </div>
@@ -38,6 +38,7 @@ function Header() {
                                         <a href="/our-team">Meet Our Team!</a>
                                         <a href="/about">About Us</a>
                                         <a href="/why-us">Why US?</a>
+                                        <a href="/blogs">Blogs</a>
                                         <a href="/location">Location</a>
                                     </div>
                                 </button>
@@ -90,20 +91,15 @@ function Header() {
                                         </div>
                                     </button>
                                 </div>
-                            <div className="dropdown navbar-nav end">
-                                    <button className="contact-menu dropbtn"><a href="/contact-us">Contact US</a></button>
-                                </div> 
-                            <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/kidsville-max" data-toggle="dropdown" aria-expanded="false">Kidsville Max</a>
+                                <div className="dropdown navbar-nav end">
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/kidsville-max" data-toggle="dropdown" aria-expanded="false">Contact US</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/blogs">Blogs</a>
                                             <a href="/covid-update">Covid 19 Updates</a>
                                             <a href="/sign-up">Newsletter Sign-Up</a>
-                                                <a href='/faq'>FAQs</a>
+                                            <a href='/faq'>FAQs</a>
                                         </div>
                                     </button>
                                 </div>
-                            <div className="appointment-btn dropdown navbar-nav end"><a href="/">appointment</a></div>  
                         </div>
                     </div>
                 </div>   

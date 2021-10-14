@@ -73,11 +73,21 @@
     @media (max-width: 991px){
     .desktop-header{ display: none;}
     .logo { max-width: 100%; width: 100%; display: none; }
+    .top-header-left { padding-right: 0px;}
+    .top-header-left { padding-bottom: 5px;}
     .contact_section {padding-top: 0px};
     .clinic_tour .cl-grid { text-align: center;}
     .emergency-num .row{ padding: 0 15px;}
     .bring_child_title .child-title{ height: auto;}
+    .dropdown .dropbtn::after { display: none; }
     .kidsville-logo { padding-left: 0;}
+    .navbar-expand-lg .navbar-collapse { margin-left: 0; }
+    .dropdown .dropbtn{ padding-left: 10px;}
+    .navbar a{ text-align: left;}
+    .dropdown-toggle::after{ display: block; float: right; content: '\f107'; font-size: 20px; font-family: 'FontAwesome'; border: none;}
+    .appointment-btn{ top: 2px;}
+    .navbar-light .navbar-toggler { font-size: 22px;border: none; padding: 0;} 
+    button:focus { outline: none!important;}
     }
     @media (min-width: 992px){
     h2{ font-size: 44px !important; } 
