@@ -24,7 +24,7 @@ function Header() {
                 <div className="container-fuild">  
                     <div className="navbar navbar-expand-lg">
                         <div className="kidsville-logo">
-                            <a href="https://kidsville.in">
+                            <a href="/">
                                 <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="180" height="100" />
                             </a>
                         </div>    
