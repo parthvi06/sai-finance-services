@@ -16,7 +16,7 @@ function Header() {
                                 </ul>
                             </div>
                             <div className="top-header-right">
-                                <a href="/" class="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a class="white-text" href="/"> Mon - Sat 11:00am to 8:00pm </a> | <a class="white-text" href="/"> Sunday By Appointment</a> | <a class="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
+                                <a href="/" class="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a class="white-text" href="/"> Mon - Sat 10:30am to 8:00pm </a> | <a class="white-text" href="/"> Sunday By Appointment</a> | <a class="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
                             </div>        
                         </div>        
                     </div>
@@ -58,7 +58,7 @@ function Header() {
                                 </button>
                             </div>
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className=" dropdown-toggle" href="/preventive-dentistry" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
+                                    <button className="dropbtn drop-down"><a className=" dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="/dental-hygiene">Dental Hygiene For Children</a>
                                             <a href="/dental-hypomineralization">Dental Hypomineralization</a>
@@ -68,7 +68,7 @@ function Header() {
                                     </button>
                                 </div>    
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/sedation-services" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="/iv-sedation">Treatment under IV Sedation</a>
                                             <a href="/gerenal-anesthesia">Treatment Under General Anesthesia</a>
@@ -76,7 +76,7 @@ function Header() {
                                     </button>
                                 </div>    
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/othodontics" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="#">Braces Consdivt</a>
                                             <a href="#">Orthodontic Corrections</a>
@@ -92,7 +92,7 @@ function Header() {
                                     </button>
                                 </div>
                                 <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/kidsville-max" data-toggle="dropdown" aria-expanded="false">Contact US</a>
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact US</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                             <a href="/covid-update">Covid 19 Updates</a>
                                             <a href="/sign-up">Newsletter Sign-Up</a>
