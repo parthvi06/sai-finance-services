@@ -23,7 +23,7 @@ strong{ font-weight: bold !important; }
 a { text-decoration: none !important; }
 *{ box-sizing: border-box; }
 *:before, *:after { box-sizing: border-box; }
-.container-fluid{  padding-left: 0rem; padding-right: 0rem; overflow: hidden; }
+.container-fluid{  padding-left: 0rem; padding-right: 0rem; overflow: hidden; } 
 h2{ color: #2f52a0;}
 /*** header ***/
 .header{ background-color: #ffffff; }
