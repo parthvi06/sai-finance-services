@@ -112,7 +112,7 @@
     .img-hover-zoom--colorize img { width: 200px; }
     .my-2 h2{ font-size: 2.6rem; }
     /*** Contact page ***/
-    .main-title { padding: 100px 0 100px; }
+    .main-title { padding: 70px 0 100px; }
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

@@ -22,7 +22,7 @@ function Footer() {
                                 <div className="widget  widget_black_studio_tinymce  push-down-30"><h6  className="footer__headings">Contact Us</h6>
                                     <div className="textwidget">
                                         <h3><a href="tel: 07926922152 "><i  className="fa fa-phone"></i>&nbsp;07926922152</a></h3>
-                                        <h3>Emergency<a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a></h3>
+                                        <h4>Emergency<br /><a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a></h4>
                                         <p><a href="mailto:info@kidsville.in">Send an Email</a></p>
                                         <p className="clinics"><strong>Kidsville Dental,</strong>
                                             <br/>Adhyashakti Society, Beside Maharaja Complex, Near Balaji garden restaurant, Prernatirth Derasar Road, Prahladnagar,
