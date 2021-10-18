@@ -92,6 +92,9 @@ div.socials { width: 100%; background: #f7f7f7; text-align: center; padding: 15p
 div.socials ul { margin: 0; padding: 0; }
 div.socials ul li { display: inline-block; margin: 0 10px; }
 div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s ease; }
+.footer-post img{ width: 70px; height: 40px; float: left; margin-right: 10px; margin-bottom: 31px;}
+.footer-title{ height: 70px;} 
+
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
 .slider-content{ position: absolute; bottom: 0; background: linear-gradient(rgba(134 180 243 / 57%), rgba(151, 48, 106, 0.46)); color: #ffffff; width: 100%; height: 100%;transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center;opacity:0.8; }
@@ -365,3 +368,5 @@ div .happy_pat_items .card { height: 100%; }
 .braces-exceptation{ padding: 50px 0;}
 .braces-exceptation .bx-title{ padding-bottom: 30px;}
 .braces-exceptation .bx-grid{ padding-bottom: 15px;}
+/*** covid update page ***/
+.covid-content {padding: 50px 0;}
