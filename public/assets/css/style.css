@@ -17,7 +17,7 @@
 body { font-size: 16px; font-family: 'HNR'!important; }
 html{ width: 100%; height: 100%; margin: 0px; padding: 0px; overflow-x: hidden;}
 h1, h2, h3, h4, h5, h6, .navigation--main, .navbar-toggle__text, .navigation--main .sub-menu{ font-family: 'HNR'!important; font-weight: bold; color: #333333; letter-spacing: -0.5px; }
-body, .textwidget { color: #888888; }
+.textwidget { color: #888888; }
 p{ font-size: 16px; }
 strong{ font-weight: bold !important; }
 a { text-decoration: none !important; }
@@ -72,7 +72,7 @@ div.navbar{ margin: 0 !important; }
 .dropdown .contact-menu::after {display: none !important; }
 .navbar-expand-lg .navbar-collapse { margin-left: 5%;}
 /*** footer **/
-footer{ padding-top: 30px; background-color: #87b3c1; }
+footer{ padding-top: 30px; background-color: #87b3c13b;; }
 .footer { color: #888888; background-image: url(kidsville.in/);  background-color: #eeeeee; border-top: 1px solid #e6e6e6; }
 .push-down-30 { margin-bottom: 30px; }
 .footer h6.footer__headings { font-size: 1.7em; color: #888; border-bottom: 0; font-weight: 500; }
@@ -154,7 +154,8 @@ div .service_item .service{ height: 100%; }
 /*** contact page ***/
 form textarea { height:170px; }
 .contact_section{ padding: 50px 30px; }
-.main-title { background-image: linear-gradient( hsl(44deg 70% 80% / 38%), hsl(244deg 86% 38% / 42%)); text-align: center; color: #ffffff !important; }
+.main-title { background-image: linear-gradient( hsl(141deg 26% 50% / 51%), hsl(318deg 86% 38% / 25%)); text-align: center; }
+.main-title h2{ color: #6a5a5f; }
 input[type=text], select, textarea { width: 100%; padding: 12px; border: 1px solid #ccc; margin-top: 6px; margin-bottom: 16px; resize: vertical; }
 input[type=submit] { background-color: #235f7a; color: white; margin: 10px; padding: 12px 20px; border: none; cursor: pointer; border-radius: 50px; }
 input[type=submit]:hover { background-color: #458ea0; }
@@ -308,6 +309,7 @@ div .happy_pat_items .card { height: 100%; }
 .oral_hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .oral_hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
 .oral_hygiene img{ width: 100%; height:auto; }
+.next-appoint h2{ color: #777; }
 .next-appoint .book_app{ border: 1px solid white; color: white !important; background-color: #2f52a0; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
@@ -323,15 +325,13 @@ div .happy_pat_items .card { height: 100%; }
 .fiss_sealant img{ width: 100%; }
 .sealant{ padding-bottom: 40px; }
 .P_F_sealants {margin-top:30; }
+.pit_sealant{ padding: 50px 0;}
 .pit_sealant h2 { color: #2f52a0; text-align: center; }
 .fiss_sealant a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .fiss_sealant a:hover{ color: white !important; background-color: #2f52a0 ; }
-.fiss_sealant h3{ color: #686464; }
 .sealant_work{ margin: 40px 0; }
 .sealant_work h2{ padding-bottom: 30px; }
-.sealant_work h3{ color: #686464; }
 .mark_qoute{ padding-top: 50px; padding-bottom: 20px;}
-.when_pit-fiss{ padding: 40px 0; }
 .when_pit-fiss h2{ padding-bottom: 30px; }
 .how_sealant{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
 .how_sealant hr{ width: 60%; }
@@ -346,6 +346,11 @@ div .happy_pat_items .card { height: 100%; }
 .Wfluoride-varnish_post img{ width: 100%; height: 210px; }
 /*** General Athesthesia ***/
 .general-anthe{ padding-top: 240px; }
+/*** IV Sedation ***/
+.Wfluoride-varnish{ margin: 40px 0;}
+.pharma_blocks{ margin: 40px 0;}
+.pharma_blocks h3 { padding: 20px 0;}
+.pharma_blocks p{ padding-bottom: 30px; }
 /*** FAQ ***/
 .faq h2{ color: #2f52a0;}
 .faq .panel{ border: none; border-radius: 0px!important;}
@@ -357,3 +362,30 @@ div .happy_pat_items .card { height: 100%; }
 .faq .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #221e1e;}
 .faq .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #302929;}
 .emergency-contact{ padding: 50px 0;}
+/*** sign-up  ***/
+.join-list {margin: 40px 0; }
+.join-list .card { padding: 100px 30px; }
+.join-list img{ width: 100%; border-radius: 100% 100% 100% 100%; }
+.newsletter-signup { margin: 40px 0;}
+.sign_contact{ margin: 40px 0; }
+.sign_contact a{ color: tomato; border: 1px solid tomato; }
+.sign_contact a:hover{ color: #fff; background-color: tomato; }
+.fill_teeth { margin-top: 60px; }
+.cavity_untreat { margin: 20px 0; }
+.fill_teeth h2, .cavity_untreat h2{ padding: 30px 0; }
+/*** Root Canal ***/
+.root_canal{ margin: 30px 0; }
+.root_canal h2{ padding-top: 10px; padding-bottom: 20px;}
+.how_Rcanal img{ width: 100%; height: 250px; }
+.how_Rcanal h3{ padding: 15px 0; }
+.what_Rcanal{ margin: 50px 0; }
+.what_Rcanal h2{ padding: 30px 0; }
+.what_Rcanal h3 , .what_Rcanal p{ text-align: center; }
+.need_Rcanal{  border-color: slategray; border-style: solid; border-width: 0px 1px 0px 1px; }
+.what_Rcanal .col-12{ margin: 25px 0; }
+/*** Children Crown ***/
+.cap_children_teeth{ margin: 40px 0;}
+.put_cap{ margin: 50px; }
+.put_cap h2{ padding-bottom: 50px; }
+.put_cap_tooth{ border-color: slategray; border-style: solid; border-width: 0px 1px 0px 1px; }
+.put_cap .col-12{ margin: 25px 0; }

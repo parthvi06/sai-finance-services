@@ -7,7 +7,7 @@ export default class DentalHypomineralization extends Component {
                 <div className="box-container">
                     <div className="main-title">
                         <div className="container">
-                            <h2 className="main-title__primary">Dental Hygiene for Children</h2>
+                            <h2 className="main-title__primary">Dental Hypomineralization for Children</h2>
                         </div>
                     </div>
                 </div>

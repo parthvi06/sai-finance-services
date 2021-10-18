@@ -28,12 +28,12 @@ export default class IVsedation extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-md-12 col-sm-12 text-center">
-                                <p>Who needs Pharmacologic management techniques?</p>
                                 <h2>OUR SERVICES</h2>
                                 <p>For the little segment of children who are unable to cope up with regular chairside treatment are ideal candidates fr treatment under sedation or general anesthesia.</p>
+                                <p><strong>Who needs Pharmacologic management techniques?</strong></p>
                             </div>
                         </div>
-                        <div className="row">    
+                        <div className="row pharma_blocks">    
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
                                 <h3>Children with special healthcare needs</h3>

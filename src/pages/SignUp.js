@@ -12,11 +12,24 @@ export default class SignUp extends Component {
                     </div>
                 </div>
                 <section className="join-list">
+                    <div className="container">
+                        <div className="card"> 
+                            <div className="row">   
+                                <div className="col-12 col-lg-3 col-md-2 col-sm-12">
+                                    <img src="/assets/img/Kidsville Castle.png" alt="join-list" />
+                                </div>
+                                <div className="col-12 col-lg-9 col-md-10 col-sm-12">
+                                    <h2>Join the List!</h2>
+                                    <p>We are curating a list of communities wherein we would provide information and help you take better care of your child’s oral health. Give us your mail ID and stay tuned for more.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </section>
                 <section className="newsletter-signup">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <form id="contact-form" action="/action_page.php">
                                     <label htmlFor="fname">First Name</label>
                                     <input type="text" id="fname" name="firstname" placeholder="Your name" />
@@ -31,6 +44,13 @@ export default class SignUp extends Component {
                             </div>
                         </div>
                     </div>          
+                </section>
+                <section className="sign_contact">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            <a className="more" href="">Do you have a questions about Kidsville Dental? Contact us today</a>
+                        </div>
+                    </div>
                 </section>
             </div>
         )

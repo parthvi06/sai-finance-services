@@ -22,8 +22,14 @@ import Covid19 from './pages/Covid19';
 import FAQ from './pages/FAQ';
 import SignUp from './pages/SignUp';
 import BracesConsult from './pages/BracesConsult';
+import Fillings from './pages/Fillings';
+import RootCanal from './pages/RootCanal';
+import ChildrenCrown from './pages/ChildrenCrown';
+import ToothRemoval from './pages/ToothRemoval';
+import SpaceMaintainer from './pages/SpaceMaintainer';
+import DigitalXray from './pages/DigitalXray';
+import EmergencyTreatment from './pages/EmergencyTreatment';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-
 
 
 function App() {
@@ -53,6 +59,13 @@ function App() {
           <Route exact path='/faq' component={FAQ}/>
           <Route exact path='/sign-up' component={SignUp}/>
           <Route exact path='/braces-consult' component={BracesConsult}/>
+          <Route exact path='/fillings' component={Fillings}/>
+          <Route exact path='/root-canal' component={RootCanal}/>
+          <Route excat path='/children-crown' component={ChildrenCrown}/>
+          <Route exact path='/tooth-removal' component={ToothRemoval}/>
+          <Route excat path='/space-maintainer' component={SpaceMaintainer}/>
+          <Route exact path='/digital-Xray' component={DigitalXray}/>
+          <Route excat path='/emergency-treatment' component={EmergencyTreatment}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
