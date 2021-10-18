@@ -88,6 +88,8 @@
     .appointment-btn{ top: 2px;}
     .navbar-light .navbar-toggler { font-size: 22px;border: none; padding: 0;} 
     button:focus { outline: none!important;}
+    .before-ortho .card { height: auto;}
+    .before-ortho .card img { width: 15%;;height: auto;}
     }
     @media (min-width: 992px){
     h2{ font-size: 44px !important; } 

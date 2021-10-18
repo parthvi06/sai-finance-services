@@ -304,10 +304,10 @@ div .reas_item .reas_card{ height: 100%; }
 .happy_pat_items{ padding: 50px 0; }
 div .happy_pat_items .card { height: 100%; }
 /*** dental hygiene ***/
-.oral_hygiene{ margin: 80px 0;}
-.oral_hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
-.oral_hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
-.oral_hygiene img{ width: 100%; height:auto; }
+.oral_hygiene, .braces-hygiene{ margin: 80px 0;}
+.oral_hygiene a, .braces-hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
+.oral_hygiene a:hover, .braces-hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
+.oral_hygiene img, .braces-hygiene img{ width: 100%; height:auto; }
 .next-appoint .book_app{ border: 1px solid white; color: white !important; background-color: #2f52a0; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
@@ -357,3 +357,11 @@ div .happy_pat_items .card { height: 100%; }
 .faq .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #221e1e;}
 .faq .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #302929;}
 .emergency-contact{ padding: 50px 0;}
+/*** Braces Consult ***/
+.before-ortho{ padding: 50px 0 60px 0;}
+.before-ortho .card{ padding: 40px; margin-top: 30px; height: 50vh;}
+.before-ortho .card img{ width: 10%; padding-left: 15px; margin-right: 10px;}
+.before-ortho .card .ortho-text p{ display: flex; align-items: center; margin: 0;}
+.braces-exceptation{ padding: 50px 0;}
+.braces-exceptation .bx-title{ padding-bottom: 30px;}
+.braces-exceptation .bx-grid{ padding-bottom: 15px;}
