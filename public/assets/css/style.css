@@ -310,6 +310,10 @@ div .happy_pat_items .card { height: 100%; }
 .oral_hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
 .oral_hygiene img{ width: 100%; height:auto; }
 .next-appoint h2{ color: #777; }
+.oral_hygiene, .braces-hygiene{ margin: 80px 0;}
+.oral_hygiene a, .braces-hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
+.oral_hygiene a:hover, .braces-hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
+.oral_hygiene img, .braces-hygiene img{ width: 100%; height:auto; }
 .next-appoint .book_app{ border: 1px solid white; color: white !important; background-color: #2f52a0; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
@@ -389,3 +393,11 @@ div .happy_pat_items .card { height: 100%; }
 .put_cap h2{ padding-bottom: 50px; }
 .put_cap_tooth{ border-color: slategray; border-style: solid; border-width: 0px 1px 0px 1px; }
 .put_cap .col-12{ margin: 25px 0; }
+/*** Braces Consult ***/
+.before-ortho{ padding: 50px 0 60px 0;}
+.before-ortho .card{ padding: 40px; margin-top: 30px; height: 50vh;}
+.before-ortho .card img{ width: 10%; padding-left: 15px; margin-right: 10px;}
+.before-ortho .card .ortho-text p{ display: flex; align-items: center; margin: 0;}
+.braces-exceptation{ padding: 50px 0;}
+.braces-exceptation .bx-title{ padding-bottom: 30px;}
+.braces-exceptation .bx-grid{ padding-bottom: 15px;}
