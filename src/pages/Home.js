@@ -260,8 +260,8 @@ export class Home extends Component {
                         <div className="row team-row">
                             <h2 className="team_heading">Team kidsville</h2>
                         </div>    
-                        <div className="row row-cols-1 row-cols-xs-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-4 g-3">
-                            <div className="col">
+                        <div className="row">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 text-center">
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
@@ -289,7 +289,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 text-center">
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
@@ -317,7 +317,7 @@ export class Home extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 text-center">
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
