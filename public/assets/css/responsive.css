@@ -4,8 +4,6 @@
     }
     @media (max-width: 767px) {
     .logo{ float: none; }
-    a.more { padding: 10px 12px; }
-    h2 { font-size: 32px !important; }
     /* .kidsville-logo { display: none; } */
     /*** footer ***/
     footer{ padding-top: 15px; }
@@ -17,7 +15,6 @@
     /*** 404 ***/
     .para-404 img {  width: inherit; }
     /*** contact ***/
-    .main-title { padding: 50px 0; }
     .contact-left p { padding-right: 5px; }
     .clinic_tour .cl-grid { text-align: center;}
     .consultation_title .consultation-col{ -webkit-box-flex:  0; -ms-flex:  0 0 33.333333%; flex:  0 0 100%; max-width: 100%; margin: 2% 0; }
@@ -62,74 +59,16 @@
     /*** Dental Sealant ***/
     .fiss_sealant{ margin: 20px 0 0 0!important; }
     .sealant{ padding-bottom: 0; }
-    .P_F_sealants{ margin-top: 10px; margin-bottom: 30px; }
-    .pit_sealant { padding: 5px; }
-    .how_sealant { margin: 10px 0; }
-    .fiss_sealant h3 { padding-top: 20px; padding-bottom: 10px; }
+    .P_F_sealants{ margin-top: 10px; }
     .sealant_work{ margin: 20px 0; }
     .sealant_work img{ width: 100%; }
     .reverse_col{ flex-direction: column-reverse; }
     .mark_qoute{ padding-top: 15px; padding-bottom: 10px;}
-    .when_pit-fiss{ padding-top: 20px; padding-bottom: 20px; }
+    .when_pit-fiss{ padding: 20px 0; }
     .when_pit-fiss h2{ padding-bottom: 15px; }
     /*** FluorideVarnish ***/
     /*** General Athesthesia ***/
     .general-anthe{ padding-top: 20px; }
-    /*** IV Sedation ***/
-    .Wfluoride-varnish{ margin: 10px 0;}
-    .pharma_blocks{ margin: 10px 0;}
-    .pharma_blocks h3 { padding: 10px 0; }
-    .pharma_blocks p{ padding-bottom: 10px; }
-    /*** sign-up page ***/
-    .join-list .card { padding: 20px 15px; }
-    .join-list h2{  padding-top: 40px; text-align: center;}
-    /*** Fillings Page ***/
-    .fill_teeth { margin-top: 20px; }
-    .fill_teeth h2, .cavity_untreat h2{ padding: 8px 0; }
-    /*** Root Canal ***/
-    .root_canal{ margin: 10px 0; }
-    .root_canal h2{ padding-top: 10px; padding-bottom: 10px;}
-    .what_Rcanal{ margin: 10px 0; }
-    .what_Rcanal h2{ padding: 10px 0;}
-    .need_Rcanal{  border-color: #fff; border-style: solid; border-width: 0px 0px 0px 0px; }
-    .what_Rcanal .col-12{ margin: 8px 0; }
-    /*** Children Crown ***/
-    .cap_children_teeth{ margin: 20px 0;}
-    .cap_children_teeth p{ padding: 8px 0; }
-    .put_cap{ margin: 15px; }
-    .put_cap h2{ padding-bottom: 10px; }
-    .put_cap_tooth{ border-color: slategray; border-style: solid; border-width: 0px 0px 0px 0px; }
-    .put_cap .col-12{ margin: 8px 0; }
-    /*** tooth removal ***/
-    .service_item { padding-bottom: 10px; }
-    .remember{ margin: 15px 0; padding: 20px 0;}
-    /*** Space Maintainer ***/
-    .space_detail { margin: 20px 0; }
-    .Space_Maintainer_Appliance{   margin: 10px 0; }
-    .Space_Maintainer_Appliance h2{ padding: 10px 0; }
-    .Space_Maintainer_Appliance_block img{ width: 100%; height: auto; }
-    .Space_Maintainer_Appliance_block h3{ padding: 20px 0; text-align: center; }
-    /*** Digital X-ray ***/
-    .digital-xray{ margin: 20px 0; }
-    .digital-xray h2{ padding: 10px 0;}
-    .child_Xray img{ width: 100%; height: auto; }
-    /*** ChildrenEmergency ***/
-    .Emergency_Dentist{ margin: 20px 0; }
-    .dealing_with h2{ padding-bottom: 10px; }
-    .dealing-icon {padding: 0; }
-    .deal-iconfont{ font-size: 12px !important;}
-    .dealing_with_prob{ padding: 10px 0; }
-    .emergency_services{ margin: 20px 0;padding: 8px 0; }
-    .tooth_pain{ margin: 10px 0; }
-    .tooth_pain p{ padding: 10px 0;}
-    .tooth_pain img{ width: 100%; height: auto; }
-    div .tooth_pain_con h3{ height: auto; }
-    /*** Invisalign ***/
-    .invisalign_treatment{ margin: 10px 0; }
-    .invisalign_tooth_remove { margin: 40px 0; }
-    .invisalign_img{ padding-top: 10px; }
-    /*** Oral Habit ***/
-    .how_Rcanal a{ margin-bottom: 15px;}
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}
@@ -174,10 +113,6 @@
     .my-2 h2{ font-size: 2.6rem; }
     /*** Contact page ***/
     .main-title { padding: 70px 0 100px; }
-     /*** Dental Sealant ***/
-    .when_pit-fiss {padding: 40px 0; }
-    /*** Fillings ***/
-    .fill_teeth , .cavity_untreat{ text-align: center; }
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

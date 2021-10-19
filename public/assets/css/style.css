@@ -119,7 +119,7 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .mark { padding: 12px; background: none !important; color: whitesmoke; }
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
-.pa_review_block a{ color: whitesmoke !important; font-size: 18px; }
+.pa_review_block a{ color: whitesmoke !important; font-size: 18px;}
 .pa_review_block p{ color: whitesmoke; margin: 10px; }
 .pa_review_block{ background: linear-gradient(rgb(230 57 57 / 58%), rgb(70 17 78 / 66%)); }
 div.pa_review.pa_review_block{ height: 100% !important; }
