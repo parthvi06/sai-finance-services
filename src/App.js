@@ -29,7 +29,14 @@ import ToothRemoval from './pages/ToothRemoval';
 import SpaceMaintainer from './pages/SpaceMaintainer';
 import DigitalXray from './pages/DigitalXray';
 import EmergencyTreatment from './pages/EmergencyTreatment';
+import Braces from './pages/Braces';
+import Invisalign from './pages/Invisalign';
+import ClearAlignerOrBraces from './pages/ClearAlignerOrBraces';
+import EarlyOrthodontics from './pages/EarlyOrthodontics';
+import OralHabits from './pages/OralHabits';
+import Retainers from './pages/Retainers';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+
 
 
 function App() {
@@ -66,6 +73,12 @@ function App() {
           <Route excat path='/space-maintainer' component={SpaceMaintainer}/>
           <Route exact path='/digital-Xray' component={DigitalXray}/>
           <Route excat path='/emergency-treatment' component={EmergencyTreatment}/>
+          <Route exact path='/braces' component={Braces}/>
+          <Route excat path='/invisalign' component={Invisalign}/>
+          <Route exact path='/clear-aligner-braces' component={ClearAlignerOrBraces}/>
+          <Route excat path='/early-orthodontics' component={EarlyOrthodontics}/>
+          <Route exact path='/oral-habits' component={OralHabits}/>
+          <Route excat path='/retainers' component={Retainers}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>

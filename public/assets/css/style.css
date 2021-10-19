@@ -165,7 +165,7 @@ input[type=submit]:hover { background-color: #458ea0; }
 .cnt-link a{ color: #333;}
 /*** Blogs Page ***/
 .blogs_heading{ font-size: 42px;}
-.blogs_col{ margin-bottom: 80px;}
+.blogs_col{ margin: 40px auto 80px auto; }
 .blogs{ text-align: center; }
 .blog-posts { margin: 30px 0; }
 .blog-column h3{ margin-top: 0; padding: 20px 0; }
@@ -320,7 +320,7 @@ div .happy_pat_items .card { height: 100%; }
 /*** DentalHypomineralization ***/
 .hypomineralise h2{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_heading{ padding-top: 30px; padding-bottom: 20px; }
-.detect_trt_post{ padding: 50px 0; }
+.detect_trt_post{ padding-top: 30px; } 
 .detect_trt_post img{ height: 300px; }
 .remember{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
 .remember h2{padding-bottom: 30px; font-size: 44px; }
@@ -389,15 +389,56 @@ div .happy_pat_items .card { height: 100%; }
 .what_Rcanal .col-12{ margin: 25px 0; }
 /*** Children Crown ***/
 .cap_children_teeth{ margin: 40px 0;}
+.cap_children_teeth p{ padding: 20px 0; }
 .put_cap{ margin: 50px; }
 .put_cap h2{ padding-bottom: 50px; }
 .put_cap_tooth{ border-color: slategray; border-style: solid; border-width: 0px 1px 0px 1px; }
 .put_cap .col-12{ margin: 25px 0; }
+/*** Space Maintainer ***/
+.space_detail { margin: 40px 0; }
+.Space_Maintainer_Appliance{   margin: 40px 0; }
+.Space_Maintainer_Appliance h2{ padding: 30px 0; text-align: center; }
+.Space_Maintainer_Appliance_block img{ width: 100%; height: 250px; }
+.Space_Maintainer_Appliance_block h3{ padding: 20px 0; }
+/*** Digital X-ray ***/
+.digital-xray{ margin: 40px 0; }
+.child_Xray img{ width: 100%; height: 300px; }
+.child_Xray a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
+.child_Xray a:hover{ color: white !important; background-color: #2f52a0; }
+/*** ChildrenEmergency ***/
+.Emergency_Dentist{ margin: 40px 0; }
+.dealing_with h2{ padding-bottom: 40px; }
+.dealing-icon {padding: 15px 0; }
+.deal-iconfont{ font-size: 28px !important;}
+.dealing_with_prob{ padding: 10px 0; }
+.emergency_services{ margin: 40px 0; background-color: #629e55; padding: 15px 0; color: #fff;}
+.tooth_pain{ margin: 10px 0; }
+.tooth_pain p{ padding: 10px 0;}
+.tooth_pain img{ width: 100%; height: 280px; }
+div .tooth_pain_con h3{ height: 65px; }
 /*** Braces Consult ***/
 .before-ortho{ padding: 50px 0 60px 0;}
-.before-ortho .card{ padding: 40px; margin-top: 30px; height: 50vh;}
+.before-ortho .card{ padding: 40px; margin-top: 30px; }
+div .braces-consult-TC .card{ height: 100%; }
+.braces-consult-TC{ margin: 20px 0;}
 .before-ortho .card img{ width: 10%; padding-left: 15px; margin-right: 10px;}
 .before-ortho .card .ortho-text p{ display: flex; align-items: center; margin: 0;}
 .braces-exceptation{ padding: 50px 0;}
 .braces-exceptation .bx-title{ padding-bottom: 30px;}
 .braces-exceptation .bx-grid{ padding-bottom: 15px;}
+/*** Braces ***/
+.braces_types h3 { text-align: center; padding-top: 15px; }
+.braces_types p{ padding: 10px 20px; }
+div .braces_types_block .card { height: 100%; }
+.braces_types_block .col-12 { margin: 20px 0;}
+/*** Invisalign ***/
+.invisalign_treatment{ margin: 40px 0; }
+.invisalign_treatment img{ width: 100%; }
+.invisalign_img{ padding-top: 80px; }
+.invisalign_treatment h2{ padding: 15px 0; }
+.invisalign_treatment a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
+.invisalign_treatment a:hover{ color: white !important; background-color: #2f52a0; }
+.invisalign_tooth_remove { margin: 50px 0; }
+/*** Oral Habits ***/
+.how_Rcanal a{ border: 1px solid #2f52a0; color: #2f52a0 !important; border-radius: 10%; }
+.how_Rcanal a:hover{ color: white !important; background-color: #2f52a0; }

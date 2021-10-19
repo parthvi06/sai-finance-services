@@ -66,7 +66,7 @@ export default class ToothRemoval extends Component {
                 <section className="Hservice">
                     <div className="container">
                         <h2 className="service_heading">Try these tips to keep your Teen on track:</h2>
-                        <p>Motivating children and teens towards oral health go a long way in they being cavity-free all through their life. Start young! Establish habits which empower them towards better oral health.</p>
+                        <p className="text-center"><strong>Motivating children and teens towards oral health go a long way in they being cavity-free all through their life. Start young! Establish habits which empower them towards better oral health.</strong></p>
                         <div className="row justify-content-center">
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
                                 <h3 className="srv-title">For pre-teens</h3>

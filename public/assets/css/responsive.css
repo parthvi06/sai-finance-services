@@ -95,6 +95,7 @@
     .what_Rcanal .col-12{ margin: 8px 0; }
     /*** Children Crown ***/
     .cap_children_teeth{ margin: 20px 0;}
+    .cap_children_teeth p{ padding: 8px 0; }
     .put_cap{ margin: 15px; }
     .put_cap h2{ padding-bottom: 10px; }
     .put_cap_tooth{ border-color: slategray; border-style: solid; border-width: 0px 0px 0px 0px; }
@@ -102,6 +103,33 @@
     /*** tooth removal ***/
     .service_item { padding-bottom: 10px; }
     .remember{ margin: 15px 0; padding: 20px 0;}
+    /*** Space Maintainer ***/
+    .space_detail { margin: 20px 0; }
+    .Space_Maintainer_Appliance{   margin: 10px 0; }
+    .Space_Maintainer_Appliance h2{ padding: 10px 0; }
+    .Space_Maintainer_Appliance_block img{ width: 100%; height: auto; }
+    .Space_Maintainer_Appliance_block h3{ padding: 20px 0; text-align: center; }
+    /*** Digital X-ray ***/
+    .digital-xray{ margin: 20px 0; }
+    .digital-xray h2{ padding: 10px 0;}
+    .child_Xray img{ width: 100%; height: auto; }
+    /*** ChildrenEmergency ***/
+    .Emergency_Dentist{ margin: 20px 0; }
+    .dealing_with h2{ padding-bottom: 10px; }
+    .dealing-icon {padding: 0; }
+    .deal-iconfont{ font-size: 12px !important;}
+    .dealing_with_prob{ padding: 10px 0; }
+    .emergency_services{ margin: 20px 0;padding: 8px 0; }
+    .tooth_pain{ margin: 10px 0; }
+    .tooth_pain p{ padding: 10px 0;}
+    .tooth_pain img{ width: 100%; height: auto; }
+    div .tooth_pain_con h3{ height: auto; }
+    /*** Invisalign ***/
+    .invisalign_treatment{ margin: 10px 0; }
+    .invisalign_tooth_remove { margin: 40px 0; }
+    .invisalign_img{ padding-top: 10px; }
+    /*** Oral Habit ***/
+    .how_Rcanal a{ margin-bottom: 15px;}
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}

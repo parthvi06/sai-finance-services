@@ -47,13 +47,13 @@ function Header() {
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/children-dentistry" data-toggle="dropdown" aria-expanded="false">Children's Dentistry</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="/your-first">Your First Visit</a>
-                                        <a href="/filling">Filling</a>
-                                        <a href="#">Root Canal Treatment in children</a>
-                                        <a href="#">Children's Crowns</a>
-                                        <a href="#">Tooth Removal</a>
-                                        <a href="#">Space Maintainer</a>
-                                        <a href="#">Digital X-ray</a>
-                                        <a href="#">Emergency Dental Treatment</a>
+                                        <a href="/fillings">Filling</a>
+                                        <a href="/root-canal">Root Canal Treatment in children</a>
+                                        <a href="/children-crown">Children's Crowns</a>
+                                        <a href="/tooth-removal">Tooth Removal</a>
+                                        <a href="/space-maintainer">Space Maintainer</a>
+                                        <a href="/digital-xray">Digital X-ray</a>
+                                        <a href="/emergency-treatment">Emergency Dental Treatment</a>
                                     </div>
                                 </button>
                             </div>
@@ -78,16 +78,16 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                     <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="#">Braces Consdivt</a>
-                                            <a href="#">Orthodontic Corrections</a>
-                                            <a href="#">Braces</a>
-                                            <a href="#">Invisalign</a>
-                                            <a href="#">Clear Aligners or Braces?</a>
-                                            <a href="#">Early Orthodontics</a>
-                                            <a href="#">Management of Oral Habits</a>
-                                            <a href="#">Orthodontics for Teens</a>
-                                            <a href="#">Myofunctional Treatment</a>
-                                            <a href="#">Retainers</a>
+                                            <a href="/braces-consult">Braces Consult</a>
+                                            <a href="/orthodontic_corrections">Orthodontic Corrections</a>
+                                            <a href="/braces">Braces</a>
+                                            <a href="/invisalign">Invisalign</a>
+                                            <a href="/clear-aligner-braces ">Clear Aligners or Braces?</a>
+                                            <a href="/early-orthodontics">Early Orthodontics</a>
+                                            <a href="oral-habits">Management of Oral Habits</a>
+                                            <a href="orthodontics-teen">Orthodontics for Teens</a>
+                                            <a href="myfunctional-treatment">Myfunctional Treatment</a>
+                                            <a href="/retainers">Retainers</a>
                                         </div>
                                     </button>
                                 </div>

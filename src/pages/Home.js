@@ -265,17 +265,17 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Ipsit Trivedi.jpg" alt="Another Image zoom-on-hover effect" />
                                         </div>
                                     </div>
                                     <div className="card-body">
                                         <div className="clearfix mb-3">
                                     </div>
                                     <div className="my-2 text-center">
-                                            <h3>Robert Wood</h3>
+                                            <h3>Dr. Ipsit Trivedi</h3>
                                         </div>
                                         <div className="mb-3">
-                                            <h6 className="text-uppercase text-center role">BDS MDS Orthodontics</h6>
+                                            <h6 className="text-uppercase text-center role">MDS Orthodontics</h6>
                                         </div>
                                         <div className="box">
                                             <div>
@@ -293,7 +293,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="Another Image zoom-on-hover effect" />
                                         </div>
                                     </div>
                                     <div className="card-body">

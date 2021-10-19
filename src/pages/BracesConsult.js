@@ -7,7 +7,7 @@ export default class BracesConsult extends Component {
                 <div className="box-container">
                     <div className="main-title">
                         <div className="container">
-                            <h2 className="main-title__primary">Dental Hygiene for Children</h2>
+                            <h2 className="main-title__primary">Braces Consult</h2>
                         </div>
                     </div>    
                 </div>
@@ -46,7 +46,7 @@ export default class BracesConsult extends Component {
                             <div className="col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>Things to consider before orthodontic treatment</h2>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
                                     <p>some orthodontic issues are better treated early, and others later. For instance, thumb-sucking habits and crossbites are better managed as early as 8 to avoid less desirable permanent effects on the teeth and bite.</p>
                                     <div className="ortho-text row">
@@ -55,7 +55,7 @@ export default class BracesConsult extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
                                     <p>for example, if a problem like protruding teeth is having a negative impact on a child’s self-esteem (e.g. not smiling, bullying at school, feeling self-conscious) - then this can be treated as early as 8 years old.</p>
                                     <div className="ortho-text row">
@@ -64,7 +64,7 @@ export default class BracesConsult extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
                                     <p>before starting any orthodontic treatment, it is essential the teeth and gums are healthy. If the orthodontist identifies an issue at your child’s examination, they refer to the dentist/ therapist to stabilise his/her oral health before starting any orthodontic treatment.</p>
                                     <div className="ortho-text row">
@@ -73,7 +73,7 @@ export default class BracesConsult extends Component {
                                     </div>
                                 </div>
                                 </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12">
+                                <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                     <div className="card">
                                         <p>do you think your child will be able to complete the whole orthodontic timescale without undue stress to them, or damage to the equipment? Some children will find it harder than others to adapt to orthodontic treatment.</p>
                                         <div className="ortho-text row">

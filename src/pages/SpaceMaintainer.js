@@ -33,14 +33,14 @@ export default class SpaceMaintainer extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="pharma">
+                <section className="Space_Maintainer_Appliance">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-md-12 col-sm-12 text-center">
+                            <div className="col-12 col-md-12 col-sm-12">
                                 <h2>How To Care For Your Child's Space Maintainer Appliance</h2>
                             </div>
                         </div>
-                        <div className="row pharma_blocks">    
+                        <div className="row Space_Maintainer_Appliance_block">    
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/chewingGum.jpg" alt="" />
                                 <h3>Avoid sticky sweets, popcorn, ice and or chewing gum.</h3>
@@ -68,6 +68,28 @@ export default class SpaceMaintainer extends Component {
                         </div>
                     </div>
                 </section>
+                <section className="remember">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
+                                <h2 className="text-center">Who Needs A Space Maintainer?</h2>
+                                <p>Children who have lost their teeth before its chronological age and there is yet time for the permanent succeeding tooth to erupt, then the child needs a space maintainer to avoid crocked teeth.</p>
+                            </div>
+                        </div>
+                    </div>        
+                </section>
+                <section className="next-appoint">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:20}}>
+                                <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
+                                <a className="book_app more inner-btn">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                            </div>
+                        </div>
+                    </div>   
+                </section>  
             </div>
         )
     }
