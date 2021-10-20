@@ -4,7 +4,7 @@ export default class SignUp extends Component {
     render() {
         function sendEmail(e) {
             e.preventDefault();
-            emailjs.sendForm('service_fq7gmy4', 'template_8fx5mh7', e.target, 'user_85McB6BS84C9WdDmfL0pV')
+            emailjs.sendForm('service_2tkmjdw', 'template_g65vp8i', e.target, 'user_tzNJc0uTowFy9Odjifo2c')
               .then((result) => {
                   console.log(result.text + 'mail send');
                   alert("Your subscription has been sent");
