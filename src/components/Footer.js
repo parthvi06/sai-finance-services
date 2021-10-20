@@ -3,7 +3,7 @@ import axios from 'axios';
 export class Footer extends Component {
     state = { blogs: [], isLoaded: false }
     componentDidMount() {
-        axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/?_embed&per_page=4&order=desc')
+        axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/?_embed&order=asc')
             .then(res => this.setState({ blogs: res.data, isLoaded: true }))
             .catch(err => console.log(err));     
     }

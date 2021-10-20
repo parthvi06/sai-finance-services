@@ -36,7 +36,7 @@ import EarlyOrthodontics from './pages/EarlyOrthodontics';
 import OralHabits from './pages/OralHabits';
 import Retainers from './pages/Retainers';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-
+import {Helmet} from "react-helmet";
 
 
 function App() {
@@ -44,6 +44,11 @@ function App() {
     <div className="App">
     <Router>
       <Header/>
+      <Helmet>
+            <title>Kidsville | Pediatric Dental Clinic</title>
+            <meta name="description" content=""/>
+            <meta name="keywords" content="kidsville, Dentist, Dental clinic"/>
+          </Helmet>
         <Switch>
           <Route exact path='/' component={Home}/>
           <Route exact path='/contact-us' component={ContactUs}/>

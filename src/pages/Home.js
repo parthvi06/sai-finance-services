@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Helmet } from 'react-helmet';
 const parent_review = {
     margin: 10,
     responsiveClass: true,
@@ -87,6 +88,10 @@ export class Home extends Component {
     render() {
         return (
             <div>
+                <helmet>
+                    <title>Kidsville | Pediatric Dental Hospital</title>
+                    <meta name="description" content="kdkso"/>
+                </helmet>
                 <section className="banner-slider" id={1}>
                     <div className="container-fluid">
                         <div className="row" >

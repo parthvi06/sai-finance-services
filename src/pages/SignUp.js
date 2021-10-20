@@ -1,7 +1,18 @@
 import React, { Component } from 'react'
-
+import emailjs from 'emailjs-com';
 export default class SignUp extends Component {
     render() {
+        function sendEmail(e) {
+            e.preventDefault();
+            emailjs.sendForm('service_fq7gmy4', 'template_8fx5mh7', e.target, 'user_85McB6BS84C9WdDmfL0pV')
+              .then((result) => {
+                  console.log(result.text + 'mail send');
+                  alert("Your subscription has been sent");
+              }, (error) => {
+                  console.log(error.text);
+              });
+              e.target.reset();
+          }
         return (
             <div>
                 <div className="box-container">
@@ -30,11 +41,11 @@ export default class SignUp extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <form id="contact-form" action="/action_page.php">
+                                <form id="contact-form" action="/action_page.php" onSubmit={sendEmail}>
                                     <label htmlFor="fname">First Name</label>
-                                    <input type="text" id="fname" name="firstname" placeholder="Your name" />
+                                    <input type="text" id="fname" name="firstname" placeholder="Your name" required/>
                                     <label htmlFor="lname">Last Name</label>
-                                    <input type="text" id="lname" name="lastname" placeholder="Your last name" />
+                                    <input type="text" id="lname" name="lastname" placeholder="Your last name" required />
                                     <label htmlFor="subject">Subject</label>
                                     <input type="text" id="subject" name="subject" placeholder="Subject.." />
                                     <label htmlFor="message">Message</label>
