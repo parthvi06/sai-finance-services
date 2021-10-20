@@ -63,7 +63,7 @@ export class Footer extends Component {
                                             <li><a href={`/blogs/${blog.id}`}>
                                             <div className="footer-post"><img src={ blog._embedded['wp:featuredmedia']['0'].source_url }/></div>
                                             <div className="footer-title">{blog.title.rendered}</div></a>
-                                            <div>{blog.date}</div>
+                                            {blog.date.slice(0,-9)}
                                             </li>
                                          </ul>
                                         </div>
@@ -75,33 +75,79 @@ export class Footer extends Component {
                             <div className="widget  push-down-30">
                                 <h6 className="footer__headings">Information</h6>
                                 <div className="menu-footer-menu-container">
-                                    <ul id="menu-footer-menu"  className="menu">
-                                        <li className="inform-menu"><a href="/">Home</a></li>
-                                        <li className="inform-menu"><a href="/children-dentistry">Children's Dentistry</a></li>
-                                        <li className="inform-menu"><a href="/preventive-dentistry">Preventive Dentistry</a></li>
-                                        <li className="inform-menu"><a href="/sedation-services">Sedation Services</a></li>
-                                        <li className="inform-menu"><a href="/orthodontics">Orthodontics</a></li>
-                                        <li className="inform-menu"><a href="/contact-us">Contact Us</a></li>
-                                        <li className="inform-menu"><a href="/kidsville-max">Kidsville Max</a></li>
-                                    </ul>
+                                    <details>
+                                        <summary>HOME</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/our-team">Meet Our Team!</a></li>
+                                            <li className=""><a href="/about">About Us</a></li>
+                                            <li className=""><a href="/why-us">Why US?</a></li>
+                                            <li className=""><a href="/blogs">Blogs</a></li>
+                                            <li className=""><a href="/location">Location</a></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary>Children's Dentistry</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/your-first">Your First Visit</a></li>
+                                            <li className=""><a href="/fillings">Filling</a></li>
+                                            <li className=""><a href="/root-canal">Root Canal Treatment in children</a></li>
+                                            <li className=""><a href="/children-crown">Children's Crowns</a></li>
+                                            <li className=""><a href="/tooth-removal">Tooth Removal</a></li>
+                                            <li><a href="/space-maintainer">Space Maintainer</a></li>
+                                            <li><a href="/digital-xray">Digital X-ray</a></li>
+                                            <li><a href="/emergency-treatment">Emergency Dental Treatment</a></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary>Preventive Dentistry</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/dental-hygiene">Dental Hygiene For Children</a></li>
+                                            <li className=""><a href="/dental-hypomineralization">Dental Hypomineralization</a></li>
+                                            <li className=""><a href="/dental-sealant">Dental Sealants</a></li>
+                                            <li className=""><a href="/fluoride-varnish">Fluoride Varnish</a></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary>Sedation Services</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/iv-sedation">Treatment under IV Sedation</a></li>
+                                            <li className=""><a href="/gerenal-anesthesia">Treatment Under General Anesthesia</a></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary>Orthodontics</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/braces-consult">Braces Consult</a></li>
+                                            <li className=""><a href="/orthodontic_corrections">Orthodontic Corrections</a></li>
+                                            <li className=""><a href="/braces">Braces</a></li>
+                                            <li className=""><a href="/invisalign">Invisalign</a></li>
+                                            <li className=""><a href="/clear-aligner-braces">Clear Aligners or Braces?</a></li>
+                                            <li><a href="/early-orthodontics">Early Orthodontics</a></li>
+                                            <li><a href="oral-habits">Management of Oral Habits</a></li>
+                                            <li><a href="orthodontics-teen">Orthodontics for Teens</a></li>
+                                            <li><a href="myfunctional-treatment">Myfunctional Treatment</a></li>
+                                            <li><a href="/retainers">Retainers</a></li>
+                                        </ul>
+                                    </details>
+                                    <details>
+                                        <summary>Contact</summary>
+                                        <ul className="menu" id="menu-footer-menu">
+                                            <li className=""><a href="/contact-us">Contact Us</a></li>
+                                            <li className=""><a href="/covid-update">Covid 19 Updates</a></li>
+                                            <li className=""><a href="/sign-up">Newsletter Sign-Up</a></li>
+                                            <li className=""><a href='/faq'>FAQs</a></li>
+                                        </ul>
+                                    </details>
                                 </div>
                             </div>
                         </div>
-                        <div  className=" foot-cta col-xs-12  col-md-3">
-                            <div  className="widget push-down-30">
-                                <div  className="textwidget">
-                                    <a href="/book-now/" className="action">Book&nbsp;Online</a>
-                                    <a href="/contact/" className="more"><i  className="fa fa-paper-plane"></i>&nbsp;Contact</a>
-                                </div>
-                            </div>
-                        </div>        
                     </div>
                 </div>
             </section>
             <section className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom__center">
-                       © 2021 Copyright | pediatrician Dentist in Ahmedabad<strong> Kidsville Dental</strong> | All Rights Reserved by<a href="https://scriptics.ai">Scriptics.</a>
+                       © 2021 Copyright | pediatrician Dentist in Ahmedabad<strong> Kidsville Dental</strong> | All Rights Reserved by<span style={{color:"red"}}> &hearts;</span><a href="https://scriptics.ai"><strong> Scriptics.</strong></a>
                     </div>
                 </div>
             </section>					
