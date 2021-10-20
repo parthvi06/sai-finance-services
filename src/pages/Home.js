@@ -113,7 +113,7 @@ export class Home extends Component {
                                     <div className="slide-2">
                                         <img src="/assets/img/banner2.jpg" alt="slider media-2"/>
                                         <div className="slider-content">
-                                            <h4 className="slide_heading">Child Friendly Atmosphere</h4>
+                                            <h2 className="slide_heading">Child Friendly Atmosphere</h2>
                                             <div className="button-appointment">
                                                 <a href="#" className="more">Book An Appointment</a>
                                             </div>
@@ -270,7 +270,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/Dr. Ipsit Trivedi.jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Ipsit Trivedi.JPG" alt="Dr. Ipsit Trivedi" />
                                         </div>
                                     </div>
                                     <div className="card-body">
@@ -298,7 +298,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="Dr. Anupriya Malonia" />
                                         </div>
                                     </div>
                                     <div className="card-body">
@@ -326,7 +326,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="Another Image zoom-on-hover effect" />
+                                            <img className="shadow" src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="Dr. Manish Panchal" />
                                         </div>
                                     </div>
                                     <div className="card-body">

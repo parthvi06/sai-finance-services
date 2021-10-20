@@ -82,7 +82,7 @@ function Header() {
                                             <a href="/orthodontic_corrections">Orthodontic Corrections</a>
                                             <a href="/braces">Braces</a>
                                             <a href="/invisalign">Invisalign</a>
-                                            <a href="/clear-aligner-braces ">Clear Aligners or Braces?</a>
+                                            <a href="/clear-aligner-braces">Clear Aligners or Braces?</a>
                                             <a href="/early-orthodontics">Early Orthodontics</a>
                                             <a href="oral-habits">Management of Oral Habits</a>
                                             <a href="orthodontics-teen">Orthodontics for Teens</a>
@@ -92,8 +92,9 @@ function Header() {
                                     </button>
                                 </div>
                                 <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact US</a>
+                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <a href="/contact-us">Contact Us</a>
                                             <a href="/covid-update">Covid 19 Updates</a>
                                             <a href="/sign-up">Newsletter Sign-Up</a>
                                             <a href='/faq'>FAQs</a>

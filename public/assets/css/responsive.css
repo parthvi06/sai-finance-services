@@ -7,12 +7,14 @@
     /* .kidsville-logo { display: none; } */
     /*** footer ***/
     footer{ padding-top: 15px; }
+    .menu-footer-menu-container summary{padding-top: 5px; padding-bottom: 5px;}
     /*** home ***/
     .slide-1 img, .slide-2 img, .slide-3 img { height: 250px; }
     .slider-content{ padding: 5px;}
-    .slider-content a{ padding: 5px 10px; font-size: 16px;}    
+    .slider-content a{ padding: 5px 10px; font-size: 16px; }    
     .Hdifferent{ margin-top: 30px; }
-    .team .row .col-12{ margin-bottom: 15px;}
+    .team .row .col-12{ margin-bottom: 15px; }
+    .srv-iconfont {font-size: 1.5rem !important; }
     /*** 404 ***/
     .para-404 img {  width: inherit; }
     /*** contact ***/
@@ -112,6 +114,7 @@
     .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
     .img-hover-zoom--colorize img { width: 200px; }
     .my-2 h2{ font-size: 2.6rem; }
+    .srv-iconfont {font-size: 3.5rem !important; }
     /*** Contact page ***/
     .main-title { padding: 70px 0 100px; }
     }
