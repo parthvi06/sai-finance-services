@@ -62,7 +62,7 @@ export default class OurTeam extends Component {
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                     <div className="card align-items-center">
-                                        <img src="/assets/img/Dr. Ipsit Trivedi.jpg" alt="Dr. Ipsit" style={{width:"100%"}} />
+                                        <img src="/assets/img/Dr ist.jpg" alt="Dr. Ipsit" style={{width:"100%"}} />
                                         <h3>Dr. Ipsit Trivedi</h3>
                                         <p className="title">MDS Orthodontics</p>
                                         <p>kidsvilledental@gmail.com</p>
