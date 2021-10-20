@@ -27,13 +27,13 @@ export default class WhyUs extends Component {
                             </div>
                         </div>
                         <div className="row"> 
-                            <div className="col-12 col-lg-4 col-md-2 col-sm-3">
+                            <div className="col-12 col-lg-2 col-md-2 col-sm-3">
                                 <a className="qoute_icon"><i className="fa fa-quote-left"></i></a>
                             </div>   
-                            <div className="col-12 col-lg-4 col-md-8 col-sm-3">
-                                <h2 className="anu_qoute">Kidsville is designed to express its vision and purpose. My dream is to see our kids receive the best possible healthcare the planet has seen.</h2>
+                            <div className="col-12 col-lg-8 col-md-8 col-sm-3">
+                                <h3 className="anu_qoute">Kidsville is designed to express its vision and purpose. My dream is to see our kids receive the best possible healthcare the planet has seen.</h3>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-2 col-sm-3">
+                            <div className="col-12 col-lg-2 col-md-2 col-sm-3">
                             <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
                             </div>
                         </div>

@@ -364,7 +364,7 @@ export class Home extends Component {
                                 <OwlCarousel className="owl-theme tech-slider" {...parent_review}>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Payal Shah</a>
+                                            <a><strong>Payal Shah</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Our daughter had a bad dental experience. A friend of mine talked to me about Kidsville children’s Dentistry. Its been 4 appointments to complete her entire treatment and now she misses her dental visit. They made my life easier."</p>
                                         </div>
@@ -374,7 +374,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Preeti Patel</a>
+                                            <a><strong>Preeti Patel</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."</p>
                                         </div>
@@ -384,7 +384,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Shrushti Arora</a>
+                                            <a><strong>Shrushti Arora</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son eats a lot of chocolates. It caused 7 cavities in his mouth. I was worried as he is a hyperactive child. Initially, he was not complying with the doctor, eventually, with consistency, he not only got all his cavities filled, he looks forward to seeing the doctor."</p>
                                         </div>
@@ -394,7 +394,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Tanisha Panchal</a>
+                                            <a><strong>Tanisha Panchal</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                         </div>
@@ -404,7 +404,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Sunil Patel</a>
+                                            <a><strong>Sunil Patel</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p>
                                            
@@ -415,7 +415,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a>Chirag Parekh</a>
+                                            <a><strong>Chirag Parekh</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
                                             
