@@ -291,10 +291,10 @@ div .blog-posts .card{ height: 100%; }
 .motto{ margin: 50px; }
 .motto h2 { text-transform: uppercase; color: tomato;}
 .motto p{ padding: 20px 170px; text-align: center; }
-.why_anu{ width: 300px; border-style: solid; border-width: 7px 7px 7px 7px; border-color: #E3E3E3; border-radius: 100px 100px 100px 100px; padding: 30px; background-color: #87b4dac2; }
+.why_anu{ width: 300px; border-style: solid; border-width: 7px 7px 7px 7px; border-color: #E3E3E3; border-radius: 100px 100px 100px 100px; }
 .why_anu_qoute{ text-align: center; margin: 50px 0; }
 .qoute_icon{ font-size: 44px; color: #7a7474 !important; }
-.anu_qoute{ font-style: italic; }
+.anu_qoute{ font-style: italic;  color: #504d4d; padding: 40px 0; }
 .reas_card{ background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; padding-bottom: 5px;}
 .reas_card img{ height: 170px; width: 254px; }
 .reas_card h3{ text-align: center; color: #2a7db8; }
