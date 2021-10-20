@@ -97,8 +97,7 @@ export class Home extends Component {
                         <div className="row" >
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 px-0">
                                 <OwlCarousel className="owl-theme tech-slider" {...home_slider}>
-                                    <div className="slide-1">
-                                        <img src="/assets/img/1.jpg" alt="slider media-1"/>
+                                    <div className="slide-1" style={{background: "url('/assets/img/1.jpg') no-repeat"}}>
                                         <div className="container-fluid">
                                             <div className="slider-content">
                                                 <div className="slider_title">
@@ -110,8 +109,7 @@ export class Home extends Component {
                                             </div>
                                         </div>
                                     </div>    
-                                    <div className="slide-2">
-                                        <img src="/assets/img/2.jpg" alt="slider media-2"/>
+                                    <div className="slide-2" style={{background: "url('/assets/img/2.jpg') no-repeat"}}>
                                         <div className="slider-content">
                                             <h2 className="slide_heading">Child Friendly Atmosphere</h2>
                                             <div className="button-appointment">
@@ -119,8 +117,7 @@ export class Home extends Component {
                                             </div>
                                         </div>    
                                     </div>  
-                                    <div className="slide-3">
-                                        <img src="/assets/img/3.jpg" alt="slider media-3"/>
+                                    <div className="slide-3" style={{background: "url('/assets/img/3.jpg') no-repeat"}}>
                                         <div className="slider-content">
                                             <h4 className="slide_text">International Standards Of Sterillization</h4>
                                             <h2>Equipped With Advance Technologies</h2>
