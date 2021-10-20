@@ -32,7 +32,7 @@ export default class OurTeam extends Component {
                             <div className="row">    
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                     <div className="card align-items-center">
-                                        <img src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="dr.anu" style={{width:"100%"}} />
+                                        <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" style={{width:"100%"}} />
                                         <h3>Dr. Anupriya Malonia</h3>
                                         <p className="title">Pediatric Dentist</p>
                                         <p>dranupriyapedodontist@gmail.com</p>
@@ -49,7 +49,7 @@ export default class OurTeam extends Component {
                                     <div className="card align-items-center">
                                         <img src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="dr. manish" style={{width:"100%"}} />
                                         <h3>Dr. Manish Panchal</h3>
-                                        <p className="title">MBBS MD PEDIATRICS</p>
+                                        <p className="title">MD Pediatric Anesthesiologist</p>
                                         <p>kidsvilledental@gmail.com</p>
                                         <div className="team-social-icon">
                                             <ul className="list-inline">
@@ -62,9 +62,9 @@ export default class OurTeam extends Component {
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                     <div className="card align-items-center">
-                                        <img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="james king" style={{width:"100%"}} />
-                                        <h3>James King</h3>
-                                        <p className="title">Anesthesiologist</p>
+                                        <img src="/assets/img/Dr. Ipsit Trivedi.jpg" alt="Dr. Ipsit" style={{width:"100%"}} />
+                                        <h3>Dr. Ipsit Trivedi</h3>
+                                        <p className="title">MDS Orthodontics</p>
                                         <p>kidsvilledental@gmail.com</p>
                                         <div className="team-social-icon">
                                             <ul className="list-inline">
@@ -125,7 +125,7 @@ export default class OurTeam extends Component {
                                     <h4 className="found_txt">Best Pediatric dentist In Ahmedabad</h4>
                                 </div>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <img src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="dr anu" style={{width:"100%"}}/>
+                                    <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr anu" style={{width:"100%"}}/>
                                 </div>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                     <h2 className="founder_anu">Dr. Anupriya Malonia</h2>
@@ -136,9 +136,9 @@ export default class OurTeam extends Component {
                             </div>
                             <div className="row bit_more justify-content-center">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
-                                    <h2>A little bit more ...</h2>
+                                    <h3>A little bit more ...</h3>
                                     <p>Expertise include<br/>Child management techniques<br/>Chairside Behaviour management techniques<br/>Root canal treatment of primary, young permanent, and permanent teeth using advanced equipment.<br/>Tooth coloured fillings, tooth coloured crowns, and metal crowns<br/>Preventive treatments like fluoride, pit and fissure sealants<br/>Preventive and interceptive orthodontics<br/>Dental Treatment under sedation<br/>Dental treatment under general anesthesia<br/>Advanced preventive techniques to limit tooth decay<br/>Assessment and guidance of orofacial growth and development</p>
-                                    <h3>Team</h3>
+                                    <h4 className="text-center">Team</h4>
                                     <p>We are experienced working with special educational needs and always speak to children using language on their level.</p>
                                     <p>At kidsville, we hope you will view our team as an extension of your family - our aim is that parents consider dental visits an integral part of their children’s healthy lifestyle. To achieve this, we have gathered a team of dentists with a specific interest in paediatrics, who work together seamlessly to deliver individually tailored care - beginning with a comprehensive oral-health assessment, and ending with a bespoke treatment plan.</p>
                                     <p>Our dual-qualified dental hygienists/therapists are adept at building positive patient relationships, making prevention fun and easy while being able to help with the transition to treatment. Holistic, compassionate and comprehensive, our team represents our ethos.</p>

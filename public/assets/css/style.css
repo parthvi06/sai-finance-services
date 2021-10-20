@@ -278,11 +278,12 @@ div .blog-posts .card{ height: 100%; }
 .team_box img{ height: 410px;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
+.nurse_txt .card { margin-bottom: 25px; }
 .team_title{ font-size: 42px; padding-bottom: 30px; }
 .meet_nur{ font-size: 42px; padding-left: 16px; padding-bottom: 10px; }
 .nurse_social_icon{ padding-top: 30px;}
 .founder_title{ font-size: 42px; padding-left: 16px; }
-.founder_box img{ width: 100%; height: 700px;}
+.founder_box img{ width: 100%; height: auto; }
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
 .foun_txt{ color: rgb(102, 111, 119); }

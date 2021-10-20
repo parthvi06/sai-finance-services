@@ -267,7 +267,7 @@ export class Home extends Component {
                                 <div className="card h-100 shadow-sm">
                                     <div className="text-center">
                                         <div className="img-hover-zoom img-hover-zoom--colorize">
-                                            <img className="shadow" src="/assets/img/Dr. Ipsit Trivedi.JPG" alt="Dr. Ipsit Trivedi" />
+                                            <img className="shadow" src="/assets/img/Dr. Ipsit Trivedi.jpg" alt="Dr. Ipsit Trivedi" />
                                         </div>
                                     </div>
                                     <div className="card-body">
