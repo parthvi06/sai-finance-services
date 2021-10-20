@@ -88,16 +88,17 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <Helmet>
+                <helmet>
                     <title>Kidsville | Pediatric Dental Hospital</title>
                     <meta name="description" content="kdkso"/>
-                </Helmet>
+                </helmet>
                 <section className="banner-slider" id={1}>
                     <div className="container-fluid">
                         <div className="row" >
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 px-0">
                                 <OwlCarousel className="owl-theme tech-slider" {...home_slider}>
-                                    <div className="slide-1" style={{background: "url('/assets/img/1.jpg') no-repeat"}}>
+                                    <div className="slide-1" style={{background: "url('/assets/img/1.jpg')"}}>
+                                        <img src="/assets/img/1.jpg" alt="slider media-1"/>
                                         <div className="container-fluid">
                                             <div className="slider-content">
                                                 <div className="slider_title">
@@ -109,7 +110,8 @@ export class Home extends Component {
                                             </div>
                                         </div>
                                     </div>    
-                                    <div className="slide-2" style={{background: "url('/assets/img/2.jpg') no-repeat"}}>
+                                    <div className="slide-2">
+                                        <img src="/assets/img/2.jpg" alt="slider media-2"/>
                                         <div className="slider-content">
                                             <h2 className="slide_heading">Child Friendly Atmosphere</h2>
                                             <div className="button-appointment">
@@ -117,7 +119,8 @@ export class Home extends Component {
                                             </div>
                                         </div>    
                                     </div>  
-                                    <div className="slide-3" style={{background: "url('/assets/img/3.jpg') no-repeat"}}>
+                                    <div className="slide-3">
+                                        <img src="/assets/img/3.jpg" alt="slider media-3"/>
                                         <div className="slider-content">
                                             <h4 className="slide_text">International Standards Of Sterillization</h4>
                                             <h2>Equipped With Advance Technologies</h2>
@@ -361,7 +364,7 @@ export class Home extends Component {
                                 <OwlCarousel className="owl-theme tech-slider" {...parent_review}>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Payal Shah</strong></a>
+                                            <a>Payal Shah</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Our daughter had a bad dental experience. A friend of mine talked to me about Kidsville children’s Dentistry. Its been 4 appointments to complete her entire treatment and now she misses her dental visit. They made my life easier."</p>
                                         </div>
@@ -371,7 +374,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Preeti Patel</strong></a>
+                                            <a>Preeti Patel</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."</p>
                                         </div>
@@ -381,7 +384,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Shrushti Arora</strong></a>
+                                            <a>Shrushti Arora</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son eats a lot of chocolates. It caused 7 cavities in his mouth. I was worried as he is a hyperactive child. Initially, he was not complying with the doctor, eventually, with consistency, he not only got all his cavities filled, he looks forward to seeing the doctor."</p>
                                         </div>
@@ -391,7 +394,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Tanisha Panchal</strong></a>
+                                            <a>Tanisha Panchal</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                         </div>
@@ -401,7 +404,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Sunil Patel</strong></a>
+                                            <a>Sunil Patel</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p>
                                            
@@ -412,7 +415,7 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
-                                            <a><strong>Chirag Parekh</strong></a>
+                                            <a>Chirag Parekh</a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
                                             
