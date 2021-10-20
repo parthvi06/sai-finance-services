@@ -24,18 +24,18 @@ a { text-decoration: none !important; }
 *{ box-sizing: border-box; }
 *:before, *:after { box-sizing: border-box; }
 .container-fluid{  padding-left: 0rem; padding-right: 0rem; overflow: hidden; } 
-h2{ color: #2f52a0;}
+h2{ color: #5260c4; } 
 /*** header ***/
 .header{ background-color: #ffffff; }
 .container:before, .container:after { content: " "; display: table; }
 .kidsville-logo{ padding-left: 30px; }
-.logo { float: left; padding: .5em 0; transition: all 0.2s ease;  text-align: center; max-width: 50%;}
+.logo { float: left; padding: .5em 0; transition: all 0.2s ease;  text-align: center; max-width: 50%; }
 .logo .img-responsive { margin: 0 auto; }
 .logo a img { transition: all 0.2s ease; }
 .img-responsive {display: block; max-width: 100%; height: auto; }
 img { border-radius: 2px;  vertical-align: middle;  border: 0; }
 .top-header-left{ padding-right: 20px;}
-.white-text{ color: #ffffff;}
+.white-text{ color: #ffffff; }
 .white-text:hover{ color: #ffffff;}
 .styled-icons.icon-sm a { font-size: 16px; height: 30px; line-height: 30px; margin: 2px 7px 2px 0; width: 30px; display: inline flow-root list-item;}
 .styled-icons.icon-circled a { border-radius: 50%; }
@@ -45,8 +45,7 @@ div#head-stuff .header-widgets .textwidget { color: rgb(255, 255, 255)!important
 div#head-stuff .header-widgets .textwidget a:hover { background: #fff; color: #5263D8; }
 div#head-stuff .header-widgets .widget { display:flex; padding: 5px 0 7px; margin: 0; width: 100%; justify-content: center; text-align: center; color: #ffffff; }
 div#head-stuff .header-widgets .textwidget a { text-transform: uppercase; color: #fff; padding: 1px 10px 0; border: 1px solid; display: inline-block; margin: 0 5px; transition: all 0.2s ease; }
-.teal-offer { background: #28b8ce }
-.pink-offer { background: var(--pink); }
+.pink-offer { background: #e63939d9 }
 .navbar-toggle { background: #f7c51e; border-radius: 2px; padding: 10px 12px; margin: 10px 0; transition: all 200ms ease-out; }
 .navbar-toggle__text { font-weight: bold; color: #454545; display: inline-block; padding: 0 10px 0 0; }
 .navbar-toggle__icon-bar { vertical-align: middle; display: inline-block; height: 18px; }
@@ -72,7 +71,7 @@ div.navbar{ margin: 0 !important; }
 .dropdown .contact-menu::after {display: none !important; }
 .navbar-expand-lg .navbar-collapse { margin-left: 5%;}
 /*** footer **/
-footer{ padding-top: 30px; background-color: #87b3c13b;; }
+footer{ padding-top: 30px; background-color: #87b3c13b; }
 .footer { color: #888888; background-image: url(kidsville.in/);  background-color: #eeeeee; border-top: 1px solid #e6e6e6; }
 .push-down-30 { margin-bottom: 30px; }
 .footer h6.footer__headings { font-size: 1.7em; color: #888; border-bottom: 0; font-weight: 500; }
@@ -94,18 +93,18 @@ div.socials { width: 100%; background: #f7f7f7; text-align: center; padding: 15p
 div.socials ul { margin: 0; padding: 0; }
 div.socials ul li { display: inline-block; margin: 0 10px; }
 div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s ease; }
-.footer-post img{ width: 70px; height: 40px; float: left; margin-right: 10px; margin-bottom: 31px;}
+.footer-post img{ width: 70px; height: 40px; float: left; margin-right: 10px; margin-bottom: 31px; }
 .footer-title{ height: 70px;} 
 
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
-.slider-content{ position: absolute; bottom: 0; background: linear-gradient(rgba(134 180 243 / 57%), rgba(151, 48, 106, 0.46)); color: #ffffff; width: 100%; height: 100%;transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center;opacity:0.8; }
+.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0f0e0ebf; height: 100%;transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center;opacity:0.8; }
 .slide-1, .slide-2, .slide-3{  position: relative; }  
-.slider-content h2, .slider-content h4{ color: #0d0000; }
+.slider-content h2, .slider-content h4{ color: #fff; }
 .slider-content a{ color: white !important; background-color: #2f52a0; }
 .Hdifferent img { width: 100%; height: auto; }
-.Hdifferent-right p{ font-size: 16px; line-height: 1.5;}
-.Hdifferent{ margin-top: 100px; margin-bottom: 40px; }
+.Hdifferent-right p{ font-size: 16px; line-height: 1.5; }
+.Hdifferent{ margin-top: 100px; margin-bottom: 80px; }
 .Hdifferent-right span{ color:#594ada; }
 .Hdifferent a.more{ border: 1px solid #2f52a0; color: #2f52a0; }
 .Hdifferent a:hover{ color: white !important; background-color: #2f52a0; }
@@ -117,24 +116,23 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .team-row { justify-content: center; }
     /*** review ***/
 .review_heading { margin: 40px 0; color: #2f52a0; }
-.review{ margin-left: 15px; margin-right: 15px; background: lightsalmon;}    
-.mark { padding: 12px; background: none !important; color: rgb(212, 186, 40); }
+.review{ margin-left: 15px; margin-right: 15px; background: #9ac5e026; }    
+.mark { padding: 12px; background: none !important; color: rgb(37, 37, 33); }
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
 .pa_review_block a{ font-size: 18px;}
 .pa_review_block p{ margin: 10px; }
-.pa_review_block{ background:whitesmoke; padding: 15px 10px; margin-left: 20px; margin-right: 20px; }
-
+.pa_review_block{ border: 1px solid #26363b1a; padding: 15px 10px; margin-left: 20px; margin-right: 20px; }
 .rel { position: relative; }
 .rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
 .list-inline .list-inline-item i{ color: #2b9dee; font-size: 16px; }
+.team .card{ background: lightsalmon; color: #fff !important; }
 .card { background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; }
-.img-hover-zoom--colorize img { border-radius: 50%; width: 150px; height: auto; margin-top: 20px; padding: 1px; transition: transform .5s; }
-.img-hover-zoom--colorize:hover img {filter: grayscale(0); transform: scale(1.05); }
-.card h5 {overflow: hidden;height: 80px;font-weight: 300; font-size: 1rem; }
-.card h5 a {color: black;text-decoration: none; }
-.role { color: #7a7a7a;}
+.img-hover-zoom--colorize img { border-radius: 50%; width: 150px; height: 210px ; margin-top: 20px; padding: 1px; transition: transform .5s; }
+.team .card h3 { color: #fff; }
+.card h5 a {color: rgb(238, 229, 229); text-decoration: none; }
+.role { color: #fff; }
 .box { display: flex; align-items: center; justify-content: center; }
 .fab { font-size: 1.5rem; color: darkgray; transition: transform .5s; }
 .fab:hover { color: black; transform: scale(1.1); }
@@ -142,8 +140,8 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
     /*** service ***/
 .service_heading { text-align: center; text-transform: uppercase; font-size: 36px; font-weight: bold; padding-bottom: 30px; } 
 .Kservice { padding-top: 4rem; padding-bottom: 5rem; background-color: #9a9c9e; }
-.service { display: flex; background: rgb(235, 233, 233); padding: 1rem 1rem 1rem 1rem; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1); margin-bottom: 2rem; }
-.service:hover { background: linear-gradient(135deg,#6394ff 0%,#0a193b 100%); color: white; }
+.service { display: flex; background: #c8c4c42e; padding: 1rem 1rem 1rem 1rem; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+.service:hover { background:#6394ff; color: white; }
 .service-icon { margin: auto; }
 div .service_item .service{ height: 100%; }
 .srv-iconfont { color: #313131; margin: 1rem; padding-right: 1rem;}

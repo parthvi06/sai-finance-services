@@ -143,7 +143,7 @@ export class Home extends Component {
                         </div>
                         <div className="row align-items-center">   
                             <div className="col-12 col-lg-3 col-md-3 col-sm-12 Hdifferent-left">
-                                <img src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" />
+                                <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" />
                             </div>
                             <div className="col-12 col-lg-9 col-md-9 col-sm-12 Hdifferent-right">
                                 <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients.</p>
@@ -180,9 +180,6 @@ export class Home extends Component {
                             </div>
                             <div>
                                 <img src="/assets/img/Consultation area.jpg" alt="" />
-                            </div>
-                            <div>
-                                <img src="/assets/img/Operatory.jpg" alt="" />
                             </div>
                         </OwlCarousel>
                     </div>
@@ -335,7 +332,7 @@ export class Home extends Component {
                                             <h3>Dr. Manish Panchal</h3>
                                         </div>
                                         <div className="mb-3">
-                                            <h6 className="text-uppercase text-center role">MBBS MD Pediatrics</h6>
+                                            <h6 className="text-uppercase text-center role">MD Pediatric Anesthesiologist</h6>
                                         </div>
                                         <div className="box">
                                             <div>
@@ -368,18 +365,12 @@ export class Home extends Component {
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Our daughter had a bad dental experience. A friend of mine talked to me about Kidsville children’s Dentistry. Its been 4 appointments to complete her entire treatment and now she misses her dental visit. They made my life easier."</p>
                                         </div>
-                                        <div className="person-text rel">
-                                            <img src="/assets/img/mother.jpg"/>
-                                        </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
                                             <a><strong>Preeti Patel</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."</p>
-                                        </div>
-                                        <div className="person-text rel">
-                                            <img src="/assets/img/mother.jpg"/>
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
@@ -388,9 +379,6 @@ export class Home extends Component {
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son eats a lot of chocolates. It caused 7 cavities in his mouth. I was worried as he is a hyperactive child. Initially, he was not complying with the doctor, eventually, with consistency, he not only got all his cavities filled, he looks forward to seeing the doctor."</p>
                                         </div>
-                                        <div className="person-text rel">
-                                            <img src="/assets/img/mother.jpg"/>
-                                        </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
@@ -398,19 +386,12 @@ export class Home extends Component {
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                         </div>
-                                        <div className="person-text rel">
-                                            <img alt="" src="/assets/img/mother.jpg"/>
-                                        </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
                                         <div className="pa_review_block">
                                             <a><strong>Sunil Patel</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
-                                            <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p>
-                                           
-                                        </div>
-                                        <div className="person-text rel">
-                                            <img alt="" src="/assets/img/father.jpg"/>
+                                            <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p> 
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
@@ -418,10 +399,6 @@ export class Home extends Component {
                                             <a><strong>Chirag Parekh</strong></a>
                                             <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
-                                            
-                                        </div>
-                                        <div className="person-text rel">
-                                            <img alt="" src="/assets/img/father.jpg"/>
                                         </div>
                                     </div>
                                 </OwlCarousel>

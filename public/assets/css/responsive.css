@@ -12,8 +12,9 @@
     .slide-1 img, .slide-2 img, .slide-3 img { height: 250px; }
     .slider-content{ padding: 5px;}
     .slider-content a{ padding: 5px 10px; font-size: 16px; }    
-    .Hdifferent{ margin-top: 30px; }
+    .Hdifferent{ margin-top: 30px; margin-bottom: 20px; }
     .team .row .col-12{ margin-bottom: 15px; }
+    .img-hover-zoom--colorize img { height: auto; } 
     .srv-iconfont {font-size: 1.5rem !important; }
     /*** 404 ***/
     .para-404 img {  width: inherit; }

@@ -3,7 +3,7 @@ import axios from 'axios';
 export class Footer extends Component {
     state = { blogs: [], isLoaded: false }
     componentDidMount() {
-        axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/?_embed&per_page=4&order=desc')
+        axios.get('https://blog.kidsvilledental.in//wp-json/wp/v2/blogs/?_embed&per_page=2&order=desc')
             .then(res => this.setState({ blogs: res.data, isLoaded: true }))
             .catch(err => console.log(err));     
     }
@@ -32,8 +32,8 @@ export class Footer extends Component {
                         <div className="  col-xs-12  col-md-3">
                             <div className="widget  widget_black_studio_tinymce  push-down-30"><h6  className="footer__headings">Contact Us</h6>
                                 <div className="textwidget">
-                                    <h3><a href="tel: 07926922152 "><i  className="fa fa-phone"></i>&nbsp;07926922152</a></h3>
-                                    <h4>Emergency<br /><a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a></h4>
+                                    <h4><a href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a></h4>
+                                    <h4><a href="tel: 07926922152 "><i  className="fa fa-phone"></i>&nbsp;07926922152</a></h4>
                                     <p><a href="mailto:info@kidsville.in">Send an Email</a></p>
                                     <p className="clinics"><strong>Kidsville Dental,</strong>
                                         <br/>Adhyashakti Society, Beside Maharaja Complex, Near Balaji garden restaurant, Prernatirth Derasar Road, Prahladnagar,
@@ -47,9 +47,9 @@ export class Footer extends Component {
                             <div className="widget  widget_black_studio_tinymce  push-down-30">
                                 <h6 className="footer__headings">Opening Hours</h6>
                                 <div className="textwidget">
-                                    <p><strong>We will be open the following hours</strong><br/></p>
-                                    <p><strong>Morning:</strong><br/>Mon-Sat : 10:30am – 2pm<br/></p>
-                                    <p><strong>Evening:</strong><br/>Mon-Sat : 4:30pm – 8:30pm<br/>Sunday : Closed</p>
+                                    <p>We will be open the following hours<br/></p>
+                                    <h3><strong>Monday - Saturday:</strong><br/></h3>
+                                    <p>10:30am – 8:30pm</p>
                                 </div>
                             </div>
                         </div>
