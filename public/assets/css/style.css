@@ -117,14 +117,14 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .team-row { justify-content: center; }
     /*** review ***/
 .review_heading { margin: 40px 0; color: #2f52a0; }
-.review{ margin-left: 15px; margin-right: 15px; }    
-.mark { padding: 12px; background: none !important; color: whitesmoke; }
+.review{ margin-left: 15px; margin-right: 15px; background: lightsalmon;}    
+.mark { padding: 12px; background: none !important; color: rgb(212, 186, 40); }
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
-.pa_review_block a{ color: whitesmoke !important; font-size: 18px;}
-.pa_review_block p{ color: whitesmoke; margin: 10px; }
-.pa_review_block{ background: linear-gradient(rgb(230 57 57 / 58%), rgb(70 17 78 / 66%)); }
-div.pa_review.pa_review_block{ height: 100% !important; }
+.pa_review_block a{ font-size: 18px;}
+.pa_review_block p{ margin: 10px; }
+.pa_review_block{ background:whitesmoke; padding: 15px 10px; margin-left: 20px; margin-right: 20px; }
+
 .rel { position: relative; }
 .rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
@@ -292,12 +292,12 @@ div .blog-posts .card{ height: 100%; }
 .foun_txt{ color: rgb(102, 111, 119); }
 /*** Why Us ***/
 .motto{ margin: 50px; }
-.motto h2 { text-transform: uppercase; color: tomato;}
+.motto h2 { text-transform: uppercase; }
 .motto p{ padding: 20px 170px; text-align: center; }
-.why_anu{ width: 300px; border-style: solid; border-width: 7px 7px 7px 7px; border-color: #E3E3E3; border-radius: 100px 100px 100px 100px; padding: 30px; background-color: #87b4dac2; }
+.why_anu{ width: 300px; border-style: solid; border-width: 7px 7px 7px 7px; border-color: #E3E3E3; border-radius: 100px 100px 100px 100px; }
 .why_anu_qoute{ text-align: center; margin: 50px 0; }
 .qoute_icon{ font-size: 44px; color: #7a7474 !important; }
-.anu_qoute{ font-style: italic; }
+.anu_qoute{ font-style: italic; padding: 30px 0; color: dimgray !important;  }
 .reas_card{ background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; padding-bottom: 5px;}
 .reas_card img{ height: 170px; width: 254px; }
 .reas_card h3{ text-align: center; color: #2a7db8; }
