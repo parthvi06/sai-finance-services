@@ -19,6 +19,7 @@
     /*** 404 ***/
     .para-404 img {  width: inherit; }
     /*** contact ***/
+    .main-title { padding: 40px 0; }
     .contact-left p { padding-right: 5px; }
     .clinic_tour .cl-grid { text-align: center;}
     .consultation_title .consultation-col{ -webkit-box-flex:  0; -ms-flex:  0 0 33.333333%; flex:  0 0 100%; max-width: 100%; margin: 2% 0; }
@@ -53,8 +54,8 @@
     .qoute_icon{ font-size: 20px; color: #7a7474 !important;}
     .anu_qoute{ font-size: 21px; padding: 10px 0; }
     .reas_card img { height: auto; width: 100%; }
+    .happy_pat{ padding: 20px 0; }
     .happy_pat_items { padding: 20px 0; }
-    .reason_title{ color:hotpink; }
     .Hpat_text { padding: 20px;}
     .ratings { padding: 10px 20px 10px 0;}
     /*** Dental Hygiene ***/
