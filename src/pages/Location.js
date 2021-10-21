@@ -43,8 +43,8 @@ export default class Location extends Component {
                         <div className="row">    
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <div className="loc_doc">
-                                    <img src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="dr.anu" />
-                                    <h2>Dr. Anupriya Malonia</h2>
+                                    <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" />
+                                    <h3>Dr. Anupriya Malonia</h3>
                                     <p className="title">Pediatric Dentist</p>
                                     <p>dranupriyapedodontist@gmail.com</p>
                                     <div>
@@ -59,8 +59,8 @@ export default class Location extends Component {
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <div className="loc_doc align-items-center">
                                     <img src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="dr. manish" />
-                                    <h2>Dr. Manish Panchal</h2>
-                                    <p className="title">MBBS MD PEDIATRICS</p>
+                                    <h3>Dr. Manish Panchal</h3>
+                                    <p className="title">MD Pediatric Anesthesiologist</p>
                                     <p>kidsvilledental@gmail.com</p>
                                     <div className="team-social-icon">
                                         <ul className="list-inline">
@@ -73,9 +73,9 @@ export default class Location extends Component {
                             </div>
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <div className="loc_doc align-items-center">
-                                    <img src="https://i.ibb.co/JC4skS0/team-animate.jpg" alt="james king" />
-                                    <h2>James King</h2>
-                                    <p className="title">Anesthesiologist</p>
+                                    <img src="/assets/img/Dr ist.jpg" alt="james king" />
+                                    <h3>Dr. Ipsit Trivedi</h3>
+                                    <p className="title">MDS Orthodontics</p>
                                     <p>kidsvilledental@gmail.com</p>
                                     <div className="team-social-icon">
                                         <ul className="list-inline">
@@ -98,28 +98,32 @@ export default class Location extends Component {
                             </div>
                         </div>    
                         <div className="row kdiff_det"> 
-                            <div className="kdiff_1">    
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <img src="/assets/img/Dental-Sealant.jpg" alt="" />
-                                </div>
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
-                                    <hr className="sep_line" />
-                                    <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
-                                    <a className="book_now">Book Now</a>
-                                </div>
-                            </div>
-                            <div className="kdiff_2">    
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
-                                    <hr className="sep_line" />
-                                    <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
-                                    <a className="book_now">Book Now</a>
-                                </div>
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <img src="/assets/img/visit_fun.jpg" alt="" />
+                            <div className="col-12 col-lg-12 col-md-6 col-sm-12">
+                                <div className="kdiff_1">
+                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                        <img src="/assets/img/Dental-Sealant.jpg" alt="" />
+                                    </div>
+                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                        <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
+                                        <hr className="sep_line" />
+                                        <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
+                                        <a className="book_now">Book Now</a>
+                                    </div>
                                 </div>
                             </div>    
+                            <div className="col-12 col-lg-12 col-md-6 col-sm-12">    
+                                <div className="kdiff_2">    
+                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                        <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
+                                        <hr className="sep_line" />
+                                        <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
+                                        <a className="book_now">Book Now</a>
+                                    </div>
+                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                        <img src="/assets/img/visit_fun.jpg" alt="" />
+                                    </div>
+                                </div>
+                            </div>        
                         </div>
                     </div>        
                 </section>
@@ -153,8 +157,8 @@ export default class Location extends Component {
                                 <a className="book_now">Book Online</a>
                                 <div className="loc_time">
                                     <h3 className="">Opening Hours</h3>
-                                    <p><strong>Morning:</strong><br/>Mon-Sat : 10:30am – 2pm<br/></p>
-                                    <p><strong>Evening:</strong><br/>Mon-Sat : 4:30pm – 8:30pm<br/>Sunday : Closed</p>
+                                    <p><strong>Monday - Saturday:</strong><br/>10:30am – 8:30pm<br/></p>
+                                    <p><br/>Sunday : Closed</p>
                                 </div>
                                 <div className="loc_addrs">    
                                     <p className="clinics"><strong>Kidsville Dental,</strong>

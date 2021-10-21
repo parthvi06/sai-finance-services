@@ -14,7 +14,7 @@
     .slider-content a{ padding: 5px 10px; font-size: 16px; }    
     .Hdifferent{ margin-top: 30px; margin-bottom: 20px; }
     .team .row .col-12{ margin-bottom: 15px; }
-    .img-hover-zoom--colorize img { height: auto; } 
+    .img-hover-zoom--colorize img { height: auto; width: 85%; } 
     .srv-iconfont {font-size: 1.5rem !important; }
     /*** 404 ***/
     .para-404 img {  width: inherit; }
@@ -28,11 +28,13 @@
     .belief_panel p { padding: 10px 0; }
     .belief_panel { padding: 10px 0; }
     .about_motto { margin: 25px 0; }
-    .team_intro_title { font-size: 28px; padding-bottom: 10px; padding-left: 0; padding-top: 20px; }
+    .team_intro_title { font-size: 28px; padding-bottom: 10px; padding-top: 20px; }
     .sep_line{ margin: 20px 0;}
     .about_motto img {padding-top: 20px; }
     .about_motto p { padding-top: 10px; }
     .Cbetter-contact { padding: 1em 0; }
+    /*** Our Team ***/
+    .team_box .card{ margin-bottom: 25px; }
     /*** Location ***/
     .loc_gallery img{ width: 100%; height: auto; }
     .loc_doc img { height: 240px; }
@@ -114,7 +116,6 @@
     .slide-1, .slide-2, .slide-3{ height: 700px; }  
     .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
     .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
-    .img-hover-zoom--colorize img { width: 200px; }
     .my-2 h2{ font-size: 2.6rem; }
     .srv-iconfont {font-size: 3.5rem !important; }
     /*** Contact page ***/
