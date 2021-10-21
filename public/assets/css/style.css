@@ -128,7 +128,6 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .list-inline .list-inline-item i{ color: #2b9dee; font-size: 16px; }
 .card { background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; }
 .img-hover-zoom--colorize img { border-radius: 70%; width: 90%;  height: 300px; margin-top: 20px; padding: 1px; transition: transform .5s; }
-.team .card h3 { }
 .card h5 a {color: rgb(238, 229, 229); text-decoration: none; }
 .role { color: rgb(105, 113, 122) }
 .box { display: flex; align-items: center; justify-content: center; }
