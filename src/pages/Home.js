@@ -88,10 +88,10 @@ export class Home extends Component {
     render() {
         return (
             <div>
-                <helmet>
+                <Helmet>
                     <title>Kidsville | Pediatric Dental Hospital</title>
                     <meta name="description" content="kdkso"/>
-                </helmet>
+                </Helmet>
                 <section className="banner-slider" id={1}>
                     <div className="container-fluid">
                         <div className="row" >

@@ -85,17 +85,9 @@ export default class OurTeam extends Component {
                             <div className="row nurse_txt">    
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                     <p>They keep us organised. They keep us safe. They ensure our patients receive the best from us. Our support staff is impeccable and aligned with the goals of the practice.</p>
-                                    <div className="nurse_social_icon">
-                                        <ul className="list-inline">
-                                            <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
-                                            <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
-                                            <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
-                                            <li className="list-inline-item"><i className="fa fa-linkedin"></i></li>
-                                            <li className="list-inline-item"><i className="fa fa-dribbble"></i></li>
-                                        </ul>
-                                    </div>
                                 </div>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                <div className ="row">
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12">   
                                         <div className="card align-items-center">
                                             <img src="/assets/img/nurse.png" alt="kajal thakor" style={{width:"50%"}} />
@@ -109,7 +101,8 @@ export default class OurTeam extends Component {
                                             <h3>Vandana Masi</h3>
                                             <p className="title">In-House nurse</p>
                                         </div>
-                                    </div>            
+                                    </div> 
+                                    </div>           
                                 </div>
                             </div>
                         </div>        

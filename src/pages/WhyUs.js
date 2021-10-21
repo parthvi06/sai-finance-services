@@ -23,7 +23,7 @@ export default class WhyUs extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <img className="why_anu" src="/assets/img/Dr. Anupriya Malonia (Pediatric Dentist).jpg" alt="anu_qoute" />
+                                <img className="why_anu" src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="anu_qoute" />
                             </div>
                         </div>
                         <div className="row"> 
