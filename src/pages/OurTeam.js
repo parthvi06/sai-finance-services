@@ -15,7 +15,8 @@ export default class OurTeam extends Component {
                             <div className="row">
                                 <h2 className="team_intro_title">Our Team!</h2>
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                    <p>Kids love us. Parents trust us. Dentists rely on our expertise.</p>
+                                    <img src="/assets/img/visit_fun.jpg" alt="our-team" className="text-center" />
+                                    <p><br /><br />Kids love us. Parents trust us. Dentists rely on our expertise.</p>
                                     <p>We partner with our patients & their families to achieve cavity-free and fear-free kids who really do love going to the dentist!</p>
                                     <p>We help guide our patients to a lifetime of excellent oral health.</p>
                                     <p>By nurturing a positive patient-dentist rapport we can ensure a Trust over Fear relationship that lasts your child a lifetime.</p>
@@ -91,14 +92,14 @@ export default class OurTeam extends Component {
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12">   
                                         <div className="card align-items-center">
                                             <img src="/assets/img/nurse.png" alt="kajal thakor" style={{width:"50%"}} />
-                                            <h3>Kajal Thakor</h3>
+                                            <h3>Kajal</h3>
                                             <p className="title">Dental Assistant</p>
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-6 col-md-6 col-sm-12">   
                                         <div className="card align-items-center">
                                             <img src="/assets/img/nurse.png" alt="geeta masi" style={{width:"50%"}} />
-                                            <h3>Vandana Masi</h3>
+                                            <h3>Vandana</h3>
                                             <p className="title">In-House nurse</p>
                                         </div>
                                     </div> 

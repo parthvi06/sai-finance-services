@@ -97,7 +97,7 @@ div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s eas
 .footer-bottom__center { color: #5263D8; } 
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
-.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0f0e0ebf; height: 100%;transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center;opacity:0.8; }
+.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0f0e0ebf; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8; }
 .slide-1, .slide-2, .slide-3{  position: relative; }  
 .slider-content h2, .slider-content h4{ color: #fff; }
 .slider-content a{ color: white !important; background-color: #2f52a0; }
@@ -137,15 +137,14 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
     /*** service ***/
 .service_heading { text-align: center; text-transform: uppercase; font-weight: bold; padding-bottom: 30px; } 
 .Kservice { padding-top: 4rem; padding-bottom: 5rem; background-color: #9a9c9e; }
-.service { display: flex; background: #0d95eab0; padding: 1rem 1rem 1rem 1rem; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1); margin-bottom: 2rem; color: #fff; }
-.service:hover { background: rgb(197, 191, 197); color: #241f1f; }
+.service { background: #2b56b6e6; color: #fff!important; padding: 1rem 1rem 1rem 1rem; display: flex; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+.service:hover { background: rgb(209, 207, 209); color: #241f1f!important; }
 .service-icon { margin: auto; }
 div .service_item .service{ height: 100%; }
-.srv-iconfont { font-size: 4.5rem !important;color: #313131; margin: 1rem;padding-right: 1rem; }
+.srv-iconfont { font-size: 4.5rem !important; margin: 1rem;padding-right: 1rem; color: #fff; }
 .service-text { margin: auto; }
 .service_item{ padding-bottom: 25px; }
-.srv-title {text-align: left; font-weight: 700;}
-.srv-title{margin-top: 10px;margin-bottom: 10px;}
+.srv-title{ margin-top: 10px; margin-bottom: 10px; text-align: left; font-weight: 700; color: #fff; }
 .service-text p { padding-top: 0.5rem; padding-bottom: 0.5rem; line-height: 25px; }
 .srv-para { font-size: 16px; }
 /*** 404 page ***/
@@ -194,13 +193,12 @@ div .blog-posts .card{ height: 100%; }
 /*** Your First Visit page ***/
 .inner-btn{ border: 2px solid #596bf1 !important; color: #596bf1 !important; }
 .inner-btn:hover{ color: #fff !important; background-color: #596bf1; }
-.clinic_tour{ color: #ffffff; background: #2f52a0; margin-top: 50px;}
-.clinic_tour img{ width: 350px; height: 350px;}
-.clinic_tour .cl-grid{ padding-bottom: 30px;}
+.clinic_tour{ margin-top: 50px;}
+.clinic_tour img { width: 100%; height: 280px;}
 .consultation,.emrg_icon_text{ display: flex;}
 .consultation-icon,.emrg_icon{ float: left;}
 .consultation-text,.emrg_text{ float: right; padding: 0 20px 20px 20px;}
-.consultation_title .consultation .consultation-text h3{ margin-top: 0px; color: var(--pink);}
+.consultation_title .consultation .consultation-text h3{ margin-top: 0px; }
 .consultation .consultation-icon .fa{ font-size: 30px;}
 .consultation_title .consultation-col{-webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 2rem 2rem; border: 1px solid #2f52a0; border-radius: 25px;}
 .consultation_title .row{ padding: 0 15px}
@@ -276,6 +274,7 @@ div .blog-posts .card{ height: 100%; }
 /*** OurTeam ***/
 .team_intro{ margin: 30px 0; }
 .team_intro_title{ font-size: 42px; padding-bottom: 30px; padding-left: 16px; }
+.team_intro img{width: 100%; height: 680px; }
 .team_box img{ width: 100%; height: 355px; border-radius: 5%; }
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
@@ -313,7 +312,7 @@ div .happy_pat_items .card { height: 100%; }
 .oral_hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .oral_hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
 .oral_hygiene img{ width: 100%; height:auto; }
-.next-appoint h2{ color: #777; }
+.next-appoint h2{ color: #777; text-transform: uppercase; padding-top: 30px; }
 .oral_hygiene, .braces-hygiene{ margin: 80px 0;}
 .oral_hygiene a, .braces-hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .oral_hygiene a:hover, .braces-hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
@@ -342,7 +341,8 @@ div .happy_pat_items .card { height: 100%; }
 .mark_qoute{ padding-top: 50px; padding-bottom: 20px;}
 .when_pit-fiss h2{ padding-bottom: 30px; }
 .how_sealant{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
-.how_sealant hr{ width: 60%; }
+.how_sealant h2{ color: #fff; }
+.how_sealant hr{ width: 60%; color: #241f1f; }
 /*** FluorideVarnish ***/
 .Wfluoride-varnish_title{ padding-top: 70px; }
 .Wfluoride-varnish h2{ padding-bottom: 20px; color: #2f52a0 }

@@ -16,7 +16,7 @@ export default class ChildrenCrown extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>Cap For Children's Teeth</h2>
-                                <p>Your pediatric dentist will walk you through the most suitable crown for your child.</p>
+                                <p>Crowns the best thing ever discovered in pediatric dentistry.</p>
                             </div>
                         </div>
                     </div>

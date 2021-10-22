@@ -25,37 +25,55 @@ export default class YourFirst extends Component {
                 <section className="clinic_tour">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>Have a clinic Tour !</h2>
                                 <h5>We are excited to have you.</h5>   
                             </div>
                             <div className="row">
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Kidsville Castle.png" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Exterior.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Sterilization Room.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Reception.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Consultation area.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
-                                <div className="cl-grid col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                     <img src="/assets/img/Operatory.jpg" alt="" />
+                                    <h3></h3>
+                                    <p></p>
                                 </div>
                             </div>
                         </div>
@@ -64,8 +82,8 @@ export default class YourFirst extends Component {
                 <section className="consultation_title">
                     <div className="container">
                         <div className="row">
-                            <h2>What Do We Assess At The First Consultation?</h2>
-                            <p>We encourage to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
+                            <h2 className="text-center">What Do We Assess At The First Consultation?</h2>
+                            <p className="text-center">We encourage to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
                             <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">

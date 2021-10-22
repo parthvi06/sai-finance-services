@@ -1,9 +1,14 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 
 export default class Braces extends Component {
     render() {
         return (
             <div>
+                <Helmet>
+                    <title>Kidsville | Braces</title>
+                    <meta name="description" content="Braces types for children in best Pediatric dental clinic"/>
+                </Helmet>
                 <div className="box-container">
                     <div className="main-title">
                         <div className="container">
@@ -28,24 +33,38 @@ export default class Braces extends Component {
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
                                     <img src="/assets/img/metal-braces.jpg" alt="" />
-                                    <h3>Traditional Metal Braces</h3>
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                    <h3>Traditional Braces</h3>
+                                    <p>Traditional braces are comprised of brackets that are affixed to teeth and wires that are threaded through slots in the brackets. Some patients may also have metal bands encircling back teeth. Wires are held to brackets by tiny rubber bands called “ligatures” or “o-rings.” Brackets are generally made of stainless steel.  Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
                                 </div>
                             </div> 
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
                                     <img src="/assets/img/Ceramic-Braces.jpg" alt="" />
-                                    <h3>Ceramic Braces</h3>
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                    <h3>Traditional Ceramic Braces</h3>
+                                    <p>Traditional ceramic braces are tooth-colored, making them next-to-invisible. They are affixed to teeth, and wires are threaded through slots in the brackets. Wires are held to brackets by tiny rubber bands called “ligatures” or “o-rings.” Brackets are made of ceramic or porcelain materials. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
                                 </div>
                             </div> 
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
                                     <img src="/assets/img/Lingual.jpg" alt="" />
-                                    <h3>Lingual braces</h3>
-                                    <p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+                                    <h3>Self-Ligating Ceramic Braces</h3>
+                                    <p>Self-ligating ceramic braces are tooth-colored, making them next-to-invisible. They are affixed to teeth, and wires are threaded through slots in the brackets. Built-in clips hold the wires to the brackets.  Brackets are made of ceramic or porcelain materials. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
                                 </div>
-                            </div>    
+                            </div> 
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/metal-braces.jpg" alt="" />
+                                    <h3>Self-Ligating Metal Braces</h3>
+                                    <p>Self-ligating metal braces are comprised of brackets that are affixed to teeth and wires that are threaded through slots in the brackets. Some patients may also have metal bands encircling back teeth. Built-in clips hold the wires to the brackets. Metal brackets are generally made of stainless steel. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>  
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/metal-braces.jpg" alt="" />
+                                    <h3>Clear Aligners</h3>
+                                    <p>Aligners are clear, thin, plastic-like trays that are formed to fit an individual’s teeth. Patients are responsible for putting in and removing their aligners. A series of aligners is created to move teeth. Each aligner is worn for 2-3 weeks, and moves teeth a fraction of a millimeter at a time. Patients must remove aligners for meals and when brushing/flossing. The number of aligners needed to correct misaligned teeth varies based on the individual’s orthodontic problem and its correction.</p>  
+                                </div>
+                            </div>           
                         </div>
                     </div>
                 </section>

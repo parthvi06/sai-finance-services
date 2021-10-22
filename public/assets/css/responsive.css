@@ -21,8 +21,9 @@
     /*** contact ***/
     .main-title { padding: 40px 0; }
     .contact-left p { padding-right: 5px; }
-    .clinic_tour .cl-grid { text-align: center;}
-    .consultation_title .consultation-col{ -webkit-box-flex:  0; -ms-flex:  0 0 33.333333%; flex:  0 0 100%; max-width: 100%; margin: 2% 0; }
+    /*** Your Visit ***/
+    .consultation_title { padding: 25px 0; }
+    .consultation_title .consultation-col{ -webkit-box-flex:  0; -ms-flex:  0 0 33.333333%; flex:  0 0 100%; max-width: 100%; margin: 2% 0; padding: 1rem 1rem; }
     /*** About ***/
     .belief_panel img { height: auto; width: 100%; }
     .belief_panel h2{ padding: 0; }
@@ -63,9 +64,18 @@
     /*** DentalHypomineralization ***/
     .detect_trt_heading{ padding-top: 10px; padding-bottom: 5px;}
     .detect_trt_post{ padding: 20px 0; }
+    /*** Crown ***/
+    .cap_children_teeth p { padding: 0; }
+    .put_cap .col-12 { margin: 10px 0; text-align: center; }
+    .put_cap{margin: 20px 0; }
+    .put_cap h2 { padding-bottom: 10px; }
+    .put_cap .col-lg-6{ border-color: slategray; border-style: solid; border-width: 1px 1px 1px 1px; }
+    .put_cap_tooth{ border: none }
     /*** Dental Sealant ***/
     .fiss_sealant{ margin: 20px 0 0 0!important; }
+    .pit_sealant { padding: 0; }
     .sealant{ padding-bottom: 0; }
+    .P_F_sealants h3{ padding-top: 20px; }
     .P_F_sealants{ margin-top: 10px; }
     .sealant_work{ margin: 20px 0; }
     .sealant_work img{ width: 100%; }
@@ -73,6 +83,13 @@
     .mark_qoute{ padding-top: 15px; padding-bottom: 10px;}
     .when_pit-fiss{ padding: 20px 0; }
     .when_pit-fiss h2{ padding-bottom: 15px; }
+    .next-appoint h2 { font-size: 36px!important; }
+    /*** Root Canal ***/
+    .what_Rcanal { margin: 10px 0; }
+    .what_Rcanal h2{ padding: 0; }
+    .what_Rcanal .col-12{ margin: 10px 0; }
+    .what_Rcanal .col-lg-4{ border-color: slategray; border-style: solid; border-width: 1px 1px 1px 1px; }
+    .need_Rcanal{ border: none; }
     /*** FluorideVarnish ***/
     /*** General Athesthesia ***/
     .general-anthe{ padding-top: 20px; }
@@ -97,6 +114,8 @@
     button:focus { outline: none!important;}
     .before-ortho .card { height: auto;}
     .before-ortho .card img { width: 15%;;height: auto;}
+    /*** contact-us ***/
+    .main-title{ padding: 50px 0; }
     }
     @media (min-width: 992px){
     h2{ font-size: 44px !important; } 
@@ -115,6 +134,7 @@
     .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 400 !important; } 
     /*** Home ***/
     .slide-1, .slide-2, .slide-3{ height: 700px; }  
+    .slide-1 img, .slide-2 img, .slide-3 img { background-position: center center !important; }
     .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
     .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
     .my-2 h2{ font-size: 2.6rem; }
