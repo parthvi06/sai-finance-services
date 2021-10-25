@@ -216,15 +216,16 @@ div .blog-posts .card{ height: 100%; }
 .emrg_text { float: right; padding: 0 20px 40px 20px;}
 .emrg_icon_text .emrg_icon .fa{ font-size: 30px;}
 .emrg-ser{display: flex;}
-.ser-text{ display: flex; align-items: center;}
+.ser-text{ display: flex; align-items: center; }
 .service-sec{ padding-top: 50px; padding-bottom: 30px;}
-.bring_child_title .bring-clid-col { padding-bottom: 20px;}
+.bring_child_title .bring-clid-col { padding-bottom: 20px; }
 .bring_child_title .child-title{ height: 120px;}
-.bring_child_title .child-img img{ width: auto;height: 250px;}
-.emergency-accordion{ background: #2f52a0; padding-bottom: 50px;}
-.emergency-accordion h2{ color: #ffffff;}
-.emergency-accordion .panel{ border: none; border-radius: 0px!important;}
-.emergency-accordion .panel-title{ background-color: #629e55;}
+.bring_child_title .child-img img{ width: auto;height: 250px; }
+.emergency-accordion{ background: #2f52a0; padding-bottom: 50px; }
+.emergency-accordion h2{ color: #ffffff; }
+.emergency-accordion p{ color: white; }
+.emergency-accordion .panel{ border: none; border-radius: 0px!important; }
+.emergency-accordion .panel-title{ background-color: #629e55; }
 .emergency-accordion .panel-default>.panel-heading { color: #ffffff; background-color: #fff; border-color: #e4e5e7; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 .emergency-accordion .panel-default>.panel-heading a { display: block; padding: 15px 30px; color: #ffffff; font-size: 20px; font-weight: 400;}
 .emergency-accordion .panel-default>.panel-heading a:after { content: ""; position: relative; top: 1px; display: block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: bold; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; float: right; transition: transform .25s linear; -webkit-transition: -webkit-transform .25s linear; color: #333;}
@@ -232,10 +233,10 @@ div .blog-posts .card{ height: 100%; }
 .emergency-accordion .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #ffffff;}
 .emergency-accordion .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #ffffff;}
 .emergency-accordion .panel-body::before { display: table; content: " ";}
-.panel-group .panel-heading + .panel-collapse > .panel-body { border-top: 1px solid #ddd; border-top-color: rgb(221, 221, 221);}
-.panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #ddd; background: #fff;}
-.panel-body {padding: 15px;}
-.emergency-contact{ padding: 50px 0;}
+.panel-group .panel-heading + .panel-collapse > .panel-body { border-top: 1px solid #ddd; border-top-color: rgb(221, 221, 221); }
+.panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #ddd; background: #fff; }
+.panel-body {padding: 15px; }
+.emergency-contact{ padding: 50px 0; }
 /*** About ***/
 .about_exper{ margin: 60px 0; }
 .dental_exper img{ width: 100%; height: auto; }
@@ -361,15 +362,16 @@ div .happy_pat_items .card { height: 100%; }
 .pharma_blocks h3 { padding: 20px 0;}
 .pharma_blocks p{ padding-bottom: 30px; }
 /*** FAQ ***/
-.faq h2{ color: #2f52a0;}
-.faq .panel{ border: none; border-radius: 0px!important;}
-.faq .panel-title{ background-color: #629e55;}
-.faq .panel-default>.panel-heading { color: #241f1f; background-color: #2f52a0; border-color: #556a94; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.faq h2{ color: #629e55; }
+.faq .panel{ border: none; border-radius: 0px!important; }
+.faq .panel-title{ background-color: #2f52a0; }
+.faq .panel-default>.panel-heading { color: #241f1f; background-color: #629e55; border-color: #556a94; padding: 0; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 .faq .panel-default>.panel-heading a { display: block; padding: 15px 30px; color: #fff; }
 .faq .panel-default>.panel-heading a:after { content: ""; position: relative; top: 1px; display: block; font-family: 'Glyphicons Halflings'; font-style: normal; font-weight: 400; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; float: right; transition: transform .25s linear; -webkit-transition: -webkit-transform .25s linear; color: #333;}
-.faq .panel-default>.panel-heading a[aria-expanded="true"] { background-color: #759c6c;}
-.faq .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #221e1e;}
-.faq .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #302929;}
+.faq .panel-default>.panel-heading a[aria-expanded="true"] { background-color: #574fd4;}
+.faq .panel-default>.panel-heading a[aria-expanded="true"]:after { content: "\2212"; -webkit-transform: rotate(180deg); transform: rotate(180deg); color: #fff;}
+.faq .panel-default>.panel-heading a[aria-expanded="false"]:after { content: "\002b"; -webkit-transform: rotate(90deg); transform: rotate(90deg); color: #fff;}
+.faq .panel-default > .panel-heading + .panel-collapse > .panel-body { border-top-color: #ddd; background: #629e55; color: #fff; }
 .emergency-contact{ padding: 50px 0;}
 /*** sign-up  ***/
 .join-list {margin: 40px 0; }
@@ -416,7 +418,7 @@ div .happy_pat_items .card { height: 100%; }
 .dealing-icon {padding: 15px 0; }
 .deal-iconfont{ font-size: 28px !important;}
 .dealing_with_prob{ padding: 10px 0; }
-.emergency_services{ margin: 40px 0; background-color: #629e55; padding: 15px 0; color: #fff;}
+.emergency_services{ margin: 40px 0; background-color: #629e55; padding: 15px 0; color: #fff; }
 .tooth_pain{ margin: 10px 0; }
 .tooth_pain p{ padding: 10px 0;}
 .tooth_pain img{ width: 100%; height: 280px; }
@@ -432,7 +434,7 @@ div .braces-consult-TC .card{ height: 100%; }
 .braces-exceptation .bx-title{ padding-bottom: 30px;}
 .braces-exceptation .bx-grid{ padding-bottom: 15px;}
 .orthodontic-consult{ padding-bottom: 40px; }
-.orthodontic-consult { background-color: #2f52a0; color: #fff !important; }
+.orthodontic-consult { background-color: #629e55; color: #fff !important; }
 .orthodontic-consult h2{ color: #fff!important;  }
 /*** Braces ***/
 .braces_types h3 { text-align: center; padding-top: 15px; }
