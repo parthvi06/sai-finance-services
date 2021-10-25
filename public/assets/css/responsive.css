@@ -93,6 +93,11 @@
     /*** FluorideVarnish ***/
     /*** General Athesthesia ***/
     .general-anthe{ padding-top: 20px; }
+    /*** Space Maintainer ***/
+    .space_detail { margin: 10px 0; }
+    /*** Orthodontic Correction ***/
+    .orthodontics-correction img { width: 100%; height: auto; } 
+    .service_item { padding-bottom: 5px; }
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}

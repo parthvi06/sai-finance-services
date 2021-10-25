@@ -57,7 +57,7 @@ export class Footer extends Component {
                             <div className="widget  push-down-30">
                                 <div id="rpwwt-recent-posts-widget-with-thumbnails-2" className="rpwwt-widget">
                                     <h6 className="footer__headings">Latest Blog Posts</h6>
-                                    {blogs.map( (blog, i) => {
+                                    {blogs.map(blog=>(
                                         <div>
                                         <ul>
                                             <li><a href={`/blogs/${blog.id}`}>
@@ -67,7 +67,7 @@ export class Footer extends Component {
                                             </li>
                                          </ul>
                                         </div>
-                                    })}
+                                     ))}
                                 </div>      
                             </div>
                        </div>

@@ -85,95 +85,28 @@ export default class BracesConsult extends Component {
                             </div> 
                     </div>
                 </section>
-                <section className="emergency-accordion">
+                <section className="orthodontic-consult">
                     <div class="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingTop:50,paddingBottom:20}}>
-                                    <h2>Tips for dealing with common dental emergencies</h2>
-                                </div>
+                                <h2>What is the most appropriate time for my child’s orthodontic consultation?</h2>
+                            </div>
                         </div>
-                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingOne">
-                                        <h4 class="panel-title">
-                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                            Knocked-out baby tooth 
-                                        </a>
-                                        </h4>
-                                    </div>
-                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                                <div class="panel-body">
-                                         Don’t attempt to put it back in the socket, as this could risk damaging the permanent tooth underneath. Instead, try and stop the bleeding by applying gentle pressure with gauze or a muslin for around 10 minutes. Give your child paracetamol or ibuprofen for the pain, but never place aspirin or any other painkiller directly on the gums, as this can cause them to burn.
-                                </div>
-                                </div>
-                                </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingTwo">
-                                    <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                         Knocked-out permanent tooth 
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
-                                <div class="panel-body">
-                                        Hold the tooth by the crown, not the root end, and rinse it clean - don’t scrub. Do not remove any attached fragments of tissue. If you can, try and put the tooth back in its place, ensuring it is facing the right way, and bite down on a clean towel to keep the tooth secure. At least 85 percent of teeth that are put back in the tooth socket within five minutes survive, compared to very few teeth that are stored dry and reimplanted after an hour or longer. If you can’t put the tooth back, put it in a cup of milk. If you don’t have milk, salty water is also effective. You’ll be seen as soon as possible by the Happy Kids Dental team.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="headingThree">
-                                    <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                        Chipped or broken baby tooth 
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
-                                <div class="panel-body">
-                                        Take your child to the dentist as soon as possible, where the right course of action can be decided; this could include smoothing the tooth down, rebuilding it with a resin material, or removing it.
-                                </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="heading4">
-                                    <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                                        Chipped or broken permanent tooth 
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                                <div class="panel-body">
-                                        Usually these can be repaired successfully, either through reattaching the broken fragments or using a tooth-coloured resin material. Store any fragments in tap water and visit Happy Kids Dental as soon as possible.                                    </div>
-                                </div>
-                                </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="heading5">
-                                    <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
-                                        Objects caught between teeth 
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                                <div class="panel-body">
-                                        If you can’t remove the object using dental floss, contact Happy Kids Dental immediately. Do not attempt to remove the object with anything sharp, like a pin, as you’ll risk hurting your child’s gums or damaging their tooth enamel.                                    
-                                </div>
-                                </div>
-                            </div>
-                            <div class="panel panel-default">
-                                <div class="panel-heading" role="tab" id="heading6">
-                                    <h4 class="panel-title">
-                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
-                                        Broken braces  
-                                    </a>
-                                    </h4>
-                                </div>
-                                <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
-                                <div class="panel-body">
-                                        If a brace wire has come loose, try using the rubber end of a pencil to push it into a more comfortable position. If this isn’t possible, try covering the wire with dental wax, a small cotton ball or a piece of gauze until you can get to Happy Kids Dental. Never cut the wire, as you could end up swallowing or inhaling it.                                    </div>
-                                </div>
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <p>The best age to receive your first orthodontic consultation is typically around age seven. It’s important for an orthodontist to evaluate all children initially by this age, whether they end up needing treatment or not. <br />This is the time in a child’s life when their adult teeth start to come out to replace the primary (baby) teeth. And, it is around this time when the vast majority of orthodontic issues can be identified.</p>
+                                <p>In addition to an intraoral evaluation of the child’s dentition, the orthodontist can order imaging,including 3D imaging, to see:
+                                    <ul>
+                                        <li>How the upper (maxilla) and lower (mandible) jaws are forming</li>
+                                        <li>If the teeth are erupting in a good position or proper alignment</li>
+                                        <li>If there are any impacted teeth (common with first molars)</li>
+                                        <li>If there is an ectopic canine (usually an upper eye tooth that is growing horizontally in the upper jaw)</li>
+                                    </ul>
+                                </p>
+                                <p>Not every seven-year-old will need early orthodontic treatment. After the evaluation, the orthodontist may tell you that there are no issues to worry about or that there are minor ones that the doctor can monitor. However, it’s always good to get that early look in order to know what the future holds for your child’s orthodontic needs!</p>
+                                <p>The reason age seven is the best age to receive an initial orthodontic evaluation is that it’s the easiest time to identify problems. The teeth are just beginning to erupt, so braces can be utilized, if needed,  to make minor adjustments to guide the teeth into proper alignment.</p>
+                                <p>It’s easier to fix these problems in children than it is in adults because a child’s jawbones are still developing. An adult’s jaw bones are dense, which means it takes longer to realign the teeth and address any jaw issues. The upper palate can only be expanded until about the age of 9, at which point the sutures fuse. It is much more difficult to widen the arch in adult patients.</p>
+                                <p>Achieving proper alignment is easier and less costly if you invest in early orthodontic treatment. Children can take between six months and two years to complete treatment, while adults can take anywhere from 10 months to two years. (Thankfully, with the latest technology, this time frame can be reduced significantly.)</p>
                             </div>
                         </div>
                     </div>

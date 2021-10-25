@@ -114,7 +114,8 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; }
 .team-row { justify-content: center; }
     /*** review ***/
-.review_heading { margin: 40px 0; color: #596bf1; }
+.review_heading { margin: 40px 0; }
+.review_heading h2{ color: #fff; }
 .review{ margin-left: 15px; margin-right: 15px; background: #d8531ec7 }    
 .mark { padding: 12px; background: none !important; color: rgb(37, 37, 33); }
 .parent_reviews .owl-items{ width: 100% !important; }
@@ -430,6 +431,9 @@ div .braces-consult-TC .card{ height: 100%; }
 .braces-exceptation{ padding: 50px 0;}
 .braces-exceptation .bx-title{ padding-bottom: 30px;}
 .braces-exceptation .bx-grid{ padding-bottom: 15px;}
+.orthodontic-consult{ padding-bottom: 40px; }
+.orthodontic-consult { background-color: #2f52a0; color: #fff !important; }
+.orthodontic-consult h2{ color: #fff!important;  }
 /*** Braces ***/
 .braces_types h3 { text-align: center; padding-top: 15px; }
 .braces_types p{ padding: 10px 20px; }
@@ -448,3 +452,5 @@ div .braces_types_block .card { height: 100%; }
 .how_Rcanal a:hover{ color: white !important; background-color: #2f52a0; }
 /*** covid update page ***/
 .covid-content {padding: 50px 0;}
+/*** Orthodontic Correction ***/
+.orthodontics-correction p{padding-top: 20px; } 

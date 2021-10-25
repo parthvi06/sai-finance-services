@@ -35,6 +35,7 @@ import ClearAlignerOrBraces from './pages/ClearAlignerOrBraces';
 import EarlyOrthodontics from './pages/EarlyOrthodontics';
 import OralHabits from './pages/OralHabits';
 import Retainers from './pages/Retainers';
+import OrthodonticCorrections from './pages/OrthodonticCorrections';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 import {Helmet} from "react-helmet";
 
@@ -84,6 +85,7 @@ function App() {
           <Route excat path='/early-orthodontics' component={EarlyOrthodontics}/>
           <Route exact path='/oral-habits' component={OralHabits}/>
           <Route excat path='/retainers' component={Retainers}/>
+          <Route excat path='/orthodontic-corrections' component={OrthodonticCorrections}/>
           <Route component={Page404}/>
         </Switch>
       <Footer/>
