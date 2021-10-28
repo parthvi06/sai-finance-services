@@ -62,7 +62,7 @@ export default class DigitalXray extends Component {
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
                                 <p className="text-center"><strong>Why we need to use dental x rays for children?</strong></p>
                                 <h2 className="text-center">Digital low dose X- rays at kidsville</h2>
-                                <p>We use digital x rays at Kidsville to minimize exposure to radiation and at the same time provide the most accurate image clarity. Precision with safety is our objective.</p>
+                                <p className="text-center">We use digital x rays at Kidsville to minimize exposure to radiation and at the same time provide the most accurate image clarity. Precision with safety is our objective.</p>
                             </div>
                         </div>
                     </div>        

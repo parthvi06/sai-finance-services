@@ -103,7 +103,7 @@ export default class FAQ extends Component {
                                 <div id="collapse6" className="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
                                     <div className="panel-body">
                                     Visiting the dentist early and often is the key to securing a lifetime of good oral health for your family. Get this right, and your kids will develop positive associations with the dentist that will remain with them for life. Get this wrong, and your children could grow up with unhappy memories of the dentist – which, by the time they’re an adult, may lead them to avoid visiting the dentist and, ultimately, to poor oral health.
-                                    <h3>Top Tips for Patients & Carers:</h3>
+                                    <br /><strong>Top Tips for Patients & Carers:</strong>
                                     <ul>
                                         <li>Describe going to the dentist as a highlight in the calendar – yes really! At Kidsville Dental, they will only associate the dentist with fun, excitement and contentment.</li>
                                         <li>Avoid using negative dental words – injection, pull, or needle, for example. At Kidsville Dental, we take great care to use kid-friendly, non-threatening language – so we “tickle their teeth” rather than clean them; and we call cavities by their real name: “sugar bugs”.</li>

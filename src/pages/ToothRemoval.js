@@ -69,19 +69,19 @@ export default class ToothRemoval extends Component {
                         <p className="text-center"><strong>Motivating children and teens towards oral health go a long way in they being cavity-free all through their life. Start young! Establish habits which empower them towards better oral health.</strong></p>
                         <div className="row justify-content-center">
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3 className="srv-title">For pre-teens</h3>
+                                <h3>For pre-teens</h3>
                                 <p className="srv-para">Oral Hygiene for Preteens As children grow older and more of their permanent teeth come in, a rigorous daily dental hygiene routine is crucial to keeping teeth and gums healthy. However, it can be difficult to keep preteens interested in their oral care. As preteens become more conscious of their appearance, it can be helpful to remind them that good oral care can help them look and feel better. ·        </p>    
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3 className="srv-title">Brush and powerbrush</h3>
+                                <h3>Brush and powerbrush</h3>
                                 <p className="srv-para">Remind your child to brush twice a day with a fluoride toothpaste for a full two minutes which not only fights cavities and strengthens teeth, but also gives older kids the confidence of having fresh breath. A power toothbrush might make brushing more fun for preteens.</p>    
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3 className="srv-title">Floss</h3>
+                                <h3>Floss</h3>
                                 <p className="srv-para">Flossing is extremely important at this point as most permanent teeth have erupted and cleaning between them will help prevent cavities and keep their mouth fresh.</p>    
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3 className="srv-title">Mouth Guard</h3>
+                                <h3>Mouth Guard</h3>
                                 <p className="srv-para">Encourage children who play sports to wear a mouth guard to protect their teeth from injuries.</p>    
                             </div>
                         </div>

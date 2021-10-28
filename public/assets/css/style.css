@@ -26,7 +26,6 @@ a { text-decoration: none !important; }
 .container-fluid{  padding-left: 0rem; padding-right: 0rem; overflow: hidden; } 
 h2{ color: #596bf1; } 
 /*** header ***/
-
 .header{ background-color: #ffffff; }
 .container:before, .container:after { content: " "; display: table; }
 .kidsville-logo{ padding-left: 30px; }
@@ -168,6 +167,8 @@ input[type=submit]:hover { background-color: #458ea0; }
 .blogs_col{ margin: 40px auto 80px auto; }
 .blogs{ text-align: center; }
 .blog-posts { margin: 30px 0; }
+.blog-posts img{ width: 100%; }
+.blog-posts p{padding: 0 20px; }
 .blog-column h3{ margin-top: 0; padding: 20px 0; }
 .blog-column{ padding-bottom: 40px; }
 div .blog-posts .card{ height: 100%; }
@@ -198,10 +199,10 @@ div .blog-posts .card{ height: 100%; }
 .clinic_tour img { width: 100%; height: 280px;}
 .consultation,.emrg_icon_text{ display: flex;}
 .consultation-icon,.emrg_icon{ float: left;}
-.consultation-text,.emrg_text{ float: right; padding: 0 20px 20px 20px;}
+.consultation-text,.emrg_text{ float: right; padding: 5px 15px 0 20px;}
 .consultation_title .consultation .consultation-text h3{ margin-top: 0px; }
 .consultation .consultation-icon .fa{ font-size: 30px;}
-.consultation_title .consultation-col{-webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 2rem 2rem; border: 1px solid #2f52a0; border-radius: 25px;}
+.consultation_title .consultation-col{-webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 1rem 1rem; border: 1px solid #2f52a0; border-radius: 25px;}
 .consultation_title .row{ padding: 0 15px}
 .consultation_title{ padding: 50px 0;}
 .bring_child_title{ padding-bottom: 50px;}
@@ -250,7 +251,7 @@ div .blog-posts .card{ height: 100%; }
 .about_motto{ margin: 60px 0; }
 .about_motto img{ width: 100%; height: auto; padding-top: 60px; }
 .about_motto p { font-size: 16px; padding-top: 30px; }
-.sep_line{ color: #151616; margin: 50px 0; border-style: groove; }
+.sep_line{ color: #151616; margin: 20px 0; border-style: groove; }
 .Cbetter-contact{ background: #f8611a; padding: 2em; border-radius: 5px; margin: 2em 0; }
 .Cbetter-contact a:hover{ color: #f8611a; background: #fff; }
 .Cbetter-txt{ color: white; font-size: 32px; }
@@ -264,8 +265,10 @@ div .blog-posts .card{ height: 100%; }
 .kdifferent_title{ text-align: center; }
 .kdifferent_title h2{ text-align:initial; }
 .kdifferent img{ width: 90%; height: auto; }
-.kdiff_det{ padding-top: 100px; }
-.kdiff_det h3{ color: #2a7db8; padding-top: 30px;}
+.kdifferent a.more{ border: 1px solid #fff; color: #fff; background-color: #2f52a0; }
+.kdifferent a:hover{ color: #2f52a0 !important; background-color: #fff; border: 1px solid #2f52a0;}
+.kdiff_det{ padding-top: 60px; }
+.kdiff_det h3{ padding-top: 30px;}
 .kdiff_2{ margin: 60px 0; }
 .kdiff_det .sep_line{ width: 50%; text-align: center; }
 .treatment{ background-color: #2f52a0; color: #fff; }
@@ -319,6 +322,7 @@ div .happy_pat_items .card { height: 100%; }
 .oral_hygiene a, .braces-hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .oral_hygiene a:hover, .braces-hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
 .oral_hygiene img, .braces-hygiene img{ width: 100%; height:auto; }
+.hygiene_service .srv-iconfont{ color: #151616;}
 .next-appoint .book_app{ border: 1px solid white; color: white !important; background-color: #2f52a0; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
@@ -328,26 +332,28 @@ div .happy_pat_items .card { height: 100%; }
 .detect_trt_post{ padding-top: 30px; } 
 .detect_trt_post img{ height: 300px; }
 .remember{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
-.remember h2{padding-bottom: 30px; font-size: 44px; }
+.remember h2{padding-bottom: 30px; font-size: 44px; color: #fff; }
 /*** Dental Sealant ***/
 .fiss_sealant{ margin: 40px 0; }
 .fiss_sealant img{ width: 100%; }
 .sealant{ padding-bottom: 40px; }
 .P_F_sealants {margin-top:30; }
 .pit_sealant{ padding: 50px 0;}
-.pit_sealant h2 { color: #2f52a0; text-align: center; }
-.fiss_sealant a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
+.pit_sealant h2 { color: #596bf1; text-align: center; }
+.fiss_sealant a{ border: 1px solid #596bf1; color: #2f52a0 !important; }
 .fiss_sealant a:hover{ color: white !important; background-color: #2f52a0 ; }
 .sealant_work{ margin: 40px 0; }
 .sealant_work h2{ padding-bottom: 30px; }
+.when_sealant .anu_qoute { padding: 10px 0; }
 .mark_qoute{ padding-top: 50px; padding-bottom: 20px;}
+.mark_fosters { padding-bottom: 70px;}
 .when_pit-fiss h2{ padding-bottom: 30px; }
 .how_sealant{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
 .how_sealant h2{ color: #fff; }
 .how_sealant hr{ width: 60%; color: #241f1f; }
 /*** FluorideVarnish ***/
 .Wfluoride-varnish_title{ padding-top: 70px; }
-.Wfluoride-varnish h2{ padding-bottom: 20px; color: #2f52a0 }
+.Wfluoride-varnish h2{ padding-bottom: 20px; color: #2f52a0; }
 .Wfluoride-varnish p{ padding-bottom: 15px; }
 .Wfluoride-varnish a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .Wfluoride-varnish a:hover{ color: white !important; background-color: #2f52a0; }
@@ -419,6 +425,8 @@ div .happy_pat_items .card { height: 100%; }
 .deal-iconfont{ font-size: 28px !important;}
 .dealing_with_prob{ padding: 10px 0; }
 .emergency_services{ margin: 40px 0; background-color: #629e55; padding: 15px 0; color: #fff; }
+.emergency_services h2{ color: #fff;}
+.emergency-accordion h5{ color: #fff; }
 .tooth_pain{ margin: 10px 0; }
 .tooth_pain p{ padding: 10px 0;}
 .tooth_pain img{ width: 100%; height: 280px; }
@@ -456,3 +464,14 @@ div .braces_types_block .card { height: 100%; }
 .covid-content {padding: 50px 0;}
 /*** Orthodontic Correction ***/
 .orthodontics-correction p{padding-top: 20px; } 
+/*** MyoFunctional Treatment ***/
+.MyoFunctional { margin: 40px 0; color: #fff; background: #2f52a0; padding: 30px 0; }
+.MyoFunctional h2{ color: #fff; }
+.myofunctional_appliances{ margin: 40px 0;}
+.myofunctional_appliances h2{ padding-bottom: 30px;}
+.common_myofunctional{ margin: 40px 0; }
+.common_myofunctional h2{ padding-bottom: 40px;}
+/*** Orthodontics for Teen ***/
+.clear_aligners{ padding-bottom: 40px;}
+.Brush_floss{ margin: 40px 0;}
+.Brush_floss h2{ padding-bottom: 40px; }

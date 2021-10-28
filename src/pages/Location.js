@@ -100,28 +100,32 @@ export default class Location extends Component {
                         <div className="row kdiff_det"> 
                             <div className="col-12 col-lg-12 col-md-6 col-sm-12">
                                 <div className="kdiff_1">
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                        <img src="/assets/img/Dental-Sealant.jpg" alt="" />
-                                    </div>
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                        <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
-                                        <hr className="sep_line" />
-                                        <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
-                                        <a className="book_now">Book Now</a>
-                                    </div>
+                                    <div className="row">
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <img src="/assets/img/Dental-Sealant.jpg" alt="" />
+                                        </div>
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
+                                            <hr className="sep_line" />
+                                            <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
+                                            <a className="more">Book Now</a>
+                                        </div>
+                                    </div>    
                                 </div>
                             </div>    
                             <div className="col-12 col-lg-12 col-md-6 col-sm-12">    
-                                <div className="kdiff_2">    
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                        <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
-                                        <hr className="sep_line" />
-                                        <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
-                                        <a className="book_now">Book Now</a>
-                                    </div>
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                        <img src="/assets/img/visit_fun.jpg" alt="" />
-                                    </div>
+                                <div className="kdiff_2">
+                                    <div className="row">    
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
+                                            <hr className="sep_line" />
+                                            <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
+                                            <a className="more">Book Now</a>
+                                        </div>
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12 .reverse_col">
+                                            <img src="/assets/img/visit_fun.jpg" alt="" />
+                                        </div>
+                                    </div>    
                                 </div>
                             </div>        
                         </div>

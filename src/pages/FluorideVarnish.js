@@ -132,6 +132,18 @@ export default class FluorideVarnish extends Component {
                         </div>
                     </div>        
                 </section>
+                <section className="next-appoint">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:20}}>
+                                <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
+                                <a className="book_app more inner-btn">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
             </div>
         )
     }

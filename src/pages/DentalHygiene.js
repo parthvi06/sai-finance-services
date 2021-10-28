@@ -25,29 +25,29 @@ export default class DentalHygiene extends Component {
                             </div>
                         </div>
                     </section>
-                    <section className="Hservice" id={4}>
+                    <section className="Hservice hygiene_service" id={4}>
                      <div className="container">
                         <h2 className="service_heading">Try these tips to keep your Teen on track:</h2>
                         <p>Motivating children and teens towards oral health go a long way in they being cavity-free all through their life. Start young! Establish habits which empower them towards better oral health.</p>
                             <div className="row justify-content-center">
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
                                    <span className="srv-iconfont fa fa-cogs"></span>
-                                    <h3 className="srv-title">For pre-teens</h3>
+                                    <h3>For pre-teens</h3>
                                     <p className="srv-para">Oral Hygiene for Preteens As children grow older and more of their permanent teeth come in, a rigorous daily dental hygiene routine is crucial to keeping teeth and gums healthy. However, it can be difficult to keep preteens interested in their oral care. As preteens become more conscious of their appearance, it can be helpful to remind them that good oral care can help them look and feel better. ·        </p>    
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
                                    <span className="srv-iconfont fa fa-cogs"></span>
-                                    <h3 className="srv-title">Brush and powerbrush</h3>
+                                    <h3>Brush and powerbrush</h3>
                                     <p className="srv-para">Remind your child to brush twice a day with a fluoride toothpaste for a full two minutes which not only fights cavities and strengthens teeth, but also gives older kids the confidence of having fresh breath. A power toothbrush might make brushing more fun for preteens.</p>    
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
                                    <span className="srv-iconfont fa fa-cogs"></span>
-                                    <h3 className="srv-title">Floss</h3>
+                                    <h3>Floss</h3>
                                     <p className="srv-para">Flossing is extremely important at this point as most permanent teeth have erupted and cleaning between them will help prevent cavities and keep their mouth fresh.</p>    
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
                                    <span className="srv-iconfont fa fa-cogs"></span>
-                                    <h3 className="srv-title">Mouth Guard</h3>
+                                    <h3>Mouth Guard</h3>
                                     <p className="srv-para">Encourage children who play sports to wear a mouth guard to protect their teeth from injuries.</p>    
                                 </div>
                             </div>
@@ -57,9 +57,9 @@ export default class DentalHygiene extends Component {
                         <div class="container">
                             <div className="row">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingTop:50,paddingBottom:20}}>
-                                    <h4>#cavityfree #zerocavity</h4>
+                                    <h5>#cavityfree #zerocavity<br /><br /></h5>
                                     <h2>Here are some tips to help keep your child’s teeth healthy and strong starting at age 3:</h2>
-                                    <p>We want oral care to become your child’s lifestyle. We want them to carry these habits right up to adulthood.</p>
+                                    <p><strong>We want oral care to become your child’s lifestyle. We want them to carry these habits right up to adulthood.</strong></p>
                                 </div>
                             </div>
                             <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
@@ -126,7 +126,7 @@ export default class DentalHygiene extends Component {
                         <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
-                                    <p>At Happy Kidsville Dental we are advocates for preventative dental care. We ensure that our patients receive professional oral hygiene appointments, at least twice a year as part of their regular dental routine. This allows us to review our patients’ brushing techniques, protect our patient’s teeth and further motivate our patients to maintain better oral and systemic health.</p>
+                                    <p><br /><br /><strong>At Happy Kidsville Dental we are advocates for preventative dental care. We ensure that our patients receive professional oral hygiene appointments, at least twice a year as part of their regular dental routine. This allows us to review our patients’ brushing techniques, protect our patient’s teeth and further motivate our patients to maintain better oral and systemic health.</strong></p>
                                 </div>
                             </div>
                         </div>   

@@ -73,7 +73,7 @@ export default class SpaceMaintainer extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
                                 <h2 className="text-center">Who Needs A Space Maintainer?</h2>
-                                <p>Children who have lost their teeth before its chronological age and there is yet time for the permanent succeeding tooth to erupt, then the child needs a space maintainer to avoid crocked teeth.</p>
+                                <p className="text-center">Children who have lost their teeth before its chronological age and there is yet time for the permanent succeeding tooth to erupt, then the child needs a space maintainer to avoid crocked teeth.</p>
                             </div>
                         </div>
                     </div>        

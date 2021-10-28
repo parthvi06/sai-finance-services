@@ -468,7 +468,7 @@ export default class BracesConsult extends Component {
                                 <div className="panel-heading" role="tab" id="heading22">
                                     <h4 className="panel-title">
                                         <a className="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
-                                        22How do I care for my brace and teeth?
+                                        How do I care for my brace and teeth?
                                         </a>
                                     </h4>
                                 </div>

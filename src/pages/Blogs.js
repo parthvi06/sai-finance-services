@@ -28,8 +28,8 @@ export class Blogs extends Component {
                                 {blogs.map( (blog ,i) => {
                                     return <div className="col-12 col-lg-6 col-md-6 col-sm-12 blog-posts" key={i}>
                                         <div className="card">
-                                            <div className="col-lg-12 col-md-12 col-xs-12">
-                                                <img src={ blog._embedded['wp:featuredmedia']['0'].source_url } alt="blog featuredmedia" width="100%" />
+                                            <div className="col-lg-12 col-md-12 col-xs-12 px-0">
+                                                <img src={ blog._embedded['wp:featuredmedia']['0'].source_url } alt="blog featuredmedia" />
                                                 <div className="blog-column">
                                                     <h3>{blog.title.rendered}</h3>
                                                     <div dangerouslySetInnerHTML={{ __html: blog.excerpt.rendered }}></div>

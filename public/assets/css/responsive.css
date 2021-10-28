@@ -37,6 +37,8 @@
     .Cbetter-contact { padding: 1em 0; }
     /*** Our Team ***/
     .team_box .card{ margin-bottom: 25px; }
+    /*** blog ***/
+    .blog-posts p{padding: 0 8px; }
     /*** Location ***/
     .loc_gallery img{ width: 100%; height: auto; }
     .loc_doc img { height: 240px; }
@@ -80,8 +82,9 @@
     .sealant_work{ margin: 20px 0; }
     .sealant_work img{ width: 100%; }
     .reverse_col{ flex-direction: column-reverse; }
+    .mark_fosters { padding-bottom: 30px;}
     .mark_qoute{ padding-top: 15px; padding-bottom: 10px;}
-    .when_pit-fiss{ padding: 20px 0; }
+    .when_pit-fiss{ padding-top: 20px; padding-bottom: 20px;}
     .when_pit-fiss h2{ padding-bottom: 15px; }
     .next-appoint h2 { font-size: 36px!important; }
     /*** Root Canal ***/
@@ -90,14 +93,34 @@
     .what_Rcanal .col-12{ margin: 10px 0; }
     .what_Rcanal .col-lg-4{ border-color: slategray; border-style: solid; border-width: 1px 1px 1px 1px; }
     .need_Rcanal{ border: none; }
+    /*** Invisalign ***/
+    .invisalign_treatment{ margin: 20px 0; }
+    .invisalign_img{ padding-top: 20px; }
+    .invisalign_treatment h2{ padding: 8px 0; }
+    .invisalign_tooth_remove { margin: 10px 0; }
     /*** FluorideVarnish ***/
+    /*** IV Sedation ***/
+    .Wfluoride-varnish{ margin: 10px 0;}
+    .pharma_blocks{ margin: 10px 0;}
+    .pharma_blocks h3 { padding: 8px 0;}
+    .pharma_blocks p{ padding-bottom: 5px; }
     /*** General Athesthesia ***/
     .general-anthe{ padding-top: 20px; }
     /*** Space Maintainer ***/
-    .space_detail { margin: 10px 0; }
+    .space_detail { margin: 25px 0; }
     /*** Orthodontic Correction ***/
     .orthodontics-correction img { width: 100%; height: auto; } 
     .service_item { padding-bottom: 5px; }
+    /*** MyoFunctional Treatment ***/
+    .MyoFunctional { margin: 20px 0;}
+    .myofunctional_appliances{ margin: 20px 0;}
+    .myofunctional_appliances h2{ padding-bottom: 10px;}
+    .common_myofunctional{ margin: 20px 0; }
+    .common_myofunctional h2{ padding-bottom: 10px;}
+    /*** Orthodontics for Teen ***/
+    .clear_aligners{ padding-bottom: 10px;}
+    .Brush_floss{ margin: 20px 0;}
+    .Brush_floss h2{ padding-bottom: 10px; }
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}

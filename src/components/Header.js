@@ -1,4 +1,5 @@
 import React from 'react';
+
 function Header() {
     return (
             <header className="header navbar-light" role="banner">
@@ -16,7 +17,6 @@ function Header() {
                         </div>        
                     </div>
                 </div>
-            
                 <div className="container-fuild">  
                     <div className="navbar navbar-expand-lg">
                         <div className="kidsville-logo">
@@ -60,6 +60,7 @@ function Header() {
                                             <a href="/dental-hypomineralization">Dental Hypomineralization</a>
                                             <a href="/dental-sealant">Dental Sealants</a>
                                             <a href="/fluoride-varnish">Fluoride Varnish</a>
+                                            <a href="/sports-dentistry">Sports Dentistry</a>
                                         </div>
                                     </button>
                                 </div>    
@@ -72,35 +73,34 @@ function Header() {
                                     </button>
                                 </div>    
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
-                                        <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/braces-consult">Braces Consult</a>
-                                            <a href="/orthodontic_corrections">Orthodontic Corrections</a>
-                                            <a href="/braces">Braces</a>
-                                            <a href="/invisalign">Invisalign</a>
-                                            <a href="/clear-aligner-braces">Clear Aligners or Braces?</a>
-                                            <a href="/early-orthodontics">Early Orthodontics</a>
-                                            <a href="oral-habits">Management of Oral Habits</a>
-                                            <a href="orthodontics-teen">Orthodontics for Teens</a>
-                                            <a href="myfunctional-treatment">Myfunctional Treatment</a>
-                                            <a href="/retainers">Retainers</a>
-                                        </div>
-                                    </button>
-                                </div>
-                                <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact</a>
-                                        <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/contact-us">Contact Us</a>
-                                            <a href="/covid-update">Covid 19 Updates</a>
-                                            <a href="/sign-up">Newsletter Sign-Up</a>
-                                            <a href='/faq'>FAQs</a>
-                                        </div>
-                                    </button>
-                                </div>
+                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
+                                    <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="/braces-consult">Braces Consult</a>
+                                        <a href="/orthodontics-corrections">Orthodontics Corrections</a>
+                                        <a href="/braces">Braces</a>
+                                        <a href="/invisalign">Invisalign</a>
+                                        <a href="/clear-aligner-braces">Clear Aligners or Braces?</a>
+                                        <a href="/early-orthodontics">Early Orthodontics</a>
+                                        <a href="oral-habits">Management of Oral Habits</a>
+                                        <a href="orthodontics-teen">Orthodontics for Teens</a>
+                                        <a href="myofunctional-treatment">MyoFunctional Treatment</a>
+                                        <a href="/retainers">Retainers</a>
+                                    </div>
+                                </button>
+                            </div>
+                            <div className="dropdown navbar-nav end">
+                                <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact</a>
+                                    <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="/contact-us">Contact Us</a>
+                                        <a href="/covid-update">Covid 19 Updates</a>
+                                        <a href="/sign-up">Newsletter Sign-Up</a>
+                                        <a href='/faq'>FAQs</a>
+                                    </div>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
-                
             </header>
     )
 }

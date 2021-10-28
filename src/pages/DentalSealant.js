@@ -78,7 +78,7 @@ export default class DentalSealant extends Component {
                             </div>   
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h3 className="anu_qoute">Pit and fissure sealants reduce the chance of dental decay by 80%</h3>
-                                <div  className="mark _fosters"><span>Mark Fosters</span>
+                                <div  className="mark_fosters"><span>Mark Fosters</span>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 when_pit-fiss">

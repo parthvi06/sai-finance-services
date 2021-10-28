@@ -79,7 +79,7 @@ export default class WhyUs extends Component {
                                 <div className="reas_card">
                                     <img src="/assets/img/Sterilization Room.jpg" alt="rea_5" />
                                     <h3>Meticulous sterilization and disinfection protocols</h3>
-                                    <p>...</p>
+                                    <p>Our disinfecting facilities are hospital grade, we follow 7 step protocol to ensure every instrument is sterilized and perform regular quality control checks. Equipment,</p>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12 reas_item">
