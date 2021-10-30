@@ -17,7 +17,7 @@
     .img-hover-zoom--colorize img { height: auto; width: 85%; } 
     .srv-iconfont {font-size: 1.5rem !important; }
     /*** 404 ***/
-    .para-404 img {  width: inherit; }
+    .para-404 img {  width: 100%; }
     /*** contact ***/
     .main-title { padding: 40px 0; }
     .contact-left p { padding-right: 5px; }
@@ -46,9 +46,9 @@
     .kdifferent { margin: 20px 0; }
     .kdiff_det { padding-top: 30px; }
     .kdiff_2{ margin: 20px 0; }
-    .trt_txt_2{ padding-left: 0; }
     .trt_txt p::before{ margin: 0 !important; }
     .loc_time, .loc_addrs{ padding-top: 10px; }
+    .trt_txt_2{padding-left: 15px;}
     /*** Why Us ***/
     .motto{ margin: 25px; }
     .motto h2 { font-size: 34px; }
@@ -169,6 +169,8 @@
     .srv-iconfont {font-size: 3.5rem !important; }
     /*** Contact page ***/
     .main-title { padding: 70px 0 100px; }
+    /*** Location ***/
+    .loc_map{ width: 100%; height: 450px; padding-top: 15px;}
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

@@ -18,7 +18,7 @@ function Header() {
                     </div>
                 </div>
                 <div className="container-fuild">  
-                    <div className="navbar navbar-expand-lg">
+                    <div className="navbar navbar-expand-lg" id="header">
                         <div className="kidsville-logo">
                             <a href="/">
                                 <img src="/assets/img/kidsville logo-2.png" alt="kidsville Dental" className="img-responsive" width="180" height="100" />
@@ -102,6 +102,16 @@ function Header() {
                     </div>
                 </div>
             </header>
+
+
+
+
+
+
+            
+
+
+
     )
 }
         

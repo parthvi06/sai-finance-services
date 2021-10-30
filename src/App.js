@@ -2,7 +2,6 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './pages/Home';
 import ContactUs from './pages/ContactUs';
-import KidsvilleMax from './pages/KidsvilleMax';
 import Page404 from './pages/404';
 import Blogs from './pages/Blogs';
 import BlogPage from './pages/BlogPage';
@@ -56,7 +55,6 @@ function App() {
           <Switch>
             <Route exact path='/' component={Home}/>
             <Route exact path='/contact-us' component={ContactUs}/>
-            <Route exact path='/kidsville-max' component={KidsvilleMax}/>
             <Route exact path='/blogs' component={Blogs}/>
             <Route exact path='/blogs/:id' component={BlogPage} />
             <Route exact path='/about' component={About}/>
