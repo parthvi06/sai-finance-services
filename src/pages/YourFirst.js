@@ -26,54 +26,69 @@ export default class YourFirst extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
-                                <h2>Have a clinic Tour !</h2>
+                                <h2>Have a clinic Tour!</h2>
                                 <h5>We are excited to have you.</h5>   
                             </div>
                             <div className="row">
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Kidsville Castle.png" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Kidsville Castle.png" alt="clinic_tour" />
+                                        <h4>Sanitizing your hands</h4>
+                                    </div>    
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Kidsville Operatory.jpg" alt="clinic_tour" />
+                                        <h4>Filling out history form</h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Exterior.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Exterior.jpg" alt="clinic_tour" />
+                                        <h4>Playing in the waiting Room</h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="clinic_tour" />
+                                        <h4>Walking into the operatory</h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Post Operative Area (image 2).png" alt="clinic_tour" />
+                                        <h4>Familiarizing your child to the new place </h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Sterilization Room.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Sterilization Room.jpg" alt="clinic_tour" />
+                                        <h4>Talking to you child about teeth health and learning to brush teeth </h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Reception.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Reception.jpg" alt="clinic_tour" />
+                                        <h4>Comprehensive oral assessment</h4>
+                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Consultation area.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Consultation area.jpg" alt="clinic_tour" />
+                                        <h4>Clicking digital low dose X ray images</h4>
+                                    </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                    <img src="/assets/img/Operatory.jpg" alt="" />
-                                    <h3></h3>
-                                    <p></p>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Operatory.jpg" alt="clinic_tour" />
+                                        <h4>Formulating treatment and preventive plan customized for your child</h4>
+                                    </div>
+                                </div>
+                                <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
+                                    <div className="card">
+                                        <img src="/assets/img/Exterior.jpg" alt="clinic_tour" />
+                                        <h4>Reward for best behavior</h4>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -84,10 +99,10 @@ export default class YourFirst extends Component {
                         <div className="row">
                             <h2 className="text-center">What Do We Assess At The First Consultation?</h2>
                             <p className="text-center">We encourage to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Tooth decay</h3>
@@ -95,10 +110,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Eruption Pattern</h3>
@@ -106,10 +121,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Oral Hygiene</h3>
@@ -117,10 +132,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Brief Orthodontics Assessment</h3>
@@ -128,10 +143,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Caries Risk Assessment</h3>
@@ -139,10 +154,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Child Management Techniques</h3>
@@ -150,10 +165,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Snacking Habits</h3>
@@ -161,10 +176,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Radiographic assessment</h3>
@@ -172,10 +187,10 @@ export default class YourFirst extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="consultation-col col-lg-4 col-md-10 col-sm-12">
+                            <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
-                                        <span className="con-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="consultation"/>
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Prevention Plans</h3>

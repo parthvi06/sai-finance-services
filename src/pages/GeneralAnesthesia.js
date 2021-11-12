@@ -18,19 +18,54 @@ export default class GeneralAnesthesia extends Component {
                                 <img src="/assets/img/general.jpg" alt=""/>
                             </div>
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
-                                <h2 className="Wfluoride-varnish_title">WHAT IS GENERAL ANAESTHESIA?</h2>
-                                <p>GA is a controlled state of unconsciousness, which ensures that your child is fully asleep and free from any sensation during their procedure. GAs are only given by anesthetists and are performed in a hospital setting. Anesthetists are specialist doctors who look after children before, during, and after a test or operation and it is their role to ensure children are ‘asleep’ and safe throughout the test or operation and wake up comfortably at the end.</p>
-                                <h3>Why is my child recommended to have treatment under GA?</h3>
-                                <ol>
-                                    <li>One of the reasons that your child was recommended GA is because it allows the dentist to carry out lengthy and complex treatments such as teeth requiring surgical removal or exposure.</li>
-                                    <li>There could be a number of procedures that need to be performed in a single session and your child’s age or medical status may not allow this to be carried out under other sedation methods.</li>
-                                    <li>It might also be advised due to the co-operative ability of your child, the degree of surgical trauma anticipated, the complexity of the operative procedure, or their special-needs status.</li>
-                                </ol>
-                                <p>No matter the reason – we are here to help.</p>
+                                <h2>WHAT IS GENERAL ANAESTHESIA?</h2>
+                                <p>Your pediatric dentist who carried out the initial assessment of your child will be carrying out all treatment under general anesthesia in the hospital. All children having surgery with us will be cared for by a specialist pediatric anesthetist who is specially trained to give general anesthetic to children. All our anesthetists have a minimum of 12 years’ experience and perform these procedures on a regular basis.</p>
                                 <a className="more" href="">Have questions? Feel free to contact us</a>
                             </div>    
                         </div>
                     </div>
+                </section>
+                <section className="hypomineralise">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
+                                <h2 className="text-center">What is involved in the process</h2>
+                                <p>If your child is recommended to have dental treatment under GA, the first step is t book an initial consultation with our pediatric dentist at Kidsville Dental.<br/>During this comprehensive examination, which takes around an hour, a treatment plan will be formulated and all of your questions about your child’s dental health will be answered.</p>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+                <section className="hypomineralise">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
+                                <h3>Where Does the treatment take place?</h3>
+                                <p>In order to carry out GA safely and effectively, we have partnered with pediatric Hospital where the procedure will take place. Conducting the procedure at the hospital provides us with world class medical care and surgery where clicnical specilists have access to the most highly advanced medical technology. They share similar ethos as Kidsville dental and deliver state- of art facility by leading consultants and specialists and supported by an expert team of healthcare professionals.</p>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+                <section className="remember">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
+                                <p>Order to carry out GA safely and effectively, we have partnered with a Harley Street Clinic where the procedure will take place.</p>
+                                <p>The Harley Street Clinic is known as one of the best private hospitals in Europe. Here, world-class complex medical care and surgery is supported by our paediatric intensive care unit, where clinical specialists have access to the most highly advanced medical technology. They share Happy Kids Dental’s holistic ethos for family-centred care, delivered in a state-of- the-art facility by leading consultants and specialists and supported by an expert team of healthcare professionals.</p>
+                            </div>
+                        </div>
+                    </div>        
+                </section>
+                <section className="next-appoint">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:20}}>
+                                <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
+                                <a className="book_app more inner-btn">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                            </div>
+                        </div>
+                    </div>   
                 </section>
             </div>
         )

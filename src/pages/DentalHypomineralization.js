@@ -11,16 +11,19 @@ export default class DentalHypomineralization extends Component {
                         </div>
                     </div>
                 </div>
-                <section className="hypomineralise">
+                <section className="oral_hygiene">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
-                                <h2>HYPOMINERALIZATION OF TOOTH</h2>
+                            <div className="col-12 col-lg-4 col-md-12 col-sm-12">
+                                <img src="/assets/img/hypomineralization of teeth.jpeg" alt="hypomineralization of teeth"/>
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-12 col-sm-12">
+                                <h2 className="hygiene_title">HYPOMINERALIZATION OF TOOTH</h2>
                                 <p>Hypomineralisation is a condition that affects the outer layer (enamel) of your child’s teeth. It occurs due to a disturbance during tooth development, either during pregnancy or in the first two years of life. Disturbances can occur as a result of coughs, colds, or antibiotics during pregnancy, severe illness during the first two years of life, dioxins in breastmilk or for no known reason. It has been suggested that there may also be a small genetic element.</p>
                                 <p>Hypomineralisation causes the tooth enamel to be softer and therefore more prone to breakdown and decay. Because of the nature of these teeth, they are sometimes harder to numb up for treatment and fillings are not as durable as they are in healthy teeth. Hypomineralised teeth have chalky white or yellow patches and increased sensitivity. Although primary and permanent can be affected by hypominerazation, the most common teeth are molar-incisors.</p>
-                            </div>
+                            </div>    
                         </div>
-                    </div>   
+                    </div>
                 </section>
                 <section>
                     <div className="detect_trt">
@@ -31,23 +34,23 @@ export default class DentalHypomineralization extends Component {
                                 </div> 
                             </div>  
                             <div className="row">
-                                <div className="col-lg-6 col-md-6 col-sm-12 detect_trt_post" >
-                                    <img src="/assets/img/Toothpaste.jpg" alt="detect_trt_post" width="100%" />
+                                <div className="col-lg-3 col-md-6 col-sm-12 detect_trt_post text-center" >
+                                    <img src="/assets/img/Toothpaste.jpg" alt="detect_trt_post"/>
                                     <h3>Toothpaste with higher fluoride concentration</h3>
                                     <p>If your child has very sensitive teeth, your dentist may recommend a toothpaste with a higher fluoride concentration, regular fluoride varnish application, or a tooth mousse to help with the sensitivity.</p>
                                 </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 detect_trt_post">
-                                    <img src="/assets/img/metalcr.jpg" alt="detect_trt_post" width="100%" />
+                                <div className="col-lg-3 col-md-6 col-sm-12 detect_trt_post text-center">
+                                    <img src="/assets/img/metalcr.jpg" alt="detect_trt_post"/>
                                     <h3>Preformed metal crowns</h3>
                                     <p>For primary teeth, your dentist may recommend preformed metal crowns to seal the healthy tooth structure and keep the teeth in the mouth until their natural exfoliation.</p>
                                 </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 detect_trt_post">
-                                    <img src="/assets/img/Dental-Sealant.jpg" alt="detect_trt_post" width="100%" />
+                                <div className="col-lg-3 col-md-6 col-sm-12 detect_trt_post text-center">
+                                    <img src="/assets/img/Dental-Sealant.jpg" alt="detect_trt_post"/>
                                     <h3>Sealants or tooth coloured fillings</h3>
                                     <p> For adult molars, treatment depends on severity and can range from fissure sealants and regular fluoride application to white fillings or interceptive extraction of the affected teeth.</p>
                                 </div>
-                                <div className="col-lg-6 col-md-6 col-sm-12 detect_trt_post">
-                                    <img src="/assets/img/oral-bug.jpg" alt="detect_trt_post" width="100%" />
+                                <div className="col-lg-3 col-md-6 col-sm-12 detect_trt_post text-center">
+                                    <img src="/assets/img/oral-bug.jpg" alt="detect_trt_post"/>
                                     <h3>Microabrasion, bleaching, resin- infiltration</h3>
                                     <p>Adult incisors do not tend to break down and the issue can be purely cosmetic. There are several options available for treatment including microabrasion, bleaching, resin infiltration or restorations. Your dentist will explain all options available and recommend the best option for your child.</p>
                                 </div>

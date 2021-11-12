@@ -63,6 +63,9 @@
     .ratings { padding: 10px 20px 10px 0;}
     /*** Dental Hygiene ***/
     .oral_hygiene { margin: 30px 0; }
+    .hygiene_service{ margin: 20px 0;}
+    .hygiene_service img{ width: 20%; }
+    .hygiene_service_para{ padding-bottom: 20px;}
     /*** DentalHypomineralization ***/
     .detect_trt_heading{ padding-top: 10px; padding-bottom: 5px;}
     .detect_trt_post{ padding: 20px 0; }
@@ -93,6 +96,8 @@
     .what_Rcanal .col-12{ margin: 10px 0; }
     .what_Rcanal .col-lg-4{ border-color: slategray; border-style: solid; border-width: 1px 1px 1px 1px; }
     .need_Rcanal{ border: none; }
+    /*** ChildrenEmergency ***/
+    div .tooth_pain_con h3{ height: 90px; }
     /*** Invisalign ***/
     .invisalign_treatment{ margin: 20px 0; }
     .invisalign_img{ padding-top: 20px; }
@@ -109,6 +114,7 @@
     /*** Space Maintainer ***/
     .space_detail { margin: 25px 0; }
     /*** Orthodontic Correction ***/
+    .orthodontics_brace{margin-top: 5px; margin-bottom: 5px; }
     .orthodontics-correction img { width: 100%; height: auto; } 
     .service_item { padding-bottom: 5px; }
     /*** MyoFunctional Treatment ***/
@@ -121,6 +127,12 @@
     .clear_aligners{ padding-bottom: 10px;}
     .Brush_floss{ margin: 20px 0;}
     .Brush_floss h2{ padding-bottom: 10px; }
+    /*** Retainer ***/
+    .retainer{ margin-top: 15px; }
+    .Wretainers{ margin-bottom: 10px;}
+    /*** Tooth Removal ***/
+    .tooth_removal{ text-align: center;}
+    .tooth_removal h2{font-size: 2rem;}
     }
     @media (max-width: 991px){
     .desktop-header{ display: none;}

@@ -21,7 +21,7 @@ export default class ToothRemoval extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="pharma">
+                <section className="pharma tooth_removal remember">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-md-12 col-sm-12 text-center">
@@ -31,63 +31,64 @@ export default class ToothRemoval extends Component {
                         </div>
                         <div className="row pharma_blocks">    
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Bite on gauze for 20 -40 min</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Bite on gauze for 20 -40 min</h3>
                                 <p>After tooth removal your child will be asked to bite on a piece of gauze for sometime to maintain pressure and control bleeding.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Take soft diet diet for the day</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Take soft diet diet for the day</h3>
                                 <p>let your child eat soft food which does require aggressive chewing for on the day of extraction. this will allow clot formation to occur with ease.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Ice-cream after 40 minutes</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Ice-cream after 40 minutes</h3>
                                 <p>Let your child enjoy an ice cream after his extraction. This will help clot formation and healing</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Not to spit</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Not to spit</h3>
                                 <p>Ensure your child does not spit on the day after extraction. let him take in the saliva instead of spitting.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Not to use straw</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Not to use straw</h3>
                                 <p>Avoid using a straw or any other thing which will cause negative intraoral pressure on that day . Doing so can dislodge the clot.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Not to bite on lips</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                </div>
+                                <h3 className="text-center">Not to bite on lips</h3>
                                 <p>The region and side of the extraction will stay numb for approximately 2 hours after extraction when the child would not feel any sensation in the region. Children might accidently chew on their lips while they are still numb. Take utmost care that they dont.</p>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="Hservice">
+                <section className="invisalign_treatment">
                     <div className="container">
-                        <h2 className="service_heading">Try these tips to keep your Teen on track:</h2>
-                        <p className="text-center"><strong>Motivating children and teens towards oral health go a long way in they being cavity-free all through their life. Start young! Establish habits which empower them towards better oral health.</strong></p>
-                        <div className="row justify-content-center">
-                            <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3>For pre-teens</h3>
-                                <p className="srv-para">Oral Hygiene for Preteens As children grow older and more of their permanent teeth come in, a rigorous daily dental hygiene routine is crucial to keeping teeth and gums healthy. However, it can be difficult to keep preteens interested in their oral care. As preteens become more conscious of their appearance, it can be helpful to remind them that good oral care can help them look and feel better. ·        </p>    
-                            </div>
-                            <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3>Brush and powerbrush</h3>
-                                <p className="srv-para">Remind your child to brush twice a day with a fluoride toothpaste for a full two minutes which not only fights cavities and strengthens teeth, but also gives older kids the confidence of having fresh breath. A power toothbrush might make brushing more fun for preteens.</p>    
-                            </div>
-                            <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3>Floss</h3>
-                                <p className="srv-para">Flossing is extremely important at this point as most permanent teeth have erupted and cleaning between them will help prevent cavities and keep their mouth fresh.</p>    
-                            </div>
-                            <div className="col-12 col-lg-3 col-md-6 col-sm-12 service_item">
-                                <h3>Mouth Guard</h3>
-                                <p className="srv-para">Encourage children who play sports to wear a mouth guard to protect their teeth from injuries.</p>    
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <p>There are circumstances when children will need teeth removed. While most children lose their teeth naturally without intervention, there are some occasions when an extraction must be performed.  Keep reading below to learn more about when a child might need their tooth removed, what this involves and how to prepare them in advance.</p>
+                                <p><strong>Losing their first tooth</strong><br/>Kids will usually lose their first tooth around age 6. As the adult teeth start to come in, they push the baby teeth out. Your child may first notice their tooth is loose and they may want to start wiggling it. This is completely safe as the tooth will eventually come out on its own over time.<br/>Where a tooth extraction may become a possibility is when this natural process is not taking place. For children, it is essential that the proper space is available for adult teeth to come in. Since adult teeth are permanent teeth, it is important that they come in without any issues that may hinder their placement and lead to lasting issues in the mouth<br/>For example, one common reason for a tooth extraction is when the baby teeth are not falling out prior to adult teeth coming in. Referred to as an ‘over-retained’ baby tooth, this situation may call for an extraction so that the adult teeth can enter properly. Major crowding can occur if there is not enough space for the adult teeth to take their natural spot in your child’s mouth.</p>
+                                <p><strong>Children Need Teeth Removed That Are Damaged or Infected</strong><br />Another scenario where a tooth extraction may be required for your child is when one or more of their teeth are damaged beyond repair. This may occur due to an accident, a sports injury, an abscess or infection in the bone or gum, or a cavity that is too big to repair. If no restorative options are available, your dentist may recommend that the tooth be extracted to resolve the problem and to halt any further damage.</p>
+                                <p><strong>The basics of tooth extraction</strong>A simple tooth extraction can be done by your pediatric dentist and involves gently loosening the visible baby tooth and pulling it. Using only a local anesthetic, this procedure is quick and painless.A more involved tooth extraction may require local anesthetic or sedation. These types of extractions may be required in severe cases when teeth are stuck in the jaw bone.<br />After the procedure, kids should avoid hard or crunchy foods and should drink plenty of water. Any pain that is noticed should be monitored and if swelling occurs, talk to your pediatric dentist about it as soon as possible.</p>
+                                <p><strong>Talking to your child about dental procedures</strong>Remember, a tooth extraction is always a final resort when other options are exhausted. While extractions are generally a simple procedure, one of the main parts of the process is talking to your child about what to expect and calming any fears they have. Talking to your pediatric dentist is also a great way to have your child learn about the process and to ease any concerns they may have in advance.</p>
                             </div>
                         </div>
-                    </div>    
+                    </div>
                 </section>
-                <section className="remember">
+                <section className="child_tooth">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">

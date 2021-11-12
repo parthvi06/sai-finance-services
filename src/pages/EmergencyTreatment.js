@@ -24,60 +24,60 @@ export default class ChildrenEmergency  extends Component {
                 <section className="dealing_with">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
-                                <h2>Call us right in, if you are dealing with any of these!</h2>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center Emergency_Dentist_block">
+                                <h3>Call us right in, if you are dealing with any of these!</h3>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <div className="dealing_with_prob">
                                     <h3>Pain in tooth</h3>
                                     <p>If your child complains of pain, intense enough which doesn't allow him to sleep through the night.</p>
                                 </div>   
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
-                                </div>
-                                <div className="dealing_with_prob">
+                                <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                                    <div className="text-center">
+                                        <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                                    </div>
+                                    <div className="dealing_with_prob">
                                     <h3>Broken/knocked out tooth</h3>
                                     <p>If your child has hit himself on the face while in some activity with and impact on the face.</p>
                                 </div>   
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <div className="dealing_with_prob">
                                     <h3>Swelling</h3>
                                     <p>If there is development of swelling in the upper or lower jaw of your child.</p>
                                 </div>   
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <div className="dealing_with_prob">
                                     <h3>Pus discharge</h3>
                                     <p>If there is pus oozing from the gums or any of the teeth.</p>
                                 </div>   
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <div className="dealing_with_prob">
                                     <h3>Bleeding</h3>
                                     <p>If there is bleeding from the gums or any oral tissue</p>
                                 </div>   
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <div className="dealing-icon">
-                                    <span className="deal-iconfont fa fa-cogs"></span>
-                                </div>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
+                            <div className="text-center">
+                            <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
+                        </div>
                                 <div className="dealing_with_prob">
                                     <h3>Fever</h3>
                                     <p>Your child has developed fever due to dental infection.</p>
@@ -104,19 +104,19 @@ export default class ChildrenEmergency  extends Component {
                     <div className="container">
                         <div className="row tooth_pain_con">
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/ChewingPain.jpg" alt="" />
                                 <h3>Any severe unbearable pain in tooth</h3>
                                 <p>Tooth decay is the most common cause of dental pain in children.</p>
-                                <img src="/assets/img/ChewingPain.jpg" alt="" />
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/swelling-facing.jpg" alt="" />
                                 <h3>Swelling in teeth or face</h3>
                                 <p>Long-standing chronic infections can be a trigger to the development of swelling.</p>
-                                <img src="/assets/img/swelling-facing.jpg" alt="" />
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/broken-tooth.jpg" alt="" />
                                 <h3>Broken tooth/ Knocked out tooth</h3>
                                 <p>Kids with their active lifestyle are prone to injury and blows causing trauma to teeth.</p>
-                                <img src="/assets/img/broken-tooth.jpg" alt="" />
                             </div>
                         </div>
                     </div>

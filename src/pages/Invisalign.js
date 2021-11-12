@@ -15,7 +15,7 @@ export default class Invisalign extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12 invisalign_img">
-                                <img src="/assets/img/general.jpg" alt=""/>
+                                <img src="/assets/img/invisalign.png" alt="invisalign"/>
                             </div>
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
                                 <h2 className="invisalign_treatment_title">Invisalign</h2>
@@ -40,18 +40,24 @@ export default class Invisalign extends Component {
                         </div>
                         <div className="row pharma_blocks">    
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>Consultation</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">Consultation</h3>
                                 <p>Once your Invisalign Provider has confirmed you’re eligible for treatment, they will take photos, X-rays and digital scans, or a dental impression, of your teeth. These records will be used to create a ClinCheck® 3D treatment plan, just for you.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>The Aligners</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">The Aligners</h3>
                                 <p>After being custom-made and shipped to your Provider’s office, you’ll receive a series of aligners to wear every day and change at home – on average every 1-2 weeks.</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
-                                <a className="pharma-icon"><i className="fa fa-cogs"></i></a>
-                                <h3>The results</h3>
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">The results</h3>
                                 <p>You’ll visit your Provider around every 6-8 weeks to monitor progress and receive new aligners. After finishing your treatment plan, retainers will be required to maintain your new smile.</p>
                             </div>
                         </div>

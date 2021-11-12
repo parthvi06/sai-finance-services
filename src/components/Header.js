@@ -31,8 +31,8 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/" data-toggle="dropdown" aria-expanded="false">Home</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a href="/our-team">Meet Our Team!</a>
-                                        <a href="/about">About Us</a>
+                                        <a href="/meet-our-team">Meet Our Team!</a>
+                                        <a href="/about-us">About Us</a>
                                         <a href="/why-us">Why US?</a>
                                         <a href="/blogs">Blogs</a>
                                         <a href="/location">Location</a>
@@ -42,23 +42,23 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/children-dentistry" data-toggle="dropdown" aria-expanded="false">Children's Dentistry</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a href="/your-first">Your First Visit</a>
-                                        <a href="/fillings">Filling</a>
-                                        <a href="/root-canal">Root Canal Treatment in children</a>
-                                        <a href="/children-crown">Children's Crowns</a>
+                                        <a href="/your-first-visit">Your First Visit</a>
+                                        <a href="/fillings">Fillings</a>
+                                        <a href="/root-canal-treatment-in-children">Root Canal Treatment in children</a>
+                                        <a href="/children-crowns">Children's Crowns</a>
                                         <a href="/tooth-removal">Tooth Removal</a>
                                         <a href="/space-maintainer">Space Maintainer</a>
                                         <a href="/digital-xray">Digital X-ray</a>
-                                        <a href="/emergency-treatment">Emergency Dental Treatment</a>
+                                        <a href="/emergency-dental-treatment">Emergency Dental Treatment</a>
                                     </div>
                                 </button>
                             </div>
                             <div className="dropdown navbar-nav end">
                                     <button className="dropbtn drop-down"><a className=" dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/dental-hygiene">Dental Hygiene For Children</a>
+                                            <a href="/dental-hygiene-for-children">Dental Hygiene For Children</a>
                                             <a href="/dental-hypomineralization">Dental Hypomineralization</a>
-                                            <a href="/dental-sealant">Dental Sealants</a>
+                                            <a href="/dental-sealants">Dental Sealants</a>
                                             <a href="/fluoride-varnish">Fluoride Varnish</a>
                                             <a href="/sports-dentistry">Sports Dentistry</a>
                                         </div>
@@ -67,8 +67,8 @@ function Header() {
                             <div className="dropdown navbar-nav end">
                                     <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
                                         <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/iv-sedation">Treatment under IV Sedation</a>
-                                            <a href="/gerenal-anesthesia">Treatment Under General Anesthesia</a>
+                                            <a href="/treatment-under-iv-sedation">Treatment under IV Sedation</a>
+                                            <a href="/treatment-under-gerenal-anesthesia">Treatment Under General Anesthesia</a>
                                         </div>
                                     </button>
                                 </div>    
@@ -76,13 +76,10 @@ function Header() {
                                  <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="/braces-consult">Braces Consult</a>
-                                        <a href="/orthodontics-corrections">Orthodontics Corrections</a>
-                                        <a href="/braces">Braces</a>
-                                        <a href="/invisalign">Invisalign</a>
-                                        <a href="/clear-aligner-braces">Clear Aligners or Braces?</a>
+                                        <a href="/clear-aligner-or-braces">Clear Aligners or Braces?</a>
                                         <a href="/early-orthodontics">Early Orthodontics</a>
-                                        <a href="oral-habits">Management of Oral Habits</a>
-                                        <a href="orthodontics-teen">Orthodontics for Teens</a>
+                                        <a href="management-of-oral-habits">Management of Oral Habits</a>
+                                        <a href="orthodontics-for-teen">Orthodontics for Teens</a>
                                         <a href="myofunctional-treatment">MyoFunctional Treatment</a>
                                         <a href="/retainers">Retainers</a>
                                     </div>
@@ -92,9 +89,9 @@ function Header() {
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="/contact-us">Contact Us</a>
-                                        <a href="/covid-update">Covid 19 Updates</a>
-                                        <a href="/sign-up">Newsletter Sign-Up</a>
-                                        <a href='/faq'>FAQs</a>
+                                        <a href="/covid-19-update">Covid 19 Updates</a>
+                                        <a href="/newsletter-sign-up">Newsletter Sign-Up</a>
+                                        <a href='/faqs'>FAQs</a>
                                     </div>
                                 </button>
                             </div>

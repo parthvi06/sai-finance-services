@@ -26,14 +26,12 @@ export default class DentalSealant extends Component {
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 sealant">
                                 <h3>Pits and fissures</h3>
                                 <p>A sealant is a protective plastic coating, which is applied to the biting surfaces of the back teeth. The sealant forms a hard shield that keeps food and bacteria from getting into the tiny grooves in the teeth and causing decay.</p>
-                                <a className="more">BOOK MORE</a>
                             </div>
                         </div>
                         <div className="row P_F_sealants reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h3>Prevent tooth decay by 80%</h3>
                                 <p>Sealants are only applied to the back teeth – the molars and premolars. These are the teeth that have ‘pits’ (small hollows) and ‘fissures’ (grooves) on their biting surfaces. Some teeth naturally have deep grooves which will need to be sealed; others have shallow ones which will not need sealing.</p>
-                                <a className="more">BOOK MORE</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <img src="/assets/img/natural-sealed.jpg" alt="" />
@@ -73,14 +71,6 @@ export default class DentalSealant extends Component {
                  <section className="when_sealant">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center mark_qoute">
-                                <a className="qoute_icon"><i className="fa fa-quote-left"></i></a>
-                            </div>   
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
-                                <h3 className="anu_qoute">Pit and fissure sealants reduce the chance of dental decay by 80%</h3>
-                                <div  className="mark_fosters"><span>Mark Fosters</span>
-                                </div>
-                            </div>
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 when_pit-fiss">
                                 <h2>When is the best time to do pit and fissure sealants?</h2>
                                 <p>Sealants are often applied as soon as the first permanent teeth start to come through. This is usually between 6 and 7 years of age. The rest are usually sealed as soon as they appear which can be any time between 11 and 14 years of age.</p>   

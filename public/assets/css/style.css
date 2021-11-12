@@ -195,15 +195,20 @@ div .blog-posts .card{ height: 100%; }
 /*** Your First Visit page ***/
 .inner-btn{ border: 2px solid #596bf1 !important; color: #596bf1 !important; }
 .inner-btn:hover{ color: #fff !important; background-color: #596bf1; }
-.clinic_tour{ margin-top: 50px;}
-.clinic_tour img { width: 100%; height: 280px;}
+.clinic_tour{ margin-top: 50px; background-color: #596bf1; }
+.clinic_tour h2{ color: #ffffff !important;}
+.clinic_tour h5{ color: #ffffff !important;}
+.clinic_tour img { width: 100%; height: 230px;}
+div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
+.clinic_tour .card h4{ padding: 30px 10px;}
+.clinic_tour_block { margin-top: 30px; margin-bottom: 30px; }
 .consultation,.emrg_icon_text{ display: flex;}
 .consultation-icon,.emrg_icon{ float: left;}
-.consultation-text,.emrg_text{ float: right; padding: 5px 15px 0 20px;}
-.consultation_title .consultation .consultation-text h3{ margin-top: 0px; }
-.consultation .consultation-icon .fa{ font-size: 30px;}
-.consultation_title .consultation-col{-webkit-box-flex: 0; -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 1rem 1rem; border: 1px solid #2f52a0; border-radius: 25px;}
-.consultation_title .row{ padding: 0 15px}
+.consultation-text,.emrg_text{ float: right; padding: 5px 15px 0 0px;}
+.consultation_title .consultation .consultation-text h3{ margin-top: 0px; color: #ffffff!important; }
+.consultation .consultation-icon img{ width: 70%; background-color: #ffffff; border-radius: 50px;}
+.consultation_title .consultation-col{ -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 1rem 1rem; border: 3px solid #2f52a075; border-radius: 25px; background-color: #73ba64; color: #ffffff!important;}
+.consultation_title { padding: 0 15px}
 .consultation_title{ padding: 50px 0;}
 .bring_child_title{ padding-bottom: 50px;}
 .visit_title{ padding-top: 40px;}
@@ -324,7 +329,12 @@ div .happy_pat_items .card { height: 100%; }
 .oral_hygiene a, .braces-hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .oral_hygiene a:hover, .braces-hygiene a:hover{ color: white !important; background-color: #2f52a0 ; }
 .oral_hygiene img, .braces-hygiene img{ width: 100%; height:auto; }
+.hygiene_service{ margin: 60px 0;}
 .hygiene_service .srv-iconfont{ color: #151616;}
+.hygiene_service img{ width: 10%; }
+.hygiene_service_para{ padding-bottom: 40px;}
+.baby_hygiene .col-12{ margin-top: 20px; margin-bottom: 10px; }
+.baby_hygiene_block p{ padding-top: 50px;}
 .next-appoint .book_app{ border: 1px solid white; color: white !important; background-color: #2f52a0; }
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
@@ -332,7 +342,8 @@ div .happy_pat_items .card { height: 100%; }
 .hypomineralise h2{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_heading{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_post{ padding-top: 30px; } 
-.detect_trt_post img{ height: 300px; }
+.detect_trt_post img{ height: 230px; width: 100%;}
+.detect_trt_post p{ text-align: initial;}
 .remember{ background-color: #629e55; color: white; margin: 40px 0;  padding: 30px 0; }
 .remember h2{padding-bottom: 30px; font-size: 44px; color: #fff; }
 /*** Dental Sealant ***/
@@ -355,20 +366,22 @@ div .happy_pat_items .card { height: 100%; }
 .how_sealant hr{ width: 60%; color: #241f1f; }
 /*** FluorideVarnish ***/
 .Wfluoride-varnish_title{ padding-top: 70px; }
-.Wfluoride-varnish h2{ padding-bottom: 20px; color: #2f52a0; }
+.Wfluoride-varnish h2{ padding-bottom: 20px; }
 .Wfluoride-varnish p{ padding-bottom: 15px; }
 .Wfluoride-varnish a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .Wfluoride-varnish a:hover{ color: white !important; background-color: #2f52a0; }
 .Wfluoride-varnish img{ width: 100%; }
+.Wfluoride-varnish_post p, .Wfluoride-varnish_post h3{ padding: 10px 15px; }
 .Wfluoride-varnish_post{ margin: 60px 0; }
+.Wfluoride-varnish_post div .card{ height: 100%; box-shadow: 0 6px 10px rgb(76 120 162 / 16%), 0 0 6px rgb(9 35 71 / 42%);}
 .Wfluoride-varnish_post img{ width: 100%; height: 210px; }
 /*** General Athesthesia ***/
-.general-anthe{ padding-top: 240px; }
 /*** IV Sedation ***/
 .Wfluoride-varnish{ margin: 40px 0;}
 .pharma_blocks{ margin: 40px 0;}
 .pharma_blocks h3 { padding: 20px 0;}
 .pharma_blocks p{ padding-bottom: 30px; }
+.pharma_blocks img{ width: 20%;}
 /*** FAQ ***/
 .faq h2{ color: #629e55; }
 .faq .panel{ border: none; border-radius: 0px!important; }
@@ -389,7 +402,7 @@ div .happy_pat_items .card { height: 100%; }
 .sign_contact{ margin: 40px 0; }
 .sign_contact a{ color: tomato; border: 1px solid tomato; }
 .sign_contact a:hover{ color: #fff; background-color: tomato; }
-.fill_teeth { margin-top: 60px; }
+.fill_teeth { margin-top: 40px; }
 .cavity_untreat { margin: 20px 0; }
 .fill_teeth h2, .cavity_untreat h2{ padding: 30px 0; }
 /*** Root Canal ***/
@@ -421,8 +434,11 @@ div .happy_pat_items .card { height: 100%; }
 .child_Xray a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
 .child_Xray a:hover{ color: white !important; background-color: #2f52a0; }
 /*** ChildrenEmergency ***/
+.Emergency_Dentist_block h3{ font-size: 38px; padding-bottom: 30px;}
 .Emergency_Dentist{ margin: 40px 0; }
 .dealing_with h2{ padding-bottom: 40px; }
+.dealing_with_prob h3{ color: #60625d !important; }
+.dealing_with img{ width: 15%; }
 .dealing-icon {padding: 15px 0; }
 .deal-iconfont{ font-size: 28px !important;}
 .dealing_with_prob{ padding: 10px 0; }
@@ -431,8 +447,9 @@ div .happy_pat_items .card { height: 100%; }
 .emergency-accordion h5{ color: #fff; }
 .tooth_pain{ margin: 10px 0; }
 .tooth_pain p{ padding: 10px 0;}
-.tooth_pain img{ width: 100%; height: 280px; }
-div .tooth_pain_con h3{ height: 65px; }
+.tooth_pain h3{ padding: 10px 0; }
+.tooth_pain img{ width: 100%; height: 210px; }
+div .tooth_pain_con h3{ height: 80px;}
 /*** Braces Consult ***/
 .before-ortho{ padding: 50px 0 60px 0;}
 .before-ortho .card{ padding: 40px; margin-top: 30px; }
@@ -467,6 +484,7 @@ div .braces_types_block .card { height: 100%; }
 /*** Orthodontic Correction ***/
 .orthodontics-correction p{padding-top: 20px; } 
 /*** MyoFunctional Treatment ***/
+.orthodontics_brace{margin-top: 40px; margin-bottom: 10px; }
 .MyoFunctional { margin: 40px 0; color: #fff; background: #2f52a0; padding: 30px 0; }
 .MyoFunctional h2{ color: #fff; }
 .myofunctional_appliances{ margin: 40px 0;}
@@ -477,8 +495,15 @@ div .braces_types_block .card { height: 100%; }
 .clear_aligners{ padding-bottom: 40px;}
 .Brush_floss{ margin: 40px 0;}
 .Brush_floss h2{ padding-bottom: 40px; }
-
-
+/*** Retainer ***/
+.retainer{ margin-top: 60px; }
+.Wretainers{ margin-bottom: 40px;}
+/*** Tooth Removal ***/
+.tooth_removal h2{ color: #ffffff; padding-top: 40px;}
+.tooth_removal h3{ color: #ffffff;}
+.tooth_removal img{ background-color: #ffffff; border-radius: 50px; }
+.child_tooth{ background-color: #2f52a0; color: #ffffff; margin: 40px 0; padding: 40px 0;}
+.child_tooth h2{ color: #ffffff;}
 
 #header { 
     position: fixed;

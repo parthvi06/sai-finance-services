@@ -11,12 +11,31 @@ export default class DigitalXray extends Component {
                         </div>
                     </div>    
                 </div>
+                <section className="invisalign_treatment">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <h2>When Should Your Child Get an X-Ray</h2>
+                                <p>There are many areas in your child's mouth that the dentist can't see during a regular examination, like under the gums or inside the teeth. That's when <strong>X-rays can be quite useful</strong>. Dentists won't typically recommend an X-ray unless they've done a full clinical examination and still have some unanswered questions about your child's teeth or oral health.</p>
+                                <p><strong>Here are some cases where a dentist might recommend an X-ray:</strong><br/></p>
+                                <ul>
+                                    <li>To figure out if there's room in your child's mouth for all incoming teeth</li>
+                                    <li>To determine if your child is losing primary teeth quickly enough to make room for all permanent teeth</li>
+                                    <li>To check for preliminary development of wisdom teeth or any teeth unable to emerge from the gums (known as impacted).</li>
+                                    <li>To check for early signs of tooth decay</li>
+                                    <li>To look for any developmental abnormalities like cysts or tumors</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
                 <section className="digital-xray">
                     <div className="container">
                         <div className="row child_Xray reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h2>Are dental X-rays safe for my child?</h2>
                                 <p>Absolutely. The amount of radiation exposure in dental x-rays and more specifically using digital machines is very minimal which causes minimal harm.</p>
+                                <p>Now you might know more about when X-rays are needed for your child but do you still have questions about their safety? According to <strong>Mouth Healthy by the American Dental Association</strong>, dental X-rays are safe. They will expose your child to low radiation levels, but the possibility of experiencing any harmful effects is also low. Additionally, most dental professionals follow the new pediatric X-ray guidelines from <strong>the Food and Drug Administration</strong>. These guidelines recommend that "medical X-ray imaging exams be optimized to use the lowest radiation dose needed."</p>
                                 <a className="more">FEEL FREE TO CONTACT US</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">

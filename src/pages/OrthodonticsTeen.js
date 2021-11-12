@@ -11,6 +11,74 @@ export default class OrthodonticsTeen extends Component {
                         </div>
                     </div>    
                 </div>
+                <section className="invisalign_treatment">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 invisalign_img">
+                                <img src="/assets/img/invisalign.png" alt="invisalign"/>
+                            </div>
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12">
+                                <h2 className="invisalign_treatment_title">Invisalign</h2>
+                                <p>Invisalign treatment differs from traditional non-removable metal brackets because Invisalign comprises a set of a few transparent, custom-moulded clear aligners, which can be removed for up to 2 hours each day. This allows for more freedom in any busy teenager’s lifestyle. Invisalign Teen also has a few special features, designed specifically for teenagers:</p>
+                                <ul>
+                                    <li>Invisalign Teen comes with blue wear-indicators. These fade from blue to clear on each clear aligner to help you, your orthodontist and your teenager themselves to gauge wear over time.</li>
+                                    <li>Six free replacement aligners are included (in case any get lost or misplaced, e.g. when playing sports).</li>
+                                    <li>Invisalign Teen aligners have special features designed to guide the growth of new teeth (canines, second premolars and second molars), helping them to get to a planned, straighter position.</li>
+                                </ul>
+                                <a className="more" href="">BOOK AN APPOINTMENT</a>
+                            </div>    
+                        </div>
+                    </div>
+                </section>
+                <section className="invisalign_tooth_remove">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-md-12 col-sm-12 text-center">
+                                <h2>INVISALIGN TREATMENT PROCESS</h2>
+                                <p><strong>Invisalign is clinically and scientifically proven to correct irregular teeth. At Kidsville Dental it is used to treat mild to complex cases.</strong></p>
+                            </div>
+                        </div>
+                        <div className="row pharma_blocks">    
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">Consultation</h3>
+                                <p>Once your Invisalign Provider has confirmed you’re eligible for treatment, they will take photos, X-rays and digital scans, or a dental impression, of your teeth. These records will be used to create a ClinCheck® 3D treatment plan, just for you.</p>
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">The Aligners</h3>
+                                <p>After being custom-made and shipped to your Provider’s office, you’ll receive a series of aligners to wear every day and change at home – on average every 1-2 weeks.</p>
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <div className="text-center">
+                                    <img src="/assets/img/kidsvilleicon.png" alt="invisalign-treatment"/>
+                                </div>
+                                <h3 className="text-center">The results</h3>
+                                <p>You’ll visit your Provider around every 6-8 weeks to monitor progress and receive new aligners. After finishing your treatment plan, retainers will be required to maintain your new smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>           
+                <section className="remember">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
+                                <h2 className="text-center">BENEFITS OF INVISALIGN</h2>
+                                <p className="text-center"><strong>Invisalign is designed to fit your lifestyle completely. you can be social, take selfies, post pictures, or participate in any activity without being conscious of your smile.</strong></p>
+                                <ol>
+                                    <li>Discreet and clear, Invisalign® makes aligners almost impossible to notice</li>
+                                    <li>Custom designed for each person, creating a more comfortable experience when worn than traditional braces</li>
+                                    <li>Freedom to play contact sports or play musical instruments, because aligners can be removed during the activity</li>
+                                    <li>Teens can eat with freedom, as aligners can be easily removed during mealtimes</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>        
+                </section>
                 <section className="space_detail">
                     <div className="container">
                         <div className="row">
@@ -153,6 +221,125 @@ export default class OrthodonticsTeen extends Component {
                             </div>
                         </div>
                     </div>
+                </section>
+                <section className="Emergency_Dentist">
+                    <div className="container">
+                        <div className="row child_Xray">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                                <p><strong>Confused about which braces are best for you?</strong></p>
+                                <h2>TYPES OF BRACES</h2>
+                                <p>We specialize and provide many different types of braces and treatment modalities to our patients, making it easy for every individual to have the best treatment option that fits their unique goals and needs.</p>
+                            </div>
+                        </div>
+                    </div>   
+                </section>
+                <section className="braces_types">
+                    <div className="container">
+                        <div className="row braces_types_block">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/metal-braces.jpg" alt="" />
+                                    <h3>Traditional Braces</h3>
+                                    <p>Traditional braces are comprised of brackets that are affixed to teeth and wires that are threaded through slots in the brackets. Some patients may also have metal bands encircling back teeth. Wires are held to brackets by tiny rubber bands called “ligatures” or “o-rings.” Brackets are generally made of stainless steel.  Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
+                                </div>
+                            </div> 
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/Ceramic-Braces.jpg" alt="" />
+                                    <h3>Traditional Ceramic Braces</h3>
+                                    <p>Traditional ceramic braces are tooth-colored, making them next-to-invisible. They are affixed to teeth, and wires are threaded through slots in the brackets. Wires are held to brackets by tiny rubber bands called “ligatures” or “o-rings.” Brackets are made of ceramic or porcelain materials. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
+                                </div>
+                            </div> 
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/Lingual.jpg" alt="" />
+                                    <h3>Self-Ligating Ceramic Braces</h3>
+                                    <p>Self-ligating ceramic braces are tooth-colored, making them next-to-invisible. They are affixed to teeth, and wires are threaded through slots in the brackets. Built-in clips hold the wires to the brackets.  Brackets are made of ceramic or porcelain materials. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>
+                                </div>
+                            </div> 
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/metal-braces.jpg" alt="" />
+                                    <h3>Self-Ligating Metal Braces</h3>
+                                    <p>Self-ligating metal braces are comprised of brackets that are affixed to teeth and wires that are threaded through slots in the brackets. Some patients may also have metal bands encircling back teeth. Built-in clips hold the wires to the brackets. Metal brackets are generally made of stainless steel. Wires are made of metal alloys and deliver a constant, gentle force to move teeth.</p>  
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <div className="card">
+                                    <img src="/assets/img/metal-braces.jpg" alt="" />
+                                    <h3>Clear Aligners</h3>
+                                    <p>Aligners are clear, thin, plastic-like trays that are formed to fit an individual’s teeth. Patients are responsible for putting in and removing their aligners. A series of aligners is created to move teeth. Each aligner is worn for 2-3 weeks, and moves teeth a fraction of a millimeter at a time. Patients must remove aligners for meals and when brushing/flossing. The number of aligners needed to correct misaligned teeth varies based on the individual’s orthodontic problem and its correction.</p>  
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                </section>
+                <section className="emergency-accordion">
+                    <div class="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingTop:50,paddingBottom:20}}>
+                                <h2>FREQUENTLY ASKED QUESTIONS.</h2>
+                            </div>
+                        </div>
+                        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingOne">
+                                    <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        What type of braces work the fastest?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                                    <div class="panel-body">
+                                    While the speed of the process is highly determined by the type of issue you are dealing with, most experts seem to agree that the <strong>clear aligners</strong> are the quickest way to straighten your teeth.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingTwo">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        What is the cheapest type of braces?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                                    <div class="panel-body">
+                                    Metal braces tend to be the cheapest form of braces in orthodontics. Invisalign tend to be a bit more expensive than metal braces.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingThree">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        How fast do braces move?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                                    <div class="panel-body">
+                                    You should expect to notice minor shifts in your teeth <strong>approximately 4 weeks from after bonding.</strong> Greater shifts that are more visible require more time as they become noticeable after approximately 2-3 months.
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="headingfour">
+                                    <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                            Can teens get ceramic Braces?
+                                        </a>
+                                    </h4>
+                                </div>
+                                <div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfour">
+                                    <div class="panel-body">
+                                    Ceramic braces are <strong>more expensive than</strong> metal braces and can stain if not taken care of properly, but they could be a great choice for teens who don’t want shiny metal flickering from the front of their teeth.
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>        
                 </section>  
                 <section className="Brush_floss">
                     <div className="container">

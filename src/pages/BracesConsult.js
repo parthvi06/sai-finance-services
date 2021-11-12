@@ -11,21 +11,47 @@ export default class BracesConsult extends Component {
                         </div>
                     </div>    
                 </div>
-                <section className="braces-hygiene">
+                <section className="orthodontics_brace">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-4 col-md-12 col-sm-12">
-                                <img src="/assets/img/LearningToBrushTeeth.jpg" alt=""/>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
+                                <h4>In children and young adults of this age, the aim of orthodontic treatment is to straighten teeth, correct any remaining issues with the bite and set up a ‘smile for life’.</h4>
+                                <p><strong><br/><br/>Here are some common orthodontic issues that can be treated with braces:</strong></p>
                             </div>
-                            <div className="col-12 col-lg-8 col-md-12 col-sm-12">
-                                <h2 className="hygiene_title">From when should i begin to care about my child's oral hygiene?</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit tellus.</p>
-                                <a className="more">Book an Appointment</a>
-                            </div>    
                         </div>
-                    </div>
+                    </div>        
                 </section>
-                <section>
+                <section className="orthodontics-correction">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Overly crowded.png" alt="Overly crowded" />
+                                <p className="srv-para">Overly crowded teeth can get worse over time, and result in severely crooked teeth. This crowding can lead to plaque accumulation, tooth decay and an increased chance of gum disease.</p>    
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Gapped Teeth.png" alt="Overly crowded" />
+                                <p className="srv-para">Spacing issues and gaps between teeth can lead to gum problems (due to lack of protection by the teeth), periodontal pockets and increased risk of periodontal disease.</p>    
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Deep Bite.png" alt="Overly crowded" />
+                                <p className="srv-para">Deep bite can lead to gum problems or irritation, and/or wear on the lower teeth, and can cause painful jaw and joint problems.</p>    
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Underbite.png" alt="Overly crowded" />
+                                <p className="srv-para">An underbite can prevent the normal function of front teeth or molars, which can lead to tooth wear. It can also cause painful jaw and joint problems.</p>    
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Open Bite.png" alt="Overly crowded" />
+                                <p className="srv-para">Open bite can cause poor or painful chewing, and even speech impairment. It can also lead to greater issues like temporomandibular joint disorder (TMJD)</p>    
+                            </div>
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 service_item">
+                                <img src="/assets/img/Crossbite.png" alt="Overly crowded" />
+                                <p className="srv-para">Crossbite causes one or more upper teeth to bite on the inside of the lower teeth. This can cause wear of the teeth, gum disease and bone loss.</p>    
+                            </div>
+                        </div>    
+                    </div>    
+                </section>
+                <section className="digital-xray">
                 <div className="container">
                     <div className="ortho-treatment">
                         <h2>What is orthodontic treatment?</h2>
@@ -48,37 +74,37 @@ export default class BracesConsult extends Component {
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
+                                    <h5 className="text-center">The Nature Of The Problem</h5>
                                     <p>some orthodontic issues are better treated early, and others later. For instance, thumb-sucking habits and crossbites are better managed as early as 8 to avoid less desirable permanent effects on the teeth and bite.</p>
                                     <div className="ortho-text row">
                                         <img src="/assets/img/mother.jpg" />
-                                        <p>The nature of the problem</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
+                                    <h5 className="text-center">Your Child’s Overall Wellbeing</h5>
                                     <p>for example, if a problem like protruding teeth is having a negative impact on a child’s self-esteem (e.g. not smiling, bullying at school, feeling self-conscious) - then this can be treated as early as 8 years old.</p>
                                     <div className="ortho-text row">
                                         <img src="/assets/img/father.jpg" />
-                                        <p>Your child’s overall wellbeing</p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                 <div className="card">
+                                    <h5 className="text-center">Your Child’s Dental Health</h5>
                                     <p>before starting any orthodontic treatment, it is essential the teeth and gums are healthy. If the orthodontist identifies an issue at your child’s examination, they refer to the dentist/ therapist to stabilise his/her oral health before starting any orthodontic treatment.</p>
                                     <div className="ortho-text row">
                                         <img src="/assets/img/mother.jpg" />
-                                        <p>Your child’s dental health</p>
                                     </div>
                                 </div>
                                 </div>
                                 <div className="col-lg-6 col-md-6 col-sm-12 braces-consult-TC">
                                     <div className="card">
+                                        <h5 className="text-center">The Cooperation Of Your Child</h5>
                                         <p>do you think your child will be able to complete the whole orthodontic timescale without undue stress to them, or damage to the equipment? Some children will find it harder than others to adapt to orthodontic treatment.</p>
                                         <div className="ortho-text row">
                                             <img src="/assets/img/mother.jpg" />
-                                            <p>The cooperation of your child</p>
                                         </div>
                                     </div>
                                 </div>
@@ -485,7 +511,19 @@ export default class BracesConsult extends Component {
                             </div>    
                         </div>
                     </div>        
-                </section>   
+                </section> 
+                <section className="next-appoint">
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:20}}>
+                                <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
+                                <a className="book_app more inner-btn">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                            </div>
+                        </div>
+                    </div>   
+                </section>  
             </div>
         )
     }
