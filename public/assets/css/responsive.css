@@ -41,7 +41,8 @@
     .blog-posts p{padding: 0 8px; }
     /*** Location ***/
     .loc_gallery img{ width: 100%; height: auto; }
-    .loc_doc img { height: 240px; }
+    .loc_doc img { height: 195px; width: 70%;}
+    .loc_doc h3{ padding-left: 10px; padding-right: 10px;}
     .kdifferent img{ width: 100%; height: auto; }
     .kdifferent { margin: 20px 0; }
     .kdiff_det { padding-top: 30px; }

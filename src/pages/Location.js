@@ -75,7 +75,7 @@ export default class Location extends Component {
                             </div>
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <div className="loc_doc align-items-center card">
-                                    <img src="/assets/img/Dr ist.jpg" alt="james king" />
+                                    <img src="/assets/img/Dr ist(Hteam).jpg" alt="james king" />
                                     <h3>Dr. Ipsit Trivedi</h3>
                                     <p className="title">MDS Orthodontics</p>
                                     <p>kidsvilledental@gmail.com</p>
