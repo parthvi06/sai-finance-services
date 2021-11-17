@@ -23,8 +23,8 @@ export default class OurTeam extends Component {
                             </div>
                         </div>
                     </section>
-                    <section>
-                        <div className="container team_box">
+                    <section className="team_box">
+                        <div className="container">
                             <div className="row">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12 team_title text-center">
                                     <h2>DOCTORS AT KIDSVILLE</h2>
@@ -35,7 +35,7 @@ export default class OurTeam extends Component {
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
                                     <div className="align-items-center">
                                         <div className="team_image">
-                                            <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" />
+                                            <img src="/assets/img/Dr. Anupriya Malonia(OTeam).jpg" alt="dr.anu" />
                                         </div>    
                                         <div className="card">
                                             <h3>Dr. Anupriya Malonia</h3>
@@ -71,7 +71,7 @@ export default class OurTeam extends Component {
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
-                                    <div className="team_image">
+                                    <div className="team_image box">
                                             <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" />
                                         </div>
                                         <div className="card">
@@ -99,7 +99,7 @@ export default class OurTeam extends Component {
                             </div>
                             <div className="row nurse_txt">    
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <p>They keep us organised. They keep us safe. They ensure our patients receive the best from us. Our support staff is impeccable and aligned with the goals of the practice.</p>
+                                    <p className="nurse_intro">They keep us organised. They keep us safe. They ensure our patients receive the best from us. Our support staff is impeccable and aligned with the goals of the practice.</p>
                                 </div>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <div className ="row">

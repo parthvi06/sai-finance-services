@@ -358,6 +358,9 @@ export class Home extends Component {
                                 <OwlCarousel className="owl-theme tech-slider" {...parent_review}>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
                                             <p>"Our daughter had a bad dental experience. A friend of mine talked to me about Kidsville children’s Dentistry. Its been 4 appointments to complete her entire treatment and now she misses her dental visit. They made my life easier."</p>
                                             <a>Payal Shah</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
@@ -365,6 +368,9 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
                                             <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."</p>
                                             <a>Preeti Patel</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
@@ -372,6 +378,9 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
                                             <p>"My son eats a lot of chocolates. It caused 7 cavities in his mouth. I was worried as he is a hyperactive child. Initially, he was not complying with the doctor, eventually, with consistency, he not only got all his cavities filled, he looks forward to seeing the doctor."</p>
                                             <a>Shrushti Arora</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
@@ -379,13 +388,19 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
+                                            <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                             <a>Tanisha Panchal</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
-                                            <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                         </div>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
                                            <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p> 
                                             <a>Sunil Patel</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
@@ -393,6 +408,9 @@ export class Home extends Component {
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                            <div className="pa_review_qoute">
+                                                <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
+                                            </div>
                                           <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
                                             <a>Chirag Parekh</a>
                                             <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>

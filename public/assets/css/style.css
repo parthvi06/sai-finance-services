@@ -118,6 +118,7 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .review_heading { margin: 40px 0; }
 .review{ margin-left: 15px; margin-right: 15px;}    
 .mark { padding: 12px; background: none !important; color: rgb(226, 226, 212); }
+.pa_review_qoute .qoute_icon{ color: #ffffff !important; font-size: 30px;}
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
 .pa_review_block a{ font-size: 18px; color: #ffffff;}
@@ -198,10 +199,10 @@ div .blog-posts .card{ height: 100%; }
 /*** Your First Visit page ***/
 .inner-btn{ border: 2px solid #596bf1 !important; color: #596bf1 !important; }
 .inner-btn:hover{ color: #fff !important; background-color: #596bf1; }
-.clinic_tour{ margin-top: 50px; background-color: #596bf1; }
+.clinic_tour{ margin-top: 50px; background-color: #596bf1; padding: 40px 0; }
 .clinic_tour h2{ color: #ffffff !important;}
 .clinic_tour h5{ color: #ffffff !important;}
-.clinic_tour img { width: 100%; height: 230px;}
+.clinic_tour img { width: 100%; height: 265px;}
 div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .clinic_tour .card h4{ padding: 30px 10px;}
 .clinic_tour_block { margin-top: 30px; margin-bottom: 30px; }
@@ -251,11 +252,10 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .dental_exper img{ width: 100%; height: auto; }
 .dental_exper .more{ border: 2px solid #596bf1; padding: 10px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #596bf1; }
 .about-slider img{ height: 270px; width: 100%; } 
-.our_belief { background-color: #2f52a0; color:whitesmoke; }
-.belief_title{ text-align: center; font-size: 42px; color: white; margin: 50px 0;}
-.belief_panel{ padding: 40px 0; }
-.belief_panel img { width: auto; height: 260px; }
-.belief_panel p{ padding-right: 40px; padding-left: 40px; font-size: 24px; padding-top: 20px; }
+.our_belief { background-color: #2f52a0; color:whitesmoke; margin: 40px 0;}
+.belief_title{ text-align: center; font-size: 42px; color: white; padding-bottom: 30px;}
+.belief_panel img { width: 100%; height: 230px; }
+.belief_panel p{ padding-right: 10px; padding-left: 10px;padding-top: 20px; }
 .about_motto{ margin: 60px 0; }
 .about_motto img{ width: 100%; height: auto; padding-top: 60px; }
 .about_motto p { font-size: 16px; padding-top: 30px; }
@@ -292,17 +292,22 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .team_intro{ margin: 30px 0; }
 .team_intro_title{ font-size: 42px; padding-left: 16px; }
 .team_intro img{width: 100%; height: 680px; }
-.team_box img{ width: 70%; height: 200px; padding: 10px 0; }
-.team_image{ border: 2px solid rgba(99, 99, 116, 0.555);}
-.team_box .card{ padding-top: 80px;}
+.team_box img{ width: 80%; height: 230px; padding: 10px 0; }
+.team_title h2{ color: #ffffff!important;}
+.team_title h5{ color: #ffffff !important;}
+.team_image{ border: 4px solid #e6cf67a3; margin-bottom: -65px;position: relative; }
+.team_box{ margin: 40px 0; background-color: #2f52a0; padding: 30px 0;}
+.team_box .card{ padding-top: 80px; position: static; border-radius: 0%;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
+.nurse_box .nurse_intro{ margin-top: 50px; text-align: center;}
 .nurse_txt .card { margin-bottom: 25px; padding-top: 25px; background: #41476424; }
 .team_title{ font-size: 42px; padding-bottom: 40px; }
 .meet_nur{ font-size: 42px; padding-left: 16px; padding-bottom: 10px; }
 .nurse_social_icon{ padding-top: 30px;}
 .founder_title{ font-size: 42px; padding-left: 16px; }
 .founder_drsc p{ text-align: justify;}
+.founder_box { margin-top: 60px;}
 .founder_box img{ width: 70%; height: 380px; }
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
