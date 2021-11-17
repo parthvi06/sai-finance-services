@@ -32,7 +32,7 @@ function Header() {
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/" data-toggle="dropdown" aria-expanded="false">Home</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="/meet-our-team">Meet Our Team!</a>
-                                        <a href="/about-us">About Us</a>
+                                        <a href="/about">About Us</a>
                                         <a href="/why-us">Why US?</a>
                                         <a href="/blogs">Blogs</a>
                                         <a href="/location">Location</a>

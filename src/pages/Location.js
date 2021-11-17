@@ -35,8 +35,8 @@ export default class Location extends Component {
                         </div>
                     </div>   
                 </section>
-                <section>
-                    <div className="container loc_doc_team">
+                <section className="loc_doc_team">
+                    <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2 className="team_title">DOCTORS AT KIDSVILLE</h2>
@@ -44,7 +44,7 @@ export default class Location extends Component {
                         </div>
                         <div className="row">    
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
-                                <div className="loc_doc">
+                                <div className="loc_doc align-items-center card">
                                     <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" />
                                     <h3>Dr. Anupriya Malonia</h3>
                                     <p className="title">Pediatric Dentist</p>
@@ -59,7 +59,7 @@ export default class Location extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
-                                <div className="loc_doc align-items-center">
+                                <div className="loc_doc align-items-center card">
                                     <img src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="dr. manish" />
                                     <h3>Dr. Manish Panchal</h3>
                                     <p className="title">MD Pediatric Anesthesiologist</p>
@@ -74,7 +74,7 @@ export default class Location extends Component {
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
-                                <div className="loc_doc align-items-center">
+                                <div className="loc_doc align-items-center card">
                                     <img src="/assets/img/Dr ist.jpg" alt="james king" />
                                     <h3>Dr. Ipsit Trivedi</h3>
                                     <p className="title">MDS Orthodontics</p>
@@ -144,14 +144,16 @@ export default class Location extends Component {
                         </div> 
                         <div className="row trt_txt">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 trt_txt_1">  
-                                <p>Dental Examination and Monitoring with Intraoral camera, Intraoral Scanner and Low dose digital X-Ray Equipment</p>   
-                                <p>Preventive and Restorative Children's Dentistry</p>
-                                <p>Sedation Services including Inhalation Sedation</p>
+                                <p>Dental examination and monitoring with low dose digital x ray unit</p>   
+                                <p>Preventive and restorative dentistry</p>
+                                <p>Sedation services including general anesthesia</p>
+                                <p>Early and teen orthodontics</p>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 trt_txt_2">     
-                                <p>Laser Dentistry including Frenectomies</p>   
-                                <p>The Wand Computer Anaesthesia</p>
-                                <p>Early and Teen Orthodontics</p>
+                                <p>Emergency services</p>   
+                                <p>Management of oral habits</p>
+                                <p>Sports dentistry</p>
+                                <p>Children’s root canal treatment and crowns</p>
                             </div>
                         </div>
                     </div>       

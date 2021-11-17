@@ -15,7 +15,6 @@ export default class OurTeam extends Component {
                             <div className="row">
                                 <h2 className="team_intro_title">Our Team!</h2>
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                    <img src="/assets/img/visit_fun.jpg" alt="our-team" className="text-center" />
                                     <p><br /><br />Kids love us. Parents trust us. Dentists rely on our expertise.</p>
                                     <p>We partner with our patients & their families to achieve cavity-free and fear-free kids who really do love going to the dentist!</p>
                                     <p>We help guide our patients to a lifetime of excellent oral health.</p>
@@ -27,51 +26,64 @@ export default class OurTeam extends Component {
                     <section>
                         <div className="container team_box">
                             <div className="row">
-                                <h2 className="team_title text-center">DOCTORS AT KIDSVILLE</h2>
+                                <div className="col-12 col-lg-12 col-md-12 col-sm-12 team_title text-center">
+                                    <h2>DOCTORS AT KIDSVILLE</h2>
+                                    <h5>Doctors with special interest in pediatrics</h5>
+                                </div>    
                             </div>
                             <div className="row">    
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
-                                    <div className="card align-items-center">
-                                        <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" style={{width:"100%"}} />
-                                        <h3>Dr. Anupriya Malonia</h3>
-                                        <p className="title">Pediatric Dentist</p>
-                                        <p>dranupriyapedodontist@gmail.com</p>
-                                        <div>
-                                            <ul className="list-inline">
-                                                <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
-                                            </ul>
+                                    <div className="align-items-center">
+                                        <div className="team_image">
+                                            <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr.anu" />
+                                        </div>    
+                                        <div className="card">
+                                            <h3>Dr. Anupriya Malonia</h3>
+                                            <p className="title">Pediatric Dentist</p>
+                                            <p>dranupriyapedodontist@gmail.com</p>
+                                            <div>
+                                                <ul className="list-inline">
+                                                    <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
+                                                </ul>
+                                            </div>    
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
-                                    <div className="card align-items-center">
-                                        <img src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="dr. manish" style={{width:"100%"}} />
-                                        <h3>Dr. Manish Panchal</h3>
-                                        <p className="title">MD Pediatric Anesthesiologist</p>
-                                        <p>kidsvilledental@gmail.com</p>
-                                        <div className="team-social-icon">
-                                            <ul className="list-inline">
-                                                <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
-                                            </ul>
+                                    <div className="align-items-center">
+                                        <div className="team_image">
+                                            <img src="/assets/img/Dr. Manish Panchal (Anesthesiologist).jpg" alt="dr. manish"/>
+                                        </div>
+                                        <div className="card">
+                                            <h3>Dr. Manish Panchal</h3>
+                                            <p className="title">MD Pediatric Anesthesiologist</p>
+                                            <p>kidsvilledental@gmail.com</p>
+                                            <div className="team-social-icon">
+                                                <ul className="list-inline">
+                                                    <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
+                                                </ul>
+                                            </div>    
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
-                                    <div className="card align-items-center">
-                                        <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" style={{width:"100%"}} />
-                                        <h3>Dr. Ipsit Trivedi</h3>
-                                        <p className="title">MDS Orthodontics</p>
-                                        <p>kidsvilledental@gmail.com</p>
-                                        <div className="team-social-icon">
-                                            <ul className="list-inline">
-                                                <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
-                                                <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
-                                            </ul>
+                                    <div className="team_image">
+                                            <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" />
+                                        </div>
+                                        <div className="card">
+                                            <h3>Dr. Ipsit Trivedi</h3>
+                                            <p className="title">MDS Orthodontics</p>
+                                            <p>kidsvilledental@gmail.com</p>
+                                            <div className="team-social-icon">
+                                                <ul className="list-inline">
+                                                    <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
+                                                    <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
+                                                </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -80,8 +92,10 @@ export default class OurTeam extends Component {
                     </section>
                     <section className="nurse_box">
                         <div className="container nurse_info">
-                            <div className="row">
+                            <div className="row text-center">
+                                <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className="meet_nur">MEET OUR DENTAL NURSES</h2>
+                                </div>
                             </div>
                             <div className="row nurse_txt">    
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
@@ -110,19 +124,15 @@ export default class OurTeam extends Component {
                     </section>
                     <section className="founder_box" >
                         <div className="container">
-                            <div className="row justify-content--center">
-                                <h2 className="founder_title">Founder</h2>
-                            </div>
                             <div className="row">
-                                <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                                <div className="col-12 col-lg-6 col-md-6 col-sm-12 text-center">
+                                    <h2 className="founder_title">Founder</h2>
                                     <h5 className="found_txt">Best Pediatric dentist In Ahmedabad</h5>
+                                    <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr anu"/>
                                 </div>
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" alt="dr anu" style={{width:"100%"}}/>
-                                </div>
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                    <h3 className="founder_anu">Dr. Anupriya Malonia</h3>
-                                    <h4 className="foun_txt">Founder and Director Kidsville Dental<br />Clinical expert in Children’s dentistry</h4>
+                                <div className="col-12 col-lg-6 col-md-6 col-sm-12 founder_drsc">
+                                    <h3 className="founder_anu text-center">Dr. Anupriya Malonia</h3>
+                                    <h4 className="foun_txt text-center">Founder and Director Kidsville Dental<br />Clinical expert in Children’s dentistry</h4>
                                     <p>Dr. Anupriya qualified as Bachelor in Dental Surgery in 2012, from Ahmedabad Dental College & Hospital, Gujarat University. Further completed her rotating internship for another year in various clinical specialties. With her keen interest in children and their dental needs, she pursued her Masters in Dental surgery in 2016. She has been at the top of her academic career excelling in clinical skills. She entered a Ph. D program thereafter in 2017 and is actively involved in clinical research. Apart from being a<strong> Director at Kidsville Dental</strong>, she is also a consultant pediatric dental surgeon and a Senior Lecturer at Ahmedabad Dental College & Hospital.</p>
                                     <p>An experienced <strong>dental surgeon for 7 years</strong> and specialist in children’s dentistry since 2016, Dr. Anupriya specializes in child management techniques and provides the best treatment strategy specific to the needs of every patient. She emphasizes the need for a preventive and conservative approach to treatment planning. She has recently completed a clinical course in Interceptive and myofunctional orthodontics from one of the best faculties in India. Along with keeping herself updated with the latest in her specialty, she is actively involved in developing a system to prevent and manage tooth decay at the earliest as her Ph.D. research. She has relentlessly worked for and provided quality oral treatment for hundreds of children across Gujarat.</p>
                                 </div>

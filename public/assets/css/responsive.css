@@ -14,7 +14,7 @@
     .slider-content a{ padding: 5px 10px; font-size: 16px; }    
     .Hdifferent{ margin-top: 30px; margin-bottom: 20px; }
     .team .row .col-12{ margin-bottom: 15px; }
-    .img-hover-zoom--colorize img { height: auto; width: 85%; } 
+    .img-hover-zoom--colorize img { height: 165px; width: 75%; } 
     .srv-iconfont {font-size: 1.5rem !important; }
     /*** 404 ***/
     .para-404 img {  width: 100%; }
@@ -175,8 +175,8 @@
     /*** Home ***/
     .slide-1, .slide-2, .slide-3{ height: 700px; }  
     .slide-1 img, .slide-2 img, .slide-3 img { background-position: center center !important; }
-    .Hdifferent_heading h2{ font-size: 38px; text-align: center;}
-    .Hdifferent-right { padding-left: 60px !important; margin-bottom: 20px; }
+    .Hdifferent_heading h2{ font-size: 38px;}
+    .Hdifferent-right { padding: 40px 40px 0 40px;}
     .my-2 h2{ font-size: 2.6rem; }
     .srv-iconfont {font-size: 3.5rem !important; }
     /*** Contact page ***/

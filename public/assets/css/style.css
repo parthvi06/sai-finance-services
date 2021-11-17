@@ -62,7 +62,6 @@ div.navbar{ margin: 0 !important; }
 .dropdown-content a {float: none; color: #555555; padding: 5px 10px; text-decoration: none; display: block; text-align: left; border-bottom: 1px solid #ddd; }
 .dropdown-content a:hover { color: #23527C; text-decoration: none; }
 .dropdown:hover .dropdown-content {display: block; }
-.dropdown .dropbtn::after { bottom: 10px; content: '\f107'; font-family: 'FontAwesome'; }
 .appointment-btn { top: -12px; background: #5263d8; border-radius: 3px; transition: all 0.2s ease; }
 .appointment-btn a{ color: #ffffff; text-transform: uppercase; font-size: 12px; font-weight: bold; }
 .navbar .appointment-btn a:hover { background-color: transparent; color: #fff; }
@@ -90,44 +89,47 @@ div.socials { width: 100%; background: #f7f7f7; text-align: center; padding: 15p
 .socials h6.footer__headings { color: #888; font-weight: 500; font-size: 2em; padding-bottom: 0; }
 div.socials ul { margin: 0; padding: 0; }
 div.socials ul li { display: inline-block; margin: 0 10px; }
-div.socials ul li a { color: #2a7db8; font-size: 3em; transition: color 0.2s ease; }
+div.socials ul li a { color: #596bf1; font-size: 3em; transition: color 0.2s ease; }
 .footer-post img{ width: 70px; height: 40px; float: left; margin-right: 10px; margin-bottom: 31px; }
 .footer-title{ height: 70px;} 
 .footer-bottom__center { color: #5263D8; } 
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
 .slider-content{ position: absolute; bottom: 0; width: 100%; background: #0f0e0ebf; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8; }
-.slide-1, .slide-2, .slide-3{  position: relative; }  
+.slide-1, .slide-2, .slide-3{ position: relative; }  
 .slider-content h2, .slider-content h4{ color: #fff; }
 .slider-content a{ color: white !important; background-color: #2f52a0; }
-.Hdifferent img { width: 100%; height: auto; }
+.Hdifferent img { width: 70%; height: 435px; margin: 45px 0; border-radius: 30%;}
+.Hdifferent-left .card{ background: rgb(162, 165, 168); height: 100%;}
+.Hdifferent-left { background: #70809080; }
 .Hdifferent-right p{ font-size: 16px; line-height: 1.5; }
-.Hdifferent{ margin-top: 100px; margin-bottom: 80px; }
+.Hdifferent{ margin-top: 100px; margin-bottom: 80px; text-align: justify; padding-top: 30px;}
 .Hdifferent-right span{ color:#594ada; }
+.Hdifferent-right {border: 3px solid rgb(233, 219, 94); }
+.Hdifferent_heading_line { width: 20%; border-top: 10px solid rgb(214 230 107 / 75%); }
 .Hdifferent a.more{ border: 1px solid #596bf1; color: #596bf1; }
 .Hdifferent a:hover{ color: white !important; background-color: #2f52a0; }
 a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
 .clinic { padding-bottom: 80px;}
-.Hdifferent_heading h2{ text-align: center; }
 .clinic img { height: 270px; }
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; }
 .team-row { justify-content: center; }
     /*** review ***/
 .review_heading { margin: 40px 0; }
-.review_heading h2{ color: #fff; }
-.review{ margin-left: 15px; margin-right: 15px; background: #d8531ec7 }    
-.mark { padding: 12px; background: none !important; color: rgb(37, 37, 33); }
+.review{ margin-left: 15px; margin-right: 15px;}    
+.mark { padding: 12px; background: none !important; color: rgb(226, 226, 212); }
 .parent_reviews .owl-items{ width: 100% !important; }
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
-.pa_review_block a{ font-size: 18px;}
-.pa_review_block p{ margin: 10px; }
-.pa_review_block{ border: 1px solid #26363b1a; padding: 15px 10px; margin-left: 20px; margin-right: 20px; background: #fff; }
+.pa_review_block a{ font-size: 18px; color: #ffffff;}
+.pa_review_block p{ margin: 10px; color: #ffffff; }
+.pa_review_block{ border: 3px solid #3d48831a; padding: 15px 10px; margin-left: 20px; margin-right: 20px; background: #63bc50; color: #ffffff; }
 .rel { position: relative; }
 .rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
 .list-inline .list-inline-item i{ color: #2b9dee; font-size: 16px; }
 .card { background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; }
-.img-hover-zoom--colorize img { border-radius: 70%; width: 90%;  height: 300px; margin-top: 20px; padding: 1px; transition: transform .5s; }
+.img-hover-zoom { background-color: #e6cd38; }
+.img-hover-zoom--colorize img { border-radius: 70%; width: 60%;  height: 200px; margin: 20px 0; padding: 1px; transition: transform .5s; background-color: #ffffff;}
 .card h5 a {color: rgb(238, 229, 229); text-decoration: none; }
 .role { color: rgb(105, 113, 122) }
 .box { display: flex; align-items: center; justify-content: center; }
@@ -137,14 +139,15 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
     /*** service ***/
 .service_heading { text-align: center; text-transform: uppercase; font-weight: bold; padding-bottom: 30px; } 
 .Kservice { padding-top: 4rem; padding-bottom: 5rem; background-color: #9a9c9e; }
-.service { background: #2b56b6e6; color: #fff!important; padding: 1rem 1rem 1rem 1rem; display: flex; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(0,0,0,0.1); margin-bottom: 2rem; }
+.service {  padding: 1rem 1rem 1rem 1rem; display: flex; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(57, 35, 180, 0.8); margin-bottom: 2rem; }
 .service:hover { background: rgb(209, 207, 209); color: #241f1f!important; }
 .service-icon { margin: auto; }
+.service-icon img { width: 90%; background: #ffff; border-radius: 50%;}
 div .service_item .service{ height: 100%; }
 .srv-iconfont { font-size: 4.5rem !important; margin: 1rem;padding-right: 1rem; color: #fff; }
 .service-text { margin: auto; }
 .service_item{ padding-bottom: 25px; }
-.srv-title{ margin-top: 10px; margin-bottom: 10px; text-align: left; font-weight: 700; color: #fff; }
+.srv-title{ margin-top: 10px; margin-bottom: 10px; text-align: left; font-weight: 700; }
 .service-text p { padding-top: 0.5rem; padding-bottom: 0.5rem; line-height: 25px; }
 .srv-para { font-size: 16px; }
 /*** 404 page ***/
@@ -264,8 +267,10 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 /*** location ***/
 .loc_gallery{ margin: 30px 0;}
 .loc_gallery img {width: 248px; height: 250px; }
-.loc_doc img { border: 1px solid #c25d1a; border-radius: 50%; margin-top: 10px; width: calc(100% - 100px); height: 270px; }
-.loc_doc{ text-align: center; }
+.loc_doc img { border: 7px solid #7e7d7d78; border-radius: 50%; margin-top: 10px; width: 62%; height: 195px; }
+.loc_doc_team{ margin-top: 50px;}
+.loc_doc{ text-align: center;}
+.loc_doc h3{ padding-top: 30px;}
 .kdifferent{ margin-top: 80px; }
 .kdifferent_title h2{ text-align:initial; }
 .kdifferent img{ width: 90%; height: auto; }
@@ -287,15 +292,18 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .team_intro{ margin: 30px 0; }
 .team_intro_title{ font-size: 42px; padding-bottom: 30px; padding-left: 16px; }
 .team_intro img{width: 100%; height: 680px; }
-.team_box img{ width: 100%; height: 355px; border-radius: 5%; }
+.team_box img{ width: 70%; height: 200px; padding: 10px 0; }
+.team_image{ border: 2px solid rgba(99, 99, 116, 0.555);}
+.team_box .card{ padding-top: 80px;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
 .nurse_txt .card { margin-bottom: 25px; padding-top: 25px; background: #41476424; }
-.team_title{ font-size: 42px; padding-bottom: 30px; }
+.team_title{ font-size: 42px; padding-bottom: 60px; }
 .meet_nur{ font-size: 42px; padding-left: 16px; padding-bottom: 10px; }
 .nurse_social_icon{ padding-top: 30px;}
 .founder_title{ font-size: 42px; padding-left: 16px; }
-.founder_box img{ width: 100%; height: 590px; }
+.founder_drsc p{ text-align: justify;}
+.founder_box img{ width: 70%; height: 380px; }
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
 .foun_txt{ color: rgb(102, 111, 119); }
@@ -309,16 +317,20 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .anu_qoute{ font-style: italic;  color: #504d4d; padding: 40px 0; }
 .reas_card{ background: #fff; box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05); border: 1; border-radius: 1rem; padding-bottom: 5px;}
 .reas_card img{ height: 200px; width: 100%; }
-.reas_card h3{ text-align: center; padding: 15px; }
-.reas_card p{ padding: 15px; }
+.reas_card h4{ text-align: center; padding: 15px 8px 0 8px; font-size: 1.2rem !important;}
+.reas_card p{ padding: 15px 20px 0 20px; text-align: justify; }
 .reas_item{ padding-bottom: 50px; }
 div .reas_item .reas_card{ height: 100%; }
-.happy_pat{ background: rgb(68 174 202 / 43%); padding: 40px 0; }
-.Hpat_text{ padding: 30px; }
+.happy_pat{ padding: 40px 0; }
+.Hpat_text{ padding: 20px 30px 10px 30px; text-align: justify;}
 .Hpat_detail{ text-align: center; }
+.Hpat_detail .mark{ color: #ffffff;}
+.Hpat_detail h4{ color: #ffffff; padding-bottom: 10px;}
+.happy_pat_items .qoute_icon{ color: #ffffff!important;}
+.Hpat_qoute_icon{ padding-top: 20px;}
 .ratings{ padding: 25px 15px 15px 0; }
 .happy_pat_items{ padding-top: 50px; padding-bottom: 50px; }
-div .happy_pat_items .card { height: 100%; }
+div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff; border-radius: 0%; }
 /*** dental hygiene ***/
 .oral_hygiene{ margin: 80px 0;}
 .oral_hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
@@ -512,3 +524,11 @@ div .braces_types_block .card { height: 100%; }
     transition: 0.2s;
     z-index: 1;
   }
+
+
+
+
+
+  
+
+

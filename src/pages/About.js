@@ -86,32 +86,32 @@ export default class About extends Component {
                         </OwlCarousel>
                     </div>
                 </section>
-                <section className="our_belief">
+                <section className="clinic_tour">
                     <div className="container">
                         <div className="row justify-content-center">
                             <h2 className="belief_title">OUR BELIEF</h2>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center">
-                                <div className="belief_panel">
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center clinic_tour_block">
+                                <div className="belief_panel card">
                                     <img src="/assets/img/image-1.jpg" alt="" />
                                     <p>We want parents to consider dental visits an integral part of their children's healthy lifestyle</p>
                                 </div>
                             </div>    
-                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center">
-                                <div className="belief_panel">
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center clinic_tour_block">
+                                <div className="belief_panel card">
                                     <img src="/assets/img/oral-doc.jpg" alt="" />
                                     <p>We go down to child's level of understanding to inculcate positive attitude towards oral health</p>
                                 </div>
                             </div>    
-                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center">
-                                <div className="belief_panel">
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center clinic_tour_block">
+                                <div className="belief_panel card">
                                     <img src="/assets/img/oral-bug.jpg" alt="" />
                                     <p>We believe to nip the disease in its bud.</p>
                                 </div>
                             </div>    
-                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center">
-                                <div className="belief_panel">
+                            <div className="col-12 col-lg-6 col-md-12 col-sm-12 text-center clinic_tour_block">
+                                <div className="belief_panel card">
                                     <img src="/assets/img/hero-girl2.jpg" alt="" />
                                     <p>We believe in providing enhanced level of care to children</p>
                                 </div>

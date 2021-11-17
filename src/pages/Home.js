@@ -92,13 +92,14 @@ export class Home extends Component {
                     <title>Kidsville | Pediatric Dental Hospital</title>
                     <meta name="description" content="kidsville "/>
                 </Helmet>
+                
                 <section className="banner-slider" id={1}>
                     <div className="container-fluid">
                         <div className="row" >
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 px-0">
                                 <OwlCarousel className="owl-theme tech-slider" {...home_slider}>
                                     <div className="slide-1" style={{background: "url('/assets/img/1.jpg')"}}>
-                                        <img src="/assets/img/banner1.jpg" alt="slider media-1"/>
+                                        <img src="/assets/img/banner1.jpg" alt="slider media-1" />
                                         <div className="container-fluid">
                                             <div className="slider-content">
                                                 <div className="slider_title">
@@ -136,19 +137,15 @@ export class Home extends Component {
                 </section>
                 <section className="Hdifferent" id={2}>
                     <div className="container">
-                        <div className="row">
-                            <div className="col-12 Hdifferent_heading">
-                                <h2>How Are We Different</h2>
+                        <div className="row">  
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 Hdifferent-left text-center">
+                                <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" />  
                             </div>    
-                        </div>
-                        <div className="row align-items-center">   
-                            <div className="col-12 col-lg-3 col-md-3 col-sm-12 Hdifferent-left">
-                                <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-md-9 col-sm-12 Hdifferent-right">
-                                <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients.</p>
-                                <p> Our focus is to treat our patients with compassion, care and understanding. We are obsessively passionate to improve and innovate to exceed expectations.</p>
-                                <p>We challenge ourselves to do things differently. We envision being a globally respected oral care organization known for clinical excellence and distinctive patient care.</p>
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 Hdifferent-right">
+                                <div className="col-12 Hdifferent_heading">
+                                    <h2>How Are We Different<hr className="Hdifferent_heading_line" /></h2>
+                                </div>
+                                <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients.Our focus is to treat our patients with compassion, care and understanding. We are obsessively passionate to improve and innovate to exceed expectations.We challenge ourselves to do things differently. We envision being a globally respected oral care organization known for clinical excellence and distinctive patient care.</p>
                                 <p><a className="more" href="/why-us/">Read More</a></p>
                             </div>
                         </div>
@@ -191,7 +188,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Children's Dentitsry</h3>
@@ -202,7 +199,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Preventive treatments</h3>
@@ -213,7 +210,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Early Orthodontics</h3>
@@ -224,7 +221,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Sedation services</h3>
@@ -235,7 +232,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Dental Emergency</h3>
@@ -246,7 +243,7 @@ export class Home extends Component {
                             <div className="col-lg-6 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
-                                        <span className="srv-iconfont fa fa-cogs"></span>
+                                        <img src="/assets/img/kidsvilleicon.png" alt="services"/>
                                     </div>
                                     <div className="service-text">
                                         <h3 className="srv-title">Dentistry For Teens</h3>
@@ -359,46 +356,46 @@ export class Home extends Component {
                         <div className="container-fluid">
                             <div className="row">
                                 <OwlCarousel className="owl-theme tech-slider" {...parent_review}>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
-                                            <a>Payal Shah</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"Our daughter had a bad dental experience. A friend of mine talked to me about Kidsville children’s Dentistry. Its been 4 appointments to complete her entire treatment and now she misses her dental visit. They made my life easier."</p>
+                                            <a>Payal Shah</a>
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
-                                            <a>Preeti Patel</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son had developed a swelling in his lower tooth and was in pain all night. We called kidsville right away and the emergency was looked into immediately. The doctor was very patient and took great care of my son."</p>
+                                            <a>Preeti Patel</a>
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
-                                            <a>Shrushti Arora</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"My son eats a lot of chocolates. It caused 7 cavities in his mouth. I was worried as he is a hyperactive child. Initially, he was not complying with the doctor, eventually, with consistency, he not only got all his cavities filled, he looks forward to seeing the doctor."</p>
+                                            <a>Shrushti Arora</a>
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
                                             <a>Tanisha Panchal</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                             <p>"The service here is always excellent! My children love coming here. The staff is always friendly and the doctors are great. I would advise anyone looking for a good dentist to come try them out."</p>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                           <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p> 
                                             <a>Sunil Patel</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
-                                            <p>"Thank you all so much for always being so understanding and patient with our daughter!. She really likes to visit you and follows your advices too. She want to be a dentist like you. You are the best "</p> 
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                         </div>
                                     </div>
-                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review">
+                                    <div className="col-12 col-lg-12 col-md-12 col-sm-12 pa_review text-center">
                                         <div className="pa_review_block">
+                                          <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
                                             <a>Chirag Parekh</a>
-                                            <div className="mark">My rating: <span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
-                                            <p>My son had the appointment today for a routine cleaning. Once again, we were very pleased with your service.We highly recommend Dr.Anupriya for anyone in the market for a pediatric dentist!!!  </p>
+                                            <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span data-value="2" className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>
                                         </div>
                                     </div>
                                 </OwlCarousel>

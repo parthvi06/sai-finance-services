@@ -56,7 +56,7 @@ function App() {
             <Route exact path='/contact-us' component={ContactUs}/>
             <Route exact path='/blogs' component={Blogs}/>
             <Route exact path='/blogs/:id' component={BlogPage} />
-            <Route exact path='/about-us' component={About}/>
+            <Route exact path='/about' component={About}/>
             <Route exact path='/meet-our-team' component={OurTeam}/>
             <Route exact path='/why-us' component={WhyUs}/>
             <Route exact path='/location' component={Location}/>
