@@ -155,28 +155,47 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src="/assets/img/Kidsville Castle.png" alt="" />
+                                <img src="/assets/img/clinic_slider/Entrance.jpg" alt="Entrance" />
                             </div>
                             <div>
-                                <img src="/assets/img/Kidsville Operatory.jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Operatory.jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/Exterior.jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Front Desk.jpg" alt="Front Desk" />
                             </div>
                             <div>
-                                <img src="/assets/img/Post operative area For Sedation Procedures (Image 1).jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Sorting and storage.jpg" alt="Sorting and storage" />
                             </div>
                             <div>
-                                <img src="/assets/img/Post Operative Area (image 2).png" alt="" />
+                                <img src="/assets/img/clinic_slider/Facility For Day care.jpg" alt="Facility For Day care" />
                             </div>
                             <div>
-                                <img src="/assets/img/Sterilization Room.jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Sterilization @Kidsville.jpg" alt="Sterilization @Kidsville" />
                             </div>
                             <div>
-                                <img src="/assets/img/Reception.jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Packaging Instruments.jpg" alt="Packaging Instruments" />
                             </div>
                             <div>
-                                <img src="/assets/img/Consultation area.jpg" alt="" />
+                                <img src="/assets/img/clinic_slider/Reception @ Kidsville.jpg" alt="Reception @ Kidsville" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/clinic_slider/Front Desk (2).jpg" alt="Front Desk" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/clinic_slider/consultation Desk.jpg" alt="consultation Desk" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/clinic_slider/Operatory (2).jpg" alt="Operatory" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/clinic_slider/Reception @kidsville (4).jpg" alt="Reception @kidsville" />
+                            </div>
+                            
+                            <div>
+                                <img src="/assets/img/clinic_slider/Operatory (3).jpg" alt="Operatory" />
+                            </div>
+                            <div>
+                                <img src="/assets/img/clinic_slider/Reception @kidsville (2).jpg" alt="Reception @kidsville" />
                             </div>
                         </OwlCarousel>
                     </div>

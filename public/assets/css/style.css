@@ -111,7 +111,7 @@ div.socials ul li a { color: #596bf1; font-size: 3em; transition: color 0.2s eas
 .Hdifferent a:hover{ color: white !important; background-color: #2f52a0; }
 a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; border-radius: 3px;margin-top: 10px; text-align: center; transition: all 0.2s ease; color: #ffffff;}
 .clinic { padding-bottom: 80px;}
-.clinic img { height: 270px; }
+.clinic img { height: 330px; }
 .team_heading { text-align: center; text-transform: uppercase; font-size: 36px; padding-bottom: 20px; }
 .team-row { justify-content: center; }
     /*** review ***/
