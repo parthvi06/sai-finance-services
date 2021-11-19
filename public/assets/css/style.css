@@ -301,14 +301,16 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
 .nurse_box .nurse_intro{ margin-top: 50px; text-align: center;}
-.nurse_txt .card { margin-bottom: 25px; padding-top: 25px; background: #41476424; }
+.nurse_txt .card { margin-bottom: 25px; padding-top: 25px; background: #1ecc5ccc; border-radius: 5%; color: #ffffff;}
+.nurse_txt h3{ color: #ffffff;}
+.nurse_txt img{ height: 200px; border: 1px ridge; border-radius: 50%;}
 .team_title{ font-size: 42px; padding-bottom: 40px; }
 .meet_nur{ font-size: 42px; padding-left: 16px; padding-bottom: 10px; }
 .nurse_social_icon{ padding-top: 30px;}
 .founder_title{ font-size: 42px; padding-left: 16px; }
 .founder_drsc p{ text-align: justify;}
 .founder_box { margin-top: 60px;}
-.founder_box img{ width: 70%; height: 380px; }
+.founder_box img{ width: 70%; height: 380px; border: 2px solid lightskyblue; }
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
 .foun_txt{ color: rgb(102, 111, 119); }
