@@ -72,18 +72,18 @@ export default class OurTeam extends Component {
                                 </div>
                                 <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
                                     <div className="team_image box">
-                                            <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" />
-                                        </div>
-                                        <div className="card">
-                                            <h3>Dr. Ipsit Trivedi</h3>
-                                            <p className="title">MDS Orthodontics</p>
-                                            <p>kidsvilledental@gmail.com</p>
-                                            <div className="team-social-icon">
-                                                <ul className="list-inline">
-                                                    <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
-                                                    <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
-                                                    <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
-                                                </ul>
+                                        <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" />
+                                    </div>
+                                    <div className="card">
+                                        <h3>Dr. Ipsit Trivedi</h3>
+                                        <p className="title">MDS Orthodontics</p>
+                                        <p>kidsvilledental@gmail.com</p>
+                                        <div className="team-social-icon">
+                                            <ul className="list-inline">
+                                                <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
+                                                <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
+                                                <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
@@ -94,7 +94,7 @@ export default class OurTeam extends Component {
                         <div className="container nurse_info">
                             <div className="row text-center">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <h2 className="meet_nur">MEET OUR DENTAL NURSES</h2>
+                                    <h2 className="meet_nur">MEET OUR DENTAL NURSES</h2>
                                 </div>
                             </div>
                             <div className="row nurse_txt">    
@@ -102,23 +102,21 @@ export default class OurTeam extends Component {
                                     <p className="nurse_intro">They keep us organised. They keep us safe. They ensure our patients receive the best from us. Our support staff is impeccable and aligned with the goals of the practice.</p>
                                 </div>
                                 <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                <div className ="row">
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                          
-                                        <div className="card align-items-center">
-                                            <img src="/assets/img/Kajal.jpg" alt="kajal thakor" style={{width:"80%"}} /> 
-                                            <h3>Kajal</h3>
-                                            <p className="title">Dental Assistant</p>
+                                    <div className ="row">
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                                            <div className="card align-items-center">
+                                                <img src="/assets/img/Kajal.jpg" alt="kajal thakor" style={{width:"80%"}} /> 
+                                                <h3>Kajal</h3>
+                                                <p className="title">Dental Assistant</p>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                           
-                                        <div className="card align-items-center">
-                                            <img src="/assets/img/Vandana.jpg" alt="geeta masi" style={{width:"80%"}} />
-                                            <h3>Vandana</h3>
-                                            <p className="title">In-House nurse</p>
-                                        </div>
-                                    </div> 
+                                        <div className="col-12 col-lg-6 col-md-6 col-sm-12">  
+                                            <div className="card align-items-center">
+                                                <img src="/assets/img/Vandana.jpg" alt="geeta masi" style={{width:"80%"}} />
+                                                <h3>Vandana</h3>
+                                                <p className="title">In-House nurse</p>
+                                            </div>
+                                        </div> 
                                     </div>           
                                 </div>
                             </div>

@@ -54,26 +54,26 @@ function Header() {
                                 </button>
                             </div>
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className=" dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
-                                        <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/dental-hygiene-for-children">Dental Hygiene For Children</a>
-                                            <a href="/dental-hypomineralization">Dental Hypomineralization</a>
-                                            <a href="/dental-sealants">Dental Sealants</a>
-                                            <a href="/fluoride-varnish">Fluoride Varnish</a>
-                                            <a href="/sports-dentistry">Sports Dentistry</a>
-                                        </div>
-                                    </button>
-                                </div>    
+                                <button className="dropbtn drop-down"><a className=" dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Preventive Dentistry</a>
+                                    <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="/dental-hygiene-for-children">Dental Hygiene For Children</a>
+                                        <a href="/dental-hypomineralization">Dental Hypomineralization</a>
+                                        <a href="/dental-sealants">Dental Sealants</a>
+                                        <a href="/fluoride-varnish">Fluoride Varnish</a>
+                                        <a href="/sports-dentistry">Sports Dentistry</a>
+                                    </div>
+                                </button>
+                            </div>    
                             <div className="dropdown navbar-nav end">
-                                    <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
-                                        <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a href="/treatment-under-iv-sedation">Treatment under IV Sedation</a>
-                                            <a href="/treatment-under-gerenal-anesthesia">Treatment Under General Anesthesia</a>
-                                        </div>
-                                    </button>
-                                </div>    
+                                <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Sedation Services</a>
+                                    <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a href="/treatment-under-iv-sedation">Treatment under IV Sedation</a>
+                                        <a href="/treatment-under-gerenal-anesthesia">Treatment Under General Anesthesia</a>
+                                    </div>
+                                </button>
+                            </div>    
                             <div className="dropdown navbar-nav end">
-                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
+                                <button className="dropbtn drop-down"><a className="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Orthodontics</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
                                         <a href="/braces-consult">Braces Consult</a>
                                         <a href="/clear-aligner-or-braces">Clear Aligners or Braces?</a>
@@ -95,6 +95,10 @@ function Header() {
                                     </div>
                                 </button>
                             </div>
+                            <div className="dropdown navbar-nav">
+                                <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/special-care-dentistry">Special Care Dentistry</a>
+                                </button>
+                            </div>   
                         </div>
                     </div>
                 </div>
