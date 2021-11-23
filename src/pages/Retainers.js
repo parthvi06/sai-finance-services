@@ -5,9 +5,9 @@ export default class Retainers extends Component {
         return (
             <div>
                 <div className="box-container">
-                    <div className="main-title">
+                    <div className="page-main-title">
                         <div className="container">
-                            <h2 className="main-title__primary">Retainers</h2>
+                            <h2 className="main-title__primary text-center">Retainers</h2>
                         </div>
                     </div>    
                 </div>
