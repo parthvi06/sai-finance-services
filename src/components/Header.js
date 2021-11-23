@@ -50,6 +50,7 @@ function Header() {
                                         <a href="/space-maintainer">Space Maintainer</a>
                                         <a href="/digital-xray">Digital X-ray</a>
                                         <a href="/emergency-dental-treatment">Emergency Dental Treatment</a>
+                                        <a href="/treating-children-at-kidsville">Our way of treating children at Kidsville</a>
                                     </div>
                                 </button>
                             </div>
@@ -61,6 +62,7 @@ function Header() {
                                         <a href="/dental-sealants">Dental Sealants</a>
                                         <a href="/fluoride-varnish">Fluoride Varnish</a>
                                         <a href="/sports-dentistry">Sports Dentistry</a>
+                                        <a href="/brushing-techniques-for-all-ages">Brushing techniques for children</a>
                                     </div>
                                 </button>
                             </div>    
