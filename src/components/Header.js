@@ -88,6 +88,10 @@ function Header() {
                                     </div>
                                 </button>
                             </div>
+                            <div className="dropdown navbar-nav">
+                                <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/special-care-dentistry">Special Care Dentistry</a>
+                                </button>
+                            </div> 
                             <div className="dropdown navbar-nav end">
                                 <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/contact-us" data-toggle="dropdown" aria-expanded="false">Contact</a>
                                     <div className="dropdown-content dropdown-menu" aria-labelledby="navbarDropdown">
@@ -97,11 +101,7 @@ function Header() {
                                         <a href='/faqs'>FAQs</a>
                                     </div>
                                 </button>
-                            </div>
-                            <div className="dropdown navbar-nav">
-                                <button className="dropbtn drop-down"><a className="dropdown-toggle" href="/special-care-dentistry">Special Care Dentistry</a>
-                                </button>
-                            </div>   
+                            </div>  
                         </div>
                     </div>
                 </div>
