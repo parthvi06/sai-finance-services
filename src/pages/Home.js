@@ -145,7 +145,7 @@ export class Home extends Component {
                                 <div className="col-12 Hdifferent_heading">
                                     <h2>How Are We Different<hr className="Hdifferent_heading_line" /></h2>
                                 </div>
-                                <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients.Our focus is to treat our patients with compassion, care and understanding. We are obsessively passionate to improve and innovate to exceed expectations.We challenge ourselves to do things differently. We envision being a globally respected oral care organization known for clinical excellence and distinctive patient care.</p>
+                                <p><span>Kidsville Children’s Dentistry</span> is unique in providing comprehensive dental care to kids of all ages.  We are committed to providing best experience to our patients. Our focus is to treat our patients with compassion, care and understanding. We are obsessively passionate to improve and innovate to exceed expectations.We challenge ourselves to do things differently. We envision being a globally respected oral care organization known for clinical excellence and distinctive patient care.</p>
                                 <p><a className="more" href="/why-us/">Read More</a></p>
                             </div>
                         </div>
