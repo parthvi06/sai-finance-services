@@ -155,16 +155,16 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src='https://www.kidsvilledental.in/assets/img/clinic_slider/Entrance.jpg' alt="Entrance" />
+                                <img src="/assets/img/clinic_slider/Entrance.jpg" alt="Entrance" />
                             </div>
                             <div>
-                                <img src="https://www.kidsvilledental.in/assets/img/clinic_slider/Operatory.jpg" alt="Operatory" />
+                                <img src="/assets/img/clinic_slider/Operatory.jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="https://www.kidsvilledental.in/assets/img/clinic_slider/Front Desk.jpg" alt="Front Desk" />
+                                <img src="/assets/img/clinic_slider/Front Desk.jpg" alt="Front Desk" />
                             </div>
                             <div>
-                                <img src="https://www.kidsvilledental.in/assets/img/clinic_slider/Sorting and storage.jpg" alt="Sorting and storage" />
+                                <img src="/assets/img/clinic_slider/Sorting and storage.jpg" alt="Sorting and storage" />
                             </div>
                             <div>
                                 <img src="/assets/img/clinic_slider/Facility For Day care.jpg" alt="Facility For Day care" />
