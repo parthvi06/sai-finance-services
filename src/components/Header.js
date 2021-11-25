@@ -12,7 +12,7 @@ function Header() {
                     <div className="header-widgets  header-widgets-desktop">
                         <div className="pink-offer widget  widget_black_studio_tinymce">
                             <div className="top-header-right">
-                                <a href="/" className="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a className="white-text" href="/"> Mon - Sat 10:30am to 8:30pm </a> | <a className="white-text" href="/"> Sunday By Appointment</a> | <a className="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
+                                <a href="https://blog.kidsvilledental.in/appointment/" className="btn appointment-btn white-text">APPOINTMENT</a>&emsp;<a className="white-text" href="https://blog.kidsvilledental.in/appointment/"> Mon - Sat 10:30am to 8:30pm </a> | <a className="white-text" href="/"> Sunday By Appointment</a> | <a className="white-text" href="tel:+91 6358834088"> Emergency Treatment 24 x 7 - Call 6358834088</a>
                             </div>        
                         </div>        
                     </div>
@@ -63,6 +63,7 @@ function Header() {
                                         <a href="/fluoride-varnish">Fluoride Varnish</a>
                                         <a href="/sports-dentistry">Sports Dentistry</a>
                                         <a href="/brushing-techniques-for-all-ages">Brushing techniques for children</a>
+                                        <a href="/pattern-of-tooth-decay">Pattern of tooth decay</a>
                                     </div>
                                 </button>
                             </div>    

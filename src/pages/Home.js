@@ -126,7 +126,7 @@ export class Home extends Component {
                                             <h4 className="slide_text">International Standards Of Sterillization</h4>
                                             <h2>Equipped With Advance Technologies</h2>
                                             <div className="button-appointment">
-                                                <a href="#" className="more">Book An Appointment</a>
+                                                <a href="/" className="more">Book An Appointment</a>
                                             </div>
                                         </div>    
                                     </div>
