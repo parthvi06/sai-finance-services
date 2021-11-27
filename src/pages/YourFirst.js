@@ -17,7 +17,7 @@ export default class YourFirst extends Component {
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>What To Expect At Your First Visit?</h2>
                                 <p>The most important part of your child’s dental journey is his first visit with Us. We use this crucial visit to build rapport with the child for life long foundation towards dentistry. We keep it more introductory with minimal procedures. This goes a long way in building a positive attitude towards dental treatment!</p>
-                                <a className="more inner-btn" href="/#">Book Your Appointment</a>
+                                <a className="more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book Your Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ export default class YourFirst extends Component {
                     <div className="container">
                         <div className="row">
                             <h2 className="text-center">What Do We Assess At The First Consultation?</h2>
-                            <p className="text-center">We encourage to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
+                            <p className="text-center">We encourage you to visit our practice even before the need for any treatment arises and take active measures to keep disease at bay.</p>
                             <div className="consultation-col col-12 col-lg-4 col-md-10 col-sm-12">
                                 <div className="consultation">
                                     <div className="consultation-icon">
@@ -118,7 +118,7 @@ export default class YourFirst extends Component {
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Tooth decay</h3>
-                                        <p className="con-para">We thoroughly check your childs teeth for signs of any tooth decay or any other orodental issue.</p>
+                                        <p className="con-para">We thoroughly check your child's teeth for signs of any tooth decay or any other orodental issue.</p>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ export default class YourFirst extends Component {
                                     </div>
                                     <div className="consultation-text">
                                         <h3 className="con-title">Eruption Pattern</h3>
-                                        <p className="con-para">We assess the age wise eruption pattern and sequence of teeth and provide any guidance related to early intercention.</p>
+                                        <p className="con-para">We assess the age wise eruption pattern and sequence of teeth and provide any guidance related to early interception.</p>
                                     </div>
                                 </div>
                             </div>

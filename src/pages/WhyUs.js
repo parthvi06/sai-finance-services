@@ -126,7 +126,7 @@ export default class WhyUs extends Component {
                                         <a className="qoute_icon"><i className="fa fa-quote-right"></i></a>
                                     </div> 
                                     <div className="Hpat_text">
-                                        <p>Our daughter who is 10 months old did have any of her milk tooth eruption. I and my wife were worried. we got her check-up done. It was a relief talking to Dr. Anupriya.</p>
+                                        <p>Our daughter who is 10 months old did have any of her milk tooth eruption. I and my wife were worried. We got her check-up done. It was a relief talking to Dr. Anupriya.</p>
                                     </div>
                                     <div className="Hpat_detail person-text rel">
                                         <div className="mark"><span className="rating-input"><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span><span className="fa fa-star"></span></span></div>

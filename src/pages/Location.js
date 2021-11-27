@@ -110,7 +110,7 @@ export default class Location extends Component {
                                             <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
                                             <hr className="sep_line" />
                                             <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
-                                            <a className="more">Book Now</a>
+                                            <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Now</a>
                                         </div>
                                     </div>    
                                 </div>
@@ -122,7 +122,7 @@ export default class Location extends Component {
                                             <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
                                             <hr className="sep_line" />
                                             <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
-                                            <a className="more">Book Now</a>
+                                            <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Now</a>
                                         </div>
                                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                             <img src="/assets/img/visit_fun.jpg" alt="" />
@@ -163,7 +163,7 @@ export default class Location extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-6 col-md-8 col-sm-12 intouch_del">
                                 <h3>Get in touch</h3>
-                                <p><a href="mailto:info@kidsville.in"><i className="fa fa-envelope">Send an Email</i></a></p>
+                                <p><a href="mailto:kidsvilledental@gmail.com"><i className="fa fa-envelope">Send an Email</i></a></p>
                                 <a className="book_now">Book Online</a>
                                 <div className="loc_time">
                                     <h3 className="">Opening Hours</h3>

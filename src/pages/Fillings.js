@@ -16,7 +16,7 @@ export default class fillings extends Component {
                         <div className="row pit_sealant">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>Tooth coloured Fillings in children</h2>
-                                <p>Decay in teeth creates cavitations in them. these cavities and the decay are managed by removing the decay mechanically and filling the cavities using biocompatible, durable, and esthetic filling material. These fillings prevent further tooth decay and retain the teeth healthy and strong.</p>
+                                <p>Decay in teeth creates cavitations in them. These cavities and the decay are managed by removing the decay mechanically and filling the cavities using biocompatible, durable, and esthetic filling material. These fillings prevent further tooth decay and retain the teeth healthy and strong.</p>
                             </div>
                         </div>
                         <div className="row  P_F_sealants">
@@ -26,14 +26,14 @@ export default class fillings extends Component {
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 sealant">
                                 <h3>Glass Ionomer Fillings</h3>
                                 <p>These Fillings bond chemically to the dentin. These are fluoride-releasing cement that gives the tooth long-term benefits of fluoride. Since they are easily placed, they are more commonly used in very young children who are difficult to manage in the dental chair</p>
-                                <a className="more">Got a cavity? Book and appointment</a>
+                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">Got a cavity? Book and appointment</a>
                             </div>
                         </div>
                         <div className="row P_F_sealants reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h3>Composite Fillings</h3>
                                 <p>Sealants are only applied to the back teeth – the molars and premolars. These are the teeth that have ‘pits’ (small hollows) and ‘fissures’ (grooves) on their biting surfaces. Some teeth naturally have deep grooves which will need to be sealed; others have shallow ones which will not need sealing.</p>
-                                <a className="more">BOOK MORE</a>
+                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK MORE</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <img src="/assets/img/Composite_fillings.jpg" alt="" />
@@ -48,7 +48,7 @@ export default class fillings extends Component {
                                 <h2 className="text-center">Cavities in primary teeth</h2>
                                 <p><strong>Primary teeth</strong> (also called baby teeth) start coming into your child’s mouth at around six months of age at a rate of about two teeth per six months. These teeth remain until their permanent (also called adult) teeth erupt.</p>
                                 <p>Many parents assume that, because they’re temporary, dental problems with primary teeth aren’t as big of a concern as problems with permanent teeth. Unfortunately, this is not the case – you should treat your child’s oral routine as carefully as your own, even when they only have their primary teeth.</p>
-                                <p>Cavities occur when your child’s teeth are not adequately cleaned or their diet is too heavy in sugar or acidic items. Food matter, acidity, and bacteria contribute to plaque and can break down the hard outer layer of their teeth, known as the enamel, leading to a cavity. Additionally, this plaque can harden into tartar that causes <strong>gum disease</strong>and can’t be removed without professional assistance.</p>
+                                <p>Cavities occur when your child’s teeth are not adequately cleaned or their diet is too heavy in sugar or acidic items. Food matter, acidity, and bacteria contribute to plaque and can break down the hard outer layer of their teeth, known as the enamel, leading to a cavity. Additionally, this plaque can harden into tartar that causes <strong>gum disease</strong> and can’t be removed without professional assistance.</p>
                                 <h3>Need for filling in baby teeth?</h3>
                                 <p>You should take your child’s cavities (also known as caries) in their primary teeth just as seriously as you should take them in permanent teeth – meaning, you should seek the assistance of your dental professional as soon as possible for diagnosis, treatment, and to avoid other issues.<br />In short, fillings in your child’s primary teeth are typically just as necessary as fillings in permanent teeth.</p>
                                 <p>It’s essential to care for your child’s primary teeth due to a diversity of reasons:</p>

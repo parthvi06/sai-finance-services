@@ -44,7 +44,7 @@ export default class ChildrenEmergency  extends Component {
                                     </div>
                                     <div className="dealing_with_prob">
                                     <h3>Broken/knocked out tooth</h3>
-                                    <p>If your child has hit himself on the face while in some activity with and impact on the face.</p>
+                                    <p>If your child has hit himself on the face while in some activity with an impact on the face.</p>
                                 </div>   
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">

@@ -36,6 +36,7 @@ function Header() {
                                         <a href="/why-us">Why US?</a>
                                         <a href="/blogs">Blogs</a>
                                         <a href="/location">Location</a>
+                                        <a href="/treating-children-at-kidsville">Our way of treating children at Kidsville</a>
                                     </div>
                                 </button>
                             </div>
@@ -50,7 +51,6 @@ function Header() {
                                         <a href="/space-maintainer">Space Maintainer</a>
                                         <a href="/digital-xray">Digital X-ray</a>
                                         <a href="/emergency-dental-treatment">Emergency Dental Treatment</a>
-                                        <a href="/treating-children-at-kidsville">Our way of treating children at Kidsville</a>
                                     </div>
                                 </button>
                             </div>

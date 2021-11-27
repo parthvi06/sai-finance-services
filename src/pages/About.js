@@ -48,7 +48,7 @@ export default class About extends Component {
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
                                 <h2 className="team_intro_title">Kidsville Children's Dentistry is a collective of amazing people striving to build delightful dental experience.</h2>
                                 <p>At Kidsville, we believe that children with their young developing minds should be cared for with tenderness and compassion. We are obsessively passionate about our mission to provide a seamless and bespoke dental experience. We focus on customizing our services to child’s age and maturity. We are excited to simplify dentistry for children through our child-centric approach.</p>
-                                <a className="more inner-btn" href="/#">Book Your Appointment</a>
+                                <a className="more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book Your Appointment</a>
                             </div>
                         </div>
                     </div>
