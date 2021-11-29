@@ -46,10 +46,10 @@ export default class BrushingTechniques extends Component {
                                 <h2 className="text-center">Young children need help brushing their teeth</h2>
                                 <p>Tips to help clean your child’s teeth include: </p>
                                 <ul>
-                                    <li>•	Sit your child on your lap, facing away from you.</li>
-                                    <li>•	Cup their chin with one hand, with their head resting against your body.</li>
-                                    <li>•	Brush teeth and along the gum line. Brush gently in small circles. Clean every tooth thoroughly and brush the inside, outside and chewing surfaces of teeth.</li>
-                                    <li>•	After brushing, encourage your child to spit out toothpaste, not to swallow it or rinse with water. This leaves a small amount of toothpaste in the mouth to keep protecting teeth. Spitting out can be difficult for small children. You will need to encourage and show them how to do it.</li>
+                                    <li>Sit your child on your lap, facing away from you.</li>
+                                    <li>Cup their chin with one hand, with their head resting against your body.</li>
+                                    <li>Brush teeth and along the gum line. Brush gently in small circles. Clean every tooth thoroughly and brush the inside, outside and chewing surfaces of teeth.</li>
+                                    <li>After brushing, encourage your child to spit out toothpaste, not to swallow it or rinse with water. This leaves a small amount of toothpaste in the mouth to keep protecting teeth. Spitting out can be difficult for small children. You will need to encourage and show them how to do it.</li>
                                 </ul>
                             </div>
                         </div>

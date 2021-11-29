@@ -158,10 +158,10 @@ export class Home extends Component {
                                 <img src="/assets/img/clinic_slider/Entrance.jpg" alt="Entrance" />
                             </div>
                             <div>
-                                <img src="/assets/img/clinic_slider/Operatory.jpg" alt="Operatory" />
+                                <img src="/assets/img/slider-home/Operatory.jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/clinic_slider/Front Desk.jpg" alt="Front Desk" />
+                                <img src="/assets/img/slider-home/Front Desk.jpg" alt="Front Desk" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Sorting and storage.jpg" alt="Sorting and storage" />
@@ -180,22 +180,22 @@ export class Home extends Component {
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Front Desk (2).jpg" alt="Front Desk" />
+                            </div> 
+                            <div>
+                                <img src="/assets/img/slider-home/consultationDesk.jpg" alt="consultation Desk" />
                             </div>
                             <div>
-                                <img src="/assets/img/clinic_slider/consultationDesk.jpg" alt="consultation Desk" />
+                                <img src="/assets/img/slider-home/Operatory (2).jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/clinic_slider/Operatory (2).jpg" alt="Operatory" />
-                            </div>
-                            <div>
-                                <img src="/assets/img/clinic_slider/Reception @kidsville (4).jpg" alt="Reception @kidsville" />
+                                <img src="/assets/img/slider-home/Reception @kidsville (4).jpg" alt="Reception @kidsville" />
                             </div>
                             
                             <div>
-                                <img src="/assets/img/clinic_slider/Operatory (3).jpg" alt="Operatory" />
+                                <img src="/assets/img/slider-home/Operatory (3).jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/clinic_slider/Reception @kidsville (2).jpg" alt="Reception @kidsville" />
+                                <img src="/assets/img/slider-home/Reception @kidsville (2).jpg" alt="Reception @kidsville" />
                             </div>
                         </OwlCarousel>
                     </div>
