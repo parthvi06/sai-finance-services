@@ -164,19 +164,19 @@ export class Home extends Component {
                                 <img src="/assets/img/clinic_slider/Front Desk.jpg" alt="Front Desk" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Sorting and storage.JPG" alt="Sorting and storage" />
+                                <img src="/assets/img/slider-home/Sorting and storage.jpg" alt="Sorting and storage" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Facility For Day care.JPG" alt="Facility For Day care" />
+                                <img src="/assets/img/slider-home/Facility For Day care.jpg" alt="Facility For Day care" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Sterilization@Kidsville.JPG" alt="Sterilization @Kidsville" />
+                                <img src="/assets/img/slider-home/Sterilization@Kidsville.jpg" alt="Sterilization @Kidsville" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Packaging Instruments.JPG" alt="Packaging Instruments" />
+                                <img src="/assets/img/slider-home/Packaging Instruments.jpg" alt="Packaging Instruments" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Reception @ Kidsville.JPG" alt="Reception @ Kidsville" />
+                                <img src="/assets/img/slider-home/Reception @ Kidsville.jpg" alt="Reception @ Kidsville" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Front Desk (2).jpg" alt="Front Desk" />
