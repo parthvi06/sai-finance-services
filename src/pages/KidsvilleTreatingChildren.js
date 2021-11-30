@@ -43,7 +43,7 @@ export default class KidsvilleTreatingChildren extends Component {
                     </div>
                 </section>
                 <section className="remember">
-                    <div className="container">
+                    <div className="container"> 
                         <div className="row pit_sealant">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <p>And finally for those of our kids who are just unable to cope up with dentistry despite all measures, we have a robust team of super specialist doctors to render treatment under sedation or General Anesthesia, which are more known as pharmacologic behavior management techniques.</p>

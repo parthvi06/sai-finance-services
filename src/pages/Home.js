@@ -155,10 +155,10 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <OwlCarousel className="owl-theme tech-slider" {...clinic_slider}>
                             <div>
-                                <img src="/assets/img/clinic_slider/Entrance.jpg" alt="Entrance" />
+                                <img src="/assets/img/slider-home/Entrance-(2).png" alt="Entrance" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Operatory.jpg" alt="Operatory" />
+                                <img src="/assets/img/slider-home/Operatory.png" alt="Operatory" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Front Desk.jpg" alt="Front Desk" />
@@ -176,26 +176,26 @@ export class Home extends Component {
                                 <img src="/assets/img/slider-home/Packaging Instruments.jpg" alt="Packaging Instruments" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Reception @ Kidsville.jpg" alt="Reception @ Kidsville" />
+                                <img src="/assets/img/slider-home/Reception@Kidsville.jpg" alt="Reception @ Kidsville" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Front Desk (2).jpg" alt="Front Desk" />
                             </div> 
                             <div>
-                                <img src="/assets/img/slider-home/consultationDesk.jpg" alt="consultation Desk" />
+                                <img src="/assets/img/slider-home/consultationDesk.png" alt="consultation Desk" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Operatory (2).jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Reception @kidsville (4).jpg" alt="Reception @kidsville" />
+                                <img src="/assets/img/slider-home/Reception@kidsville (4).jpg" alt="Reception @kidsville" />
                             </div>
                             
                             <div>
                                 <img src="/assets/img/slider-home/Operatory (3).jpg" alt="Operatory" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Reception @kidsville (2).jpg" alt="Reception @kidsville" />
+                                <img src="/assets/img/slider-home/Reception@kidsville (2).jpg" alt="Reception @kidsville" />
                             </div>
                         </OwlCarousel>
                     </div>

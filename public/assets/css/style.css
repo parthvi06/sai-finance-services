@@ -213,7 +213,7 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .consultation-text,.emrg_text{ float: right; padding: 5px 15px 0 0px;}
 .consultation_title .consultation .consultation-text h3{ margin-top: 0px; color: #ffffff!important; }
 .consultation .consultation-icon img{ width: 70%; background-color: #ffffff; border-radius: 50px;}
-.consultation_title .consultation-col{ -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 1rem 1rem; border: 3px solid #2f52a075; border-radius: 25px; background-color: #73ba64; color: #ffffff!important;}
+.consultation_title .consultation-col{ -ms-flex: 0 0 33.333333%; flex: 0 0 33.333333%; max-width: 32.333333%; margin: .5%; padding: 1rem 1rem; border: 3px solid #222f4bb0; border-radius: 25px; background-color: #73ba64; color: #ffffff!important; box-shadow: inset -9px -5px 0 #2c3b56b5;}
 .consultation_title { padding: 0 15px;}
 .consultation_title{ padding: 50px 0;}
 .bring_child_title{ padding-bottom: 50px;}
