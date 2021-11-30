@@ -185,7 +185,7 @@ export class Home extends Component {
                                 <img src="/assets/img/slider-home/consultationDesk.png" alt="consultation Desk" />
                             </div>
                             <div>
-                                <img src="/assets/img/slider-home/Operatory (2).jpg" alt="Operatory" />
+                                <img src="/assets/img/slider-home/Operatory (3).png" alt="Operatory" />
                             </div>
                             <div>
                                 <img src="/assets/img/slider-home/Reception@kidsville (4).jpg" alt="Reception @kidsville" />
