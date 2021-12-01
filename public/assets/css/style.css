@@ -256,7 +256,7 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .about-slider img{ height: 270px; width: 100%; } 
 .our_belief { background-color: #2f52a0; color:whitesmoke; margin: 40px 0;}
 .belief_title{ text-align: center; font-size: 42px; color: white; padding-bottom: 30px;}
-.belief_panel img { width: 100%; height: 230px; }
+.belief_panel img { width: 100%; height: 200px; }
 .belief_panel p{ padding-right: 10px; padding-left: 10px;padding-top: 20px; }
 .about_motto{ margin: 60px 0; }
 .about_motto img{ width: 100%; height: auto; padding-top: 60px; }
@@ -339,7 +339,7 @@ div .reas_item .reas_card{ height: 100%; }
 .Hpat_qoute_icon{ padding-top: 20px;}
 .ratings{ padding: 25px 15px 15px 0; }
 .happy_pat_items{ padding-top: 50px; padding-bottom: 50px; }
-div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff; border-radius: 0%; box-shadow: 0px 7px 35px -5px darkslateblue;}
+div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff; border-radius: 0%; box-shadow: 0px 25px 30px -5px darkslateblue;}
 /*** dental hygiene ***/
 .oral_hygiene{ margin: 80px 0;}
 .oral_hygiene a{ border: 1px solid #2f52a0; color: #2f52a0 !important; }
