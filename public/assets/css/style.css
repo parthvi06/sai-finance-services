@@ -204,9 +204,9 @@ div .blog-posts .card{ height: 100%; }
 .clinic_tour{ margin-top: 50px; background-color: #596bf1; padding: 40px 0; }
 .clinic_tour h2{ color: #ffffff !important;}
 .clinic_tour h5{ color: #ffffff !important;}
-.clinic_tour img { width: 100%; height: 230px;}
+.clinic_tour img { width: 100%; height: 215px;}
 div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
-.clinic_tour .card h4{ padding: 30px 10px;}
+.clinic_tour .card h4{ padding: 30px 10px; font-size: 1.2rem;}
 .clinic_tour_block { margin-top: 30px; margin-bottom: 30px; }
 .consultation,.emrg_icon_text{ display: flex;}
 .consultation-icon,.emrg_icon{ float: left;}
