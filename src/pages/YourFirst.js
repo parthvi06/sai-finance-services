@@ -32,73 +32,73 @@ export default class YourFirst extends Component {
                             <div className="row">
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/1. Sanitising your hands.jpg" alt="Sanitising your hands" />
+                                        <img src="/assets/img/1. Sanitisingyourhands.png" alt="Sanitising your hands" />
                                         <h4>Sanitizing your hands</h4>
                                     </div>    
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/2. Filling out History Sheet.jpg" alt="Filling out History Sheet" />
+                                        <img src="/assets/img/2. FillingoutHistorySheet.png" alt="Filling out History Sheet" />
                                         <h4>Filling out history form</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/3. We measure How tall you are compared to Mr. Giraffe.jpg" alt="We measure How tall you are compared to Mr. Giraffe" />
+                                        <img src="/assets/img/3. WemeasureHowtallyouarecomparedtoMr.Giraffe.png" alt="We measure How tall you are compared to Mr. Giraffe" />
                                         <h4>Playing in the waiting Room</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/4. We measure your weight.jpg" alt="We measure your weight" />
+                                        <img src="/assets/img/4. Wemeasureyourweight.png" alt="We measure your weight" />
                                         <h4>Walking into the operatory</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/5.Welcome to the operatory.jpg" alt="Welcome to the operatory" />
+                                        <img src="/assets/img/5.Welcometotheoperatory.png" alt="Welcome to the operatory" />
                                         <h4>Familiarizing your child to the new place </h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/6. Familiarize to the new place.jpg" alt="Familiarize to the new place" />
+                                        <img src="/assets/img/6. Familiarizetothenewplace.png" alt="Familiarize to the new place" />
                                         <h4>Talking to you child about teeth health and learning to brush teeth </h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/7. We want you to check things out for yourself and have fun.jpg" alt="We want you to check things out for yourself and have fun" />
+                                        <img src="/assets/img/7. Wewantyoutocheckthingsoutforyourselfandhavefun.png" alt="We want you to check things out for yourself and have fun" />
                                         <h4>Comprehensive oral assessment</h4>
                                      </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/8. Comprehensive Oral Assessment.jpg" alt="Comprehensive Oral Assessment" />
+                                        <img src="/assets/img/8. ComprehensiveOralAssessment.png" alt="Comprehensive Oral Assessment" />
                                         <h4>Clicking digital low dose X ray images</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/9. We take your mouth Pictures.jpg" alt="We take your mouth Pictures" />
+                                        <img src="/assets/img/9. WetakeyourmouthPictures.png" alt="We take your mouth Pictures" />
                                         <h4>Formulating treatment and preventive plan customized for your child</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/10. We may take digital X rays of your teeth.jpg" alt="We may take digital X rays of your teeth" />
+                                        <img src="/assets/img/10. WemaytakedigitalX-raysofyourteeth.png" alt="We may take digital X rays of your teeth" />
                                         <h4>Reward for best behavior</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/11. We reward you for good behavior.jpg" alt="We reward you for good behavior" />
+                                        <img src="/assets/img/11. Werewardyouforgoodbehavior.png" alt="We reward you for good behavior" />
                                         <h4>We reward you for good behavior</h4>
                                     </div>
                                 </div>
                                 <div className="col-12 col-lg-3 col-md-3 col-sm-12 text-center clinic_tour_block">
                                     <div className="card">
-                                        <img src="/assets/img/12. Discussion of all oral health and formulation of treatmetn plan.jpg" alt="Discussion of all oral health and formulation of treatmetn plan" />
+                                        <img src="/assets/img/12. Discussionofalloralhealthandformulationoftreatmetnplan.png" alt="Discussion of all oral health and formulation of treatmetn plan" />
                                         <h4>Discussion of all oral health and formulation of treatmetn plan</h4>
                                     </div>
                                 </div>
