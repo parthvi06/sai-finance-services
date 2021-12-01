@@ -105,14 +105,14 @@ export default class OurTeam extends Component {
                                     <div className ="row">
                                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                             <div className="card align-items-center">
-                                                <img src="/assets/img/Kajal.jpg" alt="kajal thakor" style={{width:"80%"}} /> 
+                                                <img src="/assets/img/Kajal.png" alt="kajal thakor" style={{width:"80%"}} /> 
                                                 <h3>Kajal</h3>
                                                 <p className="title">Dental Assistant</p>
                                             </div>
                                         </div>
                                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">  
                                             <div className="card align-items-center">
-                                                <img src="/assets/img/Vandana.jpg" alt="geeta masi" style={{width:"80%"}} />
+                                                <img src="/assets/img/Vandana.png" alt="geeta masi" style={{width:"80%"}} />
                                                 <h3>Vandana</h3>
                                                 <p className="title">In-House nurse</p>
                                             </div>
