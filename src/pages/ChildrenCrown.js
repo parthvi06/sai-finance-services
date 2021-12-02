@@ -50,19 +50,19 @@ export default class ChildrenCrown extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 put_cap_tooth">
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 put_cap_tooth text-center">
                                 <a><i></i></a>
                                 <h4>A metal cap can in some instances offer an alternative to removing a decayed tooth</h4>
                             </div>
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 text-center">
                                 <a><i></i></a>
                                 <h4>A metal cap reserve a space in your child’s mouth for the succeeding permanent tooth yet to erupt​</h4>
                             </div>
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 put_cap_tooth">
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 put_cap_tooth text-center">
                                 <a><i></i></a>
                                 <h4>The preformed cap will fall out naturally when the baby tooth falls out​</h4>
                             </div>
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-6 col-md-6 col-sm-12 text-center">
                                 <a><i></i></a>
                                 <h4>Metal crowns are most safe made of only safe metals​​​</h4>
                             </div>
@@ -94,14 +94,14 @@ export default class ChildrenCrown extends Component {
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 sealant">
                                 <h3>Stainless Steel Crowns</h3>
                                 <p>Discovered in 1950, Stainless Steel (metal caps) are still the most comfortable and resistant, and widely used caps for teeth on young children. They require very minimal alteration of tooth structure and are cemented with ease. These caps shed off along with the tooth at the time of their natural exfoliation at the appropriate age.</p>
-                                <a className="more">BOOK AN APPOINTMENT</a>
+                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK AN APPOINTMENT</a>
                             </div>
                         </div>
                         <div className="row P_F_sealants reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h3>Zirconia Crowns</h3>
                                 <p>These are tooth-colored caps that give amazing luster and opalescence to teeth. along with esthetics, they provide considerable strength to the tooth structure. these are most preferred for upper front teeth to give the pearl-like appearance to teeth.</p>
-                                <a className="more">BOOK AN APPOINTMENT</a>
+                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK AN APPOINTMENT</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <img src="/assets/img/opalescene.jpg" alt="" />

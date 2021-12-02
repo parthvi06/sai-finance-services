@@ -63,27 +63,27 @@ export default class SpaceMaintainer extends Component {
                         <div className="row Space_Maintainer_Appliance_block">    
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/chewingGum.jpg" alt="" />
-                                <h3>Avoid sticky sweets, popcorn, ice and or chewing gum.</h3>
+                                <h5>Avoid sticky sweets, popcorn, ice and or chewing gum.</h5>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/don'tpush.jpg" alt="" />
-                                <h3>Don't tug or push on the space maintainer with your fingers or tongue.</h3>
+                                <h5>Don't tug or push on the space maintainer with your fingers or tongue.</h5>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/Teethbrushing.jpg" alt="" />
-                                <h3>Keep it clean with brushing and flossing.</h3>
+                                <h5>Keep it clean with brushing and flossing.</h5>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/wire.jpg" alt="" />
-                                <h3>At night carefully clean around all wires, bands and other areas of the appliance, as it tends to trap food.</h3>
+                                <h5>At night carefully clean around all wires, bands and other areas of the appliance, as it tends to trap food.</h5>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/candy.jpg" alt="" />
-                                <h3>Make sure your child avoids the following: Chewing gum. Sticky candy such as Jolly Ranchers, Tootsie Rolls, gummies, and caramel.</h3>
+                                <h5>Make sure your child avoids the following: Chewing gum. Sticky candy such as Jolly Ranchers, Tootsie Rolls, gummies, and caramel.</h5>
                             </div>
                             <div className="col-12 col-lg-4 col-md-6 col-sm-12">
                                 <img src="/assets/img/sMaintainer.jpg" alt="" />
-                                <h3>Children readily adapt to space maintainers</h3>
+                                <h5>Children readily adapt to space maintainers</h5>
                             </div>
                         </div>
                     </div>

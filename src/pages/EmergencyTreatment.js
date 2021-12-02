@@ -93,9 +93,9 @@ export default class ChildrenEmergency  extends Component {
                                 <h2 className="text-center">Emergency Services Include</h2>
                                 <p className="text-center"><strong>At Kidsville, every dental emergency is handled in an organised and scientific manner will long term follow ups.</strong><hr/></p>
                                 <br />
-                                <p><strong>Alleviate pain</strong><br />Your dentist will provide emergency symptomatic treatment based on the diagnosis</p>
-                                <p><strong>Trauma managemnt</strong><br />Your dentist will take a detailed history and diagnosis of the trauma its impact on oro-dental structures. Address the impact and put you on follow up.</p>
-                                <p><strong>Prescriptions</strong><br />Your child may be prescribed pain-killers and antibiotics to control the spread of infection</p>
+                                <p><strong><u>Alleviate pain</u> :</strong> Your dentist will provide emergency symptomatic treatment based on the diagnosis</p>
+                                <p><strong><u>Trauma managemnt</u> :</strong> Your dentist will take a detailed history and diagnosis of the trauma its impact on oro-dental structures. Address the impact and put you on follow up.</p>
+                                <p><strong><u>Prescriptions</u> : </strong> Your child may be prescribed pain-killers and antibiotics to control the spread of infection</p>
                             </div>
                         </div>
                     </div>

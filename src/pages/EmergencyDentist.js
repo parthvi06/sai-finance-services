@@ -109,8 +109,7 @@ export default class EmergencyDentist extends Component {
                                             <span className="fa fa-cogs"></span>
                                         </div>
                                         <div className="emrg_text text">
-                                            <h4>Alleviate pain</h4>
-                                            <p>Your dentist will provide emergency symptomatic treatment based on the diagnosis</p>
+                                            <p><strong>Alleviate pain</strong>Your dentist will provide emergency symptomatic treatment based on the diagnosis</p>
                                         </div>
                                     </div>
                                     <div className="emrg-ser">
@@ -118,8 +117,7 @@ export default class EmergencyDentist extends Component {
                                             <span className="fa fa-cogs"></span>
                                         </div>
                                         <div className="emrg_text text">
-                                            <h4>Trauma managemnt</h4>
-                                            <p>Your dentist will take a detailed history and diagnosis of the trauma its impact on oro-dental structures. Address the impact and put you on follow up</p>
+                                            <p><strong>Trauma managemnt</strong>Your dentist will take a detailed history and diagnosis of the trauma its impact on oro-dental structures. Address the impact and put you on follow up</p>
                                         </div>
                                     </div>
                                     <div className="emrg-ser">
@@ -127,8 +125,7 @@ export default class EmergencyDentist extends Component {
                                             <span className="fa fa-cogs"></span>
                                         </div>
                                         <div className="emrg_text text">
-                                            <h4>Prescriptions</h4>
-                                            <p>Your child may be prescribed pain-killers and antibiotics to control the spread of infection.</p>
+                                            <p><strong>Prescriptions</strong>Your child may be prescribed pain-killers and antibiotics to control the spread of infection.</p>
                                         </div>
                                     </div>
                                 </div>     

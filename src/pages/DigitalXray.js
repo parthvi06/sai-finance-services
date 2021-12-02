@@ -36,10 +36,10 @@ export default class DigitalXray extends Component {
                                 <h2>Are dental X-rays safe for my child?</h2>
                                 <p>Absolutely. The amount of radiation exposure in dental x-rays and more specifically using digital machines is very minimal which causes minimal harm.</p>
                                 <p>Now you might know more about when X-rays are needed for your child but do you still have questions about their safety? According to <strong>Mouth Healthy by the American Dental Association</strong>, dental X-rays are safe. They will expose your child to low radiation levels, but the possibility of experiencing any harmful effects is also low. Additionally, most dental professionals follow the new pediatric X-ray guidelines from <strong>the Food and Drug Administration</strong>. These guidelines recommend that "medical X-ray imaging exams be optimized to use the lowest radiation dose needed."</p>
-                                <a className="more">FEEL FREE TO CONTACT US</a>
+                                <a className="more" href="tel:+91 6358834088">FEEL FREE TO CONTACT US</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                                <img src="/assets/img/Dental-X-ray.jpg" alt="" />
+                                <img src="/assets/img/X ray.jpg" alt="" />
                             </div>
                         </div>
                     </div>   

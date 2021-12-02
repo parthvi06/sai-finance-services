@@ -20,7 +20,7 @@ export default class DentalHygiene extends Component {
                                     <h2 className="hygiene_title">From when should i begin to care about my child's oral hygiene?</h2>
                                     <p>You should begin to care about your child’s oral hygiene from his infancy itself. Ask your pedodontist for the detailed manner to do so. Schedule your child’s first dental appointment before their first birthday or after his or her first baby tooth is visible, whichever comes first.</p>
                                     <p>As kids grow up, their oral hygiene habits should grow with them. Kids have all their baby teeth by the age of 3. These are called primary teeth. Baby teeth start falling out around age 6; that’s when the permanent, or adult, teeth start coming in. Gaps between baby teeth are normal. They make room for permanent teeth. Most permanent teeth come in by age 13.</p>
-                                    <a className="more">Book an Appointment</a>
+                                    <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book an Appointment</a>
                                 </div>
                             </div>
                         </div>
@@ -47,55 +47,55 @@ export default class DentalHygiene extends Component {
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                     <p className="text-center"><strong>The centre for disease control and prevention recommends</strong></p>
                                     <h2 className="text-center">The centre for disease control and prevention recommends</h2>
-                                    <h3>For Babies</h3>
+                                    <h3><u>For Babies</u></h3>
                                 </div>
                                 <div className="row">    
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/Wipe-gums.png" alt="Wipe gums" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Wipe gums twice a day with a soft, clean cloth in the morning after the first feeding and right before bed to wipe away bacteria and sugars that can cause cavities.</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/brush.png" alt="brush" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>When teeth come in, start brushing twice a day with a soft, small bristled toothbrush and plain water.</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/first birthday.png" alt="first birthday" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Visit the dentist by your baby’s first birthday to spot signs of problems early.</p>
                                     </div> 
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/first tooth.png" alt="first tooth" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Talk to your dentist or doctor about putting fluoride varnish on your child’s teeth as soon as the first tooth appears.<br/>For children younger than 2, consult first with your doctor or dentist regarding the use of fluoride toothpaste.</p>
                                     </div>
                                 </div>    
                                 <div className="row"> 
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 baby_hygiene_block"> 
-                                        <h3>For Children</h3>
+                                        <h3><u>For Children</u></h3>
                                     </div> 
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/teeth twice.png" alt="teeth twice" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Brush their teeth twice a day with fluoride toothpaste.</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/drink_cap.png" alt="drink_cap" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Drink tap water that contains fluoride.</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-4 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-4 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/dental_tooth.png" alt="dental_tooth" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-8 col-sm-12 baby_hygiene_block">
-                                        <p>Ask your child’s dentist to apply dental sealants when appropriate.</p>
+                                    <div className="col-12 col-lg-10 col-md-8 col-sm-12 baby_hygiene_block baby_hygiene_border">
+                                        <p><strong>Ask your child’s dentist to apply dental sealants when appropriate.</strong></p>
                                     </div>
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                     <p>If your child is younger than 6, watch them brush. Make sure they use a pea-sized amount of toothpaste and always spit it out rather than swallow. Help your child brush until they have good brushing skills.</p>
@@ -103,36 +103,36 @@ export default class DentalHygiene extends Component {
                                 </div> 
                                 <div className="row"> 
                                     <div className="col-12 col-lg-12 col-md-12 col-sm-12 baby_hygiene_block"> 
-                                        <h3>Good Dental Health Is Important for Pregnant Women</h3>
+                                        <h3><u>Good Dental Health Is Important for Pregnant Women</u></h3>
                                         <p>When you’re pregnant, you may be more prone to gum disease and cavities, which can affect your baby’s health. Follow these 3 steps to protect your teeth:</p>
                                     </div> 
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/safe_dentist.png" alt="safe_dentist" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>See a dentist (it's safe!) before you deliver</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-2 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/teeth twice.png" alt="teeth twice" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block">
+                                    <div className="col-12 col-lg-10 col-md-10 col-sm-12 baby_hygiene_block baby_hygiene_border">
                                         <p>Brush twice a day</p>
                                     </div>
-                                    <div className="col-12 col-lg-2 col-md-4 col-sm-12">
+                                    <div className="col-12 col-lg-2 col-md-4 col-sm-12 baby_hygiene_border">
                                         <img src="/assets/img/Floss Daily.png" alt="Floss Daily" />
                                     </div>
-                                    <div className="col-12 col-lg-10 col-md-8 col-sm-12 baby_hygiene_block">
-                                        <p><strong>Floss Daily</strong>If you have nausea, rinse your mouth with 1 teaspoon of baking soda in a glass of water after you get sick. This helps wash stomach acid away and keep your tooth enamel safe.</p>
+                                    <div className="col-12 col-lg-10 col-md-8 col-sm-12 baby_hygiene_block baby_hygiene_border">
+                                        <p><strong>Floss Daily-</strong>If you have nausea, rinse your mouth with 1 teaspoon of baking soda in a glass of water after you get sick. This helps wash stomach acid away and keep your tooth enamel safe.</p>
                                     </div>
                                 </div>       
                             </div>
                         </div>
                     </section>
-                    <section className="baby_hygiene">
+                    <section className="remember">
                         <div className="container">    
                             <div className="row">
                                 <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                    <h3>What Are the Risk Factors for Cavities?</h3>
+                                    <h2 className="text-center">What Are the Risk Factors for Cavities?</h2>
                                     <p>Your child’s chance of getting cavities can be higher if:</p>
                                     <ul>
                                         <li>Family members (older brothers, sisters, or parents) have cavities.</li>

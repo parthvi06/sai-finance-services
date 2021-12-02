@@ -94,10 +94,10 @@ export default class ToothRemoval extends Component {
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
                                 <h2 className="text-center">Reasons your child could need tooth to be removed</h2>
                                 <ol>
-                                    <li><strong>Tooth is completely destroyed due to decay</strong></li>
-                                    <li><strong>Tooth has not exfoliated past its due maturity</strong></li>
-                                    <li><strong>Tooth may be removed for orthodontic reasons</strong></li>
-                                    <li><strong>There may be an extra tooth present other than the regular complement set</strong></li>
+                                    <li>Tooth is completely destroyed due to decay</li>
+                                    <li>Tooth has not exfoliated past its due maturity</li>
+                                    <li>Tooth may be removed for orthodontic reasons</li>
+                                    <li>There may be an extra tooth present other than the regular complement set</li>
                                 </ol>
                             </div>
                         </div>
