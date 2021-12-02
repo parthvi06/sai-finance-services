@@ -187,9 +187,12 @@
     .main-title { padding: 70px 0 100px; }
     /*** Location ***/
     .loc_map{ width: 100%; height: 450px; padding-top: 15px;}
+    /*** Hygiene ***/
     .baby_hygiene_border{ border: outset; box-shadow: 0px 10px 12px #8c94d4;}
     /*** Emergency Dental Treatment ***/
     .dealing_with_prob{ margin-bottom: 50px;}
+    /*** IVSedation ***/
+    .pharma_box{box-shadow: 0px 15px 24px #90caf9;}
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

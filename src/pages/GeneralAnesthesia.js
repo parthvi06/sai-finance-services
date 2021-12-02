@@ -20,7 +20,7 @@ export default class GeneralAnesthesia extends Component {
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
                                 <h2>WHAT IS GENERAL ANAESTHESIA?</h2>
                                 <p>Your pediatric dentist who carried out the initial assessment of your child will be carrying out all treatment under general anesthesia in the hospital. All children having surgery with us will be cared for by a specialist pediatric anesthetist who is specially trained to give general anesthetic to children. All our anesthetists have a minimum of 12 years’ experience and perform these procedures on a regular basis.</p>
-                                <a className="more" href="">Have questions? Feel free to contact us</a>
+                                <a className="more" href="tel:+91 6358834088">Have questions? Feel free to contact us</a>
                             </div>    
                         </div>
                     </div>

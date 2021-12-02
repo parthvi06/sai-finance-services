@@ -28,7 +28,7 @@ export default class IVsedation extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
-                                <p>Chairside behavior management techniques are the mainstay and heart and soul of Kidsville. We have a very high success rate of treating children including the very young group of kids without any pharmacologic assistance. We have our own style of walking through the treatment journey with our patients and making it smooth effortless and comfortable. We have a team of pediatrician, pediatric anesthesiologist and pediatric nurses to care for the extremely uncooperative patients for whom the pediatric dentist feels the need to opt for sedation or general anesthesia. </p>
+                                <p><strong>Chairside behavior management techniques are the mainstay and heart and soul of Kidsville. We have a very high success rate of treating children including the very young group of kids without any pharmacologic assistance. We have our own style of walking through the treatment journey with our patients and making it smooth effortless and comfortable. We have a team of pediatrician, pediatric anesthesiologist and pediatric nurses to care for the extremely uncooperative patients for whom the pediatric dentist feels the need to opt for sedation or general anesthesia. </strong></p>
                             </div>
                         </div>
                     </div>
@@ -42,36 +42,36 @@ export default class IVsedation extends Component {
                                 <p>For the little segment of children who are unable to cope up with regular chairside treatment are ideal candidates fr treatment under sedation or general anesthesia.</p>
                             </div>
                         </div>
-                        <div className="row pharma_blocks">    
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                        <div className="row pharma_blocks pharma_box">    
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <h3>Children with special healthcare needs</h3>
                                 <p>Some children and individuals with special care needs who have extensive oral healthcare needs</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <h3>Acute situational anxiety</h3>
                                 <p>Children who are extremely very anxious of treatment, with their fear impacting their ease, psychological and general well-being.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <h3>Uncooperative age-appropriate behavior</h3>
                                 <p>Very young children who do dont comprehend and communicate due to their age</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
                                 <h3>Immature cognitive functioning</h3>
                                 <p>Children who are immature and unable to cope up with the treatment.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
