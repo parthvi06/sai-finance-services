@@ -26,7 +26,7 @@ export default class BrushingTechniques extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <h2>Choosing the right brush and toothpaste for your child</h2>
+                                <h3><u>Choosing the right brush and toothpaste for your child</u></h3>
                                 <p>Choose a toothbrush that is designed for children. It should have a small head and soft bristles. </p>
                                 <p>When choosing the right toothpaste, remember: </p>
                                 <ul>

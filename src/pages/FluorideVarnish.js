@@ -17,9 +17,9 @@ export default class FluorideVarnish extends Component {
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
                                 <h2 className="Wfluoride-varnish_title">WHAT IS FLUORIDE VARNISH?</h2>
                                 <p>Fluoride varnish is a simple solution that help prevent dental decay in children very effectively.</p>
-                                <h2>PREVENTING TOOTH DECAY WITH FLUORIDE</h2>
+                                <h3><u>PREVENTING TOOTH DECAY WITH FLUORIDE</u></h3>
                                 <p>Fluoride varnish helps by releasing fluoride ions which have been scientifically proved to prevent dental decay. These fluoride ions help to remineralize the enamel which got partially dissolved due to acid by consumption of sugar.</p>
-                                <a className="more">Book an Appointment</a>
+                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book an Appointment</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-12 col-sm-12">
                                 <img src="/assets/img/FluorideVarnish.jpg" alt=""/>

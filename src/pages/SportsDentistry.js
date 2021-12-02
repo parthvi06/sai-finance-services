@@ -29,7 +29,7 @@ export default class SportsDentistry extends Component {
                         </div>
                     </div>        
                 </section>
-                <section className="space_detail">
+                <section className="child_tooth">
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
@@ -43,7 +43,7 @@ export default class SportsDentistry extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <h3>Mouthguard Care and Replacement</h3>
+                                <h3><u>Mouthguard Care and Replacement</u></h3>
                                 <p>Talk to your dentist about when is the right time to replace your mouthguard, but replace it immediately if it shows sign of wear, is damaged or ill fitting. Teens and children may need to replace their mouthguards more often because their mouths are still growing and changing.</p>
                                 <p>Between games, it’s important to keep your mouthguard clean and dry. Here are some tips for making sure your mouthguard is always ready to go:</p>
                                 <ol>

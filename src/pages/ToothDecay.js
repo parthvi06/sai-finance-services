@@ -36,8 +36,8 @@ export default class ToothDecay extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className="text-center">Process of early childhood tooth decay</h2>
-                                <p>The tooth decay process is also called ‘caries’. In the early stages the teeth can develop white chalky areas. In the later stages, teeth have brown or black areas. The upper four front baby teeth are most commonly affected.</p>
-                                <p>Other names used to refer to this condition include ‘nursing bottle caries’, ‘infant feeding caries’ and ‘baby bottle decay’. These names are used because the evidence suggests that early childhood caries can occur if babies and infants are settled to sleep with a bottle of milk or formula (or other sweet drinks). Milk can pool in the mouth and the lactose sugar in milk feeds the bacteria that cause decay as the baby sleeps. Saliva flow is low during sleep, and so does not protect against damage.</p>
+                                <p>The tooth decay process is also called <strong>‘caries’</strong>. In the early stages the teeth can develop white chalky areas. In the later stages, teeth have brown or black areas. The upper four front baby teeth are most commonly affected.</p>
+                                <p>Other names used to refer to this condition include <strong>‘nursing bottle caries’</strong>, <strong>‘infant feeding caries’</strong> and <strong>‘baby bottle decay’</strong>. These names are used because the evidence suggests that early childhood caries can occur if babies and infants are settled to sleep with a bottle of milk or formula (or other sweet drinks).  Milk can pool in the mouth and the lactose sugar in milk feeds the bacteria that cause decay as the baby sleeps. Saliva flow is low during sleep, and so does not protect against damage.</p>
                                 <p>Early childhood caries might also occur if toddlers drink sweet drinks, such as fruit juices, cordials or soft drinks. Avoid sugary foods and drinks, especially between meals. </p>
                             </div>
                         </div>
@@ -48,8 +48,8 @@ export default class ToothDecay extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className="text-center">Signs of early childhood tooth decay</h2>
-                                <p>Early childhood caries develops over time and can be difficult to see in the early stages. </p>
-                                <p>Tooth decay may show as: </p>
+                                <p>Early childhood caries develops over time and can be difficult to see in the early stages.</p>
+                                <p><strong><u>Tooth decay may show as: </u></strong></p>
                                 <ul>
                                     <li>a dull white band on the tooth surface closest to the gum line – this is the first sign and usually remains undetected by parents</li>
                                     <li>a yellow, brown or black band on the tooth surface closest to the gum line – this indicates progression to decay</li>
@@ -85,7 +85,7 @@ export default class ToothDecay extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
-                                <p><strong>To prevent tooth decay:</strong></p>
+                                <p><strong><u>To prevent tooth decay:</u></strong></p>
                                 <ul>
                                     <li>When your baby has finished feeding, remove them from the breast or bottle.</li>
                                     <li>Don’t put baby to bed with a bottle.</li>
@@ -94,7 +94,7 @@ export default class ToothDecay extends Component {
                                 <p>Start teaching your child to drink from a feeding cup from about six months of age. By around 12 months, they should be drinking only from a cup. </p>
                                 <p>For children over 12 months, water is the main drink. Plain full-fat milk is also a healthy drink choice. Children can drink low-fat milk from two years of age. Fruit juice is not necessary or recommended for children because of its high sugar content and acidity. </p>
                                 <p>Children can start to eat solid foods from around six months of age. Offer a wide range of nutritious foods with a variety of textures and flavours. </p>
-                                <p><strong>Also:</strong></p>
+                                <p><strong><u>Also:</u></strong></p>
                                 <ul>
                                     <li>Never dip dummies in sweet substances, such as honey, jam or sugar.</li>
                                     <li>Ask for sugar-free medicines if possible.</li>
@@ -109,7 +109,7 @@ export default class ToothDecay extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <h2 className="text-center">Cleaning teeth helps to prevent tooth decay</h2>
-                                <p>Cleaning or brushing your child’s teeth helps remove the bacteria that cause decay. </p>
+                                <p>Cleaning or brushing your child’s teeth helps remove the bacteria that cause decay.</p>
                                 <ul>
                                     <li>Start to clean your baby’s teeth as soon as the first tooth comes through. Use a wet cloth or a small children’s toothbrush with water.</li>
                                     <li>From 18 months to six years of age, use a small pea-sized amount of children’s low-fluoride toothpaste on a small, soft toothbrush. </li>
