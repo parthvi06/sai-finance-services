@@ -193,6 +193,9 @@
     .dealing_with_prob{ margin-bottom: 50px;}
     /*** IVSedation ***/
     .pharma_box{box-shadow: 0px 15px 24px #90caf9;}
+    /*** Root canal ***/
+    .what_Rcanal_box{box-shadow: 2px 15px 12px #90b6e1;}
+    .common_myofunctional_box{ box-shadow: 0px 15px 20px #101d8a99; }
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

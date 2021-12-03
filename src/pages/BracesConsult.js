@@ -77,7 +77,7 @@ export default class BracesConsult extends Component {
                                     <h5 className="text-center">The Nature Of The Problem</h5>
                                     <p>some orthodontic issues are better treated early, and others later. For instance, thumb-sucking habits and crossbites are better managed as early as 8 to avoid less desirable permanent effects on the teeth and bite.</p>
                                     <div className="ortho-text row">
-                                        <img src="/assets/img/mother.jpg" />
+                                        
                                     </div>
                                 </div>
                             </div>
@@ -86,7 +86,7 @@ export default class BracesConsult extends Component {
                                     <h5 className="text-center">Your Child’s Overall Wellbeing</h5>
                                     <p>for example, if a problem like protruding teeth is having a negative impact on a child’s self-esteem (e.g. not smiling, bullying at school, feeling self-conscious) - then this can be treated as early as 8 years old.</p>
                                     <div className="ortho-text row">
-                                        <img src="/assets/img/father.jpg" />
+                                       
                                     </div>
                                 </div>
                             </div>
@@ -95,7 +95,7 @@ export default class BracesConsult extends Component {
                                     <h5 className="text-center">Your Child’s Dental Health</h5>
                                     <p>before starting any orthodontic treatment, it is essential the teeth and gums are healthy. If the orthodontist identifies an issue at your child’s examination, they refer to the dentist/ therapist to stabilise his/her oral health before starting any orthodontic treatment.</p>
                                     <div className="ortho-text row">
-                                        <img src="/assets/img/mother.jpg" />
+                                        
                                     </div>
                                 </div>
                                 </div>
@@ -104,7 +104,7 @@ export default class BracesConsult extends Component {
                                         <h5 className="text-center">The Cooperation Of Your Child</h5>
                                         <p>do you think your child will be able to complete the whole orthodontic timescale without undue stress to them, or damage to the equipment? Some children will find it harder than others to adapt to orthodontic treatment.</p>
                                         <div className="ortho-text row">
-                                            <img src="/assets/img/mother.jpg" />
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -121,7 +121,7 @@ export default class BracesConsult extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <p>The best age to receive your first orthodontic consultation is typically around age seven. It’s important for an orthodontist to evaluate all children initially by this age, whether they end up needing treatment or not. <br />This is the time in a child’s life when their adult teeth start to come out to replace the primary (baby) teeth. And, it is around this time when the vast majority of orthodontic issues can be identified.</p>
-                                <p>In addition to an intraoral evaluation of the child’s dentition, the orthodontist can order imaging,including 3D imaging, to see:</p>
+                                <p><strong>In addition to an intraoral evaluation of the child’s dentition, the orthodontist can order imaging,including 3D imaging, to see:</strong></p>
                                 <ul>
                                     <li>How the upper (maxilla) and lower (mandible) jaws are forming</li>
                                     <li>If the teeth are erupting in a good position or proper alignment</li>
@@ -142,39 +142,39 @@ export default class BracesConsult extends Component {
                             <div className="bx-title col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>WHAT TO EXPECT AT A BRACES CONSULTATION AT KIDSVILLE?</h2>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>New patient registration Form</h3>
                                 <p>In order to provide you with the best service, we need these basic information about you and enroll you on board.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Medical and Dental History</h3>
                                 <p>A patient's medical history is a vital part of his or her dental history and increases the dentist's awareness of diseases and medication which might interfere with the patient's dental treatment. A medical history helps to identify conditions relevant to your dental health or which could have an impact on how treatment is carried out.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Check up and clinical Examination</h3>
                                 <p>This preliminary check up based on your dental concern is done by our orthodontist to determine the severity and need of treatment. All parameters related to orthodontic treatment like bite pattern, muscle forces, habits, parafunctional forces, joint movements etc., will be evaluated and necessary investigations required will be prescribed to you.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>X rays</h3>
                                 <p>Full Mouth OPG and Skull x ray is mandatory before any orthodontic treatment. These X rays give us all the details of every structure and help us plan out the future course of action</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Clinical Photographs</h3>
                                 <p>Photographs of teeth, face, smile, oro-facial structures, profile pictures will be needed to analyse esthetics and co-relate with other clinical findings</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Preparation of problem list and treatment plan</h3>
                                 <p>Based on all the above findings and your dental concern, a list of problems will be made which need to be corrected during the course of treatment. A treatment plan will be generated according to the corrections needed.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Discussion of the selected treatment Plan and estimated time</h3>
                                 <p>The entire diagnosis and treatment plan that is formulated will be discussed with you on the next appointment. This is time you should ask all queries regarding every aspect of treatment. All the phases of treatment, their importance and estimated time required for the whole journey.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Payment Methods</h3>
                                 <p>Most orthodontic treatments will require you to make payments in installments as we proceed. We have flexible payment options at Kidsville.</p>
                             </div>
-                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12">
+                            <div className="bx-grid col-lg-4 col-md-3 col-sm-12 text-center">
                                 <h3>Coordination of entire Treatment journey</h3>
                                 <p>Every part of the treatment will be well coordinated with you in advance. You shall be guided all through procedure and beyond.</p>
                             </div>

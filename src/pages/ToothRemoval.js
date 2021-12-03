@@ -30,46 +30,46 @@ export default class ToothRemoval extends Component {
                             </div>
                         </div>
                         <div className="row pharma_blocks">    
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Bite on gauze for 20 -40 min</h3>
+                                <h3 className="text-center"><u>Bite on gauze for 20 -40 min</u></h3>
                                 <p>After tooth removal your child will be asked to bite on a piece of gauze for sometime to maintain pressure and control bleeding.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Take soft diet diet for the day</h3>
+                                <h3 className="text-center"><u>Take soft diet diet for the day</u></h3>
                                 <p>Let your child eat soft food which does require aggressive chewing for on the day of extraction. This will allow clot formation to occur with ease.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center"> 
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Ice-cream after 40 minutes</h3>
+                                <h3 className="text-center"><u>Ice-cream after 40 minutes</u></h3>
                                 <p>Let your child enjoy an ice cream after his extraction. This will help clot formation and healing</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Not to spit</h3>
+                                <h3 className="text-center"><u>Not to spit</u></h3>
                                 <p>Ensure your child does not spit on the day after extraction. let him take in the saliva instead of spitting.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Not to use straw</h3>
+                                <h3 className="text-center"><u>Not to use straw</u></h3>
                                 <p>Avoid using a straw or any other thing which will cause negative intraoral pressure on that day . Doing so can dislodge the clot.</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 text-center">
                                 <div className="text-center">
                                     <img src="/assets/img/kidsvilleicon.png" alt="IVsedation services"/>
                                 </div>
-                                <h3 className="text-center">Not to bite on lips</h3>
+                                <h3 className="text-center"><u>Not to bite on lips</u></h3>
                                 <p>The region and side of the extraction will stay numb for approximately 2 hours after extraction when the child would not feel any sensation in the region. Children might accidently chew on their lips while they are still numb. Take utmost care that they dont.</p>
                             </div>
                         </div>

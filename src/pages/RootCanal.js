@@ -60,27 +60,27 @@ export default class RootCanal extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 what_Rcanal_box">
                                 <h3>Toothache</h3>
                                 <p>Severe toothache upon chewing or application of pressure</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 need_Rcanal">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 need_Rcanal what_Rcanal_box">
                                 <h3>Extreme sensitivity</h3>
                                 <p>Prolonged sensitivity (pain) to hot or cold temperatures</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 what_Rcanal_box">
                                 <h3>Discoloured dark tooth</h3>
                                 <p>Discoloration (darkening) of the tooth</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 what_Rcanal_box">
                                 <h3>Swelling</h3>
                                 <p>Swelling and tenderness in nearby gums</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 need_Rcanal">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 need_Rcanal what_Rcanal_box">
                                 <h3>Pus discharge</h3>
                                 <p>A persistent or recurring pimple on the gums</p>
                             </div>
-                            <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 what_Rcanal_box">
                                 <h3>Symptomless</h3>
                                 <p>Sometimes no symptoms are present.</p>
                             </div>
