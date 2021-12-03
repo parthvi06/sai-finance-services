@@ -97,8 +97,8 @@ export class Home extends Component {
                     <div className="container-fluid">
                         <div className="row" >
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 px-0">
-                                <OwlCarousel className="owl-theme tech-slider" {...home_slider}>
-                                    <div className="slide-1" style={{background: "url('/assets/img/1.jpg')"}}>
+                                <OwlCarousel className="owl-theme tech-slider banner-box" {...home_slider}>
+                                    <div className="slide-1">
                                         <img src="/assets/img/banner1.jpg" alt="slider media-1" />
                                         <div className="container-fluid">
                                             <div className="slider-content">
@@ -106,7 +106,7 @@ export class Home extends Component {
                                                     <h2>Exclusive Pediatric Dental Operatory</h2>
                                                 </div>
                                                 <div className="slider__content">
-                                                    <p><a className="more" href="/book-now/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
+                                                    <p><a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
                                                 </div>
                                             </div>
                                         </div>

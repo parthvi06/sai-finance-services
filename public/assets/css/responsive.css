@@ -9,7 +9,7 @@
     footer{ padding-top: 15px; }
     .menu-footer-menu-container summary{padding-top: 5px; padding-bottom: 5px;}
     /*** home ***/
-    .slide-1 img, .slide-2 img, .slide-3 img { height: 250px; }
+    .slide-1 img, .slide-2 img, .slide-3 img { height: 330px; }
     .slider-content{ padding: 5px;}
     .slider-content a{ padding: 5px 10px; font-size: 16px; }    
     .Hdifferent{ margin-top: 30px; margin-bottom: 20px; }
@@ -179,7 +179,10 @@
     .foot-cta { display: none; }
     .footer-bottom__center { text-align: center; padding: 15px 0; font-weight: 400 !important; } 
     /*** Home ***/
-    .slide-1, .slide-2, .slide-3{ height: 700px; }  
+    .banner-box .owl-carousel .owl-item img { border-bottom-left-radius:50%; border-bottom-right-radius:50%; }
+    .banner-box .owl-stage-outer{ border-bottom-left-radius:70%; border-bottom-right-radius:70%; }
+    .slider-content{ border-bottom-left-radius:50%; border-bottom-right-radius:50%;}
+    .slide-1, .slide-2, .slide-3{ height: 630px; }  
     .slide-1 img, .slide-2 img, .slide-3 img { background-position: center center !important; }
     .Hdifferent_heading h2{ font-size: 38px;}
     .Hdifferent-right { padding: 40px 40px 0 40px;}
