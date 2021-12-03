@@ -14,7 +14,10 @@ export default class ToothDecay extends Component {
                 <section className="root_canal">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <img src="/assets/img/pattern of tooth decay.jpg" alt="pattern of tooth decay" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>Every child is at risk of tooth decay. The enamel (hard outer layer) is much thinner and softer on baby teeth, making them at greater risk of decay. The good news is that tooth decay is largely preventable.</p>
                                 <p>Baby teeth help children to eat and speak. They also guide the permanent adult teeth into position, so it is important to take care of your child’s teeth right from the start.</p>
                             </div>

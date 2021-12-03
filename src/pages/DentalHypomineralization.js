@@ -14,11 +14,13 @@ export default class DentalHypomineralization extends Component {
                 <section className="oral_hygiene">
                     <div className="container">
                         <div className="row">
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center Hypominer">
+                                <h2 className="hygiene_title">HYPOMINERALIZATION OF TOOTH</h2>
+                            </div>
                             <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                 <img src="/assets/img/hypomineralization of teeth.jpeg" alt="hypomineralization of teeth"/>
                             </div>
                             <div className="col-12 col-lg-8 col-md-12 col-sm-12">
-                                <h2 className="hygiene_title">HYPOMINERALIZATION OF TOOTH</h2>
                                 <p>Hypomineralisation is a condition that affects the outer layer (enamel) of your child’s teeth. It occurs due to a disturbance during tooth development, either during pregnancy or in the first two years of life. Disturbances can occur as a result of coughs, colds, or antibiotics during pregnancy, severe illness during the first two years of life, dioxins in breastmilk or for no known reason. It has been suggested that there may also be a small genetic element.</p>
                                 <p>Hypomineralisation causes the tooth enamel to be softer and therefore more prone to breakdown and decay. Because of the nature of these teeth, they are sometimes harder to numb up for treatment and fillings are not as durable as they are in healthy teeth. Hypomineralised teeth have chalky white or yellow patches and increased sensitivity. Although primary and permanent can be affected by hypominerazation, the most common teeth are molar-incisors.</p>
                             </div>    

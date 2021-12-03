@@ -14,9 +14,14 @@ export default class SpecialCareDentistry extends Component {
                 <section className="root_canal">
                     <div className="container">
                         <div className="row pit_sealant">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <img src="/assets/img/Children-With-Special-Needs.jpg" alt="Children-With-Special-Needs" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>Providing care to people with special Health care needs is an integral part of Kidsville. We value the unique qualities of each person and work relentlessly towards attainment of maximal oral health for all.</p>
-                                <p>The doctors at Kidsville are skilled and prepared with all the specialized knowledge to render treatment to special people. We welcome with open arms all those with behavioral (e.g., anxiety, attention deficit hyperactivity disorder, autism spectrum disorder), congenital (e.g., Trisomy 21, congenital heart disease), developmental (e.g., cerebral palsy) or cognitive (e.g., intellectual disability) disorders and systemic diseases (e.g., childhood cancer, sickle cell disease). We understand that these people may be at increased risk of oral diseases throughout their lifetimes.</p>
+                                <p>The doctors at Kidsville are skilled and prepared with all the specialized knowledge to render treatment to special people. We welcome with open arms all those with behavioral (e.g., anxiety, attention deficit hyperactivity disorder, autism spectrum disorder), congenital (e.g., Trisomy 21, congenital heart disease), developmental (e.g., cerebral palsy) or cognitive (e.g., intellectual disability) disorders and systemic diseases (e.g., childhood cancer, sickle cell disease). We understand that these people may be at increased risk of oral diseases throughout their lifetimes.</p> 
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <p>Oral health is an inseparable part of general wellbeing. Our philosophy is to stress on aggressive preventive measures early on. More frequent checkup visits to halt the disease progression as soon as detected.</p>
                                 <p>We believe in tender love and care. We are gentle yet authoritative in our approach. We shall guide you all through their life at every stage to adopt best oral health practices for healthy disease free life. We shall work understanding the limitations and adapt according to the specific needs. We would want cooperation and support from their care givers to help them serve the best. Our way of scheduling appointments would be taking into consideration the physical and emotional requirements of the patient.</p>
                             </div>

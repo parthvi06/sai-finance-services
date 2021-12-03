@@ -116,10 +116,13 @@ export default class BracesConsult extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingTop:50,paddingBottom:20}}>
                                 <h2>What is the most appropriate time for my child’s orthodontic consultation?</h2>
-                            </div>
+                            </div>   
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-4 col-sm-12 text-center">
+                                <img src="/assets/img/orthodontic consult.jpg" alt="orthodontic consult" />
+                            </div> 
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>The best age to receive your first orthodontic consultation is typically around age seven. It’s important for an orthodontist to evaluate all children initially by this age, whether they end up needing treatment or not. <br />This is the time in a child’s life when their adult teeth start to come out to replace the primary (baby) teeth. And, it is around this time when the vast majority of orthodontic issues can be identified.</p>
                                 <p><strong>In addition to an intraoral evaluation of the child’s dentition, the orthodontist can order imaging,including 3D imaging, to see:</strong></p>
                                 <ul>
@@ -128,6 +131,8 @@ export default class BracesConsult extends Component {
                                     <li>If there are any impacted teeth (common with first molars)</li>
                                     <li>If there is an ectopic canine (usually an upper eye tooth that is growing horizontally in the upper jaw)</li>
                                 </ul>
+                            </div>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">  
                                 <p>Not every seven-year-old will need early orthodontic treatment. After the evaluation, the orthodontist may tell you that there are no issues to worry about or that there are minor ones that the doctor can monitor. However, it’s always good to get that early look in order to know what the future holds for your child’s orthodontic needs!</p>
                                 <p>The reason age seven is the best age to receive an initial orthodontic evaluation is that it’s the easiest time to identify problems. The teeth are just beginning to erupt, so braces can be utilized, if needed,  to make minor adjustments to guide the teeth into proper alignment.</p>
                                 <p>It’s easier to fix these problems in children than it is in adults because a child’s jawbones are still developing. An adult’s jaw bones are dense, which means it takes longer to realign the teeth and address any jaw issues. The upper palate can only be expanded until about the age of 9, at which point the sutures fuse. It is much more difficult to widen the arch in adult patients.</p>

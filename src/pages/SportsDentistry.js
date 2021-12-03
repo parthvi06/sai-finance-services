@@ -23,7 +23,10 @@ export default class SportsDentistry extends Component {
                 <section className="space_detail">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12 mouth_guard">
+                                <img src="/assets/img/Mouth guards.jpg" alt="Mouth guards" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>Knowing how to prevent injuries to your mouth and face is especially important if you participate in organized sports or other recreational activities. Mouthguards, also called mouth protectors, help cushion a blow to the face, minimizing the risk of broken teeth and injuries to your lips, tongue, face or jaw. They typically cover the upper teeth and are a great way to protect the soft tissues of your tongue, lips and cheek lining. “Your top teeth take the brunt of trauma because they stick out more, Your bottom teeth are a little more protected because they are further back.”</p>
                             </div>
                         </div>

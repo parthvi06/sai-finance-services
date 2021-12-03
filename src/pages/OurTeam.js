@@ -70,21 +70,48 @@ export default class OurTeam extends Component {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-12 col-lg-4 col-md-12 col-sm-12 text-center">
+                                <div className="col-12 col-lg-4 col-md-12 col-sm-12">
                                     <div className="team_image box">
                                         <img src="/assets/img/Dr ist(Hteam).jpg" alt="Dr. Ipsit" />
                                     </div>
                                     <div className="card">
-                                        <h3>Dr. Ipsit Trivedi</h3>
-                                        <p className="title">MDS Orthodontics</p>
-                                        <p>kidsvilledental@gmail.com</p>
-                                        <div className="team-social-icon">
+                                        <h3 className="text-center">Dr. Ipsit Trivedi</h3>
+                                        <p className="title text-center">MDS Orthodontics</p>
+                                        <p className="text-center">kidsvilledental@gmail.com</p>
+                                        <div className="team-social-icon text-center">
                                             <ul className="list-inline">
                                                 <li className="list-inline-item"><i className="fa fa-facebook"></i></li>
                                                 <li className="list-inline-item"><i className="fa fa-instagram"></i></li>
                                                 <li className="list-inline-item"><i className="fa fa-twitter"></i></li>
                                             </ul>
                                         </div>
+                                        <div className="dr_ipsit_more">
+                                            <details>
+                                                <summary className="text-center ready_more_summary">Read more</summary>    
+                                                <p>Dr. Ipsit Trivedi did his Bachelor in Dental Surgery 2008, Gujarat University. Following which he pursued Masters in Orthodontics and Dentofacial orthopedics (2009-12) Gujarat University from Government dental College and Hospital.</p>
+                                                <p>His Clinical expertise in Orthodontic treatment include braces and aligners, myofunctional appliances, preventive and interceptive orthodontics, adult orthodontics, orthodontic micro implants. Being a specialist since 2012 he has delivered smiles successfully to young adults and teenagers with high success rate. His experience of 10 plus years and his unique style of working around complicated cases of malocclusion makes him one of the finest orthodontists. He very strongly believes in ethical, patient centric treatment. His treatment planning is based on sound scientific research and is evidence based. He believes in incorporating newer technologies in orthodontics to make patient journey smooth and efficient. His expertise with clear aligner and certification with Invisalign has benefitted young adults in making orthodontics easy to adopt.<br/><br />He loves to share his knowledge and experience with young dentists. His academic attachments include, Readership, Narsinhbhai Patel Dental College and Hospital, Visnagar</p>
+                                                <p>He is a much sought after Orthodontist for</p>
+                                                    <ul>
+                                                        <li>Pre adjusted edgewise technique</li>
+                                                        <li>Orthodontic diagnosis and treatment planning</li>
+                                                        <li>Biomechanics</li>
+                                                        <li>Myofunctional appliances</li>
+                                                        <li>Aligner Therapy</li>
+                                                    </ul>
+                                                    <p>Certificates:</p>
+                                                    <ul>
+                                                        <li>Invisalign certified </li>
+                                                        <li>Flash certified </li>
+                                                        <li>TAC certified </li>
+                                                    </ul>
+                                                    <p>Research Papers :</p>
+                                                    <ol>
+                                                    <li>Case report on management of developing class III in south zonal PG convention, Chennai 2011</li>
+                                                    <li>Measurement of orthodontic force by electronic gauge, paper presented in orthodontic innovation conclave, Bhatinda 2021.<br />He is associated with National and International bodies with Life membership at Indian Orthodontic Society</li>
+                                                    <li>Gujarat Orthodontic Study Group</li>
+                                                    </ol>
+                                            </details>
+                                        </div>    
                                     </div>
                                 </div>
                             </div>

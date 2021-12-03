@@ -32,22 +32,22 @@ export default class FluorideVarnish extends Component {
                         <div className="row">
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
-                                    <img src="/assets/img/Kfluoride.jpg" alt="" />
-                                    <h3>How it is applied at Kidsville Dental?</h3>
+                                    <img src="/assets/img/Kidsville fluoride.jpg" alt="Kidsville fluoride" />
+                                    <h3 className="text-center">How it is applied at Kidsville Dental?</h3>
                                     <p>Your teeth will be dried to prevent any dilution of the fluoride solution. If the fluoride is within the form of a gel or foam, they will typically use a mouth tray to allow your teeth to sit in the formula. If the fluoride is in the form of varnish, the solution will be painted onto the tooth enamel with a brush or cotton swab. This can take anywhere from one to four minutes.</p>
                                 </div>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
-                                    <img src="/assets/img/Ifluoride.jpg" alt="" />
-                                    <h3>What to do after fluoride application?</h3>
+                                    <img src="/assets/img/fluoride_application.jpg" alt="fluoride_application" />
+                                    <h3 className="text-center">What to do after fluoride application?</h3>
                                     <p>Refrain from consuming anything, including water, for at least 30 minutes. This will allow your teeth to properly absorb the fluoride, remineralizing as much of the tooth enamel as possible</p>
                                 </div>    
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
                                 <div className="card">
-                                    <img src="/assets/img/Ffluoride.jpg" alt="" />
-                                    <h3>How frequently should you get it done?</h3>
+                                    <img src="/assets/img/Ffluoride.jpg" alt="how_fluoride_done" />
+                                    <h3 className="text-center">How frequently should you get it done?</h3>
                                     <p>You may need follow-up treatment. This can vary from three, six, or 12 months.</p>
                                 </div>    
                             </div>

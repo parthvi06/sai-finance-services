@@ -94,12 +94,18 @@ export default class OralHabits extends Component {
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <img src="/assets/img/tongue thrusting.png" alt="tongue thrusting" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <h3>Tongue Thrusting</h3>
                                 <p>Tongue thrusting is the habit of sealing the mouth for swallowing by thrusting the top of the tongue forward against the lips.<br /> Just like thumb sucking, tongue thrusting exerts pressure against the front teeth, pushing them out of alignment, which causes them to protrude, creating an overbite, and possibly interfering with proper speech development.
                                 </p>
                             </div>
-                            <div className="col-12 col-lg-6 col-md-6 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <img src="/assets/img/thumb sucking.jpg" alt="thumb sucking" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <h3>Lip Sucking</h3>
                                 <p>Lip sucking involves repeatedly holding the lower lip beneath the upper front teeth. Sucking of the lower lip may occur by itself or in combination with thumb sucking. This practice results in an overbite and the same kinds of problems as with thumb sucking and tongue thrusting. Stopping the habit involves the same steps as for stopping thumb sucking.</p>
                             </div>

@@ -123,7 +123,7 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .person-text { text-align: right; z-index: 2; margin-top: -10px; }
 .pa_review_block a{ font-size: 18px; color: #ffffff;}
 .pa_review_block p{ margin: 10px; color: #ffffff; }
-.pa_review_block{ border: 3px solid #3d48831a; padding: 15px 10px; margin-left: 20px; margin-right: 20px; background: #63bc50; color: #ffffff; box-shadow: 4px 10px 12px #8c94d4;}
+.pa_review_block{ border: 3px solid #3d48831a; padding: 15px 10px; margin-left: 20px; margin-right: 20px; background: #63bc50; color: #ffffff; box-shadow: 10px 12px 12px #8c94d4;}
 .rel { position: relative; }
 .rel img{ width: 20%!important; height: auto; border: 2px solid darkgray; border-radius: 100px; }
     /*** team ***/
@@ -300,6 +300,8 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .team_image{ border: 4px solid #e6cf67a3; margin-bottom: -65px;position: relative; }
 .team_box{ margin: 40px 0; background-color: #2f52a0; padding: 30px 0;}
 .team_box .card{ padding-top: 80px; position: static; border-radius: 0%;}
+.dr_ipsit_more { padding-left: 10px; padding-right: 10px;}
+.ready_more_summary{display: block !important; border: outset; color: #1c6feb;}
 .nurse_social_icon i{ font-size: 22px !important; }
 .nurse_box{ margin: 60px 0; }
 .nurse_box .nurse_intro{ margin-top: 50px; text-align: center;}
@@ -360,6 +362,7 @@ div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff
 .next-appoint .book_app:hover{ border: 1px solid #2f52a0; color: #2f52a0!important; background-color: white; }
 .next-appoint .num_app{ border: 1px solid tomato !important; color: #ff6347!important; }
 /*** DentalHypomineralization ***/
+.Hypominer h2{ padding-bottom: 10px;}
 .hypomineralise h2{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_heading{ padding-top: 30px; padding-bottom: 20px; }
 .detect_trt_post{ padding-top: 30px; } 
@@ -378,6 +381,7 @@ div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff
 .fiss_sealant a:hover{ color: white !important; background-color: #2f52a0 ; }
 .sealant_work{ margin: 40px 0; }
 .sealant_work h2{ padding-bottom: 30px; }
+.sealant_work img{ width: 100%;}
 .when_sealant .anu_qoute { padding: 10px 0; }
 .mark_qoute{ padding-top: 50px; padding-bottom: 20px;}
 .mark_fosters { padding-bottom: 70px;}
@@ -429,6 +433,7 @@ div .happy_pat_items .card { height: 100%; background: #f0146fde; color: #ffffff
 /*** Root Canal ***/
 .root_canal{ margin: 30px 0; }
 .root_canal h2{ padding-top: 10px; padding-bottom: 20px;}
+.root_canal img{ width: 100%;}
 .how_Rcanal img{ width: 100%; height: 250px; }
 .how_Rcanal h3{ padding: 15px 0; }
 .what_Rcanal{ margin: 50px 0; }
@@ -485,6 +490,7 @@ div .braces-consult-TC .card{ height: 100%; box-shadow: 7px 7px 30px -5px rgb(57
 .orthodontic-consult{ padding-bottom: 40px; }
 .orthodontic-consult { background-color: #629e55; color: #fff !important; }
 .orthodontic-consult h2{ color: #fff!important;  }
+.orthodontic-consult img{ width: 100%; height: 100%;}
 /*** Braces ***/
 .braces_types h3 { text-align: center; padding-top: 15px; }
 .braces_types p{ padding: 10px 20px; }
@@ -513,10 +519,12 @@ div .braces_types_block .card { height: 100%; }
 .myofunctional_appliances h2{ padding-bottom: 30px;}
 .common_myofunctional{ margin: 40px 0; }
 .common_myofunctional h2{ padding-bottom: 40px;}
+.common_myofunctional img{ width: 100%; height: 290px; padding-bottom: 15px;}
 /*** Orthodontics for Teen ***/
 .clear_aligners{ padding-bottom: 40px;}
 .Brush_floss{ margin: 40px 0;}
 .Brush_floss h2{ padding-bottom: 40px; }
+.Brush_floss img{ width: 100%; height: 100%; padding-bottom: 15px;}
 /*** Retainer ***/
 .retainer{ margin-top: 60px; }
 .Wretainers{ margin-bottom: 40px;}
@@ -526,13 +534,13 @@ div .braces_types_block .card { height: 100%; }
 .tooth_removal img{ background-color: #ffffff; border-radius: 50px; }
 .child_tooth{ background-color: #2f52a0; color: #ffffff; margin: 40px 0; padding: 40px 0;}
 .child_tooth h2{ color: #ffffff;}
+/*** Sports Dentistry ***/
+.mouth_guard img{ width: 100%; height: 100%; }
 
 
 
 
 
 
-
-  
 
 

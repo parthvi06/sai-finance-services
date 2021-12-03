@@ -85,20 +85,24 @@ export default class MyoFunctionalTreatment extends Component {
                                 <h2>Common myofunctional appliances</h2>
                             </div>
                         </div>
-                        <div className="row common_myofunctional_box">
+                        <div className="row">
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/oral screen.jpg" alt="oral screen" />
                                 <h3 className="text-center"><u>Oral screen</u></h3>
                                 <p>Takes the form of a curved shield of acrylic placed in the labial vestibule. Indicated to intercept mouth breathing, thumb sucking, tongue thrusting , lip bititng and cheek biting. To perform muscle exercises to help in correction of hypotonic lip and cheek muscles</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/lip-bumper7.jpg" alt="lip-bumper7" />
                                 <h3 className="text-center"><u>Lip bumper</u></h3>
                                 <p>This appliance is used to shield the lips away from the teeth. Used in lip sucking patients, hyperactive mentalis activity to distalize molars</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/function regulator.jpg" alt="function regulator" />
                                 <h3 className="text-center"><u>Function regulator</u></h3>
                                 <p>It removes the muscle forces in the labial and buccal areas thereby providing an environment which enables skeletal growth</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/activator appliance.jpg" alt="activator appliance" />
                                 <h3 className="text-center"><u>Activator</u></h3>
                                 <p>It is used in actively growing individuals with favorable growth patterns as a preliminary treatment before major fixed appliance therapy to improve skeletal jaw relations, for post treatment retention and in children with lack of vertical development in lower facial height</p>
                                 <p><strong>Advantages:</strong></p>
@@ -110,6 +114,7 @@ export default class MyoFunctionalTreatment extends Component {
                                 </ol>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
+                                <img src="/assets/img/twin-block.jpg" alt="twin-block" />
                                 <h3><u>Twin block appliance</u></h3>
                                 <p>Twin block appliance is a removable, orthodontic functional appliance that is used to help correct jaw alignment, particularly an underdeveloped lower jaw.
                                 <br />The removable twin block is a tissue born functional appliance that is worn full time. It helps in the advancement of the mandible. It is a two piece appliance composed of an upper and lower bite block. Orthopedic traction can be added in cases of severe skeletal discrepancies.</p>

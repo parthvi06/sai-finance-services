@@ -43,7 +43,7 @@ export default class Retainers extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                <img src="/assets/img/hawley.jpeg" alt="Hawley's Retainer" />
+                                <img src="/assets/img/hawley.png" alt="Hawley's Retainer" />
                                 <h3>Hawley's Retainer</h3>
                                 <p>Also called wire retainers, these are removable retainers made of thin metal wire and plastic or acrylic shaped to fit the roof of your mouth or along the inside of your lower teeth. The attached metal wire runs across the outside of your teeth to maintain alignment.</p>
                                 <p><strong>The Hawley retainer has these advantages:</strong></p>
@@ -87,7 +87,7 @@ export default class Retainers extends Component {
                                 <img src="/assets/img/Bondedretainer.jpg" alt="Lingual retainers" />
                                 <h3>Lingual retainers</h3>
                                 <p><strong>Permanent retainers </strong>consist of a solid or braided wire that is curved to fit the shape of your newly straightened teeth. The wire is cemented (bonded) to the inside of your front teeth to keep them from moving. Most often used on lower teeth, they are also called fixed, lingual wire, or bonded retainers. They can’t be removed except by your orthodontist or dentist.</p>
-                                <p>•	They’re often used when an orthodontist thinks the teeth are very likely to relapse or the person (such as a young child) won’t follow the instructions for using a removable retainer. Although some are removed at some point, usually because of excess buildup of plaque and tarter or gum irritation, most are left in place indefinitely</p>
+                                <p>They’re often used when an orthodontist thinks the teeth are very likely to relapse or the person (such as a young child) won’t follow the instructions for using a removable retainer. Although some are removed at some point, usually because of excess buildup of plaque and tarter or gum irritation, most are left in place indefinitely</p>
                             </div>
                         </div>
                     </div>

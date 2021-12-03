@@ -17,8 +17,10 @@
     .Hdifferent h2{ text-align: center; padding-top: 25px;}
     .Hdifferent p{ text-align: center;}
     .team .row .col-12{ margin-bottom: 15px; }
-    .img-hover-zoom--colorize img { height: 165px; width: 75%; } 
+    .img-hover-zoom--colorize img { height: 165px; width: 75%;} 
     .srv-iconfont {font-size: 1.5rem !important; }
+    /*** review ***/
+    .pa_review_block{ box-shadow: 11px 22px 10px #8c94d4; }
     /*** 404 ***/
     .para-404 img {  width: 100%; }
     /*** contact ***/
@@ -189,13 +191,21 @@
     .loc_map{ width: 100%; height: 450px; padding-top: 15px;}
     /*** Hygiene ***/
     .baby_hygiene_border{ border: outset; box-shadow: 0px 10px 12px #8c94d4;}
+    /*** DentalHypomineralization ***/
+    .Hypominer h2{ padding-bottom: 30px;}
     /*** Emergency Dental Treatment ***/
     .dealing_with_prob{ margin-bottom: 50px;}
     /*** IVSedation ***/
     .pharma_box{box-shadow: 0px 15px 24px #90caf9;}
+    /*** Dental sealant ***/
+    .sealant_work_heading{ padding-top: 30px;}
+    .sealant_work img{ height: 250px; padding-bottom: 20px;}
     /*** Root canal ***/
     .what_Rcanal_box{box-shadow: 2px 15px 12px #90b6e1;}
-    .common_myofunctional_box{ box-shadow: 0px 15px 20px #101d8a99; }
+    .common_myofunctional{ box-shadow: inset 0px -5px 30px #101d8a99; }
+    .common_myofunctional img{ padding-bottom: 30px;}
+    /*** braces ***/
+    .braces_types_block img{ height: 200px;}
     }
     @media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }

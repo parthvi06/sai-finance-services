@@ -35,17 +35,17 @@ export default class RootCanal extends Component {
                     <div className="container">
                         <div className="row">
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                <img src="" alt="" />
+                                <img src="/assets/img/Clearing infected tissue.jpg" alt="Clearing infected tissue" />
                                 <h3>Clearing infected tissue</h3>
                                 <p>Removal of decayed tissues and cleaning roots</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                <img src="" alt="" />
+                                <img src="/assets/img/Biocompatible Filling material.jpg" alt="Biocompatible Filling material" />
                                 <h3>Biocompatible root filling material</h3>
                                 <p>Replacing roots with resorbable filling material</p>
                             </div>
                             <div className="col-12 col-lg-4 col-md-4 col-sm-12">
-                                <img src="" alt="" />
+                                <img src="/assets/img/Permanent Filling.jpg" alt="Permanent Filling" />
                                 <h3>Permanent filling</h3>
                                 <p>Sealing the tooth with permanent filling</p>
                             </div>

@@ -39,29 +39,29 @@ export default class DentalSealant extends Component {
                         </div>
                     </div>   
                 </section>
-                <section className="sealant_work">
+                <section className="sealant_work common_myofunctional">
                     <div className="container">
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center sealant_work_heading">
                             <h2>How do sealants work?</h2>
                         </div>
                         <div className="row">
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                                <img src="/assets/img/pits_fiss.jpg" alt="" />
+                                <img src="/assets/img/sealant 1.jpg" alt="Pits and fissures" />
                                 <h3>Pits and fissures are prone to decay</h3>
                                 <p>Dental decay easily starts in these grooves if they are not sealed.</p>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                                <img src="/assets/img/pits_fiss.jpg" alt="" />
+                                <img src="/assets/img/sealant 2.jpg" alt="Sealant protect" />
                                 <h3>Sealant protects them from decay</h3>
                                 <p>The sealant forms a smooth, protective barrier by covering all the little grooves and dips in the surface of the tooth.</p>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                                <img src="/assets/img/pits_fiss.jpg" alt="" />
+                                <img src="/assets/img/sealant 3.jpg" alt="Sealant redone" />
                                 <h3>Sealant should be checked and redone if needed</h3>
                                 <p>They can wear over time, and sometimes the dental team need to add or replace some sealant to be sure that no decay can start underneath it.</p>
                             </div>
                             <div className="col-12 col-lg-3 col-md-6 col-sm-12">
-                                <img src="/assets/img/pits_fiss.jpg" alt="" />
+                                <img src="/assets/img/sealant 4.jpg" alt="Stay decay free" />
                                 <h3>Stay decay free for years!</h3>
                                 <p>Sealants usually last for many years, but your dental team will want to check them regularly to make sure that the seal is still intact.</p>
                             </div>
