@@ -18,7 +18,7 @@ export default class KidsvilleTreatingChildren extends Component {
                             <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>As parents you are anxious about your child’s dental visit and we totally get it. But we want you to relax and walk through the journey with us. We at Kidsville have our unique way and here is how.</p>
                                 <p>Just taking the time to familiarize your child to the new environment can go a long way in establishing a liking for dental procedures. The doctor will have her own style of introducing the set up to the young patient. It may involve giving funny names to instruments and equipments and even reintroducing common materials cartoonishly.</p>
-                                <p>Just by working away the <strong>“anxiety “component of pain </strong>, can help leaps and bounds in delivering optimum care. For this we want all our parents to not project their fear related to dentistry onto Kids by discussing procedures at home.</p>
+                                <p>Just by working away the <strong><u>“anxiety “component of pain </u></strong>, can help leaps and bounds in delivering optimum care. For this we want all our parents to not project their fear related to dentistry onto Kids by discussing procedures at home.</p>
                             </div>
                         </div>
                     </div>

@@ -95,7 +95,7 @@ div.socials ul li a { color: #596bf1; font-size: 3em; transition: color 0.2s eas
 .footer-bottom__center { color: #5263D8; } 
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
-.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0dc9f2db; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8;}
+.slider-content{ position: absolute; bottom: 0; width: 100%; background: #1cd1fae5; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8;}
 .slide-1, .slide-2, .slide-3{ position: relative;}  
 .slider-content h2, .slider-content h4{ color: #fff; }
 .slider-content a{ color: white !important; background-color: #2f52a0;}
