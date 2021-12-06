@@ -95,10 +95,10 @@ div.socials ul li a { color: #596bf1; font-size: 3em; transition: color 0.2s eas
 .footer-bottom__center { color: #5263D8; } 
 /*** Home page ***/
 .banner-slider .owl-carousel { z-index: auto; }
-.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0f0e0ebf; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8;}
+.slider-content{ position: absolute; bottom: 0; width: 100%; background: #0dc9f2db; height: 100%; transition: 1s ease; font-size: 20px; padding: 200px 20px 20px 20px; text-align: center; opacity:0.8;}
 .slide-1, .slide-2, .slide-3{ position: relative;}  
 .slider-content h2, .slider-content h4{ color: #fff; }
-.slider-content a{ color: white !important; background-color: #2f52a0; }
+.slider-content a{ color: white !important; background-color: #2f52a0;}
 .Hdifferent img { width: 70%; height: 435px; margin: 45px 0; border-radius: 30%;}
 .Hdifferent-left .card{ background: rgb(162, 165, 168); height: 100%;}
 .Hdifferent-left { background: #70809080; }
@@ -294,7 +294,7 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .team_intro{ margin: 30px 0; }
 .team_intro_title{ font-size: 42px; padding-left: 16px; }
 .team_intro img{width: 100%; height: 680px; }
-.team_box img{ width: 80%; height: 275px; padding: 10px 0; }
+.team_box img{ width: 90%; height: 300px; padding: 8px 0; }
 .team_title h2{ color: #ffffff!important;}
 .team_title h5{ color: #ffffff !important;}
 .team_image{ border: 4px solid #e6cf67a3; margin-bottom: -65px;position: relative; }
@@ -314,7 +314,7 @@ div .clinic_tour_block .card{ height: 100%; border-radius: 0;}
 .founder_title{ font-size: 42px; padding-left: 16px; }
 .founder_drsc p{ text-align: justify;}
 .founder_box { margin-top: 60px;}
-.founder_box img{ width: 70%; height: 380px; border: 2px solid lightskyblue; }
+.founder_box img{ width: 70%; height: 455px; border: 2px solid lightskyblue; }
 .bit_more{ padding-bottom: 50px; }
 .bit_more h2{ text-align: center; }
 .foun_txt{ color: rgb(102, 111, 119); }
@@ -536,9 +536,19 @@ div .braces_types_block .card { height: 100%; }
 .child_tooth h2{ color: #ffffff;}
 /*** Sports Dentistry ***/
 .mouth_guard img{ width: 100%; height: 100%; }
+/*** Clear Aligner or Braces ***/
+.metal_braces h2{ padding-bottom: 25px;}
 
 
 
 
+#element{
+    
+    animation: 3s ease 0s normal forwards 1 fadein;
+}
 
-
+@keyframes fadein{
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}

@@ -21,13 +21,13 @@ export class ContactUs extends Component {
                             <p className="cnt-link"><i className="fa fa-envelope"></i><span>&emsp;<a href="mailto:kidsvilledental@gmail.com">kidsvilledental@gmail.com</a></span></p>
                         </div>
                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">
-                            <form id="contact-form" action="/action_page.php">
+                            <form id="contact-form" action="/">
                                 <label htmlFor="fname">First Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your name" />
+                                <input type="text" id="fname" name="firstname" placeholder="Your name" required/>
                                 <label htmlFor="lname">Last Name</label>
-                                <input type="text" id="lname" name="lastname" placeholder="Your last name" />
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name" required/>
                                 <label htmlFor="subject">Subject</label>
-                                <input type="text" id="subject" name="subject" placeholder="Subject.." />
+                                <input type="text" id="subject" name="subject" placeholder="Subject.." required/>
                                 <label htmlFor="message">Message</label>
                                 <textarea id="message" name="message" placeholder="Please give your message..." />
                                 <input type="submit" value="Submit" />

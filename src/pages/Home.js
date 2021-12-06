@@ -11,7 +11,7 @@ const parent_review = {
     dots:false,
     loop:true,
     autoplay: true,
-    smartSpeed: 1000,
+    smartSpeed: 1800,
     responsive: {
         0: {
             items: 1,
@@ -102,11 +102,13 @@ export class Home extends Component {
                                         <img src="/assets/img/banner1.jpg" alt="slider media-1" />
                                         <div className="container-fluid">
                                             <div className="slider-content">
-                                                <div className="slider_title">
-                                                    <h2>Exclusive Pediatric Dental Operatory</h2>
-                                                </div>
-                                                <div className="slider__content">
-                                                    <p><a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
+                                                <div className="banner_shadow" id="element">
+                                                    <div className="slider_title">
+                                                        <h2>Exclusive Pediatric Dental Operatory</h2>
+                                                    </div>
+                                                    <div className="slider__content">
+                                                        <p><a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

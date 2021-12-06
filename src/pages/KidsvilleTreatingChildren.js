@@ -12,7 +12,10 @@ export default class KidsvilleTreatingChildren extends Component {
                 <section className="root_canal">
                     <div className="container">
                         <div className="row pit_sealant">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12">
+                            <div className="col-12 col-lg-4 col-md-6 col-sm-12">
+                                <img src="/assets/img/Staff image.png" alt="Staff image" />
+                            </div>
+                            <div className="col-12 col-lg-8 col-md-6 col-sm-12">
                                 <p>As parents you are anxious about your child’s dental visit and we totally get it. But we want you to relax and walk through the journey with us. We at Kidsville have our unique way and here is how.</p>
                                 <p>Just taking the time to familiarize your child to the new environment can go a long way in establishing a liking for dental procedures. The doctor will have her own style of introducing the set up to the young patient. It may involve giving funny names to instruments and equipments and even reintroducing common materials cartoonishly.</p>
                                 <p>Just by working away the <strong>“anxiety “component of pain </strong>, can help leaps and bounds in delivering optimum care. For this we want all our parents to not project their fear related to dentistry onto Kids by discussing procedures at home.</p>
@@ -35,7 +38,7 @@ export default class KidsvilleTreatingChildren extends Component {
                         <div className="row pit_sealant">
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12">
                                 <p>We reward all good behavior and work on eliminating all disrupting behavior. We do this by going to the level of child’s understanding.</p>
-                                <p>Our pace of completing the procedure will be, whatever is comfortable to the child. We work WITH children not ON them. We introduce treatment in phases, increasing the complexity of procedures only when we are sure that the child is ready for it. Our appointments are based on multiple factors which we feel in our opinion is best for him</p>
+                                <p>Our pace of completing the procedure will be, whatever is comfortable to the child. We work with children not ON them. We introduce treatment in phases, increasing the complexity of procedures only when we are sure that the child is ready for it. Our appointments are based on multiple factors which we feel in our opinion is best for him.</p>  
                                 <p>We may ask parents to cooperate in the process of behavior management. We may ask you to not actively communicate with the child while he is being treated and stay passive, allowing our team to subtly execute our techniques. On certain occasions, we may ask parents to wait out in the reception to successfully use <strong>“parental separation” </strong>as a scientifically proven and impactful technique.</p>
                                 <p>We will love your child, spoil your child and we may even be strict with your child. We have our well experienced, scientific and tactful ways of treating children.</p>
                             </div>
