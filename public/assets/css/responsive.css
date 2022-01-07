@@ -1,8 +1,8 @@
 @media (min-width: 480px){
     .navbar-toggle { margin: 34px 0; }
     .logo { max-width: 100%; }
-    }
-    @media (max-width: 767px) {
+}
+@media (max-width: 768px) {
     .logo{ float: none; }
     /* .kidsville-logo { display: none; } */
     /*** footer ***/
@@ -17,7 +17,7 @@
     .Hdifferent h2{ text-align: center; padding-top: 25px;}
     .Hdifferent p{ text-align: center;}
     .team .row .col-12{ margin-bottom: 15px; }
-    .img-hover-zoom--colorize img { height: 165px; width: 75%;} 
+    .img-hover-zoom--colorize img { height: 200px; width: 80%;} 
     .srv-iconfont {font-size: 1.5rem !important; }
     /*** review ***/
     .pa_review_block{ box-shadow: 11px 22px 10px #8c94d4; }
@@ -139,8 +139,8 @@
     /*** Tooth Removal ***/
     .tooth_removal{ text-align: center;}
     .tooth_removal h2{font-size: 2rem;}
-    }
-    @media (max-width: 991px){
+}
+@media (max-width: 991px){
     .desktop-header{ display: none;}
     .logo { max-width: 100%; width: 100%; display: none; }
     .top-header-left { padding-right: 0px;}
@@ -162,8 +162,8 @@
     .before-ortho .card img { width: 15%;;height: auto;}
     /*** contact-us ***/
     .main-title{ padding: 50px 0; }
-    }
-    @media (min-width: 992px){
+}
+@media (min-width: 992px){
     h2{ font-size: 44px !important; } 
     /*** Header ***/    
     div#head-stuff .logo { display: none; }
@@ -206,12 +206,12 @@
     .common_myofunctional img{ padding-bottom: 30px;}
     /*** braces ***/
     .braces_types_block img{ height: 200px;}
-    }
-    @media (min-width: 1200px){
+}
+@media (min-width: 1200px){
     .header-widgets { -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
     /*** Home ***/
-    }
-    @media (min-width: 1450px) {
+}
+@media (min-width: 1450px) {
     /*** Home ***/
-    }
+}
     
