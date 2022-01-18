@@ -99,7 +99,7 @@ div.socials ul li a { color: #596bf1; font-size: 3em; transition: color 0.2s eas
 .slide-1, .slide-2, .slide-3{ position: relative;}  
 .slider-content h2, .slider-content h4{ color: #fff; }
 .slider-content a{ color: white !important; background-color: #2f52a0;}
-.Hdifferent img { width: 70%; height: 435px; margin: 45px 0; border-radius: 30%;}
+.Hdifferent img { width: 70%; margin: 45px 0; border-radius: 10%;}
 .Hdifferent-left .card{ background: rgb(162, 165, 168); height: 100%;}
 .Hdifferent-left { background: #70809080; }
 .Hdifferent-right p{ font-size: 16px; line-height: 1.5; }

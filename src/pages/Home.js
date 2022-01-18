@@ -141,7 +141,7 @@ export class Home extends Component {
                     <div className="container">
                         <div className="row">  
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 Hdifferent-left text-center">
-                                <img src="/assets/img/Dr. Anupriya Malonia(team).jpg" />  
+                                <img src="/assets/img/Dr. Anupriya Malonia(Hdiff).jpg" />  
                             </div>    
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 Hdifferent-right">
                                 <div className="col-12 Hdifferent_heading">
