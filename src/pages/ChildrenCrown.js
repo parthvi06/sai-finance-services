@@ -94,14 +94,14 @@ export default class ChildrenCrown extends Component {
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 sealant">
                                 <h3>Stainless Steel Crowns</h3>
                                 <p>Discovered in 1950, Stainless Steel (metal caps) are still the most comfortable and resistant, and widely used caps for teeth on young children. They require very minimal alteration of tooth structure and are cemented with ease. These caps shed off along with the tooth at the time of their natural exfoliation at the appropriate age.</p>
-                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK AN APPOINTMENT</a>
+                                <a className="more" href="https://www.1scriptics.com/appointment/">BOOK AN APPOINTMENT</a>
                             </div>
                         </div>
                         <div className="row P_F_sealants reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h3>Zirconia Crowns</h3>
                                 <p>These are tooth-colored caps that give amazing luster and opalescence to teeth. along with esthetics, they provide considerable strength to the tooth structure. these are most preferred for upper front teeth to give the pearl-like appearance to teeth.</p>
-                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK AN APPOINTMENT</a>
+                                <a className="more" href="https://www.1scriptics.com/appointment/">BOOK AN APPOINTMENT</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <img src="/assets/img/opalescene.jpg" alt="" />
@@ -116,7 +116,7 @@ export default class ChildrenCrown extends Component {
                                 <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
                             </div>
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
-                                <a className="book_app more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                                <a className="book_app more inner-btn" href="https://www.1scriptics.com/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
                             </div>
                         </div>
                     </div>   

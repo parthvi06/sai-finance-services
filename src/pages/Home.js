@@ -107,7 +107,7 @@ export class Home extends Component {
                                                         <h2>Exclusive Pediatric Dental Operatory</h2>
                                                     </div>
                                                     <div className="slider__content">
-                                                        <p><a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
+                                                        <p><a className="more" href="https://www.1scriptics.com/appointment/">Book Online</a><a className="more" href="tel:02070780822"><i className="fa fa-phone"></i> Call</a></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -118,7 +118,7 @@ export class Home extends Component {
                                         <div className="slider-content">
                                             <h2 className="slide_heading">Child Friendly Atmosphere</h2>
                                             <div className="button-appointment">
-                                                <a href="https://blog.kidsvilledental.in/appointment/" className="more">Book An Appointment</a>
+                                                <a href="https://www.1scriptics.com/appointment/" className="more">Book An Appointment</a>
                                             </div>
                                         </div>    
                                     </div>  
@@ -128,7 +128,7 @@ export class Home extends Component {
                                             <h4 className="slide_text">International Standards Of Sterillization</h4>
                                             <h2>Equipped With Advance Technologies</h2>
                                             <div className="button-appointment">
-                                                <a href="https://blog.kidsvilledental.in/appointment/" className="more">Book An Appointment</a>
+                                                <a href="https://www.1scriptics.com/appointment/" className="more">Book An Appointment</a>
                                             </div>
                                         </div>    
                                     </div>

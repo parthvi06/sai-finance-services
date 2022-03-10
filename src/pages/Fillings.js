@@ -26,14 +26,14 @@ export default class fillings extends Component {
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12 sealant">
                                 <h3>Glass Ionomer Fillings</h3>
                                 <p>These Fillings bond chemically to the dentin. These are fluoride-releasing cement that gives the tooth long-term benefits of fluoride. Since they are easily placed, they are more commonly used in very young children who are difficult to manage in the dental chair</p>
-                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">Got a cavity? Book and appointment</a>
+                                <a className="more" href="https://www.1scriptics.com/appointment/">Got a cavity? Book and appointment</a>
                             </div>
                         </div>
                         <div className="row P_F_sealants reverse_col">
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <h3>Composite Fillings</h3>
                                 <p>If your child does need tooth-colored fillings, the process is relatively simple. The dentist will remove decay from the teeth and clean the treatment site. A composite material will be bonded to the tooth surface and cured.<br/>Composite fillings are a mixture of acrylic resin and finely ground glasslike particles that produce a tooth-colored restoration. Composite fillings provide good durability and resistance to fracture in small-to-mid-size restorations that need to withstand moderate chewing pressure. Less tooth structure is removed when the dentist prepares the tooth, and this may result in a smaller filling than that of an amalgam.<br />Finally, the filling will be adjusted for comfort. Though most children experience little or no discomfort during this process, it is normal to feel some pressure. Composite fillings are very strong and capable of withstanding normal wear and tear in children. Most tooth-colored fillings will last many years so long as children brush twice daily, floss once per day, adopt healthy dietary habits and visit a pediatric dentist regularly for exams.</p>
-                                <a className="more" href="https://blog.kidsvilledental.in/appointment/">BOOK MORE</a>
+                                <a className="more" href="https://www.1scriptics.com/appointment/">BOOK MORE</a>
                             </div>
                             <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                 <img src="/assets/img/Composite_fillings.jpg" alt="" />
@@ -105,7 +105,7 @@ export default class fillings extends Component {
                                 <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
                             </div>
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
-                                <a className="book_app more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                                <a className="book_app more inner-btn" href="https://www.1scriptics.com/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
                             </div>
                         </div>
                     </div>   

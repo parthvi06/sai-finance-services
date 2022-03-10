@@ -110,7 +110,7 @@ export default class Location extends Component {
                                             <h3>We offer most innovative, advanced, and comprehensive dental care to kids</h3>
                                             <hr className="sep_line" />
                                             <p>Young and developing minds require a totally different approach to dentistry than adults. To bridge this gap, we have innovated our style to cater to the needs of this segment.</p>
-                                            <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Now</a>
+                                            <a className="more" href="https://www.1scriptics.com/appointment/">Book Now</a>
                                         </div>
                                     </div>    
                                 </div>
@@ -122,7 +122,7 @@ export default class Location extends Component {
                                             <h3>Our State of the art dental clinic focusses on making dental visit a fun experience for kids</h3>
                                             <hr className="sep_line" />
                                             <p>Alleviating anxiety and making dentistry stress-free for kids along with an advanced and scientific approach is the core concept of Kidsville.</p>
-                                            <a className="more" href="https://blog.kidsvilledental.in/appointment/">Book Now</a>
+                                            <a className="more" href="https://www.1scriptics.com/appointment/">Book Now</a>
                                         </div>
                                         <div className="col-12 col-lg-6 col-md-6 col-sm-12">
                                             <img src="/assets/img/visit_fun.jpg" alt="" />

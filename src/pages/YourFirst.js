@@ -17,7 +17,7 @@ export default class YourFirst extends Component {
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center">
                                 <h2>What To Expect At Your First Visit?</h2>
                                 <p>The most important part of your child’s dental journey is his first visit with Us. We use this crucial visit to build rapport with the child for life long foundation towards dentistry. We keep it more introductory with minimal procedures. This goes a long way in building a positive attitude towards dental treatment!</p>
-                                <a className="more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book Your Appointment</a>
+                                <a className="more inner-btn" href="https://www.1scriptics.com/appointment/">Book Your Appointment</a>
                             </div>
                         </div>
                     </div>
@@ -230,7 +230,7 @@ export default class YourFirst extends Component {
                                 <h2 style={{fontSize:40}}>Ready to book your next appointment?</h2>
                             </div>
                             <div className="col-12 col-lg-12 col-md-12 col-sm-12 text-center" style={{paddingBottom:40}}>
-                                <a className="book_app more inner-btn" href="https://blog.kidsvilledental.in/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
+                                <a className="book_app more inner-btn" href="https://www.1scriptics.com/appointment/">Book online</a>&nbsp;<a className="num_app more inner-btn" href="tel:+91 6358834088"><i  className="fa fa-phone"></i>&nbsp;+91 6358834088</a>
                             </div>
                         </div>
                     </div>   
