@@ -178,6 +178,7 @@ input[type=submit]:hover { background-color: #458ea0; }
 .blog-column h3{ margin-top: 0; padding: 20px 0; }
 .blog-column{ padding-bottom: 40px; }
 div .blog-posts .card{ height: 100%; }
+.read-more{ display: none;}
 /*** Single BlogPage ***/
 .post-cover{ background-position: center center !important; background-size: cover !important; height: 310px; }
 .blog-content{ font-family:'HNR';}
