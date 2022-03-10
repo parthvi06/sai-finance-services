@@ -33,7 +33,7 @@ export class Blogs extends Component {
                                                 <div className="blog-column">
                                                     <h3>{blog.title.rendered}</h3>
                                                     <div dangerouslySetInnerHTML={{ __html: blog.excerpt.rendered }}></div>
-                                                    <Link className="read-more-btn" to={`/blogs/${blog.id}`}></Link>
+                                                    <Link className="read-more-btn" to={`/blogs/${blog.id}`}>Read more</Link>
                                                 </div>
                                             </div>
                                         </div> 
