@@ -25,15 +25,15 @@ export default class GeneralAnesthesia extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="remember">
+             <section className="hypomineralise">
                     <div className="container">
                         <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12 ">
-                                <p>Order to carry out GA safely and effectively, we have partnered with a Harley Street Clinic where the procedure will take place.</p>
-                                <p>The Harley Street Clinic is known as one of the best private hospitals in Europe. Here, world-class complex medical care and surgery is supported by our paediatric intensive care unit, where clinical specialists have access to the most highly advanced medical technology. They share Happy Kids Dental’s holistic ethos for family-centred care, delivered in a state-of- the-art facility by leading consultants and specialists and supported by an expert team of healthcare professionals.</p>
+                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
+                                <h2 className="text-center">What is involved in the process</h2>
+                                <p>If your child is recommended to have dental treatment under GA, the first step is t book an initial consultation with our pediatric dentist at Kidsville Dental.<br/>During this comprehensive examination, which takes around an hour, a treatment plan will be formulated and all of your questions about your child’s dental health will be answered.</p>
                             </div>
                         </div>
-                    </div>        
+                    </div>   
                 </section>
                 <section className="next-appoint">
                     <div className="container">
