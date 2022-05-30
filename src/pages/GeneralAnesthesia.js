@@ -25,26 +25,6 @@ export default class GeneralAnesthesia extends Component {
                         </div>
                     </div>
                 </section>
-                <section className="hypomineralise">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
-                                <h2 className="text-center">What is involved in the process</h2>
-                                <p>If your child is recommended to have dental treatment under GA, the first step is t book an initial consultation with our pediatric dentist at Kidsville Dental.<br/>During this comprehensive examination, which takes around an hour, a treatment plan will be formulated and all of your questions about your child’s dental health will be answered.</p>
-                            </div>
-                        </div>
-                    </div>   
-                </section>
-                <section className="hypomineralise">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-12 col-lg-12 col-md-12 col-sm-12" style={{paddingBottom:20}}>
-                                <h3>Where Does the treatment take place?</h3>
-                                <p>In order to carry out GA safely and effectively, we have partnered with pediatric Hospital where the procedure will take place. Conducting the procedure at the hospital provides us with world class medical care and surgery where clicnical specilists have access to the most highly advanced medical technology. They share similar ethos as Kidsville dental and deliver state- of art facility by leading consultants and specialists and supported by an expert team of healthcare professionals.</p>
-                            </div>
-                        </div>
-                    </div>   
-                </section>
                 <section className="remember">
                     <div className="container">
                         <div className="row">
