@@ -42,6 +42,11 @@ document.addEventListener("DOMContentLoaded", function(){
     });
   }
 }); 
+
+
+
+
+
 //Emaljs Script
 $( ".footer-email" ).on( "keyup", function() {
   var email = $(".footer-email").val();
@@ -63,3 +68,4 @@ function IsEmail(email) {
     return true;
  }
 }
+
