@@ -57,7 +57,7 @@ div.navbar{ margin: 0 !important; }
 .dropbtn a{color: #FFFFFF!important;}
 .dropbtn{display: inline-grid; }
 .dropdown .dropbtn { font-size: 16px;  border: none; outline: none; color: #555555; padding: 14px 16px; background-color: inherit; font-family:'HNR'; margin: 0; }
-.navbar a:hover, .dropdown:hover .dropbtn , .contact-menu a:hover{ background-color: lightgray; color: #23527C; text-decoration: none; }
+.navbar a:hover, .dropdown:hover .dropbtn , .contact-menu a:hover{ color: #23527C; text-decoration: none; }
 .dropdown-content {display: none; position: absolute; background-color: #f9f9f9; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; }
 .dropdown-content a {float: none; color: #555555; padding: 5px 10px; text-decoration: none; display: block; text-align: left; border-bottom: 1px solid #ddd; }
 .dropdown-content a:hover { color: #23527C; text-decoration: none; }
@@ -140,18 +140,24 @@ a.more { border: 2px solid #ffffff; padding: 15px 20px; display: inline-block; b
 .card h2 { font-size: 1.5rem; }
     /*** service ***/
 .service_heading { text-align: center; text-transform: uppercase; font-weight: bold; padding-bottom: 30px; }
-.Sai-service h2{ margin-top: 50px;} 
+.Sai-service h2{ margin-top: 30px;} 
+.Sai-service h2:after { background-color: #89c142; content: ""; top: 140px; height: 2px; left: 0; margin: 0 auto; position: absolute; right: 0; width: 17%;}
 .Kservice { padding-top: 4rem; padding-bottom: 5rem; background-color: #9a9c9e; }
-.service {  padding:50px; border-radius: 0.5rem; box-shadow: 7px 7px 30px -5px rgba(57, 35, 180, 0.8); margin-bottom: 2rem; }
+.service { padding: 20px 10px 20px 10px; border-radius: 10px; box-shadow: 7px 7px 30px -5px rgba(57, 35, 180, 0.8); margin-bottom: 2rem; }
 .service:hover { background: rgb(209, 207, 209); color: #241f1f!important; }
 .service-icon { display: flex; align-items: center; justify-content: center; }
 .service-icon img { background: #ffff;}
 .srv-iconfont { font-size: 4.5rem !important; margin: 1rem;padding-right: 1rem; color: #fff; }
 .service-text { margin: auto; }
 .service_item{ padding-bottom: 25px; }
-.srv-title{ margin-top: 10px; margin-bottom: 10px; text-align: left; font-weight: 700;display: flex; align-items: center; justify-content: center; }
+.srv-title{ margin-top: 25px; margin-bottom: 10px; text-align: left; font-size: 18px; display: flex; align-items: center; justify-content: center; }
 .service-text p { padding-top: 0.5rem; padding-bottom: 0.5rem; line-height: 25px; }
 .srv-para { font-size: 16px; }
+.apply-now_arrow {  align-items: center; background: #dadada; border-radius: 100%; color: #fff; display: flex; font-size: 30px; font-weight: 700; height: 30px; justify-content: center; margin: 10px auto 0; width: 30px;}
+.apply-now_arrow::before{ content: "›"; color: #fff;}
+.apply-now_arrow:hover{ background: linear-gradient(90deg,#93d642,#56ab2f); }
+.apply-now__card-details,.apply-now__card-details2{ display: none;}
+.modal{ top:20%}
 /*** 404 page ***/
 .sty_404{ background-color: #50d6d9;}
 .para-404 img { width: 100%;  }
@@ -221,12 +227,15 @@ input[type=submit]:hover { background-color: #458ea0; }
 .fill_teeth { margin-top: 40px; }
 .cavity_untreat { margin: 20px 0; }
 .fill_teeth h2, .cavity_untreat h2{ padding: 30px 0; }
+/*** Register***/
+.form-group{ grid-column-gap: 15px; -webkit-column-gap: 15px; column-gap: 15px; display: grid; grid-template-columns: 1fr 1fr 1fr;}
+.nameformet { display: flex; flex-direction: row;}
+.nameformet select.form-control:not([size]):not([multiple]) { height: calc(2.25rem + 14px); width: 17%; padding: 2px; margin-top: 0; border-right: 0px; border-bottom-right-radius: 0; border-top-right-radius: 0;}
+.nameformet .c_name{ border-left: 0; border-bottom-left-radius: 0; border-top-left-radius: 0;}
+.form-control{ padding: 12px;}
+input[type=text]{ margin-top: 0;}
 
-#element{
-    
-    animation: 3s ease 0s normal forwards 1 fadein;
-}
-
+#element{animation: 3s ease 0s normal forwards 1 fadein;}
 @keyframes fadein{
     0% { opacity:0; }
     66% { opacity:0; }

@@ -164,7 +164,7 @@
     .main-title{ padding: 50px 0; }
 }
 @media (min-width: 992px){
-    h2{ font-size: 44px !important; } 
+    h2{ font-size: 30px !important; } 
     /*** Header ***/    
     div#head-stuff .logo { display: none; }
     .header { border-bottom: 1px solid #ddd; }

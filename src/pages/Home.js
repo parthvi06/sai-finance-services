@@ -1,103 +1,19 @@
 import React, { Component } from 'react';
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Helmet } from 'react-helmet';
-const parent_review = {
-    margin: 10,
-    responsiveClass: true,
-    nav:true,
-    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-    dots:false,
-    loop:true,
-    autoplay: true,
-    smartSpeed: 1800,
-    responsive: {
-        0: {
-            items: 1,
-        },
-        400: {
-            items: 1,
-        },
-        600: {
-            items: 2,
-        },
-        700: {
-            items: 2,
-        },
-        1000: {
-            items: 3,
-        }
-    },
-};
-const clinic_slider = {
-    margin: 10,
-    responsiveClass: true,
-    nav:true,
-    navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
-    dots:false,
-    loop:true,
-    autoplay: true,
-    smartSpeed: 1000,
-    responsive: {
-        0: {
-            items: 1,
-        },
-        400: {
-            items: 1,
-        },
-        600: {
-            items: 2,
-        },
-        700: {
-            items: 2,
-        },
-        1000: {
-            items: 4,
-        }
-    },
-};
-const home_slider = {
-    margin: 10,
-    responsiveClass: true,
-    dots:true,
-    loop:true,
-    autoplay: true,
-    smartSpeed: 2000,
-    responsive: {
-        0: {
-            items: 1,
-        },
-        400: {
-            items: 1,
-        },
-        600: {
-            items: 1,
-        },
-        700: {
-            items: 1,
-        },
-        1000: {
-            items: 1,
-
-        }
-    },
-};
-
 export class Home extends Component {
     render() {
         return (
             <div>
                 <Helmet>
-                    <title>Kidsville | Pediatric Dental Hospital</title>
-                    <meta name="description" content="kidsville "/>
+                    <title>Sai Finance Service</title>
+                    <meta name="description" content="Fianace "/>
                 </Helmet>
                 
                 <section className="Sai-service" id={4}>
                     <div className="container">
-                    <h2 className="service_heading">Apply For Citi Credit Card</h2>
+                        <h2 className="service_heading">Apply For Citi Credit Card</h2>
                         <div className="row justify-content-center">
-                            <div className="col-lg-6 col-md-12 col-sm-12 service_item">
+                            <div className="col-lg-3 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <img src="/assets/img/IndianOil-Citi-Platinum-Credit-Card-2.png" alt="services"/>
@@ -105,9 +21,10 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Indian Oil Citi Credit Card</h3>
                                     </div>
+                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#cashback_cc"></div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 service_item">
+                            <div className="col-lg-3 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <img src="/assets/img/Citi-Rewards-Credit-Card.png" alt="services"/>
@@ -115,9 +32,10 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi Rewards Credit Card</h3>
                                     </div>
+                                    <div className="apply-now_arrow"></div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12 service_item">
+                            <div className="col-lg-3 col-md-12 col-sm-12 service_item">
                                 <div className="service">
                                     <div className="service-icon">
                                         <img src="/assets/img/Citi-Cash-Back-Credit-Card.png" alt="services"/>
@@ -125,9 +43,10 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi CashBack Credit Card</h3>
                                     </div>
+                                    <div className="apply-now_arrow"></div>
                                 </div>
                             </div>
-                            <div className="col-lg-6 col-md-12 col-sm-12">
+                            <div className="col-lg-3 col-md-12 col-sm-12">
                                 <div className="service">
                                     <div className="service-icon">
                                         <img src="/assets/img/Citi-PremierMiles-Card.png" alt="services"/>
@@ -135,13 +54,35 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi PremierMiles Card</h3>
                                     </div>
+                                    <div className="apply-now_arrow"></div>
                                 </div>
                             </div>
                         </div>
+                        <div className="apply-now__card-details modal fade" id="cashback_cc" role="dialog" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <ul>    
+                                            <li>Get up to 71 litres of free fuel in first year</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
+                                            <li>Simply tap and pay using contactless card</li>
+                                        </ul>
+                                    </div>
+                                    <div className="modal-footer">
+                                        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                                        <a href='/register'><button type="button" className="btn btn-primary">Apply now</button></a>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
                     </div>    
                 </section>
-            </div>
-            
+            </div> 
         )
     }
 }

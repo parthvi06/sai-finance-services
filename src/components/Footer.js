@@ -25,7 +25,7 @@ export class Footer extends Component {
                                 <div className="textwidget">
                                     <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91 123456789</a></h4>
                                     <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;123654789</a></h4>
-                                    <p><a href="mailto:info@kidsville.in">Send an Email</a></p>
+                                    <p><a href="">Send an Email</a></p>
                                     <p className="clinics"><strong>Sai Services,</strong>
                                         <br/>ABC Society, Beside Maharaja Complex, Near Balaji garden restaurant, Prernatirth Derasar Road, Prahladnagar,
                                         <br/> Satellite, Ahmedabad – 380015<br/>

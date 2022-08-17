@@ -6,7 +6,7 @@ function Header() {
                 <div className="container-fuild" id="head-stuff">
                     <div className="logo">
                         <a href="">
-                        <embed src="/assets/img/logo.svg" />
+                        <img src="/assets/img/logo.png" />
                         </a>
                     </div>
                 </div>
@@ -14,7 +14,7 @@ function Header() {
                     <div className="navbar navbar-expand-lg" id="header">
                         <div className="kidsville-logo">
                             <a href="/">
-                                 <embed src="/assets/img/logo.svg" />
+                                 <img src="/assets/img/logo.png" />
                             </a>
                         </div>    
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,7 @@ function Header() {
                             <div className="header-widgets  header-widgets-desktop">
                         <div className="pink-offer widget  widget_black_studio_tinymce">
                             <div className="top-header-right">
-                                <a href="https://www.1scriptics.com/appointment/" className="btn appointment-btn white-text">Login</a>
+                                <a href="" className="btn appointment-btn white-text">Login</a>
                             </div>        
                         </div>        
                     </div>
