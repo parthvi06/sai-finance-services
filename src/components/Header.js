@@ -46,9 +46,7 @@ function Header() {
                             </div>  
                             <div className="header-widgets  header-widgets-desktop">
                         <div className="pink-offer widget  widget_black_studio_tinymce">
-                            <div className="top-header-right">
-                                <a href="" className="btn appointment-btn white-text">Login</a>
-                            </div>        
+                                
                         </div>        
                     </div>
                         </div>

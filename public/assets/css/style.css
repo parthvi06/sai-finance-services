@@ -243,6 +243,7 @@ input[type=text]{ margin-top: 0;}
 .radio-container .radio-button label { align-items: center; background: #fff; border-radius: 6px;color: #000; cursor: pointer; display: flex; font-size: 1rem; font-weight: 700; justify-content: center; min-height: 68px; padding: 10px; text-align: center; width: 100%;}
 .radio-container .radio-button input[type=radio]:checked+label { background: linear-gradient(90deg,#93d642,#56ab2f); color: #fff;}
 select.form-control:not([size]):not([multiple]) { height: calc(2.25rem + 14px); margin: 0;}
+.form-submit{ text-align: center; padding-bottom: 35px}
 #element{animation: 3s ease 0s normal forwards 1 fadein;}
 @keyframes fadein{
     0% { opacity:0; }
