@@ -21,7 +21,7 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Indian Oil Citi Credit Card</h3>
                                     </div>
-                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#cashback_cc"></div>
+                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#iocc_cc"></div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 service_item">
@@ -32,7 +32,7 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi Rewards Credit Card</h3>
                                     </div>
-                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#cashback_cc"></div>
+                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#crcc_cc"></div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12 service_item">
@@ -43,7 +43,7 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi CashBack Credit Card</h3>
                                     </div>
-                                    <div className="apply-now_arrow"></div>
+                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#cashback_cc"></div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-12 col-sm-12">
@@ -54,11 +54,11 @@ export class Home extends Component {
                                     <div className="service-text">
                                         <h3 className="srv-title">Citi PremierMiles Card</h3>
                                     </div>
-                                    <div className="apply-now_arrow"></div>
+                                    <div className="apply-now_arrow" data-toggle="modal" data-target="#cpc_cc"></div>
                                 </div>
                             </div>
                         </div>
-                        <div className="apply-now__card-details modal fade" id="cashback_cc" role="dialog" aria-hidden="true">
+                        <div className="apply-now__card-details modal fade" id="iocc_cc" role="dialog" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
@@ -80,7 +80,7 @@ export class Home extends Component {
                                 </div>
                             </div>   
                         </div>
-                        <div className="apply-now__card-details modal fade" id="cashback_cc" role="dialog" aria-hidden="true">
+                        <div className="apply-now__card-details modal fade" id="crcc_cc" role="dialog" aria-hidden="true">
                             <div className="modal-dialog">
                                 <div className="modal-content">
                                     <div className="modal-header">
