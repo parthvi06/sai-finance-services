@@ -88,11 +88,11 @@ export class Home extends Component {
                                     </div>
                                     <div className="modal-body">
                                         <ul>    
-                                            <li>Get up to 71 litres of free fuel in first year</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
-                                            <li>Simply tap and pay using contactless card</li>
+                                            <li>Get benefits worth Rs 4800+ in first year</li>
+                                            <li>Points worth Rs 850^ on card activation</li>
+                                            <li>Annual fee : Rs 1000 + taxes#0</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li><li>Additional points worth Rs 2950**</li>
+                                            <li>Never - expiring reward points</li>
                                         </ul>
                                     </div>
                                     <div className="modal-footer">
@@ -110,11 +110,11 @@ export class Home extends Component {
                                     </div>
                                     <div className="modal-body">
                                         <ul>    
-                                            <li>Get up to 71 litres of free fuel in first year</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
+                                            <li>Get benefits worth Rs 3,300+ in first year</li>
+                                            <li>Rs 950** on other spends</li>
                                             <li>Simply tap and pay using contactless card</li>
+                                            <li>Rs 2400^ on movies, telephone & utility bills</li>
+                                            <li>Annual fee : Rs 500 + taxes</li>
                                         </ul>
                                     </div>
                                     <div className="modal-footer">
@@ -132,11 +132,13 @@ export class Home extends Component {
                                     </div>
                                     <div className="modal-body">
                                         <ul>    
-                                            <li>Get up to 71 litres of free fuel in first year</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
-                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
-                                            <li>Simply tap and pay using contactless card</li>
+                                            <li>Get benefits worth Rs 19,000+ in first year</li>
+                                            <li>Miles worth Rs 3200** on airlines spends</li>
+                                            <li>Never expiring miles</li>
+                                            <li>Additional miles worth Rs 11600*** on travel and other spends</li>
+                                            <li>Welcome miles worth Rs 4500^</li>
+                                            <li>Annual fee : Rs 3000 + taxes</li>
+                                            <li>Complimentary domestic airport lounge access</li>
                                         </ul>
                                     </div>
                                     <div className="modal-footer">
