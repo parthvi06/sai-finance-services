@@ -102,6 +102,50 @@ export class Home extends Component {
                                 </div>
                             </div>   
                         </div>
+                        <div className="apply-now__card-details modal fade" id="cashback_cc" role="dialog" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <ul>    
+                                            <li>Get up to 71 litres of free fuel in first year</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
+                                            <li>Simply tap and pay using contactless card</li>
+                                        </ul>
+                                    </div>
+                                    <div className="modal-footer">
+                                        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                                        <a href='/register'><button type="button" className="btn btn-primary">Apply now</button></a>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
+                        <div className="apply-now__card-details modal fade" id="cpc_cc" role="dialog" aria-hidden="true">
+                            <div className="modal-dialog">
+                                <div className="modal-content">
+                                    <div className="modal-header">
+                                        <button type="button" className="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div className="modal-body">
+                                        <ul>    
+                                            <li>Get up to 71 litres of free fuel in first year</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Fee waiver of Rs 1000 on annual spends of Rs 30000</li>
+                                            <li>Annual fee : Rs 1000 + taxes#</li><li>Never - expiring reward points</li>
+                                            <li>Simply tap and pay using contactless card</li>
+                                        </ul>
+                                    </div>
+                                    <div className="modal-footer">
+                                        <button type="button" className="btn btn-default" data-dismiss="modal">Close</button>
+                                        <a href='/register'><button type="button" className="btn btn-primary">Apply now</button></a>
+                                    </div>
+                                </div>
+                            </div>   
+                        </div>
                     </div>    
                 </section>
             </div> 
