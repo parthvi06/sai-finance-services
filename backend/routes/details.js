@@ -20,7 +20,7 @@ router.route('/add').post((req, res) => {
     nameg
   });
 
-  newDetail.save()
+newDetail.save()
   .then(() => res.json('Detail added!'))
   .catch(err => res.status(400).json('Error: ' + err));
 });
