@@ -59,7 +59,7 @@ router.route('/add').post((req, res) => {
     area,
     landmark, 
     pincode,
-    city,
+    city
   });
 
 newDetail.save()

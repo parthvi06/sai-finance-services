@@ -1,5 +1,6 @@
     import React, { Component } from 'react'
     import axios from 'axios';
+import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
     export default class Register extends Component {
         constructor(props) {
             super(props);
@@ -9,6 +10,24 @@
             this.onChangeName = this.onChangeName.bind(this);
             this.onChangeNameg = this.onChangeNameg.bind(this);
             this.onChangeBirthDate = this.onChangeBirthDate.bind(this);
+            this.onChangeArea = this.onChangeArea.bind(this);
+            this.onChangeCity = this.onChangeCity.bind(this);
+            this.onChangeCkyc = this.onChangeCkyc.bind(this);
+            this.onChangeCoEmail = this.onChangeCoEmail.bind(this);
+            this.onChangeCompany = this.onChangeCompany.bind(this);
+            this.onChangeDesignation = this.onChangeDesignation.bind(this);
+            this.onChangeFatherfName = this.onChangeFatherfName.bind(this);
+            this.onChangeFatherlName = this.onChangeFatherlName.bind(this);
+            this.onChangeMotherfName = this.onChangeMotherfName.bind(this);
+            this.onChangeMotherlName = this.onChangeMotherlName.bind(this);
+            this.onChangeGross = this.onChangeGross.bind(this);
+            this.onChangeHouse = this.onChangeHouse.bind(this);
+            this.onChangeLandmark = this.onChangeLandmark.bind(this);
+            this.onChangePancard = this.onChangePancard.bind(this);
+            this.onChangePincode = this.onChangePincode.bind(this);
+            this.onChangeProfession = this.onChangeProfession(this);
+            this.onChangeStreet = this.onChangeStreet.bind(this);
+            
             this.onSubmit = this.onSubmit.bind(this);
         
             this.state = {
@@ -16,7 +35,27 @@
               number: '',
               name: '',
               nameg:'Mr',
-              birthdate:''
+              birthdate:'',
+              father_fname: '',
+              father_lname: '',
+              mother_fname: '',
+              mother_lname: '',
+              marital: '',
+              citizen: '',
+              resident: '',
+              pancard: '', 
+              ckyc: '',
+              profession: '',
+              company: '',
+              designation: '',
+              gross: '',
+              coemail: '',
+              house: '',
+              street: '',
+              area: '',
+              landmark: '', 
+              pincode: '',
+              city: '',
             }
           }
         
@@ -87,6 +126,7 @@
             this.setState({gross: e.target.value})
             console.log(this.setState({gross: e.target.value}))
           }
+          
           onChangeCoEmail(e) {
             this.setState({coemail: e.target.value})
             console.log(this.setState({coemail: e.target.value}))
