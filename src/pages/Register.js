@@ -3,7 +3,7 @@
     export default class Register extends Component {
         constructor(props) {
             super(props);
-        
+
             this.onChangeEmail = this.onChangeEmail.bind(this);
             this.onChangeNumber = this.onChangeNumber.bind(this);
             this.onChangeName = this.onChangeName.bind(this);
@@ -39,8 +39,74 @@
             this.setState({birthdate: e.target.value})
             console.log(this.setState({birthdate: e.target.value}))
           }
-        
-        
+          onChangeFatherfName(e) {
+            this.setState({father_fname: e.target.value})
+            console.log(this.setState({father_fname: e.target.value}))
+          }
+          onChangeFatherlName(e) {
+            this.setState({father_lname: e.target.value})
+            console.log(this.setState({father_lname: e.target.value}))
+          }
+          onChangeMotherfName(e) {
+            this.setState({mother_fname: e.target.value})
+            console.log(this.setState({mother_fname: e.target.value}))
+          }
+          onChangeMotherlName(e) {
+            this.setState({mother_lname: e.target.value})
+            console.log(this.setState({mother_lname: e.target.value}))
+          }
+          onChangeCity(e) {
+            this.setState({city: e.target.value})
+            console.log(this.setState({city: e.target.value}))
+          }
+          onChangeCkyc(e) {
+            this.setState({ckyc: e.target.value})
+            console.log(this.setState({ckyc: e.target.value}))
+          }
+          onChangePancard(e) {
+            this.setState({pancard: e.target.value})
+            console.log(this.setState({pancard: e.target.value}))
+          }
+          onChangePincode(e) {
+            this.setState({pincode: e.target.value})
+            console.log(this.setState({pincode: e.target.value}))
+          }
+          onChangeProfession(e) {
+            this.setState({profession: e.target.value})
+            console.log(this.setState({profession: e.target.value}))
+          }
+          onChangeCompany(e) {
+            this.setState({company: e.target.value})
+            console.log(this.setState({company: e.target.value}))
+          }
+          onChangeDesignation(e) {
+            this.setState({designation: e.target.value})
+            console.log(this.setState({designation: e.target.value}))
+          }
+          onChangeGross(e) {
+            this.setState({gross: e.target.value})
+            console.log(this.setState({gross: e.target.value}))
+          }
+          onChangeCoEmail(e) {
+            this.setState({coemail: e.target.value})
+            console.log(this.setState({coemail: e.target.value}))
+          }
+          onChangeHouse(e) {
+            this.setState({house: e.target.value})
+            console.log(this.setState({house: e.target.value}))
+          }
+          onChangeStreet(e) {
+            this.setState({street: e.target.value})
+            console.log(this.setState({street: e.target.value}))
+          }
+          onChangeArea(e) {
+            this.setState({area: e.target.value})
+            console.log(this.setState({area: e.target.value}))
+          }
+          onChangeLandmark(e) {
+            this.setState({landmark: e.target.value})
+            console.log(this.setState({landmark: e.target.value}))
+          }
            onSubmit(e) {
             e.preventDefault();
         
@@ -49,7 +115,27 @@
               number: this.state.number,
               name: this.state.name,
               nameg: this.state.nameg,
-              birthdate: this.state.birthdate
+              birthdate: this.state.birthdate,
+              father_fname: this.state.father_fname,
+              father_lname: this.state.father_lname,
+              mother_fname: this.state.mother_fname,
+              mother_lname: this.state.mother_lname,
+              marital: this.state.marital,
+              citizen: this.state.citizen,
+              resident: this.state.resident,
+              pancard: this.state.pancard,
+              ckyc: this.state.ckyc,
+              profession: this.state.profession,
+              company: this.state.company,
+              designation: this.designation,
+              gross: this.state.gross,
+              coemail: this.state.coemail,
+              house: this.state.house,
+              street: this.state.street,
+              area: this.state.area,
+              landmark: this.state.landmark,
+              pincode: this.state.pincode,
+              city: this.state.city
             }
             
             axios.post('http://localhost:5000/details/add', detail)
@@ -329,8 +415,8 @@
                                         required
                                         className="form-control"
                                         placeholder="City*"
-                                        value={this.state.pincode}
-                                        onChange={this.onChangePincode}
+                                        value={this.state.city}
+                                        onChange={this.onChangeCity}
                                     />
                                 </div>
                             </div>
