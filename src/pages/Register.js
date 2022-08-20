@@ -244,17 +244,17 @@
                                         <option value="Assistant Manager/ Manager">Assistant Manager/ Manager</option>
                                         <option value="AVP/ AGM">AVP/ AGM</option>
                                         <option value="VP/ GM">VP/ GM</option>
-                                        <option value="1000000369">Contract employee</option>
-                                        <option value="1000000067">Director/ CXO</option>
-                                        <option value="1000000352">Teacher/ Professor</option>
-                                        <option value="1000000726">Doctor</option>
-                                        <option value="1000002372">CA/ CS</option>
-                                        <option value="1000011885">Lawyer</option>
-                                        <option value="1000003200">Architect</option>
-                                        <option value="1000009921">Real Estate Broker</option>
-                                        <option value="1000012678">Wellness Expert</option>
-                                        <option value="1000007802">Artist/ Designer</option>
-                                        <option value="1000011689">Others</option>
+                                        <option value="Contract employee">Contract employee</option>
+                                        <option value="Director/ CXO">Director/ CXO</option>
+                                        <option value="Teacher/ Professor">Teacher/ Professor</option>
+                                        <option value="Doctor">Doctor</option>
+                                        <option value="CA/ CS">CA/ CS</option>
+                                        <option value="Lawyer">Lawyer</option>
+                                        <option value="Architect">Architect</option>
+                                        <option value="Real Estate Broker">Real Estate Broker</option>
+                                        <option value="Wellness Expert">Wellness Expert</option>
+                                        <option value="Artist/ Designer">Artist/ Designer</option>
+                                        <option value="Others">Others</option>
                                     </select>
                                 </div>
                                 <div>
