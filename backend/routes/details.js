@@ -1,4 +1,4 @@
-const router = require('express').Router();
+ router = require('express').Router();
 let Detail = require('../models/detail.model');
 
 router.route('/').get((req, res) => {
@@ -8,19 +8,61 @@ router.route('/').get((req, res) => {
 });
 
 router.route('/add').post((req, res) => {
-  const name = req.body.name;
-  const number = req.body.number;
-  const email = req.body.email;
-  const nameg = req.body.nameg;
+   name = req.body.name;
+   number = req.body.number;
+   email = req.body.email;
+   nameg = req.body.nameg;
+   birthdate  = req.body.birthdate;
+   father_fname = req.body.father_fname;
+   father_lname = req.body.father_lname;
+   mother_fname = req.body.mother_fname;
+   mother_lname = req.body.mother_lname;
+   marital = req.body.marital;
+   citizen = req.body.citizen;
+   resident =req.body.resident;
+   pancard = req.body.pancard; 
+   ckyc = req.body.ckyc;
+   profession = req.body.profession;
+   company = req.body.company;
+   designation = req.body.designation;
+   gross = req.body.gross;
+   coemail = req.body.coemail;
+   house = req.body.house;
+   street = req.body.street;
+   area = req.body.area;
+   landmark = req.body.landmark; 
+   pincode = req.body.pincode;
+   city = req.body.city;
 
-  const newDetail = new Detail({
+   newDetail = new Detail({
     name,
     number,
     email,
-    nameg
+    nameg,
+    birthdate,
+    father_fname,
+    father_lname,
+    mother_fname,
+    mother_lname,
+    marital,
+    citizen,
+    resident,
+    pancard, 
+    ckyc,
+    profession,
+    company,
+    designation,
+    gross,
+    coemail,
+    house,
+    street,
+    area,
+    landmark, 
+    pincode,
+    city
   });
 
-  newDetail.save()
+newDetail.save()
   .then(() => res.json('Detail added!'))
   .catch(err => res.status(400).json('Error: ' + err));
 });

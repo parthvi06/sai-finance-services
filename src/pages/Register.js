@@ -1,14 +1,33 @@
     import React, { Component } from 'react'
     import axios from 'axios';
+import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
     export default class Register extends Component {
         constructor(props) {
             super(props);
-        
+
             this.onChangeEmail = this.onChangeEmail.bind(this);
             this.onChangeNumber = this.onChangeNumber.bind(this);
             this.onChangeName = this.onChangeName.bind(this);
             this.onChangeNameg = this.onChangeNameg.bind(this);
             this.onChangeBirthDate = this.onChangeBirthDate.bind(this);
+            this.onChangeArea = this.onChangeArea.bind(this);
+            this.onChangeCity = this.onChangeCity.bind(this);
+            this.onChangeCkyc = this.onChangeCkyc.bind(this);
+            this.onChangeCoEmail = this.onChangeCoEmail.bind(this);
+            this.onChangeCompany = this.onChangeCompany.bind(this);
+            this.onChangeDesignation = this.onChangeDesignation.bind(this);
+            this.onChangeFatherfName = this.onChangeFatherfName.bind(this);
+            this.onChangeFatherlName = this.onChangeFatherlName.bind(this);
+            this.onChangeMotherfName = this.onChangeMotherfName.bind(this);
+            this.onChangeMotherlName = this.onChangeMotherlName.bind(this);
+            this.onChangeGross = this.onChangeGross.bind(this);
+            this.onChangeHouse = this.onChangeHouse.bind(this);
+            this.onChangeLandmark = this.onChangeLandmark.bind(this);
+            this.onChangePancard = this.onChangePancard.bind(this);
+            this.onChangePincode = this.onChangePincode.bind(this);
+            this.onChangeProfession = this.onChangeProfession.bind(this);
+            this.onChangeStreet = this.onChangeStreet.bind(this);
+            
             this.onSubmit = this.onSubmit.bind(this);
         
             this.state = {
@@ -16,7 +35,27 @@
               number: '',
               name: '',
               nameg:'Mr',
-              birthdate:''
+              birthdate:'',
+              father_fname: '',
+              father_lname: '',
+              mother_fname: '',
+              mother_lname: '',
+              marital: '',
+              citizen: '',
+              resident: '',
+              pancard: '', 
+              ckyc: '',
+              profession: '',
+              company: '',
+              designation: '',
+              gross: '',
+              coemail: '',
+              house: '',
+              street: '',
+              area: '',
+              landmark: '', 
+              pincode: '',
+              city: '',
             }
           }
         
@@ -39,8 +78,75 @@
             this.setState({birthdate: e.target.value})
             console.log(this.setState({birthdate: e.target.value}))
           }
-        
-        
+          onChangeFatherfName(e) {
+            this.setState({father_fname: e.target.value})
+            console.log(this.setState({father_fname: e.target.value}))
+          }
+          onChangeFatherlName(e) {
+            this.setState({father_lname: e.target.value})
+            console.log(this.setState({father_lname: e.target.value}))
+          }
+          onChangeMotherfName(e) {
+            this.setState({mother_fname: e.target.value})
+            console.log(this.setState({mother_fname: e.target.value}))
+          }
+          onChangeMotherlName(e) {
+            this.setState({mother_lname: e.target.value})
+            console.log(this.setState({mother_lname: e.target.value}))
+          }
+          onChangeCity(e) {
+            this.setState({city: e.target.value})
+            console.log(this.setState({city: e.target.value}))
+          }
+          onChangeCkyc(e) {
+            this.setState({ckyc: e.target.value})
+            console.log(this.setState({ckyc: e.target.value}))
+          }
+          onChangePancard(e) {
+            this.setState({pancard: e.target.value})
+            console.log(this.setState({pancard: e.target.value}))
+          }
+          onChangePincode(e) {
+            this.setState({pincode: e.target.value})
+            console.log(this.setState({pincode: e.target.value}))
+          }
+          onChangeProfession(e) {
+            this.setState({profession: e.target.value})
+            console.log(this.setState({profession: e.target.value}))
+          }
+          onChangeCompany(e) {
+            this.setState({company: e.target.value})
+            console.log(this.setState({company: e.target.value}))
+          }
+          onChangeDesignation(e) {
+            this.setState({designation: e.target.value})
+            console.log(this.setState({designation: e.target.value}))
+          }
+          onChangeGross(e) {
+            this.setState({gross: e.target.value})
+            console.log(this.setState({gross: e.target.value}))
+          }
+          
+          onChangeCoEmail(e) {
+            this.setState({coemail: e.target.value})
+            console.log(this.setState({coemail: e.target.value}))
+          }
+          onChangeHouse(e) {
+            this.setState({house: e.target.value})
+            console.log(this.setState({house: e.target.value}))
+          }
+          onChangeStreet(e) {
+            this.setState({street: e.target.value})
+            console.log(this.setState({street: e.target.value}))
+          }
+          onChangeArea(e) {
+            this.setState({area: e.target.value})
+            console.log(this.setState({area: e.target.value}))
+          }
+          onChangeLandmark(e) {
+            this.setState({landmark: e.target.value})
+            console.log(this.setState({landmark: e.target.value}))
+          }
            onSubmit(e) {
             e.preventDefault();
         
@@ -49,7 +155,27 @@
               number: this.state.number,
               name: this.state.name,
               nameg: this.state.nameg,
-              birthdate: this.state.birthdate
+              birthdate: this.state.birthdate,
+              father_fname: this.state.father_fname,
+              father_lname: this.state.father_lname,
+              mother_fname: this.state.mother_fname,
+              mother_lname: this.state.mother_lname,
+              marital: this.state.marital,
+              citizen: this.state.citizen,
+              resident: this.state.resident,
+              pancard: this.state.pancard,
+              ckyc: this.state.ckyc,
+              profession: this.state.profession,
+              company: this.state.company,
+              designation: this.designation,
+              gross: this.state.gross,
+              coemail: this.state.coemail,
+              house: this.state.house,
+              street: this.state.street,
+              area: this.state.area,
+              landmark: this.state.landmark,
+              pincode: this.state.pincode,
+              city: this.state.city
             }
             
             axios.post('http://localhost:5000/details/add', detail)
@@ -150,14 +276,14 @@
                             </div>
                             <div className="form-group">
                                 <div>
-                                    <div class="radio-container-wrapper">
+                                    <div className="radio-container-wrapper">
                                         <p>Marital Status*</p>
-                                        <div class="radio-container">
-                                            <div class="radio-button">
+                                        <div className="radio-container">
+                                            <div className="radio-button">
                                                 <input type="radio" name="marital" value="Married"/>
                                                 <label for="marital">Married</label>
                                             </div>
-                                            <div class="radio-button">
+                                            <div className="radio-button">
                                                 <input type="radio" name="marital" value=""/>
                                                 <label for="marital">Unmarried</label>
                                             </div>
@@ -165,29 +291,29 @@
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="radio-container-wrapper">
+                                    <div className="radio-container-wrapper">
                                         <p>Citizenship*</p>
-                                        <div class="radio-container">
-                                            <div class="radio-button">
-                                                <input type="radio" name="citizen" value="Indian"/>
+                                        <div className="radio-container">
+                                            <div className="radio-button">
+                                                <input type="radio" name="citizen" value="Indian" />
                                                 <label for="citizen">Indian</label>
                                             </div>
-                                            <div class="radio-button">
+                                            <div className="radio-button">
                                                 <input type="radio" name="citizen" value="Other"/>
                                                 <label for="citizen">Other</label>
                                             </div>
-                                        </div>
+                                        </div><p></p>
                                     </div>
                                 </div>
                                 <div>
-                                    <div class="radio-container-wrapper">
+                                    <div className="radio-container-wrapper">
                                         <p>Residential Status*</p>
-                                        <div class="radio-container">
-                                            <div class="radio-button">
+                                        <div className="radio-container">
+                                            <div className="radio-button">
                                                 <input type="radio" name="resident" value="Resident Individual"/>
                                                 <label for="resident">Resident Individual</label>
                                             </div>
-                                            <div class="radio-button">
+                                            <div className="radio-button">
                                                 <input type="radio" name="resident" value="Non Resident Indian"/>
                                                 <label for="resident">Non Resident Indian</label>
                                             </div>
@@ -222,7 +348,7 @@
                                 <div>
                                     <select name="profession" className="form-control" value={this.state.profession} onChange={this.onChangeProfession}>
                                         <option value>Profession</option>
-                                        <option value="Ms">Salaried</option>
+                                        <option value="Salaried">Salaried</option>
                                     </select>
                                 </div>
                                 <div>
@@ -235,7 +361,7 @@
                                     />
                                 </div>
                                 <div>
-                                    <select name="Designation" className="form-control" value ={this.state.designation} onChange={this.onChangeDesignation}>
+                                    <select name="Designation" className="form-control" value={this.state.designation} onChange={this.onChangeDesignation}>
                                         <option value="" disabled="">Designation*</option>
                                         <option value="Accountant">Accountant</option>
                                         <option value="Consultant">Consultant</option>
@@ -244,7 +370,7 @@
                                         <option value="Assistant Manager/ Manager">Assistant Manager/ Manager</option>
                                         <option value="AVP/ AGM">AVP/ AGM</option>
                                         <option value="VP/ GM">VP/ GM</option>
-                                        <option value="Contract employe">Contract employee</option>
+                                        <option value="Contract employee">Contract employee</option>
                                         <option value="Director/ CXO">Director/ CXO</option>
                                         <option value="Teacher/ Professor">Teacher/ Professor</option>
                                         <option value="Doctor">Doctor</option>
@@ -329,8 +455,8 @@
                                         required
                                         className="form-control"
                                         placeholder="City*"
-                                        value={this.state.pincode}
-                                        onChange={this.onChangePincode}
+                                        value={this.state.city}
+                                        onChange={this.onChangeCity}
                                     />
                                 </div>
                             </div>
