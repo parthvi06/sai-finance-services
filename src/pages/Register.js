@@ -184,7 +184,7 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
             axios.post('http://localhost:5000/details/add', detail)
               .then(res => console.log(res.data));
             
-            console.log(detail);
+            // console.log(detail);
             window.location = '/';
           }
       render() {
