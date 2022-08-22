@@ -23,13 +23,13 @@ export class Footer extends Component {
                         <div className="  col-xs-12 col-md-4">
                             <div className="widget  widget_black_studio_tinymce  push-down-30"><h6  className="footer__headings">Contact Us</h6>
                                 <div className="textwidget">
-                                    <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91 123456789</a></h4>
-                                    <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;123654789</a></h4>
+                                    <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91-8160693220</a></h4>
+                                    <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91-7383304503</a></h4>
                                     <p><a href="">Send an Email</a></p>
-                                    <p className="clinics"><strong>Sai Services,</strong>
-                                        <br/>ABC Society, Beside Maharaja Complex, Near Balaji garden restaurant, Prernatirth Derasar Road, Prahladnagar,
-                                        <br/> Satellite, Ahmedabad – 380015<br/>
-                                        <a href="https://goo.gl/maps/4tN2SwXfwUNnU4DF7" rel="noopener" target="_blank"><i className="fa fa-map-pin"></i> Get directions</a>
+                                    <p className="clinics"><strong>Sai Financial Services,</strong>
+                                        <br/>Shop No. 13, Shree Ram Shopping Center, Off Sardar Patel Super Market, 
+                                        <br/> PETLAD, Anand – 388450<br/>
+                                        <a href="https://goo.gl/maps/9VZ8ZTfG69MwqZCz6" rel="noopener" target="_blank"><i className="fa fa-map-pin"></i> Get directions</a>
                                     </p>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@ export class Footer extends Component {
             <section className="footer-bottom">
                 <div className="container">
                     <div className="footer-bottom__center">
-                       © 2021 Copyright | Sai<strong> Sai Finance Services</strong> | All Rights Reserved by<span style={{color:"red"}}> &hearts;</span><a href="/"><strong> Parthvi.</strong></a>
+                       © 2021 Copyright | <strong> Sai Financial Services</strong> | All Rights Reserved by<span style={{color:"red"}}> &hearts;</span><a href="/"><strong> Parthvi.</strong></a>
                     </div>
                 </div>
             </section>					
