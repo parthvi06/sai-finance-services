@@ -17,7 +17,7 @@ router.route('/add').post((req, res) => {
    father_lname = req.body.father_lname;
    mother_fname = req.body.mother_fname;
    mother_lname = req.body.mother_lname;
-   marital = req.body.marital;
+   marital_status = req.body.marital;
    citizen = req.body.citizen;
    resident =req.body.resident;
    pancard = req.body.pancard; 
@@ -33,6 +33,7 @@ router.route('/add').post((req, res) => {
    landmark = req.body.landmark; 
    pincode = req.body.pincode;
    city = req.body.city;
+   image = req.body.image;
 
    newDetail = new Detail({
     name,
@@ -44,7 +45,7 @@ router.route('/add').post((req, res) => {
     father_lname,
     mother_fname,
     mother_lname,
-    marital,
+    marital_status,
     citizen,
     resident,
     pancard, 
@@ -59,7 +60,8 @@ router.route('/add').post((req, res) => {
     area,
     landmark, 
     pincode,
-    city
+    city,
+    image
   });
 
 newDetail.save()

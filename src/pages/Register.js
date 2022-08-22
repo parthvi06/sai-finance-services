@@ -27,7 +27,10 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
             this.onChangePincode = this.onChangePincode.bind(this);
             this.onChangeProfession = this.onChangeProfession.bind(this);
             this.onChangeStreet = this.onChangeStreet.bind(this);
-            
+            this.setMaritalStatus = this.setMaritalStatus.bind(this);
+            this.setCitizen = this.setCitizen.bind(this);
+            this.setResident = this.setResident.bind(this);
+
             this.onSubmit = this.onSubmit.bind(this);
         
             this.state = {
@@ -40,7 +43,7 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
               father_lname: '',
               mother_fname: '',
               mother_lname: '',
-              marital: '',
+              marital_status: '',
               citizen: '',
               resident: '',
               pancard: '', 
@@ -56,9 +59,18 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
               landmark: '', 
               pincode: '',
               city: '',
+              marital_status: this.props.marital_status,
+              img: 'null'
             }
           }
-        
+          onImageChange = event => {
+            if (event.target.files && event.target.files[0]) {
+              let img = event.target.files[0];
+              this.setState({
+                image: URL.createObjectURL(img)
+              });
+            }
+          };
           onChangeEmail(e) {
             this.setState({email: e.target.value})
           }
@@ -72,80 +84,70 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
           }
           onChangeNameg(e) {
             this.setState({nameg: e.target.value})
-            console.log(this.setState({nameg: e.target.value}))
           }
           onChangeBirthDate(e) {
             this.setState({birthdate: e.target.value})
-            console.log(this.setState({birthdate: e.target.value}))
           }
           onChangeFatherfName(e) {
             this.setState({father_fname: e.target.value})
-            console.log(this.setState({father_fname: e.target.value}))
           }
           onChangeFatherlName(e) {
             this.setState({father_lname: e.target.value})
-            console.log(this.setState({father_lname: e.target.value}))
           }
           onChangeMotherfName(e) {
             this.setState({mother_fname: e.target.value})
-            console.log(this.setState({mother_fname: e.target.value}))
           }
           onChangeMotherlName(e) {
             this.setState({mother_lname: e.target.value})
-            console.log(this.setState({mother_lname: e.target.value}))
           }
           onChangeCity(e) {
             this.setState({city: e.target.value})
-            console.log(this.setState({city: e.target.value}))
           }
           onChangeCkyc(e) {
             this.setState({ckyc: e.target.value})
-            console.log(this.setState({ckyc: e.target.value}))
           }
           onChangePancard(e) {
             this.setState({pancard: e.target.value})
-            console.log(this.setState({pancard: e.target.value}))
           }
           onChangePincode(e) {
             this.setState({pincode: e.target.value})
-            console.log(this.setState({pincode: e.target.value}))
           }
           onChangeProfession(e) {
             this.setState({profession: e.target.value})
-            console.log(this.setState({profession: e.target.value}))
           }
           onChangeCompany(e) {
             this.setState({company: e.target.value})
-            console.log(this.setState({company: e.target.value}))
           }
           onChangeDesignation(e) {
             this.setState({designation: e.target.value})
-            console.log(this.setState({designation: e.target.value}))
           }
           onChangeGross(e) {
             this.setState({gross: e.target.value})
-            console.log(this.setState({gross: e.target.value}))
           }
           
           onChangeCoEmail(e) {
             this.setState({coemail: e.target.value})
-            console.log(this.setState({coemail: e.target.value}))
           }
           onChangeHouse(e) {
             this.setState({house: e.target.value})
-            console.log(this.setState({house: e.target.value}))
           }
           onChangeStreet(e) {
             this.setState({street: e.target.value})
-            console.log(this.setState({street: e.target.value}))
           }
           onChangeArea(e) {
             this.setState({area: e.target.value})
-            console.log(this.setState({area: e.target.value}))
           }
           onChangeLandmark(e) {
             this.setState({landmark: e.target.value})
-            console.log(this.setState({landmark: e.target.value}))
+          }
+          setMaritalStatus(e) {
+            this.setState({marital_status: e.target.value})
+          }
+          setCitizen(e) {
+            this.setState({citizen: e.target.value})
+          }
+          setResident(e) {
+            this.setState({resident: e.target.value})
           }
            onSubmit(e) {
             e.preventDefault();
@@ -160,7 +162,7 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
               father_lname: this.state.father_lname,
               mother_fname: this.state.mother_fname,
               mother_lname: this.state.mother_lname,
-              marital: this.state.marital,
+              marital_status: this.state.marital_status,
               citizen: this.state.citizen,
               resident: this.state.resident,
               pancard: this.state.pancard,
@@ -175,15 +177,20 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
               area: this.state.area,
               landmark: this.state.landmark,
               pincode: this.state.pincode,
-              city: this.state.city
+              city: this.state.city,
+              image: this.state.image
             }
             
             axios.post('http://localhost:5000/details/add', detail)
               .then(res => console.log(res.data));
             
+            console.log(detail);
             window.location = '/';
           }
       render() {
+        const {marital_status} = this.state
+        const {citizen} = this.state
+        const {resident} = this.state
         return (
             <div className='container'>
                 <section className="user-form">
@@ -280,11 +287,13 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
                                         <p>Marital Status*</p>
                                         <div className="radio-container">
                                             <div className="radio-button">
-                                                <input type="radio" name="marital" value="Married"/>
+                                                <input type="radio" name="marital" value="Married" checked={marital_status == "Married"} 
+                                                onClick={this.setMaritalStatus}/>
                                                 <label for="marital">Married</label>
                                             </div>
                                             <div className="radio-button">
-                                                <input type="radio" name="marital" value=""/>
+                                                <input type="radio" name="marital" checked={marital_status == "Unmarried"} 
+                                                onClick={this.setMaritalStatus} value="Unmarried"/>
                                                 <label for="marital">Unmarried</label>
                                             </div>
                                         </div>
@@ -295,11 +304,13 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
                                         <p>Citizenship*</p>
                                         <div className="radio-container">
                                             <div className="radio-button">
-                                                <input type="radio" name="citizen" value="Indian" />
+                                                <input type="radio" name="citizen" value="Indian" checked={citizen == "Indian"} 
+                                                onClick={this.setCitizen} />
                                                 <label for="citizen">Indian</label>
                                             </div>
                                             <div className="radio-button">
-                                                <input type="radio" name="citizen" value="Other"/>
+                                                <input type="radio" name="citizen" value="Other" checked={citizen == "other"} 
+                                                onClick={this.setCitizen}/>
                                                 <label for="citizen">Other</label>
                                             </div>
                                         </div><p></p>
@@ -310,11 +321,13 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
                                         <p>Residential Status*</p>
                                         <div className="radio-container">
                                             <div className="radio-button">
-                                                <input type="radio" name="resident" value="Resident Individual"/>
+                                                <input type="radio" name="resident" value="Resident Individual" checked={resident == "Resident Individual"} 
+                                                onClick={this.setResident}/>
                                                 <label for="resident">Resident Individual</label>
                                             </div>
                                             <div className="radio-button">
-                                                <input type="radio" name="resident" value="Non Resident Indian"/>
+                                                <input type="radio" name="resident" value="Non Resident Indian" checked={resident == "Non Resident Individual"} 
+                                                onClick={this.setResident}/>
                                                 <label for="resident">Non Resident Indian</label>
                                             </div>
                                         </div>
@@ -461,6 +474,11 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
                                 </div>
                             </div>
                         </div>
+                        <div>
+            <img src={this.state.image} />
+            <h1>Select Image</h1>
+            <input type="file" name="myImage" onChange={this.onImageChange} />
+          </div>
                         <div className="form-submit">
                             <input type="submit" value="Submit" className="btn btn-primary" />
                         </div>
