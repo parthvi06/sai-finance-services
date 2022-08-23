@@ -475,7 +475,7 @@ import { toHaveDisplayValue } from '@testing-library/jest-dom/dist/matchers';
                             </div>
                         </div>
                         <div>
-            <img src={this.state.image} />
+            <img height={100} width = {100} src={this.state.image} />
             <h1>Select Image</h1>
             <input type="file" name="myImage" onChange={this.onImageChange} />
           </div>
