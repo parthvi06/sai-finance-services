@@ -25,11 +25,11 @@ export class Footer extends Component {
                                 <div className="textwidget">
                                     <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91-8160693220</a></h4>
                                     <h4><a href="tel:"><i  className="fa fa-phone"></i>&nbsp;+91-7383304503</a></h4>
-                                    <p><a href="">Send an Email</a></p>
+                                    <p><a href="mailto: contact@saifinservises.co.in">Send an Email</a></p>
                                     <p className="clinics"><strong>Sai Financial Services,</strong>
                                         <br/>Shop No. 13, Shree Ram Shopping Center, Off Sardar Patel Super Market, 
                                         <br/> PETLAD, Anand – 388450<br/>
-                                        <a href="https://goo.gl/maps/9VZ8ZTfG69MwqZCz6" rel="noopener" target="_blank"><i className="fa fa-map-pin"></i> Get directions</a>
+                                        <a href="https://goo.gl/maps/YBJgbUvufMd8sHY98" rel="noopener" target="_blank"><i className="fa fa-map-pin"></i> Get directions</a>
                                     </p>
                                 </div>
                             </div>
