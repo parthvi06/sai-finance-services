@@ -1,6 +1,6 @@
 {
   "name": "backend",
-  "homepage": "https://saifinservices.co.in",
+  "homepage": "http://https://saifinservices.co.in",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
